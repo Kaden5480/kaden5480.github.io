@@ -1034,6 +1034,93 @@ references:
   isSpec: "True"
   fullName: UILib.Components.QueueArea.AddContent
   nameWithType: QueueArea.AddContent
+- uid: UILib.Components.ScrollBar
+  name: ScrollBar
+  href: api/UILib.Components.ScrollBar.html
+  commentId: T:UILib.Components.ScrollBar
+  fullName: UILib.Components.ScrollBar
+  nameWithType: ScrollBar
+- uid: UILib.Components.ScrollBar.OnBeginDrag(UnityEngine.Vector2)
+  name: OnBeginDrag(Vector2)
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_OnBeginDrag_UnityEngine_Vector2_
+  commentId: M:UILib.Components.ScrollBar.OnBeginDrag(UnityEngine.Vector2)
+  fullName: UILib.Components.ScrollBar.OnBeginDrag(UnityEngine.Vector2)
+  nameWithType: ScrollBar.OnBeginDrag(Vector2)
+- uid: UILib.Components.ScrollBar.OnBeginDrag*
+  name: OnBeginDrag
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_OnBeginDrag_
+  commentId: Overload:UILib.Components.ScrollBar.OnBeginDrag
+  isSpec: "True"
+  fullName: UILib.Components.ScrollBar.OnBeginDrag
+  nameWithType: ScrollBar.OnBeginDrag
+- uid: UILib.Components.ScrollBar.OnDrag(UnityEngine.Vector2)
+  name: OnDrag(Vector2)
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_OnDrag_UnityEngine_Vector2_
+  commentId: M:UILib.Components.ScrollBar.OnDrag(UnityEngine.Vector2)
+  fullName: UILib.Components.ScrollBar.OnDrag(UnityEngine.Vector2)
+  nameWithType: ScrollBar.OnDrag(Vector2)
+- uid: UILib.Components.ScrollBar.OnDrag*
+  name: OnDrag
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_OnDrag_
+  commentId: Overload:UILib.Components.ScrollBar.OnDrag
+  isSpec: "True"
+  fullName: UILib.Components.ScrollBar.OnDrag
+  nameWithType: ScrollBar.OnDrag
+- uid: UILib.Components.ScrollBar.OnEndDrag(UnityEngine.Vector2)
+  name: OnEndDrag(Vector2)
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_OnEndDrag_UnityEngine_Vector2_
+  commentId: M:UILib.Components.ScrollBar.OnEndDrag(UnityEngine.Vector2)
+  fullName: UILib.Components.ScrollBar.OnEndDrag(UnityEngine.Vector2)
+  nameWithType: ScrollBar.OnEndDrag(Vector2)
+- uid: UILib.Components.ScrollBar.OnEndDrag*
+  name: OnEndDrag
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_OnEndDrag_
+  commentId: Overload:UILib.Components.ScrollBar.OnEndDrag
+  isSpec: "True"
+  fullName: UILib.Components.ScrollBar.OnEndDrag
+  nameWithType: ScrollBar.OnEndDrag
+- uid: UILib.Components.ScrollBar.SetTheme(UILib.Theme)
+  name: SetTheme(Theme)
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetTheme_UILib_Theme_
+  commentId: M:UILib.Components.ScrollBar.SetTheme(UILib.Theme)
+  fullName: UILib.Components.ScrollBar.SetTheme(UILib.Theme)
+  nameWithType: ScrollBar.SetTheme(Theme)
+- uid: UILib.Components.ScrollBar.SetTheme*
+  name: SetTheme
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetTheme_
+  commentId: Overload:UILib.Components.ScrollBar.SetTheme
+  isSpec: "True"
+  fullName: UILib.Components.ScrollBar.SetTheme
+  nameWithType: ScrollBar.SetTheme
+- uid: UILib.Components.ScrollBar.SetWidth(System.Single)
+  name: SetWidth(float)
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetWidth_System_Single_
+  commentId: M:UILib.Components.ScrollBar.SetWidth(System.Single)
+  name.vb: SetWidth(Single)
+  fullName: UILib.Components.ScrollBar.SetWidth(float)
+  fullName.vb: UILib.Components.ScrollBar.SetWidth(Single)
+  nameWithType: ScrollBar.SetWidth(float)
+  nameWithType.vb: ScrollBar.SetWidth(Single)
+- uid: UILib.Components.ScrollBar.SetWidth*
+  name: SetWidth
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetWidth_
+  commentId: Overload:UILib.Components.ScrollBar.SetWidth
+  isSpec: "True"
+  fullName: UILib.Components.ScrollBar.SetWidth
+  nameWithType: ScrollBar.SetWidth
+- uid: UILib.Components.ScrollBar.barWidth
+  name: barWidth
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_barWidth
+  commentId: P:UILib.Components.ScrollBar.barWidth
+  fullName: UILib.Components.ScrollBar.barWidth
+  nameWithType: ScrollBar.barWidth
+- uid: UILib.Components.ScrollBar.barWidth*
+  name: barWidth
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_barWidth_
+  commentId: Overload:UILib.Components.ScrollBar.barWidth
+  isSpec: "True"
+  fullName: UILib.Components.ScrollBar.barWidth
+  nameWithType: ScrollBar.barWidth
 - uid: UILib.Components.ScrollType
   name: ScrollType
   href: api/UILib.Components.ScrollType.html
@@ -1164,19 +1251,32 @@ references:
   isSpec: "True"
   fullName: UILib.Components.ScrollView.background
   nameWithType: ScrollView.background
-- uid: UILib.Components.ScrollView.scrollBarWidth
-  name: scrollBarWidth
-  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_scrollBarWidth
-  commentId: P:UILib.Components.ScrollView.scrollBarWidth
-  fullName: UILib.Components.ScrollView.scrollBarWidth
-  nameWithType: ScrollView.scrollBarWidth
-- uid: UILib.Components.ScrollView.scrollBarWidth*
-  name: scrollBarWidth
-  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_scrollBarWidth_
-  commentId: Overload:UILib.Components.ScrollView.scrollBarWidth
+- uid: UILib.Components.ScrollView.scrollBarH
+  name: scrollBarH
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_scrollBarH
+  commentId: P:UILib.Components.ScrollView.scrollBarH
+  fullName: UILib.Components.ScrollView.scrollBarH
+  nameWithType: ScrollView.scrollBarH
+- uid: UILib.Components.ScrollView.scrollBarH*
+  name: scrollBarH
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_scrollBarH_
+  commentId: Overload:UILib.Components.ScrollView.scrollBarH
   isSpec: "True"
-  fullName: UILib.Components.ScrollView.scrollBarWidth
-  nameWithType: ScrollView.scrollBarWidth
+  fullName: UILib.Components.ScrollView.scrollBarH
+  nameWithType: ScrollView.scrollBarH
+- uid: UILib.Components.ScrollView.scrollBarV
+  name: scrollBarV
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_scrollBarV
+  commentId: P:UILib.Components.ScrollView.scrollBarV
+  fullName: UILib.Components.ScrollView.scrollBarV
+  nameWithType: ScrollView.scrollBarV
+- uid: UILib.Components.ScrollView.scrollBarV*
+  name: scrollBarV
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_scrollBarV_
+  commentId: Overload:UILib.Components.ScrollView.scrollBarV
+  isSpec: "True"
+  fullName: UILib.Components.ScrollView.scrollBarV
+  nameWithType: ScrollView.scrollBarV
 - uid: UILib.Components.Slider
   name: Slider
   href: api/UILib.Components.Slider.html
@@ -1837,6 +1937,19 @@ references:
   fullName.vb: UILib.Overlay.New
   nameWithType: Overlay.Overlay
   nameWithType.vb: Overlay.New
+- uid: UILib.Overlay.BringToFront
+  name: BringToFront()
+  href: api/UILib.Overlay.html#UILib_Overlay_BringToFront
+  commentId: M:UILib.Overlay.BringToFront
+  fullName: UILib.Overlay.BringToFront()
+  nameWithType: Overlay.BringToFront()
+- uid: UILib.Overlay.BringToFront*
+  name: BringToFront
+  href: api/UILib.Overlay.html#UILib_Overlay_BringToFront_
+  commentId: Overload:UILib.Overlay.BringToFront
+  isSpec: "True"
+  fullName: UILib.Overlay.BringToFront
+  nameWithType: Overlay.BringToFront
 - uid: UILib.Overlay.Destroy
   name: Destroy()
   href: api/UILib.Overlay.html#UILib_Overlay_Destroy
@@ -2010,6 +2123,51 @@ references:
   isSpec: "True"
   fullName: UILib.Patches.PauseHandler.shouldPause
   nameWithType: PauseHandler.shouldPause
+- uid: UILib.ResizeButton
+  name: ResizeButton
+  href: api/UILib.ResizeButton.html
+  commentId: T:UILib.ResizeButton
+  fullName: UILib.ResizeButton
+  nameWithType: ResizeButton
+- uid: UILib.ResizeButton.OnBeginDrag(UnityEngine.Vector2)
+  name: OnBeginDrag(Vector2)
+  href: api/UILib.ResizeButton.html#UILib_ResizeButton_OnBeginDrag_UnityEngine_Vector2_
+  commentId: M:UILib.ResizeButton.OnBeginDrag(UnityEngine.Vector2)
+  fullName: UILib.ResizeButton.OnBeginDrag(UnityEngine.Vector2)
+  nameWithType: ResizeButton.OnBeginDrag(Vector2)
+- uid: UILib.ResizeButton.OnBeginDrag*
+  name: OnBeginDrag
+  href: api/UILib.ResizeButton.html#UILib_ResizeButton_OnBeginDrag_
+  commentId: Overload:UILib.ResizeButton.OnBeginDrag
+  isSpec: "True"
+  fullName: UILib.ResizeButton.OnBeginDrag
+  nameWithType: ResizeButton.OnBeginDrag
+- uid: UILib.ResizeButton.OnDrag(UnityEngine.Vector2)
+  name: OnDrag(Vector2)
+  href: api/UILib.ResizeButton.html#UILib_ResizeButton_OnDrag_UnityEngine_Vector2_
+  commentId: M:UILib.ResizeButton.OnDrag(UnityEngine.Vector2)
+  fullName: UILib.ResizeButton.OnDrag(UnityEngine.Vector2)
+  nameWithType: ResizeButton.OnDrag(Vector2)
+- uid: UILib.ResizeButton.OnDrag*
+  name: OnDrag
+  href: api/UILib.ResizeButton.html#UILib_ResizeButton_OnDrag_
+  commentId: Overload:UILib.ResizeButton.OnDrag
+  isSpec: "True"
+  fullName: UILib.ResizeButton.OnDrag
+  nameWithType: ResizeButton.OnDrag
+- uid: UILib.ResizeButton.SetTheme(UILib.Theme)
+  name: SetTheme(Theme)
+  href: api/UILib.ResizeButton.html#UILib_ResizeButton_SetTheme_UILib_Theme_
+  commentId: M:UILib.ResizeButton.SetTheme(UILib.Theme)
+  fullName: UILib.ResizeButton.SetTheme(UILib.Theme)
+  nameWithType: ResizeButton.SetTheme(Theme)
+- uid: UILib.ResizeButton.SetTheme*
+  name: SetTheme
+  href: api/UILib.ResizeButton.html#UILib_ResizeButton_SetTheme_
+  commentId: Overload:UILib.ResizeButton.SetTheme
+  isSpec: "True"
+  fullName: UILib.ResizeButton.SetTheme
+  nameWithType: ResizeButton.SetTheme
 - uid: UILib.Resources
   name: Resources
   href: api/UILib.Resources.html
@@ -2338,6 +2496,90 @@ references:
   commentId: F:UILib.Theme.windowOpacity
   fullName: UILib.Theme.windowOpacity
   nameWithType: Theme.windowOpacity
+- uid: UILib.TitleBar
+  name: TitleBar
+  href: api/UILib.TitleBar.html
+  commentId: T:UILib.TitleBar
+  fullName: UILib.TitleBar
+  nameWithType: TitleBar
+- uid: UILib.TitleBar.OnBeginDrag(UnityEngine.Vector2)
+  name: OnBeginDrag(Vector2)
+  href: api/UILib.TitleBar.html#UILib_TitleBar_OnBeginDrag_UnityEngine_Vector2_
+  commentId: M:UILib.TitleBar.OnBeginDrag(UnityEngine.Vector2)
+  fullName: UILib.TitleBar.OnBeginDrag(UnityEngine.Vector2)
+  nameWithType: TitleBar.OnBeginDrag(Vector2)
+- uid: UILib.TitleBar.OnBeginDrag*
+  name: OnBeginDrag
+  href: api/UILib.TitleBar.html#UILib_TitleBar_OnBeginDrag_
+  commentId: Overload:UILib.TitleBar.OnBeginDrag
+  isSpec: "True"
+  fullName: UILib.TitleBar.OnBeginDrag
+  nameWithType: TitleBar.OnBeginDrag
+- uid: UILib.TitleBar.OnDoubleClick
+  name: OnDoubleClick()
+  href: api/UILib.TitleBar.html#UILib_TitleBar_OnDoubleClick
+  commentId: M:UILib.TitleBar.OnDoubleClick
+  fullName: UILib.TitleBar.OnDoubleClick()
+  nameWithType: TitleBar.OnDoubleClick()
+- uid: UILib.TitleBar.OnDoubleClick*
+  name: OnDoubleClick
+  href: api/UILib.TitleBar.html#UILib_TitleBar_OnDoubleClick_
+  commentId: Overload:UILib.TitleBar.OnDoubleClick
+  isSpec: "True"
+  fullName: UILib.TitleBar.OnDoubleClick
+  nameWithType: TitleBar.OnDoubleClick
+- uid: UILib.TitleBar.OnDrag(UnityEngine.Vector2)
+  name: OnDrag(Vector2)
+  href: api/UILib.TitleBar.html#UILib_TitleBar_OnDrag_UnityEngine_Vector2_
+  commentId: M:UILib.TitleBar.OnDrag(UnityEngine.Vector2)
+  fullName: UILib.TitleBar.OnDrag(UnityEngine.Vector2)
+  nameWithType: TitleBar.OnDrag(Vector2)
+- uid: UILib.TitleBar.OnDrag*
+  name: OnDrag
+  href: api/UILib.TitleBar.html#UILib_TitleBar_OnDrag_
+  commentId: Overload:UILib.TitleBar.OnDrag
+  isSpec: "True"
+  fullName: UILib.TitleBar.OnDrag
+  nameWithType: TitleBar.OnDrag
+- uid: UILib.TitleBar.SetTheme(UILib.Theme)
+  name: SetTheme(Theme)
+  href: api/UILib.TitleBar.html#UILib_TitleBar_SetTheme_UILib_Theme_
+  commentId: M:UILib.TitleBar.SetTheme(UILib.Theme)
+  fullName: UILib.TitleBar.SetTheme(UILib.Theme)
+  nameWithType: TitleBar.SetTheme(Theme)
+- uid: UILib.TitleBar.SetTheme*
+  name: SetTheme
+  href: api/UILib.TitleBar.html#UILib_TitleBar_SetTheme_
+  commentId: Overload:UILib.TitleBar.SetTheme
+  isSpec: "True"
+  fullName: UILib.TitleBar.SetTheme
+  nameWithType: TitleBar.SetTheme
+- uid: UILib.TitleBar.closeButton
+  name: closeButton
+  href: api/UILib.TitleBar.html#UILib_TitleBar_closeButton
+  commentId: P:UILib.TitleBar.closeButton
+  fullName: UILib.TitleBar.closeButton
+  nameWithType: TitleBar.closeButton
+- uid: UILib.TitleBar.closeButton*
+  name: closeButton
+  href: api/UILib.TitleBar.html#UILib_TitleBar_closeButton_
+  commentId: Overload:UILib.TitleBar.closeButton
+  isSpec: "True"
+  fullName: UILib.TitleBar.closeButton
+  nameWithType: TitleBar.closeButton
+- uid: UILib.TitleBar.fullscreenButton
+  name: fullscreenButton
+  href: api/UILib.TitleBar.html#UILib_TitleBar_fullscreenButton
+  commentId: P:UILib.TitleBar.fullscreenButton
+  fullName: UILib.TitleBar.fullscreenButton
+  nameWithType: TitleBar.fullscreenButton
+- uid: UILib.TitleBar.fullscreenButton*
+  name: fullscreenButton
+  href: api/UILib.TitleBar.html#UILib_TitleBar_fullscreenButton_
+  commentId: Overload:UILib.TitleBar.fullscreenButton
+  isSpec: "True"
+  fullName: UILib.TitleBar.fullscreenButton
+  nameWithType: TitleBar.fullscreenButton
 - uid: UILib.UIComponent
   name: UIComponent
   href: api/UILib.UIComponent.html
@@ -2537,6 +2779,32 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.OnEndDrag
   nameWithType: UIObject.OnEndDrag
+- uid: UILib.UIObject.OnPointerEnter
+  name: OnPointerEnter()
+  href: api/UILib.UIObject.html#UILib_UIObject_OnPointerEnter
+  commentId: M:UILib.UIObject.OnPointerEnter
+  fullName: UILib.UIObject.OnPointerEnter()
+  nameWithType: UIObject.OnPointerEnter()
+- uid: UILib.UIObject.OnPointerEnter*
+  name: OnPointerEnter
+  href: api/UILib.UIObject.html#UILib_UIObject_OnPointerEnter_
+  commentId: Overload:UILib.UIObject.OnPointerEnter
+  isSpec: "True"
+  fullName: UILib.UIObject.OnPointerEnter
+  nameWithType: UIObject.OnPointerEnter
+- uid: UILib.UIObject.OnPointerExit
+  name: OnPointerExit()
+  href: api/UILib.UIObject.html#UILib_UIObject_OnPointerExit
+  commentId: M:UILib.UIObject.OnPointerExit
+  fullName: UILib.UIObject.OnPointerExit()
+  nameWithType: UIObject.OnPointerExit()
+- uid: UILib.UIObject.OnPointerExit*
+  name: OnPointerExit
+  href: api/UILib.UIObject.html#UILib_UIObject_OnPointerExit_
+  commentId: Overload:UILib.UIObject.OnPointerExit
+  isSpec: "True"
+  fullName: UILib.UIObject.OnPointerExit
+  nameWithType: UIObject.OnPointerExit
 - uid: UILib.UIObject.SetAnchor(UILib.Layouts.AnchorType)
   name: SetAnchor(AnchorType)
   href: api/UILib.UIObject.html#UILib_UIObject_SetAnchor_UILib_Layouts_AnchorType_
@@ -2900,6 +3168,32 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.onEndDrag
   nameWithType: UIObject.onEndDrag
+- uid: UILib.UIObject.onPointerEnter
+  name: onPointerEnter
+  href: api/UILib.UIObject.html#UILib_UIObject_onPointerEnter
+  commentId: P:UILib.UIObject.onPointerEnter
+  fullName: UILib.UIObject.onPointerEnter
+  nameWithType: UIObject.onPointerEnter
+- uid: UILib.UIObject.onPointerEnter*
+  name: onPointerEnter
+  href: api/UILib.UIObject.html#UILib_UIObject_onPointerEnter_
+  commentId: Overload:UILib.UIObject.onPointerEnter
+  isSpec: "True"
+  fullName: UILib.UIObject.onPointerEnter
+  nameWithType: UIObject.onPointerEnter
+- uid: UILib.UIObject.onPointerExit
+  name: onPointerExit
+  href: api/UILib.UIObject.html#UILib_UIObject_onPointerExit
+  commentId: P:UILib.UIObject.onPointerExit
+  fullName: UILib.UIObject.onPointerExit
+  nameWithType: UIObject.onPointerExit
+- uid: UILib.UIObject.onPointerExit*
+  name: onPointerExit
+  href: api/UILib.UIObject.html#UILib_UIObject_onPointerExit_
+  commentId: Overload:UILib.UIObject.onPointerExit
+  isSpec: "True"
+  fullName: UILib.UIObject.onPointerExit
+  nameWithType: UIObject.onPointerExit
 - uid: UILib.UIObject.parent
   name: parent
   href: api/UILib.UIObject.html#UILib_UIObject_parent
@@ -3122,6 +3416,22 @@ references:
   isSpec: "True"
   fullName: UILib.Window.SetMinSize
   nameWithType: Window.SetMinSize
+- uid: UILib.Window.SetName(System.String)
+  name: SetName(string)
+  href: api/UILib.Window.html#UILib_Window_SetName_System_String_
+  commentId: M:UILib.Window.SetName(System.String)
+  name.vb: SetName(String)
+  fullName: UILib.Window.SetName(string)
+  fullName.vb: UILib.Window.SetName(String)
+  nameWithType: Window.SetName(string)
+  nameWithType.vb: Window.SetName(String)
+- uid: UILib.Window.SetName*
+  name: SetName
+  href: api/UILib.Window.html#UILib_Window_SetName_
+  commentId: Overload:UILib.Window.SetName
+  isSpec: "True"
+  fullName: UILib.Window.SetName
+  nameWithType: Window.SetName
 - uid: UILib.Window.SetTheme(UILib.Theme)
   name: SetTheme(Theme)
   href: api/UILib.Window.html#UILib_Window_SetTheme_UILib_Theme_
@@ -3161,6 +3471,19 @@ references:
   isSpec: "True"
   fullName: UILib.Window.name
   nameWithType: Window.name
+- uid: UILib.Window.resizeButton
+  name: resizeButton
+  href: api/UILib.Window.html#UILib_Window_resizeButton
+  commentId: P:UILib.Window.resizeButton
+  fullName: UILib.Window.resizeButton
+  nameWithType: Window.resizeButton
+- uid: UILib.Window.resizeButton*
+  name: resizeButton
+  href: api/UILib.Window.html#UILib_Window_resizeButton_
+  commentId: Overload:UILib.Window.resizeButton
+  isSpec: "True"
+  fullName: UILib.Window.resizeButton
+  nameWithType: Window.resizeButton
 - uid: UILib.Window.scrollView
   name: scrollView
   href: api/UILib.Window.html#UILib_Window_scrollView
@@ -3174,3 +3497,16 @@ references:
   isSpec: "True"
   fullName: UILib.Window.scrollView
   nameWithType: Window.scrollView
+- uid: UILib.Window.titleBar
+  name: titleBar
+  href: api/UILib.Window.html#UILib_Window_titleBar
+  commentId: P:UILib.Window.titleBar
+  fullName: UILib.Window.titleBar
+  nameWithType: Window.titleBar
+- uid: UILib.Window.titleBar*
+  name: titleBar
+  href: api/UILib.Window.html#UILib_Window_titleBar_
+  commentId: Overload:UILib.Window.titleBar
+  isSpec: "True"
+  fullName: UILib.Window.titleBar
+  nameWithType: Window.titleBar

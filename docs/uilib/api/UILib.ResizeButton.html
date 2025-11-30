@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class QueueArea | poy-ui-lib </title>
+      <title>Class ResizeButton | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class QueueArea | poy-ui-lib ">
+      <meta name="title" content="Class ResizeButton | poy-ui-lib ">
       
-      <meta name="description" content="Like an , but also adds functionality to remove the oldest children once a certain limit is reached.">
+      <meta name="description" content="A button which is added to the bottom right of  to allow resizing them.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,27 +84,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Components.QueueArea">
+        <article data-uid="UILib.ResizeButton">
 
 
 
-  <h1 id="UILib_Components_QueueArea" data-uid="UILib.Components.QueueArea" class="text-break">
-Class QueueArea  
+  <h1 id="UILib_ResizeButton" data-uid="UILib.ResizeButton" class="text-break">
+Class ResizeButton  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Components.html">Components</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a></dd></dl>
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Like an <a class="xref" href="UILib.Components.Area.html">Area</a>, but also adds functionality to
-remove the oldest children once a certain
-limit is reached.</p>
+  <div class="markdown summary"><p>A button which is added to the bottom right
+of <a class="xref" href="UILib.Window.html">Windows</a> to allow resizing them.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class QueueArea : Area</code></pre>
+    <pre><code class="lang-csharp hljs">public class ResizeButton : Button</code></pre>
   </div>
 
 
@@ -116,8 +115,8 @@ limit is reached.</p>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="UILib.UIObject.html">UIObject</a></div>
       <div><a class="xref" href="UILib.UIComponent.html">UIComponent</a></div>
-      <div><a class="xref" href="UILib.Components.Area.html">Area</a></div>
-      <div><span class="xref">QueueArea</span></div>
+      <div><a class="xref" href="UILib.Components.Button.html">Button</a></div>
+      <div><span class="xref">ResizeButton</span></div>
     </dd>
   </dl>
 
@@ -126,6 +125,21 @@ limit is reached.</p>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_button">Button.button</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_onClick">Button.onClick</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_SetBackground_UnityEngine_Texture2D_">Button.SetBackground(Texture2D)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_SetTexture_UnityEngine_Texture2D_">Button.SetTexture(Texture2D)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_SetText_System_String_">Button.SetText(string)</a>
+    </div>
     <div>
       <a class="xref" href="UILib.UIComponent.html#UILib_UIComponent_ClampString_System_String_System_Int32_System_Boolean_">UIComponent.ClampString(string, int, bool)</a>
     </div>
@@ -158,9 +172,6 @@ limit is reached.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onPointerExit">UIObject.onPointerExit</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onClick">UIObject.onClick</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onDoubleClick">UIObject.onDoubleClick</a>
@@ -205,10 +216,10 @@ limit is reached.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">UIObject.SetContent(UIComponent)</a>
     </div>
     <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">UIObject.SetTheme(Theme)</a>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AddDirect_UILib_UIComponent_System_Boolean_">UIObject.AddDirect(UIComponent, bool)</a>
     </div>
     <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AddDirect_UILib_UIComponent_System_Boolean_">UIObject.AddDirect(UIComponent, bool)</a>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AddContent_UILib_UIComponent_System_Boolean_">UIObject.AddContent(UIComponent, bool)</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Add_UILib_UIComponent_System_Boolean_">UIObject.Add(UIComponent, bool)</a>
@@ -227,12 +238,6 @@ limit is reached.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnDoubleClick">UIObject.OnDoubleClick()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnBeginDrag_UnityEngine_Vector2_">UIObject.OnBeginDrag(Vector2)</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnDrag_UnityEngine_Vector2_">UIObject.OnDrag(Vector2)</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnEndDrag_UnityEngine_Vector2_">UIObject.OnEndDrag(Vector2)</a>
@@ -292,30 +297,29 @@ limit is reached.</p>
 
 
 
-  <h2 class="section" id="constructors">Constructors
+  <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="UILib_Components_QueueArea__ctor_" data-uid="UILib.Components.QueueArea.#ctor*"></a>
+  <a id="UILib_ResizeButton_OnBeginDrag_" data-uid="UILib.ResizeButton.OnBeginDrag*"></a>
 
-  <h3 id="UILib_Components_QueueArea__ctor_System_Int32_" data-uid="UILib.Components.QueueArea.#ctor(System.Int32)">
-  QueueArea(int)
+  <h3 id="UILib_ResizeButton_OnBeginDrag_UnityEngine_Vector2_" data-uid="UILib.ResizeButton.OnBeginDrag(UnityEngine.Vector2)">
+  OnBeginDrag(Vector2)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a queue area.</p>
+  <div class="markdown level1 summary"><p>Handles resizing the window when dragged.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public QueueArea(int maxCount)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnBeginDrag(Vector2 position)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>maxCount</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The maximum number of children in the queue</p>
-</dd>
+    <dt><code>position</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
   </dl>
 
 
@@ -329,35 +333,58 @@ limit is reached.</p>
 
 
 
-  <h2 class="section" id="methods">Methods
-</h2>
+  <a id="UILib_ResizeButton_OnDrag_" data-uid="UILib.ResizeButton.OnDrag*"></a>
 
-
-  <a id="UILib_Components_QueueArea_AddContent_" data-uid="UILib.Components.QueueArea.AddContent*"></a>
-
-  <h3 id="UILib_Components_QueueArea_AddContent_UILib_UIComponent_System_Boolean_" data-uid="UILib.Components.QueueArea.AddContent(UILib.UIComponent,System.Boolean)">
-  AddContent(UIComponent, bool)
+  <h3 id="UILib_ResizeButton_OnDrag_UnityEngine_Vector2_" data-uid="UILib.ResizeButton.OnDrag(UnityEngine.Vector2)">
+  OnDrag(Vector2)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Adds a child to this area, but also removes
-the oldest one if there are too many.</p>
-<p>See <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Add_UILib_UIComponent_System_Boolean_">Add(UIComponent, bool)</a> as this
-would probably be the method you'd want to call instead.</p>
+  <div class="markdown level1 summary"><p>Handles resizing the window when dragged.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void AddContent(UIComponent child, bool setTheme = true)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnDrag(Vector2 position)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>child</code> <a class="xref" href="UILib.UIComponent.html">UIComponent</a></dt>
-    <dd><p>The child to add</p>
-</dd>
-    <dt><code>setTheme</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the child should inherit this object's theme</p>
+    <dt><code>position</code> <span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_ResizeButton_SetTheme_" data-uid="UILib.ResizeButton.SetTheme*"></a>
+
+  <h3 id="UILib_ResizeButton_SetTheme_UILib_Theme_" data-uid="UILib.ResizeButton.SetTheme(UILib.Theme)">
+  SetTheme(Theme)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allows setting the theme of this resize button
+and all children.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetTheme(Theme theme)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>theme</code> <a class="xref" href="UILib.Theme.html">Theme</a></dt>
+    <dd><p>The theme to apply</p>
 </dd>
   </dl>
 

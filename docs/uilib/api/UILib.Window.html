@@ -137,6 +137,9 @@ on top of other windows.</p>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetAutoPause_System_Boolean_">Overlay.SetAutoPause(bool)</a>
     </div>
     <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_BringToFront">Overlay.BringToFront()</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_ToggleVisibility">Overlay.ToggleVisibility()</a>
     </div>
     <div>
@@ -168,6 +171,12 @@ on top of other windows.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_children">UIObject.children</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onPointerEnter">UIObject.onPointerEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onPointerExit">UIObject.onPointerExit</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onClick">UIObject.onClick</a>
@@ -213,6 +222,12 @@ on top of other windows.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Add_UILib_UIComponent_System_Boolean_">UIObject.Add(UIComponent, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnPointerEnter">UIObject.OnPointerEnter()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnPointerExit">UIObject.OnPointerExit()</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnDoubleClick">UIObject.OnDoubleClick()</a>
@@ -386,6 +401,38 @@ on top of other windows.</p>
 
 
 
+  <a id="UILib_Window_resizeButton_" data-uid="UILib.Window.resizeButton*"></a>
+
+  <h3 id="UILib_Window_resizeButton" data-uid="UILib.Window.resizeButton">
+  resizeButton
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This window's <a class="xref" href="UILib.ResizeButton.html">ResizeButton</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ResizeButton resizeButton { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.ResizeButton.html">ResizeButton</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="UILib_Window_scrollView_" data-uid="UILib.Window.scrollView*"></a>
 
   <h3 id="UILib_Window_scrollView" data-uid="UILib.Window.scrollView">
@@ -408,6 +455,39 @@ on top of other windows.</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="UILib.Components.ScrollView.html">ScrollView</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Window_titleBar_" data-uid="UILib.Window.titleBar*"></a>
+
+  <h3 id="UILib_Window_titleBar" data-uid="UILib.Window.titleBar">
+  titleBar
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This window's <a class="xref" href="UILib.TitleBar.html">TitleBar</a>.
+Contains the name and close and fullscreen buttons.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TitleBar titleBar { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.TitleBar.html">TitleBar</a></dt>
     <dd></dd>
   </dl>
 
@@ -762,6 +842,39 @@ window decorations (title bar, scroll bar, resize button).</p>
 </dd>
     <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The minimum height</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Window_SetName_" data-uid="UILib.Window.SetName*"></a>
+
+  <h3 id="UILib_Window_SetName_System_String_" data-uid="UILib.Window.SetName(System.String)">
+  SetName(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the name of this window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetName(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The window's new name</p>
 </dd>
   </dl>
 

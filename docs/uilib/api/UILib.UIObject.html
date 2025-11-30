@@ -124,6 +124,7 @@ Most of the time you'd want to use <a class="xref" href="UILib.UIComponent.html"
   <dl class="typelist derived">
     <dt>Derived</dt>
     <dd>
+      <div><a class="xref" href="UILib.Components.ScrollBar.html">ScrollBar</a></div>
       <div><a class="xref" href="UILib.Overlay.html">Overlay</a></div>
       <div><a class="xref" href="UILib.UIComponent.html">UIComponent</a></div>
     </dd>
@@ -686,6 +687,70 @@ stopped dragging on this UIObject.</p>
 
 
 
+  <a id="UILib_UIObject_onPointerEnter_" data-uid="UILib.UIObject.onPointerEnter*"></a>
+
+  <h3 id="UILib_UIObject_onPointerEnter" data-uid="UILib.UIObject.onPointerEnter">
+  onPointerEnter
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners whenever this UIObject is hovered over.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual UnityEvent onPointerEnter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_onPointerExit_" data-uid="UILib.UIObject.onPointerExit*"></a>
+
+  <h3 id="UILib_UIObject_onPointerExit" data-uid="UILib.UIObject.onPointerExit">
+  onPointerExit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners whenever this UIObject is no longer hovered over.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual UnityEvent onPointerExit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="UILib_UIObject_parent_" data-uid="UILib.UIObject.parent*"></a>
 
   <h3 id="UILib_UIObject_parent" data-uid="UILib.UIObject.parent">
@@ -1162,6 +1227,60 @@ a layout set on it (vertical or horizontal).</p>
     <dd><p>The position the drag ended at</p>
 </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_OnPointerEnter_" data-uid="UILib.UIObject.OnPointerEnter*"></a>
+
+  <h3 id="UILib_UIObject_OnPointerEnter" data-uid="UILib.UIObject.OnPointerEnter">
+  OnPointerEnter()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Handles this UIObject being hovered over.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPointerEnter()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_OnPointerExit_" data-uid="UILib.UIObject.OnPointerExit*"></a>
+
+  <h3 id="UILib_UIObject_OnPointerExit" data-uid="UILib.UIObject.OnPointerExit">
+  OnPointerExit()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Handles this UIObject no longer being hovered over.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPointerExit()</code></pre>
+  </div>
+
 
 
 
