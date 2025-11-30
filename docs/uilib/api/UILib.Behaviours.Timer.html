@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Timer | poy-ui-lib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Timer | poy-ui-lib ">
+      
+      <meta name="description" content="Runs a timer.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="poy-ui-lib">
+            poy-ui-lib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="UILib.Behaviours.Timer">
+
+
+
+  <h1 id="UILib_Behaviours_Timer" data-uid="UILib.Behaviours.Timer" class="text-break">
+Class Timer  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Behaviours.html">Behaviours</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Runs a timer.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Timer : MonoBehaviour</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Object</span></div>
+      <div><span class="xref">Component</span></div>
+      <div><span class="xref">Behaviour</span></div>
+      <div><span class="xref">MonoBehaviour</span></div>
+      <div><span class="xref">Timer</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="UILib.Behaviours.Fade.html">Fade</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <span class="xref">MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.Invoke(string, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.InvokeRepeating(string, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.CancelInvoke(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.IsInvoking(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutine(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutine_Auto(IEnumerator)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StopCoroutine(IEnumerator)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.StopCoroutine(Coroutine)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StopCoroutine(string)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">MonoBehaviour.print(object)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.Internal_CancelInvokeAll(MonoBehaviour)</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.Internal_IsInvokingAll(MonoBehaviour)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.InvokeDelayed(MonoBehaviour, string, float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.CancelInvoke(MonoBehaviour, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.IsInvoking(MonoBehaviour, string)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.IsObjectMonoBehaviour(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">MonoBehaviour.StartCoroutineManaged(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StartCoroutineManaged2(IEnumerator)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.StopCoroutineManaged(Coroutine)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.ienumerator">MonoBehaviour.StopCoroutineFromEnumeratorManaged(IEnumerator)</a>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.GetScriptClassName()</span>
+    </div>
+    <div>
+      <span class="xref">MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentFastPath(Type, IntPtr)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.TryGetComponent(Type, out Component)</a>
+    </div>
+    <div>
+      <span class="xref">Component.TryGetComponent&lt;T&gt;(out T)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.GetComponent(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInChildren(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInChildren&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponentsInChildren&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentInParent(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsInParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Component.GetComponentsInParent&lt;T&gt;(bool, List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponentsForListInternal(Type, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Component.GetComponents(Type, List&lt;Component&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">Component.GetComponents&lt;T&gt;(List&lt;T&gt;)</a>
+    </div>
+    <div>
+      <span class="xref">Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.CompareTag(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessageUpwards(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.SendMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object, SendMessageOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Component.BroadcastMessage(string, SendMessageOptions)</a>
+    </div>
+    <div>
+      <span class="xref">Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">Object.m_CachedPtr</span>
+    </div>
+    <div>
+      <span class="xref">Object.OffsetOfInstanceIDInCPlusPlusObject</span>
+    </div>
+    <div>
+      <span class="xref">Object.objectIsNullMessage</span>
+    </div>
+    <div>
+      <span class="xref">Object.cloneDestroyedMessage</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetHashCode()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object.Equals(object)</a>
+    </div>
+    <div>
+      <span class="xref">Object.CompareBaseObjects(Object, Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.EnsureRunningOnMainThread()</span>
+    </div>
+    <div>
+      <span class="xref">Object.IsNativeObjectAlive(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetCachedPtr()</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate(Object, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate(Object, Transform, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Vector3, Quaternion, Transform)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Instantiate&lt;T&gt;(T, Transform)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Instantiate&lt;T&gt;(T, Transform, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.Destroy(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Destroy(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.DestroyImmediate(Object, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyImmediate(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DontDestroyOnLoad(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Object.DestroyObject(Object, float)</a>
+    </div>
+    <div>
+      <span class="xref">Object.DestroyObject(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindSceneObjectsOfType(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeIncludingAssets(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectsOfTypeAll(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object.CheckNullArgument(object, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Object.FindObjectOfType(Type)</a>
+    </div>
+    <div>
+      <span class="xref">Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetOffsetOfInstanceIDInCPlusPlusObject()</span>
+    </div>
+    <div>
+      <span class="xref">Object.CurrentThreadIsMainThread()</span>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_CloneSingle(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Object.Internal_CloneSingleWithParent(Object, Transform, bool)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_InstantiateSingle(Object, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_InstantiateSingleWithParent(Object, Transform, Vector3, Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.ToString(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.GetName(Object)</span>
+    </div>
+    <div>
+      <span class="xref">Object.IsPersistent(Object)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Object.SetName(Object, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.DoesObjectWithInstanceIDExist(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.FindObjectFromInstanceID(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Object.ForceLoadFromInstanceID(int)</a>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_InstantiateSingle_Injected(Object, ref Vector3, ref Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.Internal_InstantiateSingleWithParent_Injected(Object, Transform, ref Vector3, ref Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">Object.name</span>
+    </div>
+    <div>
+      <span class="xref">Object.hideFlags</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="UILib_Behaviours_Timer_onEnd_" data-uid="UILib.Behaviours.Timer.onEnd*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_onEnd" data-uid="UILib.Behaviours.Timer.onEnd">
+  onEnd
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners when the timer finishes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onEnd { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Timer_onIter_" data-uid="UILib.Behaviours.Timer.onIter*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_onIter" data-uid="UILib.Behaviours.Timer.onIter">
+  onIter
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners on each iteration of the timer.
+The value passed to listeners is the current value of the timer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValueEvent&lt;float&gt; onIter { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Behaviours.ValueEvent-1.html">ValueEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Timer_onStart_" data-uid="UILib.Behaviours.Timer.onStart*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_onStart" data-uid="UILib.Behaviours.Timer.onStart">
+  onStart
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners whenever the timer is started.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onStart { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Timer_paused_" data-uid="UILib.Behaviours.Timer.paused*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_paused" data-uid="UILib.Behaviours.Timer.paused">
+  paused
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether the timer should pause.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool paused { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Timer_running_" data-uid="UILib.Behaviours.Timer.running*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_running" data-uid="UILib.Behaviours.Timer.running">
+  running
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether the timer coroutine is currently running.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool running { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Timer_timer_" data-uid="UILib.Behaviours.Timer.timer*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_timer" data-uid="UILib.Behaviours.Timer.timer">
+  timer
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The current value of the timer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float timer { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="UILib_Behaviours_Timer_PauseTimer_" data-uid="UILib.Behaviours.Timer.PauseTimer*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_PauseTimer_System_Boolean_" data-uid="UILib.Behaviours.Timer.PauseTimer(System.Boolean)">
+  PauseTimer(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Pauses the timer.</p>
+<p>If the timer is paused, the internal timer will no longer
+decrease, and any <a class="xref" href="UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_onIter">onIter</a> listeners will no longer be invoked.
+Passing <code>false</code> will allow the timer to continue
+normal execution.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PauseTimer(bool pause = true)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>pause</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether the timer should be paused</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Timer_ReverseTimer_" data-uid="UILib.Behaviours.Timer.ReverseTimer*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_ReverseTimer" data-uid="UILib.Behaviours.Timer.ReverseTimer">
+  ReverseTimer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the timer to go in reverse of its current direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReverseTimer()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Timer_StartTimer_" data-uid="UILib.Behaviours.Timer.StartTimer*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_StartTimer_System_Single_System_Single_" data-uid="UILib.Behaviours.Timer.StartTimer(System.Single,System.Single)">
+  StartTimer(float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Starts the timer.
+If the timer is already running, this will restart it.</p>
+<p>Both the start and end time must be &gt;= 0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartTimer(float startTime, float endTime = 0)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>startTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>What time the timer should start at</p>
+</dd>
+    <dt><code>endTime</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>What time the timer should end at</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Timer_StopTimer_" data-uid="UILib.Behaviours.Timer.StopTimer*"></a>
+
+  <h3 id="UILib_Behaviours_Timer_StopTimer" data-uid="UILib.Behaviours.Timer.StopTimer">
+  StopTimer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stops the timer immediately.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopTimer()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
