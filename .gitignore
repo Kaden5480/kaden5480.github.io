@@ -1,0 +1,9 @@
+.env
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+Gemfile.lock
+default.nix
+build.sh
