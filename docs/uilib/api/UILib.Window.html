@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Window | poy-ui-lib ">
       
-      <meta name="description" content="A Window object. Like an  but more dynamic. This object is one of the fundamental building blocks of UILib. It supports being moved, resized, maximised, closed, moved on top of other windows. It also has a specially configured  built in.">
+      <meta name="description" content="A Window object. Like an  but more dynamic. This object is one of the fundamental building blocks of UILib. It supports being moved, resized, maximised, closed. It also has a specially configured  built in.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -99,8 +99,7 @@ Class Window
 
   <div class="markdown summary"><p>A Window object. Like an <a class="xref" href="UILib.Overlay.html">Overlay</a> but more dynamic.</p>
 <p>This object is one of the fundamental building blocks of UILib.</p>
-<p>It supports being moved, resized, maximised, closed, moved
-on top of other windows.</p>
+<p>It supports being moved, resized, maximised, closed.</p>
 <p>It also has a specially configured <a class="xref" href="UILib.Components.ScrollView.html">ScrollView</a> built in.</p>
 </div>
   <div class="markdown conceptual"></div>
@@ -128,16 +127,37 @@ on top of other windows.</p>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_canInteract">Overlay.canInteract</a>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_onFocus">Overlay.onFocus</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_onLostFocus">Overlay.onLostFocus</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_isFocused">Overlay.isFocused</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_enabled">Overlay.enabled</a>
     </div>
     <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_Destroy">Overlay.Destroy()</a>
     </div>
     <div>
-      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetAutoPause_System_Boolean_">Overlay.SetAutoPause(bool)</a>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_OnPointerEnter">Overlay.OnPointerEnter()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_OnPointerExit">Overlay.OnPointerExit()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_OnClick">Overlay.OnClick()</a>
     </div>
     <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_BringToFront">Overlay.BringToFront()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__">Overlay.AddShortcut(IList&lt;KeyCode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetAutoPause_System_Boolean_">Overlay.SetAutoPause(bool)</a>
     </div>
     <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_ToggleVisibility">Overlay.ToggleVisibility()</a>
@@ -215,6 +235,9 @@ on top of other windows.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">UIObject.SetContent(UIComponent)</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">UIObject.SetTheme(Theme)</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AddDirect_UILib_UIComponent_System_Boolean_">UIObject.AddDirect(UIComponent, bool)</a>
     </div>
     <div>
@@ -222,12 +245,6 @@ on top of other windows.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Add_UILib_UIComponent_System_Boolean_">UIObject.Add(UIComponent, bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnPointerEnter">UIObject.OnPointerEnter()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnPointerExit">UIObject.OnPointerExit()</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnDoubleClick">UIObject.OnDoubleClick()</a>
@@ -359,6 +376,134 @@ on top of other windows.</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Window_maxHeight_" data-uid="UILib.Window.maxHeight*"></a>
+
+  <h3 id="UILib_Window_maxHeight" data-uid="UILib.Window.maxHeight">
+  maxHeight
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The maximum height of this window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float maxHeight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Window_maxWidth_" data-uid="UILib.Window.maxWidth*"></a>
+
+  <h3 id="UILib_Window_maxWidth" data-uid="UILib.Window.maxWidth">
+  maxWidth
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The maximum width of this window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float maxWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Window_minHeight_" data-uid="UILib.Window.minHeight*"></a>
+
+  <h3 id="UILib_Window_minHeight" data-uid="UILib.Window.minHeight">
+  minHeight
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The minimum height of this window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float minHeight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Window_minWidth_" data-uid="UILib.Window.minWidth*"></a>
+
+  <h3 id="UILib_Window_minWidth" data-uid="UILib.Window.minWidth">
+  minWidth
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The minimum width of this window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float minWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
   </dl>
 
@@ -531,6 +676,64 @@ as it's automatically used internally.</p>
 
 
 
+  <a id="UILib_Window_Disable_" data-uid="UILib.Window.Disable*"></a>
+
+  <h3 id="UILib_Window_Disable" data-uid="UILib.Window.Disable">
+  Disable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Disables interacting with this window.</p>
+<p>Note that this also changes the visibility of the
+window decorations (title bar, scroll bar, resize button).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Disable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Window_Enable_" data-uid="UILib.Window.Enable*"></a>
+
+  <h3 id="UILib_Window_Enable" data-uid="UILib.Window.Enable">
+  Enable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables interacting with this window.</p>
+<p>Note that this also changes the visibility of the
+window decorations (title bar, scroll bar, resize button).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Enable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="UILib_Window_EndFullscreen_" data-uid="UILib.Window.EndFullscreen*"></a>
 
   <h3 id="UILib_Window_EndFullscreen" data-uid="UILib.Window.EndFullscreen">
@@ -635,33 +838,6 @@ as it's automatically used internally.</p>
 
 
 
-  <a id="UILib_Window_OnClick_" data-uid="UILib.Window.OnClick*"></a>
-
-  <h3 id="UILib_Window_OnClick" data-uid="UILib.Window.OnClick">
-  OnClick()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Bring this Window's canvas to the front</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnClick()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
   <a id="UILib_Window_OnDrag_" data-uid="UILib.Window.OnDrag*"></a>
 
   <h3 id="UILib_Window_OnDrag_UnityEngine_Vector2_" data-uid="UILib.Window.OnDrag(UnityEngine.Vector2)">
@@ -737,41 +913,6 @@ as it's automatically used internally.</p>
     <pre><code class="lang-csharp hljs">public void ScrollToTop()</code></pre>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Window_SetInteractable_" data-uid="UILib.Window.SetInteractable*"></a>
-
-  <h3 id="UILib_Window_SetInteractable_System_Boolean_" data-uid="UILib.Window.SetInteractable(System.Boolean)">
-  SetInteractable(bool)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Sets whether this window can be interacted with.</p>
-<p>Note that this also toggles the visibility of the
-window decorations (title bar, scroll bar, resize button).</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void SetInteractable(bool canInteract)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>canInteract</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether interactions should be allowed</p>
-</dd>
-  </dl>
 
 
 
@@ -889,20 +1030,19 @@ window decorations (title bar, scroll bar, resize button).</p>
 
 
 
-  <a id="UILib_Window_SetTheme_" data-uid="UILib.Window.SetTheme*"></a>
+  <a id="UILib_Window_SetThisTheme_" data-uid="UILib.Window.SetThisTheme*"></a>
 
-  <h3 id="UILib_Window_SetTheme_UILib_Theme_" data-uid="UILib.Window.SetTheme(UILib.Theme)">
-  SetTheme(Theme)
+  <h3 id="UILib_Window_SetThisTheme_UILib_Theme_" data-uid="UILib.Window.SetThisTheme(UILib.Theme)">
+  SetThisTheme(Theme)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Allows setting the theme of this window
-and all children.</p>
+  <div class="markdown level1 summary"><p>Allows setting the theme of this window.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void SetTheme(Theme theme)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void SetThisTheme(Theme theme)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

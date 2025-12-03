@@ -196,6 +196,93 @@ references:
   isSpec: "True"
   fullName: UILib.Behaviours.Fade.onFadeOut
   nameWithType: Fade.onFadeOut
+- uid: UILib.Behaviours.Shortcut
+  name: Shortcut
+  href: api/UILib.Behaviours.Shortcut.html
+  commentId: T:UILib.Behaviours.Shortcut
+  fullName: UILib.Behaviours.Shortcut
+  nameWithType: Shortcut
+- uid: UILib.Behaviours.Shortcut.Disable
+  name: Disable()
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_Disable
+  commentId: M:UILib.Behaviours.Shortcut.Disable
+  fullName: UILib.Behaviours.Shortcut.Disable()
+  nameWithType: Shortcut.Disable()
+- uid: UILib.Behaviours.Shortcut.Disable*
+  name: Disable
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_Disable_
+  commentId: Overload:UILib.Behaviours.Shortcut.Disable
+  isSpec: "True"
+  fullName: UILib.Behaviours.Shortcut.Disable
+  nameWithType: Shortcut.Disable
+- uid: UILib.Behaviours.Shortcut.Enable
+  name: Enable()
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_Enable
+  commentId: M:UILib.Behaviours.Shortcut.Enable
+  fullName: UILib.Behaviours.Shortcut.Enable()
+  nameWithType: Shortcut.Enable()
+- uid: UILib.Behaviours.Shortcut.Enable*
+  name: Enable
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_Enable_
+  commentId: Overload:UILib.Behaviours.Shortcut.Enable
+  isSpec: "True"
+  fullName: UILib.Behaviours.Shortcut.Enable
+  nameWithType: Shortcut.Enable
+- uid: UILib.Behaviours.Shortcut.SetShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
+  name: SetShortcut(IList<KeyCode>)
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_SetShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__
+  commentId: M:UILib.Behaviours.Shortcut.SetShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
+  name.vb: SetShortcut(IList(Of KeyCode))
+  fullName: UILib.Behaviours.Shortcut.SetShortcut(System.Collections.Generic.IList<UnityEngine.KeyCode>)
+  fullName.vb: UILib.Behaviours.Shortcut.SetShortcut(System.Collections.Generic.IList(Of UnityEngine.KeyCode))
+  nameWithType: Shortcut.SetShortcut(IList<KeyCode>)
+  nameWithType.vb: Shortcut.SetShortcut(IList(Of KeyCode))
+- uid: UILib.Behaviours.Shortcut.SetShortcut*
+  name: SetShortcut
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_SetShortcut_
+  commentId: Overload:UILib.Behaviours.Shortcut.SetShortcut
+  isSpec: "True"
+  fullName: UILib.Behaviours.Shortcut.SetShortcut
+  nameWithType: Shortcut.SetShortcut
+- uid: UILib.Behaviours.Shortcut.enabled
+  name: enabled
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_enabled
+  commentId: P:UILib.Behaviours.Shortcut.enabled
+  fullName: UILib.Behaviours.Shortcut.enabled
+  nameWithType: Shortcut.enabled
+- uid: UILib.Behaviours.Shortcut.enabled*
+  name: enabled
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_enabled_
+  commentId: Overload:UILib.Behaviours.Shortcut.enabled
+  isSpec: "True"
+  fullName: UILib.Behaviours.Shortcut.enabled
+  nameWithType: Shortcut.enabled
+- uid: UILib.Behaviours.Shortcut.keys
+  name: keys
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_keys
+  commentId: P:UILib.Behaviours.Shortcut.keys
+  fullName: UILib.Behaviours.Shortcut.keys
+  nameWithType: Shortcut.keys
+- uid: UILib.Behaviours.Shortcut.keys*
+  name: keys
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_keys_
+  commentId: Overload:UILib.Behaviours.Shortcut.keys
+  isSpec: "True"
+  fullName: UILib.Behaviours.Shortcut.keys
+  nameWithType: Shortcut.keys
+- uid: UILib.Behaviours.Shortcut.onTrigger
+  name: onTrigger
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_onTrigger
+  commentId: P:UILib.Behaviours.Shortcut.onTrigger
+  fullName: UILib.Behaviours.Shortcut.onTrigger
+  nameWithType: Shortcut.onTrigger
+- uid: UILib.Behaviours.Shortcut.onTrigger*
+  name: onTrigger
+  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_onTrigger_
+  commentId: Overload:UILib.Behaviours.Shortcut.onTrigger
+  isSpec: "True"
+  fullName: UILib.Behaviours.Shortcut.onTrigger
+  nameWithType: Shortcut.onTrigger
 - uid: UILib.Behaviours.Timer
   name: Timer
   href: api/UILib.Behaviours.Timer.html
@@ -347,6 +434,140 @@ references:
   fullName.vb: UILib.Behaviours.ValueEvent(Of T)
   nameWithType: ValueEvent<T>
   nameWithType.vb: ValueEvent(Of T)
+- uid: UILib.Colors
+  name: Colors
+  href: api/UILib.Colors.html
+  commentId: T:UILib.Colors
+  fullName: UILib.Colors
+  nameWithType: Colors
+- uid: UILib.Colors.HSL(System.Single,System.Single,System.Single)
+  name: HSL(float, float, float)
+  href: api/UILib.Colors.html#UILib_Colors_HSL_System_Single_System_Single_System_Single_
+  commentId: M:UILib.Colors.HSL(System.Single,System.Single,System.Single)
+  name.vb: HSL(Single, Single, Single)
+  fullName: UILib.Colors.HSL(float, float, float)
+  fullName.vb: UILib.Colors.HSL(Single, Single, Single)
+  nameWithType: Colors.HSL(float, float, float)
+  nameWithType.vb: Colors.HSL(Single, Single, Single)
+- uid: UILib.Colors.HSL*
+  name: HSL
+  href: api/UILib.Colors.html#UILib_Colors_HSL_
+  commentId: Overload:UILib.Colors.HSL
+  isSpec: "True"
+  fullName: UILib.Colors.HSL
+  nameWithType: Colors.HSL
+- uid: UILib.Colors.HSLA(System.Single,System.Single,System.Single,System.Single)
+  name: HSLA(float, float, float, float)
+  href: api/UILib.Colors.html#UILib_Colors_HSLA_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:UILib.Colors.HSLA(System.Single,System.Single,System.Single,System.Single)
+  name.vb: HSLA(Single, Single, Single, Single)
+  fullName: UILib.Colors.HSLA(float, float, float, float)
+  fullName.vb: UILib.Colors.HSLA(Single, Single, Single, Single)
+  nameWithType: Colors.HSLA(float, float, float, float)
+  nameWithType.vb: Colors.HSLA(Single, Single, Single, Single)
+- uid: UILib.Colors.HSLA*
+  name: HSLA
+  href: api/UILib.Colors.html#UILib_Colors_HSLA_
+  commentId: Overload:UILib.Colors.HSLA
+  isSpec: "True"
+  fullName: UILib.Colors.HSLA
+  nameWithType: Colors.HSLA
+- uid: UILib.Colors.HSV(System.Single,System.Single,System.Single)
+  name: HSV(float, float, float)
+  href: api/UILib.Colors.html#UILib_Colors_HSV_System_Single_System_Single_System_Single_
+  commentId: M:UILib.Colors.HSV(System.Single,System.Single,System.Single)
+  name.vb: HSV(Single, Single, Single)
+  fullName: UILib.Colors.HSV(float, float, float)
+  fullName.vb: UILib.Colors.HSV(Single, Single, Single)
+  nameWithType: Colors.HSV(float, float, float)
+  nameWithType.vb: Colors.HSV(Single, Single, Single)
+- uid: UILib.Colors.HSV*
+  name: HSV
+  href: api/UILib.Colors.html#UILib_Colors_HSV_
+  commentId: Overload:UILib.Colors.HSV
+  isSpec: "True"
+  fullName: UILib.Colors.HSV
+  nameWithType: Colors.HSV
+- uid: UILib.Colors.HSVA(System.Single,System.Single,System.Single,System.Single)
+  name: HSVA(float, float, float, float)
+  href: api/UILib.Colors.html#UILib_Colors_HSVA_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:UILib.Colors.HSVA(System.Single,System.Single,System.Single,System.Single)
+  name.vb: HSVA(Single, Single, Single, Single)
+  fullName: UILib.Colors.HSVA(float, float, float, float)
+  fullName.vb: UILib.Colors.HSVA(Single, Single, Single, Single)
+  nameWithType: Colors.HSVA(float, float, float, float)
+  nameWithType.vb: Colors.HSVA(Single, Single, Single, Single)
+- uid: UILib.Colors.HSVA*
+  name: HSVA
+  href: api/UILib.Colors.html#UILib_Colors_HSVA_
+  commentId: Overload:UILib.Colors.HSVA
+  isSpec: "True"
+  fullName: UILib.Colors.HSVA
+  nameWithType: Colors.HSVA
+- uid: UILib.Colors.Hex(System.Int32)
+  name: Hex(int)
+  href: api/UILib.Colors.html#UILib_Colors_Hex_System_Int32_
+  commentId: M:UILib.Colors.Hex(System.Int32)
+  name.vb: Hex(Integer)
+  fullName: UILib.Colors.Hex(int)
+  fullName.vb: UILib.Colors.Hex(Integer)
+  nameWithType: Colors.Hex(int)
+  nameWithType.vb: Colors.Hex(Integer)
+- uid: UILib.Colors.Hex*
+  name: Hex
+  href: api/UILib.Colors.html#UILib_Colors_Hex_
+  commentId: Overload:UILib.Colors.Hex
+  isSpec: "True"
+  fullName: UILib.Colors.Hex
+  nameWithType: Colors.Hex
+- uid: UILib.Colors.HexA(System.Int32)
+  name: HexA(int)
+  href: api/UILib.Colors.html#UILib_Colors_HexA_System_Int32_
+  commentId: M:UILib.Colors.HexA(System.Int32)
+  name.vb: HexA(Integer)
+  fullName: UILib.Colors.HexA(int)
+  fullName.vb: UILib.Colors.HexA(Integer)
+  nameWithType: Colors.HexA(int)
+  nameWithType.vb: Colors.HexA(Integer)
+- uid: UILib.Colors.HexA*
+  name: HexA
+  href: api/UILib.Colors.html#UILib_Colors_HexA_
+  commentId: Overload:UILib.Colors.HexA
+  isSpec: "True"
+  fullName: UILib.Colors.HexA
+  nameWithType: Colors.HexA
+- uid: UILib.Colors.RGB(System.Int32,System.Int32,System.Int32)
+  name: RGB(int, int, int)
+  href: api/UILib.Colors.html#UILib_Colors_RGB_System_Int32_System_Int32_System_Int32_
+  commentId: M:UILib.Colors.RGB(System.Int32,System.Int32,System.Int32)
+  name.vb: RGB(Integer, Integer, Integer)
+  fullName: UILib.Colors.RGB(int, int, int)
+  fullName.vb: UILib.Colors.RGB(Integer, Integer, Integer)
+  nameWithType: Colors.RGB(int, int, int)
+  nameWithType.vb: Colors.RGB(Integer, Integer, Integer)
+- uid: UILib.Colors.RGB*
+  name: RGB
+  href: api/UILib.Colors.html#UILib_Colors_RGB_
+  commentId: Overload:UILib.Colors.RGB
+  isSpec: "True"
+  fullName: UILib.Colors.RGB
+  nameWithType: Colors.RGB
+- uid: UILib.Colors.RGBA(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: RGBA(int, int, int, int)
+  href: api/UILib.Colors.html#UILib_Colors_RGBA_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:UILib.Colors.RGBA(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: RGBA(Integer, Integer, Integer, Integer)
+  fullName: UILib.Colors.RGBA(int, int, int, int)
+  fullName.vb: UILib.Colors.RGBA(Integer, Integer, Integer, Integer)
+  nameWithType: Colors.RGBA(int, int, int, int)
+  nameWithType.vb: Colors.RGBA(Integer, Integer, Integer, Integer)
+- uid: UILib.Colors.RGBA*
+  name: RGBA
+  href: api/UILib.Colors.html#UILib_Colors_RGBA_
+  commentId: Overload:UILib.Colors.RGBA
+  isSpec: "True"
+  fullName: UILib.Colors.RGBA
+  nameWithType: Colors.RGBA
 - uid: UILib.Components
   name: UILib.Components
   href: api/UILib.Components.html
@@ -359,6 +580,19 @@ references:
   commentId: T:UILib.Components.Area
   fullName: UILib.Components.Area
   nameWithType: Area
+- uid: UILib.Components.Area.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.Area.html#UILib_Components_Area_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.Area.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.Area.SetThisTheme(UILib.Theme)
+  nameWithType: Area.SetThisTheme(Theme)
+- uid: UILib.Components.Area.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.Area.html#UILib_Components_Area_SetThisTheme_
+  commentId: Overload:UILib.Components.Area.SetThisTheme
+  isSpec: "True"
+  fullName: UILib.Components.Area.SetThisTheme
+  nameWithType: Area.SetThisTheme
 - uid: UILib.Components.Button
   name: Button
   href: api/UILib.Components.Button.html
@@ -444,19 +678,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Button.SetTexture
   nameWithType: Button.SetTexture
-- uid: UILib.Components.Button.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Components.Button.html#UILib_Components_Button_SetTheme_UILib_Theme_
-  commentId: M:UILib.Components.Button.SetTheme(UILib.Theme)
-  fullName: UILib.Components.Button.SetTheme(UILib.Theme)
-  nameWithType: Button.SetTheme(Theme)
-- uid: UILib.Components.Button.SetTheme*
-  name: SetTheme
-  href: api/UILib.Components.Button.html#UILib_Components_Button_SetTheme_
-  commentId: Overload:UILib.Components.Button.SetTheme
+- uid: UILib.Components.Button.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.Button.html#UILib_Components_Button_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.Button.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.Button.SetThisTheme(UILib.Theme)
+  nameWithType: Button.SetThisTheme(Theme)
+- uid: UILib.Components.Button.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.Button.html#UILib_Components_Button_SetThisTheme_
+  commentId: Overload:UILib.Components.Button.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Components.Button.SetTheme
-  nameWithType: Button.SetTheme
+  fullName: UILib.Components.Button.SetThisTheme
+  nameWithType: Button.SetThisTheme
 - uid: UILib.Components.Button.button
   name: button
   href: api/UILib.Components.Button.html#UILib_Components_Button_button
@@ -610,23 +844,23 @@ references:
   fullName.vb: UILib.Components.Dropdown(Of T).SetSize
   nameWithType: Dropdown<T>.SetSize
   nameWithType.vb: Dropdown(Of T).SetSize
-- uid: UILib.Components.Dropdown`1.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Components.Dropdown-1.html#UILib_Components_Dropdown_1_SetTheme_UILib_Theme_
-  commentId: M:UILib.Components.Dropdown`1.SetTheme(UILib.Theme)
-  fullName: UILib.Components.Dropdown<T>.SetTheme(UILib.Theme)
-  fullName.vb: UILib.Components.Dropdown(Of T).SetTheme(UILib.Theme)
-  nameWithType: Dropdown<T>.SetTheme(Theme)
-  nameWithType.vb: Dropdown(Of T).SetTheme(Theme)
-- uid: UILib.Components.Dropdown`1.SetTheme*
-  name: SetTheme
-  href: api/UILib.Components.Dropdown-1.html#UILib_Components_Dropdown_1_SetTheme_
-  commentId: Overload:UILib.Components.Dropdown`1.SetTheme
+- uid: UILib.Components.Dropdown`1.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.Dropdown-1.html#UILib_Components_Dropdown_1_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.Dropdown`1.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.Dropdown<T>.SetThisTheme(UILib.Theme)
+  fullName.vb: UILib.Components.Dropdown(Of T).SetThisTheme(UILib.Theme)
+  nameWithType: Dropdown<T>.SetThisTheme(Theme)
+  nameWithType.vb: Dropdown(Of T).SetThisTheme(Theme)
+- uid: UILib.Components.Dropdown`1.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.Dropdown-1.html#UILib_Components_Dropdown_1_SetThisTheme_
+  commentId: Overload:UILib.Components.Dropdown`1.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Components.Dropdown<T>.SetTheme
-  fullName.vb: UILib.Components.Dropdown(Of T).SetTheme
-  nameWithType: Dropdown<T>.SetTheme
-  nameWithType.vb: Dropdown(Of T).SetTheme
+  fullName: UILib.Components.Dropdown<T>.SetThisTheme
+  fullName.vb: UILib.Components.Dropdown(Of T).SetThisTheme
+  nameWithType: Dropdown<T>.SetThisTheme
+  nameWithType.vb: Dropdown(Of T).SetThisTheme
 - uid: UILib.Components.Dropdown`1.onValueChanged
   name: onValueChanged
   href: api/UILib.Components.Dropdown-1.html#UILib_Components_Dropdown_1_onValueChanged
@@ -730,6 +964,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Image.SetTexture
   nameWithType: Image.SetTexture
+- uid: UILib.Components.Image.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.Image.html#UILib_Components_Image_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.Image.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.Image.SetThisTheme(UILib.Theme)
+  nameWithType: Image.SetThisTheme(Theme)
+- uid: UILib.Components.Image.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.Image.html#UILib_Components_Image_SetThisTheme_
+  commentId: Overload:UILib.Components.Image.SetThisTheme
+  isSpec: "True"
+  fullName: UILib.Components.Image.SetThisTheme
+  nameWithType: Image.SetThisTheme
 - uid: UILib.Components.Image.image
   name: image
   href: api/UILib.Components.Image.html#UILib_Components_Image_image
@@ -900,19 +1147,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Label.SetText
   nameWithType: Label.SetText
-- uid: UILib.Components.Label.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Components.Label.html#UILib_Components_Label_SetTheme_UILib_Theme_
-  commentId: M:UILib.Components.Label.SetTheme(UILib.Theme)
-  fullName: UILib.Components.Label.SetTheme(UILib.Theme)
-  nameWithType: Label.SetTheme(Theme)
-- uid: UILib.Components.Label.SetTheme*
-  name: SetTheme
-  href: api/UILib.Components.Label.html#UILib_Components_Label_SetTheme_
-  commentId: Overload:UILib.Components.Label.SetTheme
+- uid: UILib.Components.Label.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.Label.html#UILib_Components_Label_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.Label.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.Label.SetThisTheme(UILib.Theme)
+  nameWithType: Label.SetThisTheme(Theme)
+- uid: UILib.Components.Label.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.Label.html#UILib_Components_Label_SetThisTheme_
+  commentId: Overload:UILib.Components.Label.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Components.Label.SetTheme
-  nameWithType: Label.SetTheme
+  fullName: UILib.Components.Label.SetThisTheme
+  nameWithType: Label.SetThisTheme
 - uid: UILib.Components.Label.text
   name: text
   href: api/UILib.Components.Label.html#UILib_Components_Label_text
@@ -926,6 +1173,31 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Label.text
   nameWithType: Label.text
+- uid: UILib.Components.Picker
+  name: Picker
+  href: api/UILib.Components.Picker.html
+  commentId: T:UILib.Components.Picker
+  fullName: UILib.Components.Picker
+  nameWithType: Picker
+- uid: UILib.Components.Picker.#ctor
+  name: Picker()
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker__ctor
+  commentId: M:UILib.Components.Picker.#ctor
+  name.vb: New()
+  fullName: UILib.Components.Picker.Picker()
+  fullName.vb: UILib.Components.Picker.New()
+  nameWithType: Picker.Picker()
+  nameWithType.vb: Picker.New()
+- uid: UILib.Components.Picker.#ctor*
+  name: Picker
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker__ctor_
+  commentId: Overload:UILib.Components.Picker.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UILib.Components.Picker.Picker
+  fullName.vb: UILib.Components.Picker.New
+  nameWithType: Picker.Picker
+  nameWithType.vb: Picker.New
 - uid: UILib.Components.ProgressBar
   name: ProgressBar
   href: api/UILib.Components.ProgressBar.html
@@ -967,19 +1239,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.ProgressBar.SetProgress
   nameWithType: ProgressBar.SetProgress
-- uid: UILib.Components.ProgressBar.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_SetTheme_UILib_Theme_
-  commentId: M:UILib.Components.ProgressBar.SetTheme(UILib.Theme)
-  fullName: UILib.Components.ProgressBar.SetTheme(UILib.Theme)
-  nameWithType: ProgressBar.SetTheme(Theme)
-- uid: UILib.Components.ProgressBar.SetTheme*
-  name: SetTheme
-  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_SetTheme_
-  commentId: Overload:UILib.Components.ProgressBar.SetTheme
+- uid: UILib.Components.ProgressBar.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.ProgressBar.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.ProgressBar.SetThisTheme(UILib.Theme)
+  nameWithType: ProgressBar.SetThisTheme(Theme)
+- uid: UILib.Components.ProgressBar.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_SetThisTheme_
+  commentId: Overload:UILib.Components.ProgressBar.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Components.ProgressBar.SetTheme
-  nameWithType: ProgressBar.SetTheme
+  fullName: UILib.Components.ProgressBar.SetThisTheme
+  nameWithType: ProgressBar.SetThisTheme
 - uid: UILib.Components.ProgressBar.progress
   name: progress
   href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_progress
@@ -1034,6 +1306,22 @@ references:
   isSpec: "True"
   fullName: UILib.Components.QueueArea.AddContent
   nameWithType: QueueArea.AddContent
+- uid: UILib.Components.QueueArea.SetLimit(System.Int32)
+  name: SetLimit(int)
+  href: api/UILib.Components.QueueArea.html#UILib_Components_QueueArea_SetLimit_System_Int32_
+  commentId: M:UILib.Components.QueueArea.SetLimit(System.Int32)
+  name.vb: SetLimit(Integer)
+  fullName: UILib.Components.QueueArea.SetLimit(int)
+  fullName.vb: UILib.Components.QueueArea.SetLimit(Integer)
+  nameWithType: QueueArea.SetLimit(int)
+  nameWithType.vb: QueueArea.SetLimit(Integer)
+- uid: UILib.Components.QueueArea.SetLimit*
+  name: SetLimit
+  href: api/UILib.Components.QueueArea.html#UILib_Components_QueueArea_SetLimit_
+  commentId: Overload:UILib.Components.QueueArea.SetLimit
+  isSpec: "True"
+  fullName: UILib.Components.QueueArea.SetLimit
+  nameWithType: QueueArea.SetLimit
 - uid: UILib.Components.ScrollBar
   name: ScrollBar
   href: api/UILib.Components.ScrollBar.html
@@ -1079,19 +1367,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.ScrollBar.OnEndDrag
   nameWithType: ScrollBar.OnEndDrag
-- uid: UILib.Components.ScrollBar.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetTheme_UILib_Theme_
-  commentId: M:UILib.Components.ScrollBar.SetTheme(UILib.Theme)
-  fullName: UILib.Components.ScrollBar.SetTheme(UILib.Theme)
-  nameWithType: ScrollBar.SetTheme(Theme)
-- uid: UILib.Components.ScrollBar.SetTheme*
-  name: SetTheme
-  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetTheme_
-  commentId: Overload:UILib.Components.ScrollBar.SetTheme
+- uid: UILib.Components.ScrollBar.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.ScrollBar.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.ScrollBar.SetThisTheme(UILib.Theme)
+  nameWithType: ScrollBar.SetThisTheme(Theme)
+- uid: UILib.Components.ScrollBar.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetThisTheme_
+  commentId: Overload:UILib.Components.ScrollBar.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Components.ScrollBar.SetTheme
-  nameWithType: ScrollBar.SetTheme
+  fullName: UILib.Components.ScrollBar.SetThisTheme
+  nameWithType: ScrollBar.SetThisTheme
 - uid: UILib.Components.ScrollBar.SetWidth(System.Single)
   name: SetWidth(float)
   href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetWidth_System_Single_
@@ -1225,19 +1513,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.ScrollView.SetContent
   nameWithType: ScrollView.SetContent
-- uid: UILib.Components.ScrollView.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_SetTheme_UILib_Theme_
-  commentId: M:UILib.Components.ScrollView.SetTheme(UILib.Theme)
-  fullName: UILib.Components.ScrollView.SetTheme(UILib.Theme)
-  nameWithType: ScrollView.SetTheme(Theme)
-- uid: UILib.Components.ScrollView.SetTheme*
-  name: SetTheme
-  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_SetTheme_
-  commentId: Overload:UILib.Components.ScrollView.SetTheme
+- uid: UILib.Components.ScrollView.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.ScrollView.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.ScrollView.SetThisTheme(UILib.Theme)
+  nameWithType: ScrollView.SetThisTheme(Theme)
+- uid: UILib.Components.ScrollView.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_SetThisTheme_
+  commentId: Overload:UILib.Components.ScrollView.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Components.ScrollView.SetTheme
-  nameWithType: ScrollView.SetTheme
+  fullName: UILib.Components.ScrollView.SetThisTheme
+  nameWithType: ScrollView.SetThisTheme
 - uid: UILib.Components.ScrollView.background
   name: background
   href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_background
@@ -1347,19 +1635,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Slider.SetSize
   nameWithType: Slider.SetSize
-- uid: UILib.Components.Slider.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Components.Slider.html#UILib_Components_Slider_SetTheme_UILib_Theme_
-  commentId: M:UILib.Components.Slider.SetTheme(UILib.Theme)
-  fullName: UILib.Components.Slider.SetTheme(UILib.Theme)
-  nameWithType: Slider.SetTheme(Theme)
-- uid: UILib.Components.Slider.SetTheme*
-  name: SetTheme
-  href: api/UILib.Components.Slider.html#UILib_Components_Slider_SetTheme_
-  commentId: Overload:UILib.Components.Slider.SetTheme
+- uid: UILib.Components.Slider.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.Slider.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.Slider.SetThisTheme(UILib.Theme)
+  nameWithType: Slider.SetThisTheme(Theme)
+- uid: UILib.Components.Slider.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_SetThisTheme_
+  commentId: Overload:UILib.Components.Slider.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Components.Slider.SetTheme
-  nameWithType: Slider.SetTheme
+  fullName: UILib.Components.Slider.SetThisTheme
+  nameWithType: Slider.SetThisTheme
 - uid: UILib.Components.Slider.SetValue(System.Single)
   name: SetValue(float)
   href: api/UILib.Components.Slider.html#UILib_Components_Slider_SetValue_System_Single_
@@ -1495,19 +1783,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.TextField.SetAlignment
   nameWithType: TextField.SetAlignment
-- uid: UILib.Components.TextField.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetTheme_UILib_Theme_
-  commentId: M:UILib.Components.TextField.SetTheme(UILib.Theme)
-  fullName: UILib.Components.TextField.SetTheme(UILib.Theme)
-  nameWithType: TextField.SetTheme(Theme)
-- uid: UILib.Components.TextField.SetTheme*
-  name: SetTheme
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetTheme_
-  commentId: Overload:UILib.Components.TextField.SetTheme
+- uid: UILib.Components.TextField.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.TextField.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.TextField.SetThisTheme(UILib.Theme)
+  nameWithType: TextField.SetThisTheme(Theme)
+- uid: UILib.Components.TextField.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetThisTheme_
+  commentId: Overload:UILib.Components.TextField.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Components.TextField.SetTheme
-  nameWithType: TextField.SetTheme
+  fullName: UILib.Components.TextField.SetThisTheme
+  nameWithType: TextField.SetThisTheme
 - uid: UILib.Components.TextField.SetValue(System.String)
   name: SetValue(string)
   href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetValue_System_String_
@@ -1640,19 +1928,19 @@ references:
   fullName.vb: UILib.Components.Toggle.New
   nameWithType: Toggle.Toggle
   nameWithType.vb: Toggle.New
-- uid: UILib.Components.Toggle.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetTheme_UILib_Theme_
-  commentId: M:UILib.Components.Toggle.SetTheme(UILib.Theme)
-  fullName: UILib.Components.Toggle.SetTheme(UILib.Theme)
-  nameWithType: Toggle.SetTheme(Theme)
-- uid: UILib.Components.Toggle.SetTheme*
-  name: SetTheme
-  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetTheme_
-  commentId: Overload:UILib.Components.Toggle.SetTheme
+- uid: UILib.Components.Toggle.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.Toggle.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.Toggle.SetThisTheme(UILib.Theme)
+  nameWithType: Toggle.SetThisTheme(Theme)
+- uid: UILib.Components.Toggle.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetThisTheme_
+  commentId: Overload:UILib.Components.Toggle.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Components.Toggle.SetTheme
-  nameWithType: Toggle.SetTheme
+  fullName: UILib.Components.Toggle.SetThisTheme
+  nameWithType: Toggle.SetThisTheme
 - uid: UILib.Components.Toggle.SetValue(System.Boolean)
   name: SetValue(bool)
   href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetValue_System_Boolean_
@@ -1714,19 +2002,19 @@ references:
   commentId: T:UILib.InputOverlay
   fullName: UILib.InputOverlay
   nameWithType: InputOverlay
-- uid: UILib.InputOverlay.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.InputOverlay.html#UILib_InputOverlay_SetTheme_UILib_Theme_
-  commentId: M:UILib.InputOverlay.SetTheme(UILib.Theme)
-  fullName: UILib.InputOverlay.SetTheme(UILib.Theme)
-  nameWithType: InputOverlay.SetTheme(Theme)
-- uid: UILib.InputOverlay.SetTheme*
-  name: SetTheme
-  href: api/UILib.InputOverlay.html#UILib_InputOverlay_SetTheme_
-  commentId: Overload:UILib.InputOverlay.SetTheme
+- uid: UILib.InputOverlay.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.InputOverlay.html#UILib_InputOverlay_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.InputOverlay.SetThisTheme(UILib.Theme)
+  fullName: UILib.InputOverlay.SetThisTheme(UILib.Theme)
+  nameWithType: InputOverlay.SetThisTheme(Theme)
+- uid: UILib.InputOverlay.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.InputOverlay.html#UILib_InputOverlay_SetThisTheme_
+  commentId: Overload:UILib.InputOverlay.SetThisTheme
   isSpec: "True"
-  fullName: UILib.InputOverlay.SetTheme
-  nameWithType: InputOverlay.SetTheme
+  fullName: UILib.InputOverlay.SetThisTheme
+  nameWithType: InputOverlay.SetThisTheme
 - uid: UILib.InputOverlay.waitingForInput
   name: waitingForInput
   href: api/UILib.InputOverlay.html#UILib_InputOverlay_waitingForInput
@@ -1937,6 +2225,22 @@ references:
   fullName.vb: UILib.Overlay.New
   nameWithType: Overlay.Overlay
   nameWithType.vb: Overlay.New
+- uid: UILib.Overlay.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
+  name: AddShortcut(IList<KeyCode>)
+  href: api/UILib.Overlay.html#UILib_Overlay_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__
+  commentId: M:UILib.Overlay.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
+  name.vb: AddShortcut(IList(Of KeyCode))
+  fullName: UILib.Overlay.AddShortcut(System.Collections.Generic.IList<UnityEngine.KeyCode>)
+  fullName.vb: UILib.Overlay.AddShortcut(System.Collections.Generic.IList(Of UnityEngine.KeyCode))
+  nameWithType: Overlay.AddShortcut(IList<KeyCode>)
+  nameWithType.vb: Overlay.AddShortcut(IList(Of KeyCode))
+- uid: UILib.Overlay.AddShortcut*
+  name: AddShortcut
+  href: api/UILib.Overlay.html#UILib_Overlay_AddShortcut_
+  commentId: Overload:UILib.Overlay.AddShortcut
+  isSpec: "True"
+  fullName: UILib.Overlay.AddShortcut
+  nameWithType: Overlay.AddShortcut
 - uid: UILib.Overlay.BringToFront
   name: BringToFront()
   href: api/UILib.Overlay.html#UILib_Overlay_BringToFront
@@ -1963,6 +2267,32 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.Destroy
   nameWithType: Overlay.Destroy
+- uid: UILib.Overlay.Disable
+  name: Disable()
+  href: api/UILib.Overlay.html#UILib_Overlay_Disable
+  commentId: M:UILib.Overlay.Disable
+  fullName: UILib.Overlay.Disable()
+  nameWithType: Overlay.Disable()
+- uid: UILib.Overlay.Disable*
+  name: Disable
+  href: api/UILib.Overlay.html#UILib_Overlay_Disable_
+  commentId: Overload:UILib.Overlay.Disable
+  isSpec: "True"
+  fullName: UILib.Overlay.Disable
+  nameWithType: Overlay.Disable
+- uid: UILib.Overlay.Enable
+  name: Enable()
+  href: api/UILib.Overlay.html#UILib_Overlay_Enable
+  commentId: M:UILib.Overlay.Enable
+  fullName: UILib.Overlay.Enable()
+  nameWithType: Overlay.Enable()
+- uid: UILib.Overlay.Enable*
+  name: Enable
+  href: api/UILib.Overlay.html#UILib_Overlay_Enable_
+  commentId: Overload:UILib.Overlay.Enable
+  isSpec: "True"
+  fullName: UILib.Overlay.Enable
+  nameWithType: Overlay.Enable
 - uid: UILib.Overlay.Hide
   name: Hide()
   href: api/UILib.Overlay.html#UILib_Overlay_Hide
@@ -1976,6 +2306,45 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.Hide
   nameWithType: Overlay.Hide
+- uid: UILib.Overlay.OnClick
+  name: OnClick()
+  href: api/UILib.Overlay.html#UILib_Overlay_OnClick
+  commentId: M:UILib.Overlay.OnClick
+  fullName: UILib.Overlay.OnClick()
+  nameWithType: Overlay.OnClick()
+- uid: UILib.Overlay.OnClick*
+  name: OnClick
+  href: api/UILib.Overlay.html#UILib_Overlay_OnClick_
+  commentId: Overload:UILib.Overlay.OnClick
+  isSpec: "True"
+  fullName: UILib.Overlay.OnClick
+  nameWithType: Overlay.OnClick
+- uid: UILib.Overlay.OnPointerEnter
+  name: OnPointerEnter()
+  href: api/UILib.Overlay.html#UILib_Overlay_OnPointerEnter
+  commentId: M:UILib.Overlay.OnPointerEnter
+  fullName: UILib.Overlay.OnPointerEnter()
+  nameWithType: Overlay.OnPointerEnter()
+- uid: UILib.Overlay.OnPointerEnter*
+  name: OnPointerEnter
+  href: api/UILib.Overlay.html#UILib_Overlay_OnPointerEnter_
+  commentId: Overload:UILib.Overlay.OnPointerEnter
+  isSpec: "True"
+  fullName: UILib.Overlay.OnPointerEnter
+  nameWithType: Overlay.OnPointerEnter
+- uid: UILib.Overlay.OnPointerExit
+  name: OnPointerExit()
+  href: api/UILib.Overlay.html#UILib_Overlay_OnPointerExit
+  commentId: M:UILib.Overlay.OnPointerExit
+  fullName: UILib.Overlay.OnPointerExit()
+  nameWithType: Overlay.OnPointerExit()
+- uid: UILib.Overlay.OnPointerExit*
+  name: OnPointerExit
+  href: api/UILib.Overlay.html#UILib_Overlay_OnPointerExit_
+  commentId: Overload:UILib.Overlay.OnPointerExit
+  isSpec: "True"
+  fullName: UILib.Overlay.OnPointerExit
+  nameWithType: Overlay.OnPointerExit
 - uid: UILib.Overlay.SetAutoPause(System.Boolean)
   name: SetAutoPause(bool)
   href: api/UILib.Overlay.html#UILib_Overlay_SetAutoPause_System_Boolean_
@@ -1992,35 +2361,19 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.SetAutoPause
   nameWithType: Overlay.SetAutoPause
-- uid: UILib.Overlay.SetInteractable(System.Boolean)
-  name: SetInteractable(bool)
-  href: api/UILib.Overlay.html#UILib_Overlay_SetInteractable_System_Boolean_
-  commentId: M:UILib.Overlay.SetInteractable(System.Boolean)
-  name.vb: SetInteractable(Boolean)
-  fullName: UILib.Overlay.SetInteractable(bool)
-  fullName.vb: UILib.Overlay.SetInteractable(Boolean)
-  nameWithType: Overlay.SetInteractable(bool)
-  nameWithType.vb: Overlay.SetInteractable(Boolean)
-- uid: UILib.Overlay.SetInteractable*
-  name: SetInteractable
-  href: api/UILib.Overlay.html#UILib_Overlay_SetInteractable_
-  commentId: Overload:UILib.Overlay.SetInteractable
+- uid: UILib.Overlay.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Overlay.html#UILib_Overlay_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Overlay.SetThisTheme(UILib.Theme)
+  fullName: UILib.Overlay.SetThisTheme(UILib.Theme)
+  nameWithType: Overlay.SetThisTheme(Theme)
+- uid: UILib.Overlay.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Overlay.html#UILib_Overlay_SetThisTheme_
+  commentId: Overload:UILib.Overlay.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Overlay.SetInteractable
-  nameWithType: Overlay.SetInteractable
-- uid: UILib.Overlay.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Overlay.html#UILib_Overlay_SetTheme_UILib_Theme_
-  commentId: M:UILib.Overlay.SetTheme(UILib.Theme)
-  fullName: UILib.Overlay.SetTheme(UILib.Theme)
-  nameWithType: Overlay.SetTheme(Theme)
-- uid: UILib.Overlay.SetTheme*
-  name: SetTheme
-  href: api/UILib.Overlay.html#UILib_Overlay_SetTheme_
-  commentId: Overload:UILib.Overlay.SetTheme
-  isSpec: "True"
-  fullName: UILib.Overlay.SetTheme
-  nameWithType: Overlay.SetTheme
+  fullName: UILib.Overlay.SetThisTheme
+  nameWithType: Overlay.SetThisTheme
 - uid: UILib.Overlay.Show
   name: Show()
   href: api/UILib.Overlay.html#UILib_Overlay_Show
@@ -2047,19 +2400,58 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.ToggleVisibility
   nameWithType: Overlay.ToggleVisibility
-- uid: UILib.Overlay.canInteract
-  name: canInteract
-  href: api/UILib.Overlay.html#UILib_Overlay_canInteract
-  commentId: P:UILib.Overlay.canInteract
-  fullName: UILib.Overlay.canInteract
-  nameWithType: Overlay.canInteract
-- uid: UILib.Overlay.canInteract*
-  name: canInteract
-  href: api/UILib.Overlay.html#UILib_Overlay_canInteract_
-  commentId: Overload:UILib.Overlay.canInteract
+- uid: UILib.Overlay.enabled
+  name: enabled
+  href: api/UILib.Overlay.html#UILib_Overlay_enabled
+  commentId: P:UILib.Overlay.enabled
+  fullName: UILib.Overlay.enabled
+  nameWithType: Overlay.enabled
+- uid: UILib.Overlay.enabled*
+  name: enabled
+  href: api/UILib.Overlay.html#UILib_Overlay_enabled_
+  commentId: Overload:UILib.Overlay.enabled
   isSpec: "True"
-  fullName: UILib.Overlay.canInteract
-  nameWithType: Overlay.canInteract
+  fullName: UILib.Overlay.enabled
+  nameWithType: Overlay.enabled
+- uid: UILib.Overlay.isFocused
+  name: isFocused
+  href: api/UILib.Overlay.html#UILib_Overlay_isFocused
+  commentId: P:UILib.Overlay.isFocused
+  fullName: UILib.Overlay.isFocused
+  nameWithType: Overlay.isFocused
+- uid: UILib.Overlay.isFocused*
+  name: isFocused
+  href: api/UILib.Overlay.html#UILib_Overlay_isFocused_
+  commentId: Overload:UILib.Overlay.isFocused
+  isSpec: "True"
+  fullName: UILib.Overlay.isFocused
+  nameWithType: Overlay.isFocused
+- uid: UILib.Overlay.onFocus
+  name: onFocus
+  href: api/UILib.Overlay.html#UILib_Overlay_onFocus
+  commentId: P:UILib.Overlay.onFocus
+  fullName: UILib.Overlay.onFocus
+  nameWithType: Overlay.onFocus
+- uid: UILib.Overlay.onFocus*
+  name: onFocus
+  href: api/UILib.Overlay.html#UILib_Overlay_onFocus_
+  commentId: Overload:UILib.Overlay.onFocus
+  isSpec: "True"
+  fullName: UILib.Overlay.onFocus
+  nameWithType: Overlay.onFocus
+- uid: UILib.Overlay.onLostFocus
+  name: onLostFocus
+  href: api/UILib.Overlay.html#UILib_Overlay_onLostFocus
+  commentId: P:UILib.Overlay.onLostFocus
+  fullName: UILib.Overlay.onLostFocus
+  nameWithType: Overlay.onLostFocus
+- uid: UILib.Overlay.onLostFocus*
+  name: onLostFocus
+  href: api/UILib.Overlay.html#UILib_Overlay_onLostFocus_
+  commentId: Overload:UILib.Overlay.onLostFocus
+  isSpec: "True"
+  fullName: UILib.Overlay.onLostFocus
+  nameWithType: Overlay.onLostFocus
 - uid: UILib.Patches
   name: UILib.Patches
   href: api/UILib.Patches.html
@@ -2155,19 +2547,19 @@ references:
   isSpec: "True"
   fullName: UILib.ResizeButton.OnDrag
   nameWithType: ResizeButton.OnDrag
-- uid: UILib.ResizeButton.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.ResizeButton.html#UILib_ResizeButton_SetTheme_UILib_Theme_
-  commentId: M:UILib.ResizeButton.SetTheme(UILib.Theme)
-  fullName: UILib.ResizeButton.SetTheme(UILib.Theme)
-  nameWithType: ResizeButton.SetTheme(Theme)
-- uid: UILib.ResizeButton.SetTheme*
-  name: SetTheme
-  href: api/UILib.ResizeButton.html#UILib_ResizeButton_SetTheme_
-  commentId: Overload:UILib.ResizeButton.SetTheme
+- uid: UILib.ResizeButton.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.ResizeButton.html#UILib_ResizeButton_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.ResizeButton.SetThisTheme(UILib.Theme)
+  fullName: UILib.ResizeButton.SetThisTheme(UILib.Theme)
+  nameWithType: ResizeButton.SetThisTheme(Theme)
+- uid: UILib.ResizeButton.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.ResizeButton.html#UILib_ResizeButton_SetThisTheme_
+  commentId: Overload:UILib.ResizeButton.SetThisTheme
   isSpec: "True"
-  fullName: UILib.ResizeButton.SetTheme
-  nameWithType: ResizeButton.SetTheme
+  fullName: UILib.ResizeButton.SetThisTheme
+  nameWithType: ResizeButton.SetThisTheme
 - uid: UILib.Resources
   name: Resources
   href: api/UILib.Resources.html
@@ -2213,6 +2605,19 @@ references:
   isSpec: "True"
   fullName: UILib.Resources.gameFont
   nameWithType: Resources.gameFont
+- uid: UILib.Resources.hsvRect
+  name: hsvRect
+  href: api/UILib.Resources.html#UILib_Resources_hsvRect
+  commentId: P:UILib.Resources.hsvRect
+  fullName: UILib.Resources.hsvRect
+  nameWithType: Resources.hsvRect
+- uid: UILib.Resources.hsvRect*
+  name: hsvRect
+  href: api/UILib.Resources.html#UILib_Resources_hsvRect_
+  commentId: Overload:UILib.Resources.hsvRect
+  isSpec: "True"
+  fullName: UILib.Resources.hsvRect
+  nameWithType: Resources.hsvRect
 - uid: UILib.Resources.notification
   name: notification
   href: api/UILib.Resources.html#UILib_Resources_notification
@@ -2284,38 +2689,6 @@ references:
   isSpec: "True"
   fullName: UILib.Theme.Copy
   nameWithType: Theme.Copy
-- uid: UILib.Theme.RGB(System.Int32,System.Int32,System.Int32)
-  name: RGB(int, int, int)
-  href: api/UILib.Theme.html#UILib_Theme_RGB_System_Int32_System_Int32_System_Int32_
-  commentId: M:UILib.Theme.RGB(System.Int32,System.Int32,System.Int32)
-  name.vb: RGB(Integer, Integer, Integer)
-  fullName: UILib.Theme.RGB(int, int, int)
-  fullName.vb: UILib.Theme.RGB(Integer, Integer, Integer)
-  nameWithType: Theme.RGB(int, int, int)
-  nameWithType.vb: Theme.RGB(Integer, Integer, Integer)
-- uid: UILib.Theme.RGB*
-  name: RGB
-  href: api/UILib.Theme.html#UILib_Theme_RGB_
-  commentId: Overload:UILib.Theme.RGB
-  isSpec: "True"
-  fullName: UILib.Theme.RGB
-  nameWithType: Theme.RGB
-- uid: UILib.Theme.RGBA(System.Int32,System.Int32,System.Int32,System.Int32)
-  name: RGBA(int, int, int, int)
-  href: api/UILib.Theme.html#UILib_Theme_RGBA_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:UILib.Theme.RGBA(System.Int32,System.Int32,System.Int32,System.Int32)
-  name.vb: RGBA(Integer, Integer, Integer, Integer)
-  fullName: UILib.Theme.RGBA(int, int, int, int)
-  fullName.vb: UILib.Theme.RGBA(Integer, Integer, Integer, Integer)
-  nameWithType: Theme.RGBA(int, int, int, int)
-  nameWithType.vb: Theme.RGBA(Integer, Integer, Integer, Integer)
-- uid: UILib.Theme.RGBA*
-  name: RGBA
-  href: api/UILib.Theme.html#UILib_Theme_RGBA_
-  commentId: Overload:UILib.Theme.RGBA
-  isSpec: "True"
-  fullName: UILib.Theme.RGBA
-  nameWithType: Theme.RGBA
 - uid: UILib.Theme.accent
   name: accent
   href: api/UILib.Theme.html#UILib_Theme_accent
@@ -2541,19 +2914,19 @@ references:
   isSpec: "True"
   fullName: UILib.TitleBar.OnDrag
   nameWithType: TitleBar.OnDrag
-- uid: UILib.TitleBar.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.TitleBar.html#UILib_TitleBar_SetTheme_UILib_Theme_
-  commentId: M:UILib.TitleBar.SetTheme(UILib.Theme)
-  fullName: UILib.TitleBar.SetTheme(UILib.Theme)
-  nameWithType: TitleBar.SetTheme(Theme)
-- uid: UILib.TitleBar.SetTheme*
-  name: SetTheme
-  href: api/UILib.TitleBar.html#UILib_TitleBar_SetTheme_
-  commentId: Overload:UILib.TitleBar.SetTheme
+- uid: UILib.TitleBar.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.TitleBar.html#UILib_TitleBar_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.TitleBar.SetThisTheme(UILib.Theme)
+  fullName: UILib.TitleBar.SetThisTheme(UILib.Theme)
+  nameWithType: TitleBar.SetThisTheme(Theme)
+- uid: UILib.TitleBar.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.TitleBar.html#UILib_TitleBar_SetThisTheme_
+  commentId: Overload:UILib.TitleBar.SetThisTheme
   isSpec: "True"
-  fullName: UILib.TitleBar.SetTheme
-  nameWithType: TitleBar.SetTheme
+  fullName: UILib.TitleBar.SetThisTheme
+  nameWithType: TitleBar.SetThisTheme
 - uid: UILib.TitleBar.closeButton
   name: closeButton
   href: api/UILib.TitleBar.html#UILib_TitleBar_closeButton
@@ -2947,6 +3320,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.SetTheme
   nameWithType: UIObject.SetTheme
+- uid: UILib.UIObject.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.UIObject.html#UILib_UIObject_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.UIObject.SetThisTheme(UILib.Theme)
+  fullName: UILib.UIObject.SetThisTheme(UILib.Theme)
+  nameWithType: UIObject.SetThisTheme(Theme)
+- uid: UILib.UIObject.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.UIObject.html#UILib_UIObject_SetThisTheme_
+  commentId: Overload:UILib.UIObject.SetThisTheme
+  isSpec: "True"
+  fullName: UILib.UIObject.SetThisTheme
+  nameWithType: UIObject.SetThisTheme
 - uid: UILib.UIObject.Show
   name: Show()
   href: api/UILib.UIObject.html#UILib_UIObject_Show
@@ -3246,6 +3632,54 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.width
   nameWithType: UIObject.width
+- uid: UILib.UIRoot
+  name: UIRoot
+  href: api/UILib.UIRoot.html
+  commentId: T:UILib.UIRoot
+  fullName: UILib.UIRoot
+  nameWithType: UIRoot
+- uid: UILib.UIRoot.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
+  name: AddShortcut(IList<KeyCode>)
+  href: api/UILib.UIRoot.html#UILib_UIRoot_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__
+  commentId: M:UILib.UIRoot.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
+  name.vb: AddShortcut(IList(Of KeyCode))
+  fullName: UILib.UIRoot.AddShortcut(System.Collections.Generic.IList<UnityEngine.KeyCode>)
+  fullName.vb: UILib.UIRoot.AddShortcut(System.Collections.Generic.IList(Of UnityEngine.KeyCode))
+  nameWithType: UIRoot.AddShortcut(IList<KeyCode>)
+  nameWithType.vb: UIRoot.AddShortcut(IList(Of KeyCode))
+- uid: UILib.UIRoot.AddShortcut*
+  name: AddShortcut
+  href: api/UILib.UIRoot.html#UILib_UIRoot_AddShortcut_
+  commentId: Overload:UILib.UIRoot.AddShortcut
+  isSpec: "True"
+  fullName: UILib.UIRoot.AddShortcut
+  nameWithType: UIRoot.AddShortcut
+- uid: UILib.UIRoot.onInit
+  name: onInit
+  href: api/UILib.UIRoot.html#UILib_UIRoot_onInit
+  commentId: P:UILib.UIRoot.onInit
+  fullName: UILib.UIRoot.onInit
+  nameWithType: UIRoot.onInit
+- uid: UILib.UIRoot.onInit*
+  name: onInit
+  href: api/UILib.UIRoot.html#UILib_UIRoot_onInit_
+  commentId: Overload:UILib.UIRoot.onInit
+  isSpec: "True"
+  fullName: UILib.UIRoot.onInit
+  nameWithType: UIRoot.onInit
+- uid: UILib.UIRoot.onWMInit
+  name: onWMInit
+  href: api/UILib.UIRoot.html#UILib_UIRoot_onWMInit
+  commentId: P:UILib.UIRoot.onWMInit
+  fullName: UILib.UIRoot.onWMInit
+  nameWithType: UIRoot.onWMInit
+- uid: UILib.UIRoot.onWMInit*
+  name: onWMInit
+  href: api/UILib.UIRoot.html#UILib_UIRoot_onWMInit_
+  commentId: Overload:UILib.UIRoot.onWMInit
+  isSpec: "True"
+  fullName: UILib.UIRoot.onWMInit
+  nameWithType: UIRoot.onWMInit
 - uid: UILib.Window
   name: Window
   href: api/UILib.Window.html
@@ -3284,6 +3718,32 @@ references:
   isSpec: "True"
   fullName: UILib.Window.BeginFullscreen
   nameWithType: Window.BeginFullscreen
+- uid: UILib.Window.Disable
+  name: Disable()
+  href: api/UILib.Window.html#UILib_Window_Disable
+  commentId: M:UILib.Window.Disable
+  fullName: UILib.Window.Disable()
+  nameWithType: Window.Disable()
+- uid: UILib.Window.Disable*
+  name: Disable
+  href: api/UILib.Window.html#UILib_Window_Disable_
+  commentId: Overload:UILib.Window.Disable
+  isSpec: "True"
+  fullName: UILib.Window.Disable
+  nameWithType: Window.Disable
+- uid: UILib.Window.Enable
+  name: Enable()
+  href: api/UILib.Window.html#UILib_Window_Enable
+  commentId: M:UILib.Window.Enable
+  fullName: UILib.Window.Enable()
+  nameWithType: Window.Enable()
+- uid: UILib.Window.Enable*
+  name: Enable
+  href: api/UILib.Window.html#UILib_Window_Enable_
+  commentId: Overload:UILib.Window.Enable
+  isSpec: "True"
+  fullName: UILib.Window.Enable
+  nameWithType: Window.Enable
 - uid: UILib.Window.EndFullscreen
   name: EndFullscreen()
   href: api/UILib.Window.html#UILib_Window_EndFullscreen
@@ -3316,19 +3776,6 @@ references:
   isSpec: "True"
   fullName: UILib.Window.OnBeginDrag
   nameWithType: Window.OnBeginDrag
-- uid: UILib.Window.OnClick
-  name: OnClick()
-  href: api/UILib.Window.html#UILib_Window_OnClick
-  commentId: M:UILib.Window.OnClick
-  fullName: UILib.Window.OnClick()
-  nameWithType: Window.OnClick()
-- uid: UILib.Window.OnClick*
-  name: OnClick
-  href: api/UILib.Window.html#UILib_Window_OnClick_
-  commentId: Overload:UILib.Window.OnClick
-  isSpec: "True"
-  fullName: UILib.Window.OnClick
-  nameWithType: Window.OnClick
 - uid: UILib.Window.OnDrag(UnityEngine.Vector2)
   name: OnDrag(Vector2)
   href: api/UILib.Window.html#UILib_Window_OnDrag_UnityEngine_Vector2_
@@ -3368,22 +3815,6 @@ references:
   isSpec: "True"
   fullName: UILib.Window.ScrollToTop
   nameWithType: Window.ScrollToTop
-- uid: UILib.Window.SetInteractable(System.Boolean)
-  name: SetInteractable(bool)
-  href: api/UILib.Window.html#UILib_Window_SetInteractable_System_Boolean_
-  commentId: M:UILib.Window.SetInteractable(System.Boolean)
-  name.vb: SetInteractable(Boolean)
-  fullName: UILib.Window.SetInteractable(bool)
-  fullName.vb: UILib.Window.SetInteractable(Boolean)
-  nameWithType: Window.SetInteractable(bool)
-  nameWithType.vb: Window.SetInteractable(Boolean)
-- uid: UILib.Window.SetInteractable*
-  name: SetInteractable
-  href: api/UILib.Window.html#UILib_Window_SetInteractable_
-  commentId: Overload:UILib.Window.SetInteractable
-  isSpec: "True"
-  fullName: UILib.Window.SetInteractable
-  nameWithType: Window.SetInteractable
 - uid: UILib.Window.SetMaxSize(System.Single,System.Single)
   name: SetMaxSize(float, float)
   href: api/UILib.Window.html#UILib_Window_SetMaxSize_System_Single_System_Single_
@@ -3432,19 +3863,19 @@ references:
   isSpec: "True"
   fullName: UILib.Window.SetName
   nameWithType: Window.SetName
-- uid: UILib.Window.SetTheme(UILib.Theme)
-  name: SetTheme(Theme)
-  href: api/UILib.Window.html#UILib_Window_SetTheme_UILib_Theme_
-  commentId: M:UILib.Window.SetTheme(UILib.Theme)
-  fullName: UILib.Window.SetTheme(UILib.Theme)
-  nameWithType: Window.SetTheme(Theme)
-- uid: UILib.Window.SetTheme*
-  name: SetTheme
-  href: api/UILib.Window.html#UILib_Window_SetTheme_
-  commentId: Overload:UILib.Window.SetTheme
+- uid: UILib.Window.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Window.html#UILib_Window_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Window.SetThisTheme(UILib.Theme)
+  fullName: UILib.Window.SetThisTheme(UILib.Theme)
+  nameWithType: Window.SetThisTheme(Theme)
+- uid: UILib.Window.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Window.html#UILib_Window_SetThisTheme_
+  commentId: Overload:UILib.Window.SetThisTheme
   isSpec: "True"
-  fullName: UILib.Window.SetTheme
-  nameWithType: Window.SetTheme
+  fullName: UILib.Window.SetThisTheme
+  nameWithType: Window.SetThisTheme
 - uid: UILib.Window.fullscreen
   name: fullscreen
   href: api/UILib.Window.html#UILib_Window_fullscreen
@@ -3458,6 +3889,58 @@ references:
   isSpec: "True"
   fullName: UILib.Window.fullscreen
   nameWithType: Window.fullscreen
+- uid: UILib.Window.maxHeight
+  name: maxHeight
+  href: api/UILib.Window.html#UILib_Window_maxHeight
+  commentId: P:UILib.Window.maxHeight
+  fullName: UILib.Window.maxHeight
+  nameWithType: Window.maxHeight
+- uid: UILib.Window.maxHeight*
+  name: maxHeight
+  href: api/UILib.Window.html#UILib_Window_maxHeight_
+  commentId: Overload:UILib.Window.maxHeight
+  isSpec: "True"
+  fullName: UILib.Window.maxHeight
+  nameWithType: Window.maxHeight
+- uid: UILib.Window.maxWidth
+  name: maxWidth
+  href: api/UILib.Window.html#UILib_Window_maxWidth
+  commentId: P:UILib.Window.maxWidth
+  fullName: UILib.Window.maxWidth
+  nameWithType: Window.maxWidth
+- uid: UILib.Window.maxWidth*
+  name: maxWidth
+  href: api/UILib.Window.html#UILib_Window_maxWidth_
+  commentId: Overload:UILib.Window.maxWidth
+  isSpec: "True"
+  fullName: UILib.Window.maxWidth
+  nameWithType: Window.maxWidth
+- uid: UILib.Window.minHeight
+  name: minHeight
+  href: api/UILib.Window.html#UILib_Window_minHeight
+  commentId: P:UILib.Window.minHeight
+  fullName: UILib.Window.minHeight
+  nameWithType: Window.minHeight
+- uid: UILib.Window.minHeight*
+  name: minHeight
+  href: api/UILib.Window.html#UILib_Window_minHeight_
+  commentId: Overload:UILib.Window.minHeight
+  isSpec: "True"
+  fullName: UILib.Window.minHeight
+  nameWithType: Window.minHeight
+- uid: UILib.Window.minWidth
+  name: minWidth
+  href: api/UILib.Window.html#UILib_Window_minWidth
+  commentId: P:UILib.Window.minWidth
+  fullName: UILib.Window.minWidth
+  nameWithType: Window.minWidth
+- uid: UILib.Window.minWidth*
+  name: minWidth
+  href: api/UILib.Window.html#UILib_Window_minWidth_
+  commentId: Overload:UILib.Window.minWidth
+  isSpec: "True"
+  fullName: UILib.Window.minWidth
+  nameWithType: Window.minWidth
 - uid: UILib.Window.name
   name: name
   href: api/UILib.Window.html#UILib_Window_name

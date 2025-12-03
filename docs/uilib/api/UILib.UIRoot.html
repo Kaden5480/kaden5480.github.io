@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Resources | poy-ui-lib </title>
+      <title>Class UIRoot | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Resources | poy-ui-lib ">
+      <meta name="title" content="Class UIRoot | poy-ui-lib ">
       
-      <meta name="description" content="A class holding resources used by UILib. These resources are loaded from an AssetBundle.">
+      <meta name="description" content="The root of UILib. This initializes audio, notifications, the input overlay, and handles window management. You should use  to know when you can start using UILib. onInit invokes listeners once UILib has finished setting everything up internally.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Resources">
+        <article data-uid="UILib.UIRoot">
 
 
 
-  <h1 id="UILib_Resources" data-uid="UILib.Resources" class="text-break">
-Class Resources  
+  <h1 id="UILib_UIRoot" data-uid="UILib.UIRoot" class="text-break">
+Class UIRoot  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,17 @@ Class Resources
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A class holding resources used by UILib.
-These resources are loaded from an <code>AssetBundle</code>.</p>
+  <div class="markdown summary"><p>The root of UILib.
+This initializes audio, notifications, the input overlay, and
+handles window management.</p>
+<p>You should use <a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_onInit">onInit</a> to know when
+you can start using UILib. <code>onInit</code> invokes listeners
+once UILib has finished setting everything up internally.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Resources</code></pre>
+    <pre><code class="lang-csharp hljs">public static class UIRoot</code></pre>
   </div>
 
 
@@ -113,7 +117,7 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Resources</span></div>
+      <div><span class="xref">UIRoot</span></div>
     </dd>
   </dl>
 
@@ -154,19 +158,20 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 </h2>
 
 
-  <a id="UILib_Resources_checkMark_" data-uid="UILib.Resources.checkMark*"></a>
+  <a id="UILib_UIRoot_onInit_" data-uid="UILib.UIRoot.onInit*"></a>
 
-  <h3 id="UILib_Resources_checkMark" data-uid="UILib.Resources.checkMark">
-  checkMark
+  <h3 id="UILib_UIRoot_onInit" data-uid="UILib.UIRoot.onInit">
+  onInit
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The default checkmark used by Peaks of Yore.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners once UILib has been initialized.
+This indicates when you can start building UIs.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture2D checkMark { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityEvent onInit { get; }</code></pre>
   </div>
 
 
@@ -175,7 +180,7 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">Texture2D</span></dt>
+    <dt><span class="xref">UnityEvent</span></dt>
     <dd></dd>
   </dl>
 
@@ -186,19 +191,23 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
 
 
-  <a id="UILib_Resources_circle_" data-uid="UILib.Resources.circle*"></a>
+  <a id="UILib_UIRoot_onWMInit_" data-uid="UILib.UIRoot.onWMInit*"></a>
 
-  <h3 id="UILib_Resources_circle" data-uid="UILib.Resources.circle">
-  circle
+  <h3 id="UILib_UIRoot_onWMInit" data-uid="UILib.UIRoot.onWMInit">
+  onWMInit
   
   </h3>
 
-  <div class="markdown level1 summary"><p>A texture of a circle.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners once UILib's window
+management has been initialized.</p>
+<p>This happens later than <a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_onInit">onInit</a>
+and indicates when canvases have been assigned sorting
+orders.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture2D circle { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityEvent onWMInit { get; }</code></pre>
   </div>
 
 
@@ -207,7 +216,7 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">Texture2D</span></dt>
+    <dt><span class="xref">UnityEvent</span></dt>
     <dd></dd>
   </dl>
 
@@ -218,158 +227,45 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
 
 
-  <a id="UILib_Resources_gameFont_" data-uid="UILib.Resources.gameFont*"></a>
+  <h2 class="section" id="methods">Methods
+</h2>
 
-  <h3 id="UILib_Resources_gameFont" data-uid="UILib.Resources.gameFont">
-  gameFont
+
+  <a id="UILib_UIRoot_AddShortcut_" data-uid="UILib.UIRoot.AddShortcut*"></a>
+
+  <h3 id="UILib_UIRoot_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__" data-uid="UILib.UIRoot.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})">
+  AddShortcut(IList&lt;KeyCode&gt;)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The default Peaks of Yore font (Roman Antique).</p>
+  <div class="markdown level1 summary"><p>Adds a global shortcut. Global shortcuts can be triggered
+at any time, but only when the <a class="xref" href="UILib.InputOverlay.html">InputOverlay</a>
+isn't waiting for an input.</p>
+<p>This is the recommended way of handling global shortcuts
+when working with UILib.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Font gameFont { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static Shortcut AddShortcut(IList&lt;KeyCode&gt; keys)</code></pre>
   </div>
 
-
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><span class="xref">Font</span></dt>
-    <dd></dd>
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">KeyCode</span>&gt;</dt>
+    <dd><p>The keys which must be pressed for this shortcut to trigger</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Behaviours.Shortcut.html">Shortcut</a></dt>
+    <dd><p>The <a class="xref" href="UILib.Behaviours.Shortcut.html">Shortcut</a> which was created</p>
+</dd>
   </dl>
 
 
 
-
-
-
-
-
-  <a id="UILib_Resources_hsvRect_" data-uid="UILib.Resources.hsvRect*"></a>
-
-  <h3 id="UILib_Resources_hsvRect" data-uid="UILib.Resources.hsvRect">
-  hsvRect
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>A material which renders an HSV rectangle.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Material hsvRect { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Material</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Resources_notification_" data-uid="UILib.Resources.notification*"></a>
-
-  <h3 id="UILib_Resources_notification" data-uid="UILib.Resources.notification">
-  notification
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The default notification sound used by UILib.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AudioClip notification { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">AudioClip</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Resources_notificationError_" data-uid="UILib.Resources.notificationError*"></a>
-
-  <h3 id="UILib_Resources_notificationError" data-uid="UILib.Resources.notificationError">
-  notificationError
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>The default error notification sound used by UILib.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AudioClip notificationError { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">AudioClip</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Resources_triangle_" data-uid="UILib.Resources.triangle*"></a>
-
-  <h3 id="UILib_Resources_triangle" data-uid="UILib.Resources.triangle">
-  triangle
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>A texture of a triangle.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture2D triangle { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Texture2D</span></dt>
-    <dd></dd>
-  </dl>
 
 
 

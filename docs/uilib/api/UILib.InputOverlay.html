@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class InputOverlay | poy-ui-lib ">
       
-      <meta name="description" content="An overlay which pops up to allow the user to enter a key. When working with UILib, you should really check if  is set before doing any other input handling in your mod. This prevents some weirdness where your mod may trigger something while the input overlay is waiting for an input.">
+      <meta name="description" content="An overlay which pops up to allow the user to enter a key. If you&#39;re not taking advantage of UILib&#39;s  and  shortcut system, then you should really check if  is set before doing any other input handling in your mod. This prevents some weirdness where your mod may trigger something while the input overlay is waiting for an input.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -99,9 +99,11 @@ Class InputOverlay
 
   <div class="markdown summary"><p>An overlay which pops up to allow the user
 to enter a key.</p>
-<p>When working with UILib, you should really check
-if <a class="xref" href="UILib.InputOverlay.html#UILib_InputOverlay_waitingForInput">waitingForInput</a> is set before
-doing any other input handling in your mod.
+<p>If you're not taking advantage of UILib's
+<a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__">global</a> and
+<a class="xref" href="UILib.Overlay.html#UILib_Overlay_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__">local</a> shortcut system,
+then you should really check if <a class="xref" href="UILib.InputOverlay.html#UILib_InputOverlay_waitingForInput">waitingForInput</a>
+is set before doing any other input handling in your mod.
 This prevents some weirdness where your mod
 may trigger something while the input overlay
 is waiting for an input.</p>
@@ -131,19 +133,43 @@ is waiting for an input.</p>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_canInteract">Overlay.canInteract</a>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_onFocus">Overlay.onFocus</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_onLostFocus">Overlay.onLostFocus</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_isFocused">Overlay.isFocused</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_enabled">Overlay.enabled</a>
     </div>
     <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_Destroy">Overlay.Destroy()</a>
     </div>
     <div>
-      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetInteractable_System_Boolean_">Overlay.SetInteractable(bool)</a>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_OnPointerEnter">Overlay.OnPointerEnter()</a>
     </div>
     <div>
-      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetAutoPause_System_Boolean_">Overlay.SetAutoPause(bool)</a>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_OnPointerExit">Overlay.OnPointerExit()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_OnClick">Overlay.OnClick()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_Enable">Overlay.Enable()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_Disable">Overlay.Disable()</a>
     </div>
     <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_BringToFront">Overlay.BringToFront()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__">Overlay.AddShortcut(IList&lt;KeyCode&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetAutoPause_System_Boolean_">Overlay.SetAutoPause(bool)</a>
     </div>
     <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_ToggleVisibility">Overlay.ToggleVisibility()</a>
@@ -221,6 +247,9 @@ is waiting for an input.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">UIObject.SetContent(UIComponent)</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">UIObject.SetTheme(Theme)</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AddDirect_UILib_UIComponent_System_Boolean_">UIObject.AddDirect(UIComponent, bool)</a>
     </div>
     <div>
@@ -228,15 +257,6 @@ is waiting for an input.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Add_UILib_UIComponent_System_Boolean_">UIObject.Add(UIComponent, bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnPointerEnter">UIObject.OnPointerEnter()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnPointerExit">UIObject.OnPointerExit()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnClick">UIObject.OnClick()</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnDoubleClick">UIObject.OnDoubleClick()</a>
@@ -346,22 +366,21 @@ is currently waiting for a key.</p>
 </h2>
 
 
-  <a id="UILib_InputOverlay_SetTheme_" data-uid="UILib.InputOverlay.SetTheme*"></a>
+  <a id="UILib_InputOverlay_SetThisTheme_" data-uid="UILib.InputOverlay.SetThisTheme*"></a>
 
-  <h3 id="UILib_InputOverlay_SetTheme_UILib_Theme_" data-uid="UILib.InputOverlay.SetTheme(UILib.Theme)">
-  SetTheme(Theme)
+  <h3 id="UILib_InputOverlay_SetThisTheme_UILib_Theme_" data-uid="UILib.InputOverlay.SetThisTheme(UILib.Theme)">
+  SetThisTheme(Theme)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Allows setting the theme of the input overlay
-and all children.</p>
+  <div class="markdown level1 summary"><p>Allows setting the theme of the input overlay.</p>
 <p>This handles themes a little differently to normal
 overlays.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void SetTheme(Theme theme)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void SetThisTheme(Theme theme)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

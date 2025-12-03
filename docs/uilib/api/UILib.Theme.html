@@ -1047,7 +1047,7 @@ the background of <a class="xref" href="UILib.Components.Button.html">Buttons</a
 
   <div class="markdown level1 summary"><p>How long it should take for the
 <a class="xref" href="UILib.Window.html">Window&#39;s</a> decorations to fade in/out.
-This applies whenever <a class="xref" href="UILib.Window.html#UILib_Window_SetInteractable_System_Boolean_">SetInteractable(bool)</a>
+This applies whenever <a class="xref" href="UILib.Window.html#UILib_Window_Enable">Enable()</a> or <a class="xref" href="UILib.Window.html#UILib_Window_Disable">Disable()</a>
 is called.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1202,102 +1202,6 @@ converting to a <a class="xref" href="UILib.Theme.html">Theme</a> type.</p>
     <dt><a class="xref" href="UILib.Theme.html">Theme</a></dt>
     <dd><p>The copy</p>
 </dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Theme_RGB_" data-uid="UILib.Theme.RGB*"></a>
-
-  <h3 id="UILib_Theme_RGB_System_Int32_System_Int32_System_Int32_" data-uid="UILib.Theme.RGB(System.Int32,System.Int32,System.Int32)">
-  RGB(int, int, int)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Helper for more easily making a <code>Color</code>
-from RGB values.</p>
-<p><code>r</code>, <code>g</code>,<code>b</code> must be between 0-255 inclusive.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color RGB(int r, int g, int b)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The value of the red component</p>
-</dd>
-    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The value of the green component</p>
-</dd>
-    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The value of the blue component</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Color</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Theme_RGBA_" data-uid="UILib.Theme.RGBA*"></a>
-
-  <h3 id="UILib_Theme_RGBA_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="UILib.Theme.RGBA(System.Int32,System.Int32,System.Int32,System.Int32)">
-  RGBA(int, int, int, int)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Helper for more easily making a <code>Color</code>
-from RGBA values.</p>
-<p><code>r</code>, <code>g</code>,<code>b</code> must be between 0-255 inclusive.
-<code>a</code> must be between 0-100 inclusive.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color RGBA(int r, int g, int b, int a)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The value of the red component</p>
-</dd>
-    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The value of the green component</p>
-</dd>
-    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The value of the blue component</p>
-</dd>
-    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd><p>The value of the alpha component</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Color</span></dt>
-    <dd></dd>
   </dl>
 
 

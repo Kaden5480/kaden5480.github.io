@@ -203,6 +203,9 @@ Provides a simple visual representation of progress.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">UIObject.SetContent(UIComponent)</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">UIObject.SetTheme(Theme)</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AddDirect_UILib_UIComponent_System_Boolean_">UIObject.AddDirect(UIComponent, bool)</a>
     </div>
     <div>
@@ -395,20 +398,19 @@ This must be between 0 and 1.</p>
 
 
 
-  <a id="UILib_Components_ProgressBar_SetTheme_" data-uid="UILib.Components.ProgressBar.SetTheme*"></a>
+  <a id="UILib_Components_ProgressBar_SetThisTheme_" data-uid="UILib.Components.ProgressBar.SetThisTheme*"></a>
 
-  <h3 id="UILib_Components_ProgressBar_SetTheme_UILib_Theme_" data-uid="UILib.Components.ProgressBar.SetTheme(UILib.Theme)">
-  SetTheme(Theme)
+  <h3 id="UILib_Components_ProgressBar_SetThisTheme_UILib_Theme_" data-uid="UILib.Components.ProgressBar.SetThisTheme(UILib.Theme)">
+  SetThisTheme(Theme)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Allows setting the theme of this progress bar
-and all children.</p>
+  <div class="markdown level1 summary"><p>Allows setting the theme of this progress bar.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void SetTheme(Theme theme)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void SetThisTheme(Theme theme)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

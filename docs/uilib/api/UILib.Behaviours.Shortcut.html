@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Resources | poy-ui-lib </title>
+      <title>Class Shortcut | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Resources | poy-ui-lib ">
+      <meta name="title" content="Class Shortcut | poy-ui-lib ">
       
-      <meta name="description" content="A class holding resources used by UILib. These resources are loaded from an AssetBundle.">
+      <meta name="description" content="A class which represents a shortcut. This holds important information about a shortcut such as the event listener and underlying keybinds.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,26 +84,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Resources">
+        <article data-uid="UILib.Behaviours.Shortcut">
 
 
 
-  <h1 id="UILib_Resources" data-uid="UILib.Resources" class="text-break">
-Class Resources  
+  <h1 id="UILib_Behaviours_Shortcut" data-uid="UILib.Behaviours.Shortcut" class="text-break">
+Class Shortcut  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Behaviours.html">Behaviours</a></dd></dl>
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A class holding resources used by UILib.
-These resources are loaded from an <code>AssetBundle</code>.</p>
+  <div class="markdown summary"><p>A class which represents a shortcut.
+This holds important information about a shortcut
+such as the event listener and underlying keybinds.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Resources</code></pre>
+    <pre><code class="lang-csharp hljs">public class Shortcut</code></pre>
   </div>
 
 
@@ -113,7 +114,7 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Resources</span></div>
+      <div><span class="xref">Shortcut</span></div>
     </dd>
   </dl>
 
@@ -154,19 +155,19 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 </h2>
 
 
-  <a id="UILib_Resources_checkMark_" data-uid="UILib.Resources.checkMark*"></a>
+  <a id="UILib_Behaviours_Shortcut_enabled_" data-uid="UILib.Behaviours.Shortcut.enabled*"></a>
 
-  <h3 id="UILib_Resources_checkMark" data-uid="UILib.Resources.checkMark">
-  checkMark
+  <h3 id="UILib_Behaviours_Shortcut_enabled" data-uid="UILib.Behaviours.Shortcut.enabled">
+  enabled
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The default checkmark used by Peaks of Yore.</p>
+  <div class="markdown level1 summary"><p>Whether this shortcut is currently enabled.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture2D checkMark { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool enabled { get; }</code></pre>
   </div>
 
 
@@ -175,7 +176,7 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">Texture2D</span></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 
@@ -186,19 +187,21 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
 
 
-  <a id="UILib_Resources_circle_" data-uid="UILib.Resources.circle*"></a>
+  <a id="UILib_Behaviours_Shortcut_keys_" data-uid="UILib.Behaviours.Shortcut.keys*"></a>
 
-  <h3 id="UILib_Resources_circle" data-uid="UILib.Resources.circle">
-  circle
+  <h3 id="UILib_Behaviours_Shortcut_keys" data-uid="UILib.Behaviours.Shortcut.keys">
+  keys
   
   </h3>
 
-  <div class="markdown level1 summary"><p>A texture of a circle.</p>
+  <div class="markdown level1 summary"><p>Which <code>KeyCodes</code> need to be entered
+at the same time for this shortcut
+to trigger.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture2D circle { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;KeyCode&gt; keys { get; }</code></pre>
   </div>
 
 
@@ -207,7 +210,7 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">Texture2D</span></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">KeyCode</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -218,19 +221,20 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
 
 
-  <a id="UILib_Resources_gameFont_" data-uid="UILib.Resources.gameFont*"></a>
+  <a id="UILib_Behaviours_Shortcut_onTrigger_" data-uid="UILib.Behaviours.Shortcut.onTrigger*"></a>
 
-  <h3 id="UILib_Resources_gameFont" data-uid="UILib.Resources.gameFont">
-  gameFont
+  <h3 id="UILib_Behaviours_Shortcut_onTrigger" data-uid="UILib.Behaviours.Shortcut.onTrigger">
+  onTrigger
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The default Peaks of Yore font (Roman Antique).</p>
+  <div class="markdown level1 summary"><p>The event which is triggered when
+this shortcut is entered.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Font gameFont { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent onTrigger { get; }</code></pre>
   </div>
 
 
@@ -239,7 +243,7 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">Font</span></dt>
+    <dt><span class="xref">UnityEvent</span></dt>
     <dd></dd>
   </dl>
 
@@ -250,30 +254,30 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
 
 
-  <a id="UILib_Resources_hsvRect_" data-uid="UILib.Resources.hsvRect*"></a>
+  <h2 class="section" id="methods">Methods
+</h2>
 
-  <h3 id="UILib_Resources_hsvRect" data-uid="UILib.Resources.hsvRect">
-  hsvRect
+
+  <a id="UILib_Behaviours_Shortcut_Disable_" data-uid="UILib.Behaviours.Shortcut.Disable*"></a>
+
+  <h3 id="UILib_Behaviours_Shortcut_Disable" data-uid="UILib.Behaviours.Shortcut.Disable">
+  Disable()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>A material which renders an HSV rectangle.</p>
+  <div class="markdown level1 summary"><p>Disables this shortcut. This prevents it
+from being triggered.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Material hsvRect { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void Disable()</code></pre>
   </div>
 
 
 
 
 
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Material</span></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -282,30 +286,29 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
 
 
-  <a id="UILib_Resources_notification_" data-uid="UILib.Resources.notification*"></a>
+  <a id="UILib_Behaviours_Shortcut_Enable_" data-uid="UILib.Behaviours.Shortcut.Enable*"></a>
 
-  <h3 id="UILib_Resources_notification" data-uid="UILib.Resources.notification">
-  notification
+  <h3 id="UILib_Behaviours_Shortcut_Enable" data-uid="UILib.Behaviours.Shortcut.Enable">
+  Enable()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The default notification sound used by UILib.</p>
+  <div class="markdown level1 summary"><p>Enables this shortcut. This allows it
+to be triggered.</p>
+<p>By default shortcuts are enabled anyway,
+so you'd only need to use this if you
+have already disabled it.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AudioClip notification { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void Enable()</code></pre>
   </div>
 
 
 
 
 
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">AudioClip</span></dt>
-    <dd></dd>
-  </dl>
 
 
 
@@ -314,62 +317,31 @@ These resources are loaded from an <code>AssetBundle</code>.</p>
 
 
 
-  <a id="UILib_Resources_notificationError_" data-uid="UILib.Resources.notificationError*"></a>
+  <a id="UILib_Behaviours_Shortcut_SetShortcut_" data-uid="UILib.Behaviours.Shortcut.SetShortcut*"></a>
 
-  <h3 id="UILib_Resources_notificationError" data-uid="UILib.Resources.notificationError">
-  notificationError
+  <h3 id="UILib_Behaviours_Shortcut_SetShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__" data-uid="UILib.Behaviours.Shortcut.SetShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})">
+  SetShortcut(IList&lt;KeyCode&gt;)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The default error notification sound used by UILib.</p>
+  <div class="markdown level1 summary"><p>Sets a different shortcut to use instead.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static AudioClip notificationError { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetShortcut(IList&lt;KeyCode&gt; keys)</code></pre>
   </div>
 
-
-
-
-
-  <h4 class="section">Property Value</h4>
+  <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><span class="xref">AudioClip</span></dt>
-    <dd></dd>
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">KeyCode</span>&gt;</dt>
+    <dd><p>The new shortcut</p>
+</dd>
   </dl>
 
 
 
 
-
-
-
-
-  <a id="UILib_Resources_triangle_" data-uid="UILib.Resources.triangle*"></a>
-
-  <h3 id="UILib_Resources_triangle" data-uid="UILib.Resources.triangle">
-  triangle
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>A texture of a triangle.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Texture2D triangle { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">Texture2D</span></dt>
-    <dd></dd>
-  </dl>
 
 
 

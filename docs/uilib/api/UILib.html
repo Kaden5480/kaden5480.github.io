@@ -100,12 +100,20 @@ Classes
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Colors.html">Colors</a></dt>
+      <dd><p>A class for helping with generating colors
+using a variety of color representations.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="UILib.InputOverlay.html">InputOverlay</a></dt>
       <dd><p>An overlay which pops up to allow the user
 to enter a key.</p>
-<p>When working with UILib, you should really check
-if <a class="xref" href="UILib.InputOverlay.html#UILib_InputOverlay_waitingForInput">waitingForInput</a> is set before
-doing any other input handling in your mod.
+<p>If you're not taking advantage of UILib's
+<a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__">global</a> and
+<a class="xref" href="UILib.Overlay.html#UILib_Overlay_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__">local</a> shortcut system,
+then you should really check if <a class="xref" href="UILib.InputOverlay.html#UILib_InputOverlay_waitingForInput">waitingForInput</a>
+is set before doing any other input handling in your mod.
 This prevents some weirdness where your mod
 may trigger something while the input overlay
 is waiting for an input.</p>
@@ -156,11 +164,20 @@ Most of the time you'd want to use <a class="xref" href="UILib.UIComponent.html"
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="UILib.UIRoot.html">UIRoot</a></dt>
+      <dd><p>The root of UILib.
+This initializes audio, notifications, the input overlay, and
+handles window management.</p>
+<p>You should use <a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_onInit">onInit</a> to know when
+you can start using UILib. <code>onInit</code> invokes listeners
+once UILib has finished setting everything up internally.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="UILib.Window.html">Window</a></dt>
       <dd><p>A Window object. Like an <a class="xref" href="UILib.Overlay.html">Overlay</a> but more dynamic.</p>
 <p>This object is one of the fundamental building blocks of UILib.</p>
-<p>It supports being moved, resized, maximised, closed, moved
-on top of other windows.</p>
+<p>It supports being moved, resized, maximised, closed.</p>
 <p>It also has a specially configured <a class="xref" href="UILib.Components.ScrollView.html">ScrollView</a> built in.</p>
 </dd>
     </dl>
