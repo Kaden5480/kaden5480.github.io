@@ -128,6 +128,9 @@ to manage fading in/out <code>CanvasGroups</code>.</p>
     <dt>Inherited Members</dt>
     <dd>
     <div>
+      <a class="xref" href="UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_timeScale">Timer.timeScale</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_timer">Timer.timer</a>
     </div>
     <div>
@@ -144,6 +147,9 @@ to manage fading in/out <code>CanvasGroups</code>.</p>
     </div>
     <div>
       <a class="xref" href="UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_onEnd">Timer.onEnd</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_SetTimeScale_System_Single_">Timer.SetTimeScale(float)</a>
     </div>
     <div>
       <a class="xref" href="UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_StartTimer_System_Single_System_Single_">Timer.StartTimer(float, float)</a>
@@ -561,6 +567,38 @@ to manage fading in/out <code>CanvasGroups</code>.</p>
 </h2>
 
 
+  <a id="UILib_Behaviours_Fade_fadeTime_" data-uid="UILib.Behaviours.Fade.fadeTime*"></a>
+
+  <h3 id="UILib_Behaviours_Fade_fadeTime" data-uid="UILib.Behaviours.Fade.fadeTime">
+  fadeTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The currently set length of time fading should take.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float fadeTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="UILib_Behaviours_Fade_fadingIn_" data-uid="UILib.Behaviours.Fade.fadingIn*"></a>
 
   <h3 id="UILib_Behaviours_Fade_fadingIn" data-uid="UILib.Behaviours.Fade.fadingIn">
@@ -615,6 +653,70 @@ to manage fading in/out <code>CanvasGroups</code>.</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Fade_maxOpacity_" data-uid="UILib.Behaviours.Fade.maxOpacity*"></a>
+
+  <h3 id="UILib_Behaviours_Fade_maxOpacity" data-uid="UILib.Behaviours.Fade.maxOpacity">
+  maxOpacity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The currently set maximum opacity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float maxOpacity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_Fade_minOpacity_" data-uid="UILib.Behaviours.Fade.minOpacity*"></a>
+
+  <h3 id="UILib_Behaviours_Fade_minOpacity" data-uid="UILib.Behaviours.Fade.minOpacity">
+  minOpacity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The currently set minimum opacity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float minOpacity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
   </dl>
 
@@ -691,6 +793,38 @@ fading out has completed entirely.</p>
 
 
 
+  <a id="UILib_Behaviours_Fade_opacity_" data-uid="UILib.Behaviours.Fade.opacity*"></a>
+
+  <h3 id="UILib_Behaviours_Fade_opacity" data-uid="UILib.Behaviours.Fade.opacity">
+  opacity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The opacity the canvas groups are currently at.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float opacity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -702,7 +836,7 @@ fading out has completed entirely.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Add a <code>CanvasGroup</code> which should have
+  <div class="markdown level1 summary"><p>Adds a <code>CanvasGroup</code> which should have
 its <code>alpha</code> controlled by this behaviour.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -730,19 +864,25 @@ its <code>alpha</code> controlled by this behaviour.</p>
 
   <a id="UILib_Behaviours_Fade_FadeIn_" data-uid="UILib.Behaviours.Fade.FadeIn*"></a>
 
-  <h3 id="UILib_Behaviours_Fade_FadeIn" data-uid="UILib.Behaviours.Fade.FadeIn">
-  FadeIn()
+  <h3 id="UILib_Behaviours_Fade_FadeIn_System_Boolean_" data-uid="UILib.Behaviours.Fade.FadeIn(System.Boolean)">
+  FadeIn(bool)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Fade the <code>CanvasGroups</code> in.</p>
+  <div class="markdown level1 summary"><p>Fades the <code>CanvasGroups</code> in.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FadeIn()</code></pre>
+    <pre><code class="lang-csharp hljs">public void FadeIn(bool force = false)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force fading in instantly</p>
+</dd>
+  </dl>
 
 
 
@@ -757,19 +897,25 @@ its <code>alpha</code> controlled by this behaviour.</p>
 
   <a id="UILib_Behaviours_Fade_FadeOut_" data-uid="UILib.Behaviours.Fade.FadeOut*"></a>
 
-  <h3 id="UILib_Behaviours_Fade_FadeOut" data-uid="UILib.Behaviours.Fade.FadeOut">
-  FadeOut()
+  <h3 id="UILib_Behaviours_Fade_FadeOut_System_Boolean_" data-uid="UILib.Behaviours.Fade.FadeOut(System.Boolean)">
+  FadeOut(bool)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Fade the <code>CanvasGroups</code> out.</p>
+  <div class="markdown level1 summary"><p>Fades the <code>CanvasGroups</code> out.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void FadeOut()</code></pre>
+    <pre><code class="lang-csharp hljs">public void FadeOut(bool force = false)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force fading out instantly</p>
+</dd>
+  </dl>
 
 
 

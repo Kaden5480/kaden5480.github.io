@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ScrollView | poy-ui-lib </title>
+      <title>Class ColorField | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ScrollView | poy-ui-lib ">
+      <meta name="title" content="Class ColorField | poy-ui-lib ">
       
-      <meta name="description" content="A ScrollView. If content is larger than the ScrollView, ScrollBars will be enabled to allow scrolling through it. Vertical ScrollBars are always on by default.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Components.ScrollView">
+        <article data-uid="UILib.Components.ColorField">
 
 
 
-  <h1 id="UILib_Components_ScrollView" data-uid="UILib.Components.ScrollView" class="text-break">
-Class ScrollView  
+  <h1 id="UILib_Components_ColorField" data-uid="UILib.Components.ColorField" class="text-break">
+Class ColorField  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,15 +97,11 @@ Class ScrollView
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A ScrollView.</p>
-<p>If content is larger than the ScrollView, ScrollBars
-will be enabled to allow scrolling through it.</p>
-<p>Vertical ScrollBars are always on by default.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScrollView : UIComponent</code></pre>
+    <pre><code class="lang-csharp hljs">public class ColorField : Button</code></pre>
   </div>
 
 
@@ -117,7 +113,8 @@ will be enabled to allow scrolling through it.</p>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="UILib.UIObject.html">UIObject</a></div>
       <div><a class="xref" href="UILib.UIComponent.html">UIComponent</a></div>
-      <div><span class="xref">ScrollView</span></div>
+      <div><a class="xref" href="UILib.Components.Button.html">Button</a></div>
+      <div><span class="xref">ColorField</span></div>
     </dd>
   </dl>
 
@@ -126,6 +123,24 @@ will be enabled to allow scrolling through it.</p>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_button">Button.button</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_onClick">Button.onClick</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_SetThisTheme_UILib_Theme_">Button.SetThisTheme(Theme)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_SetBackground_UnityEngine_Texture2D_">Button.SetBackground(Texture2D)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_SetTexture_UnityEngine_Texture2D_">Button.SetTexture(Texture2D)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Components.Button.html#UILib_Components_Button_SetText_System_String_">Button.SetText(string)</a>
+    </div>
     <div>
       <a class="xref" href="UILib.UIComponent.html#UILib_UIComponent_ClampString_System_String_System_Int32_System_Boolean_">UIComponent.ClampString(string, int, bool)</a>
     </div>
@@ -158,9 +173,6 @@ will be enabled to allow scrolling through it.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onPointerExit">UIObject.onPointerExit</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onClick">UIObject.onClick</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onDoubleClick">UIObject.onDoubleClick</a>
@@ -200,6 +212,9 @@ will be enabled to allow scrolling through it.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Hide">UIObject.Hide()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">UIObject.SetContent(UIComponent)</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">UIObject.SetTheme(Theme)</a>
@@ -296,25 +311,25 @@ will be enabled to allow scrolling through it.</p>
 </h2>
 
 
-  <a id="UILib_Components_ScrollView__ctor_" data-uid="UILib.Components.ScrollView.#ctor*"></a>
+  <a id="UILib_Components_ColorField__ctor_" data-uid="UILib.Components.ColorField.#ctor*"></a>
 
-  <h3 id="UILib_Components_ScrollView__ctor_UILib_Components_ScrollType_" data-uid="UILib.Components.ScrollView.#ctor(UILib.Components.ScrollType)">
-  ScrollView(ScrollType)
+  <h3 id="UILib_Components_ColorField__ctor_UnityEngine_Color_" data-uid="UILib.Components.ColorField.#ctor(UnityEngine.Color)">
+  ColorField(Color)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a ScrollView.</p>
+  <div class="markdown level1 summary"><p>Initializes this color field.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScrollView(ScrollType scrollType = ScrollType.Vertical | ScrollType.Horizontal)</code></pre>
+    <pre><code class="lang-csharp hljs">public ColorField(Color color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>scrollType</code> <a class="xref" href="UILib.Components.ScrollType.html">ScrollType</a></dt>
-    <dd><p>The types of scrolling to support</p>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd><p>The default color</p>
 </dd>
   </dl>
 
@@ -333,19 +348,19 @@ will be enabled to allow scrolling through it.</p>
 </h2>
 
 
-  <a id="UILib_Components_ScrollView_background_" data-uid="UILib.Components.ScrollView.background*"></a>
+  <a id="UILib_Components_ColorField_allowOpacity_" data-uid="UILib.Components.ColorField.allowOpacity*"></a>
 
-  <h3 id="UILib_Components_ScrollView_background" data-uid="UILib.Components.ScrollView.background">
-  background
+  <h3 id="UILib_Components_ColorField_allowOpacity" data-uid="UILib.Components.ColorField.allowOpacity">
+  allowOpacity
   
   </h3>
 
-  <div class="markdown level1 summary"><p>This scroll view's background.</p>
+  <div class="markdown level1 summary"><p>Whether the opacity of this color field can be changed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Image background { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool allowOpacity { get; }</code></pre>
   </div>
 
 
@@ -354,7 +369,7 @@ will be enabled to allow scrolling through it.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">Image</span></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 
@@ -365,19 +380,20 @@ will be enabled to allow scrolling through it.</p>
 
 
 
-  <a id="UILib_Components_ScrollView_scrollBarH_" data-uid="UILib.Components.ScrollView.scrollBarH*"></a>
+  <a id="UILib_Components_ColorField_onSubmit_" data-uid="UILib.Components.ColorField.onSubmit*"></a>
 
-  <h3 id="UILib_Components_ScrollView_scrollBarH" data-uid="UILib.Components.ScrollView.scrollBarH">
-  scrollBarH
+  <h3 id="UILib_Components_ColorField_onSubmit" data-uid="UILib.Components.ColorField.onSubmit">
+  onSubmit
   
   </h3>
 
-  <div class="markdown level1 summary"><p>This scroll view's horizontal <a class="xref" href="UILib.Components.ScrollBar.html">ScrollBar</a>.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners when the user has finished
+selecting a color.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScrollBar scrollBarH { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueEvent&lt;Color&gt; onSubmit { get; }</code></pre>
   </div>
 
 
@@ -386,7 +402,7 @@ will be enabled to allow scrolling through it.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Components.ScrollBar.html">ScrollBar</a></dt>
+    <dt><a class="xref" href="UILib.Behaviours.ValueEvent-1.html">ValueEvent</a>&lt;<span class="xref">Color</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -397,19 +413,19 @@ will be enabled to allow scrolling through it.</p>
 
 
 
-  <a id="UILib_Components_ScrollView_scrollBarV_" data-uid="UILib.Components.ScrollView.scrollBarV*"></a>
+  <a id="UILib_Components_ColorField_onValueChanged_" data-uid="UILib.Components.ColorField.onValueChanged*"></a>
 
-  <h3 id="UILib_Components_ScrollView_scrollBarV" data-uid="UILib.Components.ScrollView.scrollBarV">
-  scrollBarV
+  <h3 id="UILib_Components_ColorField_onValueChanged" data-uid="UILib.Components.ColorField.onValueChanged">
+  onValueChanged
   
   </h3>
 
-  <div class="markdown level1 summary"><p>This scroll view's vertical <a class="xref" href="UILib.Components.ScrollBar.html">ScrollBar</a>.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners when the color is changed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ScrollBar scrollBarV { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueEvent&lt;Color&gt; onValueChanged { get; }</code></pre>
   </div>
 
 
@@ -418,7 +434,7 @@ will be enabled to allow scrolling through it.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Components.ScrollBar.html">ScrollBar</a></dt>
+    <dt><a class="xref" href="UILib.Behaviours.ValueEvent-1.html">ValueEvent</a>&lt;<span class="xref">Color</span>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -429,19 +445,19 @@ will be enabled to allow scrolling through it.</p>
 
 
 
-  <a id="UILib_Components_ScrollView_scrollContent_" data-uid="UILib.Components.ScrollView.scrollContent*"></a>
+  <a id="UILib_Components_ColorField_value_" data-uid="UILib.Components.ColorField.value*"></a>
 
-  <h3 id="UILib_Components_ScrollView_scrollContent" data-uid="UILib.Components.ScrollView.scrollContent">
-  scrollContent
+  <h3 id="UILib_Components_ColorField_value" data-uid="UILib.Components.ColorField.value">
+  value
   
   </h3>
 
-  <div class="markdown level1 summary"><p>This scroll view's content.</p>
+  <div class="markdown level1 summary"><p>The current value of the color field.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Area scrollContent { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Color value { get; }</code></pre>
   </div>
 
 
@@ -450,39 +466,7 @@ will be enabled to allow scrolling through it.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Components.Area.html">Area</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Components_ScrollView_viewport_" data-uid="UILib.Components.ScrollView.viewport*"></a>
-
-  <h3 id="UILib_Components_ScrollView_viewport" data-uid="UILib.Components.ScrollView.viewport">
-  viewport
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>This scroll view's viewport.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Area viewport { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="UILib.Components.Area.html">Area</a></dt>
+    <dt><span class="xref">Color</span></dt>
     <dd></dd>
   </dl>
 
@@ -497,82 +481,26 @@ will be enabled to allow scrolling through it.</p>
 </h2>
 
 
-  <a id="UILib_Components_ScrollView_ScrollToBottom_" data-uid="UILib.Components.ScrollView.ScrollToBottom*"></a>
+  <a id="UILib_Components_ColorField_AllowOpacity_" data-uid="UILib.Components.ColorField.AllowOpacity*"></a>
 
-  <h3 id="UILib_Components_ScrollView_ScrollToBottom" data-uid="UILib.Components.ScrollView.ScrollToBottom">
-  ScrollToBottom()
+  <h3 id="UILib_Components_ColorField_AllowOpacity_System_Boolean_" data-uid="UILib.Components.ColorField.AllowOpacity(System.Boolean)">
+  AllowOpacity(bool)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Scroll to the bottom of this scroll view.</p>
+  <div class="markdown level1 summary"><p>Sets whether changing the opacity of the color is allowed.
+By default the opacity can be changed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ScrollToBottom()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Components_ScrollView_ScrollToTop_" data-uid="UILib.Components.ScrollView.ScrollToTop*"></a>
-
-  <h3 id="UILib_Components_ScrollView_ScrollToTop" data-uid="UILib.Components.ScrollView.ScrollToTop">
-  ScrollToTop()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Scroll to the top of this scroll view.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ScrollToTop()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Components_ScrollView_SetAllowedScroll_" data-uid="UILib.Components.ScrollView.SetAllowedScroll*"></a>
-
-  <h3 id="UILib_Components_ScrollView_SetAllowedScroll_System_Boolean_System_Boolean_" data-uid="UILib.Components.ScrollView.SetAllowedScroll(System.Boolean,System.Boolean)">
-  SetAllowedScroll(bool, bool)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Changes which types of scrolling are allowed.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAllowedScroll(bool horizontal = true, bool vertical = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AllowOpacity(bool allowed)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>horizontal</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether horizontal scrolling should be allowed</p>
-</dd>
-    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether vertical scrolling should be allowed</p>
+    <dt><code>allowed</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether changing opacity is allowed</p>
 </dd>
   </dl>
 
@@ -587,58 +515,25 @@ will be enabled to allow scrolling through it.</p>
 
 
 
-  <a id="UILib_Components_ScrollView_SetContent_" data-uid="UILib.Components.ScrollView.SetContent*"></a>
+  <a id="UILib_Components_ColorField_SetValue_" data-uid="UILib.Components.ColorField.SetValue*"></a>
 
-  <h3 id="UILib_Components_ScrollView_SetContent_UILib_UIComponent_" data-uid="UILib.Components.ScrollView.SetContent(UILib.UIComponent)">
-  SetContent(UIComponent)
+  <h3 id="UILib_Components_ColorField_SetValue_UnityEngine_Color_" data-uid="UILib.Components.ColorField.SetValue(UnityEngine.Color)">
+  SetValue(Color)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Sets a different component to be the content.</p>
+  <div class="markdown level1 summary"><p>Sets the color of this field.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void SetContent(UIComponent content)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetValue(Color color)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>content</code> <a class="xref" href="UILib.UIComponent.html">UIComponent</a></dt>
-    <dd><p>The component which should be the content instead</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Components_ScrollView_SetThisTheme_" data-uid="UILib.Components.ScrollView.SetThisTheme*"></a>
-
-  <h3 id="UILib_Components_ScrollView_SetThisTheme_UILib_Theme_" data-uid="UILib.Components.ScrollView.SetThisTheme(UILib.Theme)">
-  SetThisTheme(Theme)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Allows setting the theme of this scroll view.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void SetThisTheme(Theme theme)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>theme</code> <a class="xref" href="UILib.Theme.html">Theme</a></dt>
-    <dd><p>The theme to apply</p>
+    <dt><code>color</code> <span class="xref">Color</span></dt>
+    <dd><p>The color to set</p>
 </dd>
   </dl>
 

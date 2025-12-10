@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class InputOverlay | poy-ui-lib ">
       
-      <meta name="description" content="An overlay which pops up to allow the user to enter a key. If you&#39;re not taking advantage of UILib&#39;s  and  shortcut system, then you should really check if  is set before doing any other input handling in your mod. This prevents some weirdness where your mod may trigger something while the input overlay is waiting for an input.">
+      <meta name="description" content="An overlay which pops up to allow the user to enter a key. If you&#39;re not taking advantage of UILib&#39;s  and  shortcut system, then you should really check if  is set before doing any other input handling in your mod. This prevents some weirdness where your mod may trigger something while the input overlay is waiting for an input. Unfortunately, just checking waitingForInput may not be enough. There are some other instances where inputs shouldn&#39;t be read, but could be. So it is highly suggested to just stick with UILib&#39;s shortcut system.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -107,6 +107,11 @@ is set before doing any other input handling in your mod.
 This prevents some weirdness where your mod
 may trigger something while the input overlay
 is waiting for an input.</p>
+<p>Unfortunately, just checking <code>waitingForInput</code> may
+not be enough. There are some other instances
+where inputs shouldn't be read, but could be.
+So it is highly suggested to just stick with
+UILib's shortcut system.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -132,6 +137,9 @@ is waiting for an input.</p>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_sortable">Overlay.sortable</a>
+    </div>
     <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_onFocus">Overlay.onFocus</a>
     </div>
@@ -161,6 +169,9 @@ is waiting for an input.</p>
     </div>
     <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_Disable">Overlay.Disable()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetSortable_System_Boolean_">Overlay.SetSortable(bool)</a>
     </div>
     <div>
       <a class="xref" href="UILib.Overlay.html#UILib_Overlay_BringToFront">Overlay.BringToFront()</a>
@@ -380,7 +391,7 @@ overlays.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void SetThisTheme(Theme theme)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void SetThisTheme(Theme theme)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>

@@ -337,51 +337,19 @@ a user can edit.</p>
 </h2>
 
 
-  <a id="UILib_Components_TextField_inputField_" data-uid="UILib.Components.TextField.inputField*"></a>
+  <a id="UILib_Components_TextField_onCancel_" data-uid="UILib.Components.TextField.onCancel*"></a>
 
-  <h3 id="UILib_Components_TextField_inputField" data-uid="UILib.Components.TextField.inputField">
-  inputField
+  <h3 id="UILib_Components_TextField_onCancel" data-uid="UILib.Components.TextField.onCancel">
+  onCancel
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The underlying Unity <code>InputField</code>.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners when the user cancels entering text.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InputField inputField { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">InputField</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Components_TextField_onDeselect_" data-uid="UILib.Components.TextField.onDeselect*"></a>
-
-  <h3 id="UILib_Components_TextField_onDeselect" data-uid="UILib.Components.TextField.onDeselect">
-  onDeselect
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes listeners when this text field is deselected.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onDeselect { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent onCancel { get; }</code></pre>
   </div>
 
 
@@ -401,20 +369,22 @@ a user can edit.</p>
 
 
 
-  <a id="UILib_Components_TextField_onEndEdit_" data-uid="UILib.Components.TextField.onEndEdit*"></a>
+  <a id="UILib_Components_TextField_onInputChanged_" data-uid="UILib.Components.TextField.onInputChanged*"></a>
 
-  <h3 id="UILib_Components_TextField_onEndEdit" data-uid="UILib.Components.TextField.onEndEdit">
-  onEndEdit
+  <h3 id="UILib_Components_TextField_onInputChanged" data-uid="UILib.Components.TextField.onInputChanged">
+  onInputChanged
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners with the current value stored
-in the text field when the user stops editing it.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners when the user
+starts typing something in the input field.</p>
+<p>The value listeners receive is the text the user is typing
+not the value which is actually stored in this text field.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueEvent&lt;string&gt; onEndEdit { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueEvent&lt;string&gt; onInputChanged { get; }</code></pre>
   </div>
 
 
@@ -434,19 +404,20 @@ in the text field when the user stops editing it.</p>
 
 
 
-  <a id="UILib_Components_TextField_onSelect_" data-uid="UILib.Components.TextField.onSelect*"></a>
+  <a id="UILib_Components_TextField_onInvalidSubmit_" data-uid="UILib.Components.TextField.onInvalidSubmit*"></a>
 
-  <h3 id="UILib_Components_TextField_onSelect" data-uid="UILib.Components.TextField.onSelect">
-  onSelect
+  <h3 id="UILib_Components_TextField_onInvalidSubmit" data-uid="UILib.Components.TextField.onInvalidSubmit">
+  onInvalidSubmit
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners when this text field is selected.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners with the user's input when they
+submit something invalid.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onSelect { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueEvent&lt;string&gt; onInvalidSubmit { get; }</code></pre>
   </div>
 
 
@@ -455,7 +426,7 @@ in the text field when the user stops editing it.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
+    <dt><a class="xref" href="UILib.Behaviours.ValueEvent-1.html">ValueEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -466,20 +437,23 @@ in the text field when the user stops editing it.</p>
 
 
 
-  <a id="UILib_Components_TextField_onSubmit_" data-uid="UILib.Components.TextField.onSubmit*"></a>
+  <a id="UILib_Components_TextField_onValidSubmit_" data-uid="UILib.Components.TextField.onValidSubmit*"></a>
 
-  <h3 id="UILib_Components_TextField_onSubmit" data-uid="UILib.Components.TextField.onSubmit">
-  onSubmit
+  <h3 id="UILib_Components_TextField_onValidSubmit" data-uid="UILib.Components.TextField.onValidSubmit">
+  onValidSubmit
   
   </h3>
 
   <div class="markdown level1 summary"><p>Invokes listeners with the current value stored
 when the user submits it.</p>
+<p>The value listeners receive is the value stored in this text field.</p>
+<p>If you have set a predicate, this only triggers if
+the user's input was valid.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueEvent&lt;string&gt; onSubmit { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueEvent&lt;string&gt; onValidSubmit { get; }</code></pre>
   </div>
 
 
@@ -499,20 +473,21 @@ when the user submits it.</p>
 
 
 
-  <a id="UILib_Components_TextField_onValueChanged_" data-uid="UILib.Components.TextField.onValueChanged*"></a>
+  <a id="UILib_Components_TextField_retainFocus_" data-uid="UILib.Components.TextField.retainFocus*"></a>
 
-  <h3 id="UILib_Components_TextField_onValueChanged" data-uid="UILib.Components.TextField.onValueChanged">
-  onValueChanged
+  <h3 id="UILib_Components_TextField_retainFocus" data-uid="UILib.Components.TextField.retainFocus">
+  retainFocus
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners with the current value stored
-in the text field whenever it's updated.</p>
+  <div class="markdown level1 summary"><p>Whether this text field will retain its focus
+after the user submits an input.</p>
+<p>False by default.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueEvent&lt;string&gt; onValueChanged { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool retainFocus { get; }</code></pre>
   </div>
 
 
@@ -521,7 +496,108 @@ in the text field whenever it's updated.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Behaviours.ValueEvent-1.html">ValueEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_retainMode_" data-uid="UILib.Components.TextField.retainMode*"></a>
+
+  <h3 id="UILib_Components_TextField_retainMode" data-uid="UILib.Components.TextField.retainMode">
+  retainMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>In which extra cases will this text field retain the
+current user input.</p>
+<p>The input will always be retained on a valid submit.</p>
+<p>Default: None</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextField.RetainMode retainMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.TextField.html">TextField</a>.<a class="xref" href="UILib.Components.TextField.RetainMode.html">RetainMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_submitMode_" data-uid="UILib.Components.TextField.submitMode*"></a>
+
+  <h3 id="UILib_Components_TextField_submitMode" data-uid="UILib.Components.TextField.submitMode">
+  submitMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Which extra interactions with the text field will
+count as a submit.</p>
+<p>Default: None</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextField.SubmitMode submitMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.TextField.html">TextField</a>.<a class="xref" href="UILib.Components.TextField.SubmitMode.html">SubmitMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_userInput_" data-uid="UILib.Components.TextField.userInput*"></a>
+
+  <h3 id="UILib_Components_TextField_userInput" data-uid="UILib.Components.TextField.userInput">
+  userInput
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The current user input (displayed text).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string userInput { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd></dd>
   </dl>
 
@@ -539,7 +615,8 @@ in the text field whenever it's updated.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The current value stored in this text field.</p>
+  <div class="markdown level1 summary"><p>The current value stored in this text field.
+This only updates whenever the user submits a valid input.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -601,6 +678,175 @@ in the text field whenever it's updated.</p>
 
 
 
+  <a id="UILib_Components_TextField_SetPredicate_" data-uid="UILib.Components.TextField.SetPredicate*"></a>
+
+  <h3 id="UILib_Components_TextField_SetPredicate_System_Func_System_String_System_Boolean__" data-uid="UILib.Components.TextField.SetPredicate(System.Func{System.String,System.Boolean})">
+  SetPredicate(Func&lt;string, bool&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the predicate to use for validating
+the user's input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPredicate(Func&lt;string, bool&gt; predicate)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>predicate</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>The predicate to use</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_SetRetainFocus_" data-uid="UILib.Components.TextField.SetRetainFocus*"></a>
+
+  <h3 id="UILib_Components_TextField_SetRetainFocus_System_Boolean_" data-uid="UILib.Components.TextField.SetRetainFocus(System.Boolean)">
+  SetRetainFocus(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets whether this text field should retain focus.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRetainFocus(bool retainFocus)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>retainFocus</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to retain focus</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_SetRetainMode_" data-uid="UILib.Components.TextField.SetRetainMode*"></a>
+
+  <h3 id="UILib_Components_TextField_SetRetainMode_UILib_Components_TextField_RetainMode_" data-uid="UILib.Components.TextField.SetRetainMode(UILib.Components.TextField.RetainMode)">
+  SetRetainMode(RetainMode)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets in which cases this text field will retain
+the current user input.</p>
+<p>The input will always be retained on a valid submit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRetainMode(TextField.RetainMode retainMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>retainMode</code> <a class="xref" href="UILib.Components.TextField.html">TextField</a>.<a class="xref" href="UILib.Components.TextField.RetainMode.html">RetainMode</a></dt>
+    <dd><p>Which cases the input should be retained</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_SetSubmitMode_" data-uid="UILib.Components.TextField.SetSubmitMode*"></a>
+
+  <h3 id="UILib_Components_TextField_SetSubmitMode_UILib_Components_TextField_SubmitMode_" data-uid="UILib.Components.TextField.SetSubmitMode(UILib.Components.TextField.SubmitMode)">
+  SetSubmitMode(SubmitMode)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets which interactions with this text field
+will count as a submit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSubmitMode(TextField.SubmitMode submitMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>submitMode</code> <a class="xref" href="UILib.Components.TextField.html">TextField</a>.<a class="xref" href="UILib.Components.TextField.SubmitMode.html">SubmitMode</a></dt>
+    <dd><p>Which cases will count as a submit</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_SetText_" data-uid="UILib.Components.TextField.SetText*"></a>
+
+  <h3 id="UILib_Components_TextField_SetText_System_String_" data-uid="UILib.Components.TextField.SetText(System.String)">
+  SetText(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the text displayed by this text field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetText(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The text to display</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="UILib_Components_TextField_SetThisTheme_" data-uid="UILib.Components.TextField.SetThisTheme*"></a>
 
   <h3 id="UILib_Components_TextField_SetThisTheme_UILib_Theme_" data-uid="UILib.Components.TextField.SetThisTheme(UILib.Theme)">
@@ -642,7 +888,8 @@ in the text field whenever it's updated.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets the current value stored in this
-text field.</p>
+text field. Updates the internal value
+and the text displayed in the input field.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -653,7 +900,8 @@ text field.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The value to set</p>
+</dd>
   </dl>
 
 

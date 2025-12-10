@@ -86,12 +86,15 @@ references:
   isSpec: "True"
   fullName: UILib.Behaviours.Fade.Add
   nameWithType: Fade.Add
-- uid: UILib.Behaviours.Fade.FadeIn
-  name: FadeIn()
-  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_FadeIn
-  commentId: M:UILib.Behaviours.Fade.FadeIn
-  fullName: UILib.Behaviours.Fade.FadeIn()
-  nameWithType: Fade.FadeIn()
+- uid: UILib.Behaviours.Fade.FadeIn(System.Boolean)
+  name: FadeIn(bool)
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_FadeIn_System_Boolean_
+  commentId: M:UILib.Behaviours.Fade.FadeIn(System.Boolean)
+  name.vb: FadeIn(Boolean)
+  fullName: UILib.Behaviours.Fade.FadeIn(bool)
+  fullName.vb: UILib.Behaviours.Fade.FadeIn(Boolean)
+  nameWithType: Fade.FadeIn(bool)
+  nameWithType.vb: Fade.FadeIn(Boolean)
 - uid: UILib.Behaviours.Fade.FadeIn*
   name: FadeIn
   href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_FadeIn_
@@ -99,12 +102,15 @@ references:
   isSpec: "True"
   fullName: UILib.Behaviours.Fade.FadeIn
   nameWithType: Fade.FadeIn
-- uid: UILib.Behaviours.Fade.FadeOut
-  name: FadeOut()
-  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_FadeOut
-  commentId: M:UILib.Behaviours.Fade.FadeOut
-  fullName: UILib.Behaviours.Fade.FadeOut()
-  nameWithType: Fade.FadeOut()
+- uid: UILib.Behaviours.Fade.FadeOut(System.Boolean)
+  name: FadeOut(bool)
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_FadeOut_System_Boolean_
+  commentId: M:UILib.Behaviours.Fade.FadeOut(System.Boolean)
+  name.vb: FadeOut(Boolean)
+  fullName: UILib.Behaviours.Fade.FadeOut(bool)
+  fullName.vb: UILib.Behaviours.Fade.FadeOut(Boolean)
+  nameWithType: Fade.FadeOut(bool)
+  nameWithType.vb: Fade.FadeOut(Boolean)
 - uid: UILib.Behaviours.Fade.FadeOut*
   name: FadeOut
   href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_FadeOut_
@@ -144,6 +150,19 @@ references:
   isSpec: "True"
   fullName: UILib.Behaviours.Fade.SetOpacities
   nameWithType: Fade.SetOpacities
+- uid: UILib.Behaviours.Fade.fadeTime
+  name: fadeTime
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_fadeTime
+  commentId: P:UILib.Behaviours.Fade.fadeTime
+  fullName: UILib.Behaviours.Fade.fadeTime
+  nameWithType: Fade.fadeTime
+- uid: UILib.Behaviours.Fade.fadeTime*
+  name: fadeTime
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_fadeTime_
+  commentId: Overload:UILib.Behaviours.Fade.fadeTime
+  isSpec: "True"
+  fullName: UILib.Behaviours.Fade.fadeTime
+  nameWithType: Fade.fadeTime
 - uid: UILib.Behaviours.Fade.fadingIn
   name: fadingIn
   href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_fadingIn
@@ -170,6 +189,32 @@ references:
   isSpec: "True"
   fullName: UILib.Behaviours.Fade.fadingOut
   nameWithType: Fade.fadingOut
+- uid: UILib.Behaviours.Fade.maxOpacity
+  name: maxOpacity
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_maxOpacity
+  commentId: P:UILib.Behaviours.Fade.maxOpacity
+  fullName: UILib.Behaviours.Fade.maxOpacity
+  nameWithType: Fade.maxOpacity
+- uid: UILib.Behaviours.Fade.maxOpacity*
+  name: maxOpacity
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_maxOpacity_
+  commentId: Overload:UILib.Behaviours.Fade.maxOpacity
+  isSpec: "True"
+  fullName: UILib.Behaviours.Fade.maxOpacity
+  nameWithType: Fade.maxOpacity
+- uid: UILib.Behaviours.Fade.minOpacity
+  name: minOpacity
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_minOpacity
+  commentId: P:UILib.Behaviours.Fade.minOpacity
+  fullName: UILib.Behaviours.Fade.minOpacity
+  nameWithType: Fade.minOpacity
+- uid: UILib.Behaviours.Fade.minOpacity*
+  name: minOpacity
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_minOpacity_
+  commentId: Overload:UILib.Behaviours.Fade.minOpacity
+  isSpec: "True"
+  fullName: UILib.Behaviours.Fade.minOpacity
+  nameWithType: Fade.minOpacity
 - uid: UILib.Behaviours.Fade.onFadeIn
   name: onFadeIn
   href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_onFadeIn
@@ -196,6 +241,25 @@ references:
   isSpec: "True"
   fullName: UILib.Behaviours.Fade.onFadeOut
   nameWithType: Fade.onFadeOut
+- uid: UILib.Behaviours.Fade.opacity
+  name: opacity
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_opacity
+  commentId: P:UILib.Behaviours.Fade.opacity
+  fullName: UILib.Behaviours.Fade.opacity
+  nameWithType: Fade.opacity
+- uid: UILib.Behaviours.Fade.opacity*
+  name: opacity
+  href: api/UILib.Behaviours.Fade.html#UILib_Behaviours_Fade_opacity_
+  commentId: Overload:UILib.Behaviours.Fade.opacity
+  isSpec: "True"
+  fullName: UILib.Behaviours.Fade.opacity
+  nameWithType: Fade.opacity
+- uid: UILib.Behaviours.MouseEvent
+  name: MouseEvent
+  href: api/UILib.Behaviours.MouseEvent.html
+  commentId: T:UILib.Behaviours.MouseEvent
+  fullName: UILib.Behaviours.MouseEvent
+  nameWithType: MouseEvent
 - uid: UILib.Behaviours.Shortcut
   name: Shortcut
   href: api/UILib.Behaviours.Shortcut.html
@@ -318,6 +382,22 @@ references:
   isSpec: "True"
   fullName: UILib.Behaviours.Timer.ReverseTimer
   nameWithType: Timer.ReverseTimer
+- uid: UILib.Behaviours.Timer.SetTimeScale(System.Single)
+  name: SetTimeScale(float)
+  href: api/UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_SetTimeScale_System_Single_
+  commentId: M:UILib.Behaviours.Timer.SetTimeScale(System.Single)
+  name.vb: SetTimeScale(Single)
+  fullName: UILib.Behaviours.Timer.SetTimeScale(float)
+  fullName.vb: UILib.Behaviours.Timer.SetTimeScale(Single)
+  nameWithType: Timer.SetTimeScale(float)
+  nameWithType.vb: Timer.SetTimeScale(Single)
+- uid: UILib.Behaviours.Timer.SetTimeScale*
+  name: SetTimeScale
+  href: api/UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_SetTimeScale_
+  commentId: Overload:UILib.Behaviours.Timer.SetTimeScale
+  isSpec: "True"
+  fullName: UILib.Behaviours.Timer.SetTimeScale
+  nameWithType: Timer.SetTimeScale
 - uid: UILib.Behaviours.Timer.StartTimer(System.Single,System.Single)
   name: StartTimer(float, float)
   href: api/UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_StartTimer_System_Single_System_Single_
@@ -412,6 +492,19 @@ references:
   isSpec: "True"
   fullName: UILib.Behaviours.Timer.running
   nameWithType: Timer.running
+- uid: UILib.Behaviours.Timer.timeScale
+  name: timeScale
+  href: api/UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_timeScale
+  commentId: P:UILib.Behaviours.Timer.timeScale
+  fullName: UILib.Behaviours.Timer.timeScale
+  nameWithType: Timer.timeScale
+- uid: UILib.Behaviours.Timer.timeScale*
+  name: timeScale
+  href: api/UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_timeScale_
+  commentId: Overload:UILib.Behaviours.Timer.timeScale
+  isSpec: "True"
+  fullName: UILib.Behaviours.Timer.timeScale
+  nameWithType: Timer.timeScale
 - uid: UILib.Behaviours.Timer.timer
   name: timer
   href: api/UILib.Behaviours.Timer.html#UILib_Behaviours_Timer_timer
@@ -536,15 +629,15 @@ references:
   isSpec: "True"
   fullName: UILib.Colors.HexA
   nameWithType: Colors.HexA
-- uid: UILib.Colors.RGB(System.Int32,System.Int32,System.Int32)
-  name: RGB(int, int, int)
-  href: api/UILib.Colors.html#UILib_Colors_RGB_System_Int32_System_Int32_System_Int32_
-  commentId: M:UILib.Colors.RGB(System.Int32,System.Int32,System.Int32)
-  name.vb: RGB(Integer, Integer, Integer)
-  fullName: UILib.Colors.RGB(int, int, int)
-  fullName.vb: UILib.Colors.RGB(Integer, Integer, Integer)
-  nameWithType: Colors.RGB(int, int, int)
-  nameWithType.vb: Colors.RGB(Integer, Integer, Integer)
+- uid: UILib.Colors.RGB(System.Single,System.Single,System.Single)
+  name: RGB(float, float, float)
+  href: api/UILib.Colors.html#UILib_Colors_RGB_System_Single_System_Single_System_Single_
+  commentId: M:UILib.Colors.RGB(System.Single,System.Single,System.Single)
+  name.vb: RGB(Single, Single, Single)
+  fullName: UILib.Colors.RGB(float, float, float)
+  fullName.vb: UILib.Colors.RGB(Single, Single, Single)
+  nameWithType: Colors.RGB(float, float, float)
+  nameWithType.vb: Colors.RGB(Single, Single, Single)
 - uid: UILib.Colors.RGB*
   name: RGB
   href: api/UILib.Colors.html#UILib_Colors_RGB_
@@ -552,15 +645,15 @@ references:
   isSpec: "True"
   fullName: UILib.Colors.RGB
   nameWithType: Colors.RGB
-- uid: UILib.Colors.RGBA(System.Int32,System.Int32,System.Int32,System.Int32)
-  name: RGBA(int, int, int, int)
-  href: api/UILib.Colors.html#UILib_Colors_RGBA_System_Int32_System_Int32_System_Int32_System_Int32_
-  commentId: M:UILib.Colors.RGBA(System.Int32,System.Int32,System.Int32,System.Int32)
-  name.vb: RGBA(Integer, Integer, Integer, Integer)
-  fullName: UILib.Colors.RGBA(int, int, int, int)
-  fullName.vb: UILib.Colors.RGBA(Integer, Integer, Integer, Integer)
-  nameWithType: Colors.RGBA(int, int, int, int)
-  nameWithType.vb: Colors.RGBA(Integer, Integer, Integer, Integer)
+- uid: UILib.Colors.RGBA(System.Single,System.Single,System.Single,System.Single)
+  name: RGBA(float, float, float, float)
+  href: api/UILib.Colors.html#UILib_Colors_RGBA_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:UILib.Colors.RGBA(System.Single,System.Single,System.Single,System.Single)
+  name.vb: RGBA(Single, Single, Single, Single)
+  fullName: UILib.Colors.RGBA(float, float, float, float)
+  fullName.vb: UILib.Colors.RGBA(Single, Single, Single, Single)
+  nameWithType: Colors.RGBA(float, float, float, float)
+  nameWithType.vb: Colors.RGBA(Single, Single, Single, Single)
 - uid: UILib.Colors.RGBA*
   name: RGBA
   href: api/UILib.Colors.html#UILib_Colors_RGBA_
@@ -568,6 +661,70 @@ references:
   isSpec: "True"
   fullName: UILib.Colors.RGBA
   nameWithType: Colors.RGBA
+- uid: UILib.Colors.RGBAToHex(System.Int32,System.Int32,System.Int32,System.Int32)
+  name: RGBAToHex(int, int, int, int)
+  href: api/UILib.Colors.html#UILib_Colors_RGBAToHex_System_Int32_System_Int32_System_Int32_System_Int32_
+  commentId: M:UILib.Colors.RGBAToHex(System.Int32,System.Int32,System.Int32,System.Int32)
+  name.vb: RGBAToHex(Integer, Integer, Integer, Integer)
+  fullName: UILib.Colors.RGBAToHex(int, int, int, int)
+  fullName.vb: UILib.Colors.RGBAToHex(Integer, Integer, Integer, Integer)
+  nameWithType: Colors.RGBAToHex(int, int, int, int)
+  nameWithType.vb: Colors.RGBAToHex(Integer, Integer, Integer, Integer)
+- uid: UILib.Colors.RGBAToHex*
+  name: RGBAToHex
+  href: api/UILib.Colors.html#UILib_Colors_RGBAToHex_
+  commentId: Overload:UILib.Colors.RGBAToHex
+  isSpec: "True"
+  fullName: UILib.Colors.RGBAToHex
+  nameWithType: Colors.RGBAToHex
+- uid: UILib.Colors.RGBToHSL(System.Single,System.Single,System.Single)
+  name: RGBToHSL(float, float, float)
+  href: api/UILib.Colors.html#UILib_Colors_RGBToHSL_System_Single_System_Single_System_Single_
+  commentId: M:UILib.Colors.RGBToHSL(System.Single,System.Single,System.Single)
+  name.vb: RGBToHSL(Single, Single, Single)
+  fullName: UILib.Colors.RGBToHSL(float, float, float)
+  fullName.vb: UILib.Colors.RGBToHSL(Single, Single, Single)
+  nameWithType: Colors.RGBToHSL(float, float, float)
+  nameWithType.vb: Colors.RGBToHSL(Single, Single, Single)
+- uid: UILib.Colors.RGBToHSL*
+  name: RGBToHSL
+  href: api/UILib.Colors.html#UILib_Colors_RGBToHSL_
+  commentId: Overload:UILib.Colors.RGBToHSL
+  isSpec: "True"
+  fullName: UILib.Colors.RGBToHSL
+  nameWithType: Colors.RGBToHSL
+- uid: UILib.Colors.RGBToHSV(System.Single,System.Single,System.Single)
+  name: RGBToHSV(float, float, float)
+  href: api/UILib.Colors.html#UILib_Colors_RGBToHSV_System_Single_System_Single_System_Single_
+  commentId: M:UILib.Colors.RGBToHSV(System.Single,System.Single,System.Single)
+  name.vb: RGBToHSV(Single, Single, Single)
+  fullName: UILib.Colors.RGBToHSV(float, float, float)
+  fullName.vb: UILib.Colors.RGBToHSV(Single, Single, Single)
+  nameWithType: Colors.RGBToHSV(float, float, float)
+  nameWithType.vb: Colors.RGBToHSV(Single, Single, Single)
+- uid: UILib.Colors.RGBToHSV*
+  name: RGBToHSV
+  href: api/UILib.Colors.html#UILib_Colors_RGBToHSV_
+  commentId: Overload:UILib.Colors.RGBToHSV
+  isSpec: "True"
+  fullName: UILib.Colors.RGBToHSV
+  nameWithType: Colors.RGBToHSV
+- uid: UILib.Colors.RGBToHex(System.Int32,System.Int32,System.Int32)
+  name: RGBToHex(int, int, int)
+  href: api/UILib.Colors.html#UILib_Colors_RGBToHex_System_Int32_System_Int32_System_Int32_
+  commentId: M:UILib.Colors.RGBToHex(System.Int32,System.Int32,System.Int32)
+  name.vb: RGBToHex(Integer, Integer, Integer)
+  fullName: UILib.Colors.RGBToHex(int, int, int)
+  fullName.vb: UILib.Colors.RGBToHex(Integer, Integer, Integer)
+  nameWithType: Colors.RGBToHex(int, int, int)
+  nameWithType.vb: Colors.RGBToHex(Integer, Integer, Integer)
+- uid: UILib.Colors.RGBToHex*
+  name: RGBToHex
+  href: api/UILib.Colors.html#UILib_Colors_RGBToHex_
+  commentId: Overload:UILib.Colors.RGBToHex
+  isSpec: "True"
+  fullName: UILib.Colors.RGBToHex
+  nameWithType: Colors.RGBToHex
 - uid: UILib.Components
   name: UILib.Components
   href: api/UILib.Components.html
@@ -717,6 +874,112 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Button.onClick
   nameWithType: Button.onClick
+- uid: UILib.Components.ColorField
+  name: ColorField
+  href: api/UILib.Components.ColorField.html
+  commentId: T:UILib.Components.ColorField
+  fullName: UILib.Components.ColorField
+  nameWithType: ColorField
+- uid: UILib.Components.ColorField.#ctor(UnityEngine.Color)
+  name: ColorField(Color)
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField__ctor_UnityEngine_Color_
+  commentId: M:UILib.Components.ColorField.#ctor(UnityEngine.Color)
+  name.vb: New(Color)
+  fullName: UILib.Components.ColorField.ColorField(UnityEngine.Color)
+  fullName.vb: UILib.Components.ColorField.New(UnityEngine.Color)
+  nameWithType: ColorField.ColorField(Color)
+  nameWithType.vb: ColorField.New(Color)
+- uid: UILib.Components.ColorField.#ctor*
+  name: ColorField
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField__ctor_
+  commentId: Overload:UILib.Components.ColorField.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UILib.Components.ColorField.ColorField
+  fullName.vb: UILib.Components.ColorField.New
+  nameWithType: ColorField.ColorField
+  nameWithType.vb: ColorField.New
+- uid: UILib.Components.ColorField.AllowOpacity(System.Boolean)
+  name: AllowOpacity(bool)
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_AllowOpacity_System_Boolean_
+  commentId: M:UILib.Components.ColorField.AllowOpacity(System.Boolean)
+  name.vb: AllowOpacity(Boolean)
+  fullName: UILib.Components.ColorField.AllowOpacity(bool)
+  fullName.vb: UILib.Components.ColorField.AllowOpacity(Boolean)
+  nameWithType: ColorField.AllowOpacity(bool)
+  nameWithType.vb: ColorField.AllowOpacity(Boolean)
+- uid: UILib.Components.ColorField.AllowOpacity*
+  name: AllowOpacity
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_AllowOpacity_
+  commentId: Overload:UILib.Components.ColorField.AllowOpacity
+  isSpec: "True"
+  fullName: UILib.Components.ColorField.AllowOpacity
+  nameWithType: ColorField.AllowOpacity
+- uid: UILib.Components.ColorField.SetValue(UnityEngine.Color)
+  name: SetValue(Color)
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_SetValue_UnityEngine_Color_
+  commentId: M:UILib.Components.ColorField.SetValue(UnityEngine.Color)
+  fullName: UILib.Components.ColorField.SetValue(UnityEngine.Color)
+  nameWithType: ColorField.SetValue(Color)
+- uid: UILib.Components.ColorField.SetValue*
+  name: SetValue
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_SetValue_
+  commentId: Overload:UILib.Components.ColorField.SetValue
+  isSpec: "True"
+  fullName: UILib.Components.ColorField.SetValue
+  nameWithType: ColorField.SetValue
+- uid: UILib.Components.ColorField.allowOpacity
+  name: allowOpacity
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_allowOpacity
+  commentId: P:UILib.Components.ColorField.allowOpacity
+  fullName: UILib.Components.ColorField.allowOpacity
+  nameWithType: ColorField.allowOpacity
+- uid: UILib.Components.ColorField.allowOpacity*
+  name: allowOpacity
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_allowOpacity_
+  commentId: Overload:UILib.Components.ColorField.allowOpacity
+  isSpec: "True"
+  fullName: UILib.Components.ColorField.allowOpacity
+  nameWithType: ColorField.allowOpacity
+- uid: UILib.Components.ColorField.onSubmit
+  name: onSubmit
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_onSubmit
+  commentId: P:UILib.Components.ColorField.onSubmit
+  fullName: UILib.Components.ColorField.onSubmit
+  nameWithType: ColorField.onSubmit
+- uid: UILib.Components.ColorField.onSubmit*
+  name: onSubmit
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_onSubmit_
+  commentId: Overload:UILib.Components.ColorField.onSubmit
+  isSpec: "True"
+  fullName: UILib.Components.ColorField.onSubmit
+  nameWithType: ColorField.onSubmit
+- uid: UILib.Components.ColorField.onValueChanged
+  name: onValueChanged
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_onValueChanged
+  commentId: P:UILib.Components.ColorField.onValueChanged
+  fullName: UILib.Components.ColorField.onValueChanged
+  nameWithType: ColorField.onValueChanged
+- uid: UILib.Components.ColorField.onValueChanged*
+  name: onValueChanged
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_onValueChanged_
+  commentId: Overload:UILib.Components.ColorField.onValueChanged
+  isSpec: "True"
+  fullName: UILib.Components.ColorField.onValueChanged
+  nameWithType: ColorField.onValueChanged
+- uid: UILib.Components.ColorField.value
+  name: value
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_value
+  commentId: P:UILib.Components.ColorField.value
+  fullName: UILib.Components.ColorField.value
+  nameWithType: ColorField.value
+- uid: UILib.Components.ColorField.value*
+  name: value
+  href: api/UILib.Components.ColorField.html#UILib_Components_ColorField_value_
+  commentId: Overload:UILib.Components.ColorField.value
+  isSpec: "True"
+  fullName: UILib.Components.ColorField.value
+  nameWithType: ColorField.value
 - uid: UILib.Components.Dropdown`1
   name: Dropdown<T>
   href: api/UILib.Components.Dropdown-1.html
@@ -1198,6 +1461,184 @@ references:
   fullName.vb: UILib.Components.Picker.New
   nameWithType: Picker.Picker
   nameWithType.vb: Picker.New
+- uid: UILib.Components.Picker.OnDrag(UnityEngine.Vector2)
+  name: OnDrag(Vector2)
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_OnDrag_UnityEngine_Vector2_
+  commentId: M:UILib.Components.Picker.OnDrag(UnityEngine.Vector2)
+  fullName: UILib.Components.Picker.OnDrag(UnityEngine.Vector2)
+  nameWithType: Picker.OnDrag(Vector2)
+- uid: UILib.Components.Picker.OnDrag*
+  name: OnDrag
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_OnDrag_
+  commentId: Overload:UILib.Components.Picker.OnDrag
+  isSpec: "True"
+  fullName: UILib.Components.Picker.OnDrag
+  nameWithType: Picker.OnDrag
+- uid: UILib.Components.Picker.SetMaxValues(System.Single,System.Single)
+  name: SetMaxValues(float, float)
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_SetMaxValues_System_Single_System_Single_
+  commentId: M:UILib.Components.Picker.SetMaxValues(System.Single,System.Single)
+  name.vb: SetMaxValues(Single, Single)
+  fullName: UILib.Components.Picker.SetMaxValues(float, float)
+  fullName.vb: UILib.Components.Picker.SetMaxValues(Single, Single)
+  nameWithType: Picker.SetMaxValues(float, float)
+  nameWithType.vb: Picker.SetMaxValues(Single, Single)
+- uid: UILib.Components.Picker.SetMaxValues*
+  name: SetMaxValues
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_SetMaxValues_
+  commentId: Overload:UILib.Components.Picker.SetMaxValues
+  isSpec: "True"
+  fullName: UILib.Components.Picker.SetMaxValues
+  nameWithType: Picker.SetMaxValues
+- uid: UILib.Components.Picker.SetMinValues(System.Single,System.Single)
+  name: SetMinValues(float, float)
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_SetMinValues_System_Single_System_Single_
+  commentId: M:UILib.Components.Picker.SetMinValues(System.Single,System.Single)
+  name.vb: SetMinValues(Single, Single)
+  fullName: UILib.Components.Picker.SetMinValues(float, float)
+  fullName.vb: UILib.Components.Picker.SetMinValues(Single, Single)
+  nameWithType: Picker.SetMinValues(float, float)
+  nameWithType.vb: Picker.SetMinValues(Single, Single)
+- uid: UILib.Components.Picker.SetMinValues*
+  name: SetMinValues
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_SetMinValues_
+  commentId: Overload:UILib.Components.Picker.SetMinValues
+  isSpec: "True"
+  fullName: UILib.Components.Picker.SetMinValues
+  nameWithType: Picker.SetMinValues
+- uid: UILib.Components.Picker.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Components.Picker.SetThisTheme(UILib.Theme)
+  fullName: UILib.Components.Picker.SetThisTheme(UILib.Theme)
+  nameWithType: Picker.SetThisTheme(Theme)
+- uid: UILib.Components.Picker.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_SetThisTheme_
+  commentId: Overload:UILib.Components.Picker.SetThisTheme
+  isSpec: "True"
+  fullName: UILib.Components.Picker.SetThisTheme
+  nameWithType: Picker.SetThisTheme
+- uid: UILib.Components.Picker.SetValue(System.Single,System.Single)
+  name: SetValue(float, float)
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_SetValue_System_Single_System_Single_
+  commentId: M:UILib.Components.Picker.SetValue(System.Single,System.Single)
+  name.vb: SetValue(Single, Single)
+  fullName: UILib.Components.Picker.SetValue(float, float)
+  fullName.vb: UILib.Components.Picker.SetValue(Single, Single)
+  nameWithType: Picker.SetValue(float, float)
+  nameWithType.vb: Picker.SetValue(Single, Single)
+- uid: UILib.Components.Picker.SetValue*
+  name: SetValue
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_SetValue_
+  commentId: Overload:UILib.Components.Picker.SetValue
+  isSpec: "True"
+  fullName: UILib.Components.Picker.SetValue
+  nameWithType: Picker.SetValue
+- uid: UILib.Components.Picker.background
+  name: background
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_background
+  commentId: P:UILib.Components.Picker.background
+  fullName: UILib.Components.Picker.background
+  nameWithType: Picker.background
+- uid: UILib.Components.Picker.background*
+  name: background
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_background_
+  commentId: Overload:UILib.Components.Picker.background
+  isSpec: "True"
+  fullName: UILib.Components.Picker.background
+  nameWithType: Picker.background
+- uid: UILib.Components.Picker.handle
+  name: handle
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_handle
+  commentId: P:UILib.Components.Picker.handle
+  fullName: UILib.Components.Picker.handle
+  nameWithType: Picker.handle
+- uid: UILib.Components.Picker.handle*
+  name: handle
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_handle_
+  commentId: Overload:UILib.Components.Picker.handle
+  isSpec: "True"
+  fullName: UILib.Components.Picker.handle
+  nameWithType: Picker.handle
+- uid: UILib.Components.Picker.maxX
+  name: maxX
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_maxX
+  commentId: P:UILib.Components.Picker.maxX
+  fullName: UILib.Components.Picker.maxX
+  nameWithType: Picker.maxX
+- uid: UILib.Components.Picker.maxX*
+  name: maxX
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_maxX_
+  commentId: Overload:UILib.Components.Picker.maxX
+  isSpec: "True"
+  fullName: UILib.Components.Picker.maxX
+  nameWithType: Picker.maxX
+- uid: UILib.Components.Picker.maxY
+  name: maxY
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_maxY
+  commentId: P:UILib.Components.Picker.maxY
+  fullName: UILib.Components.Picker.maxY
+  nameWithType: Picker.maxY
+- uid: UILib.Components.Picker.maxY*
+  name: maxY
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_maxY_
+  commentId: Overload:UILib.Components.Picker.maxY
+  isSpec: "True"
+  fullName: UILib.Components.Picker.maxY
+  nameWithType: Picker.maxY
+- uid: UILib.Components.Picker.minX
+  name: minX
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_minX
+  commentId: P:UILib.Components.Picker.minX
+  fullName: UILib.Components.Picker.minX
+  nameWithType: Picker.minX
+- uid: UILib.Components.Picker.minX*
+  name: minX
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_minX_
+  commentId: Overload:UILib.Components.Picker.minX
+  isSpec: "True"
+  fullName: UILib.Components.Picker.minX
+  nameWithType: Picker.minX
+- uid: UILib.Components.Picker.minY
+  name: minY
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_minY
+  commentId: P:UILib.Components.Picker.minY
+  fullName: UILib.Components.Picker.minY
+  nameWithType: Picker.minY
+- uid: UILib.Components.Picker.minY*
+  name: minY
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_minY_
+  commentId: Overload:UILib.Components.Picker.minY
+  isSpec: "True"
+  fullName: UILib.Components.Picker.minY
+  nameWithType: Picker.minY
+- uid: UILib.Components.Picker.onValueChanged
+  name: onValueChanged
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_onValueChanged
+  commentId: P:UILib.Components.Picker.onValueChanged
+  fullName: UILib.Components.Picker.onValueChanged
+  nameWithType: Picker.onValueChanged
+- uid: UILib.Components.Picker.onValueChanged*
+  name: onValueChanged
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_onValueChanged_
+  commentId: Overload:UILib.Components.Picker.onValueChanged
+  isSpec: "True"
+  fullName: UILib.Components.Picker.onValueChanged
+  nameWithType: Picker.onValueChanged
+- uid: UILib.Components.Picker.value
+  name: value
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_value
+  commentId: P:UILib.Components.Picker.value
+  fullName: UILib.Components.Picker.value
+  nameWithType: Picker.value
+- uid: UILib.Components.Picker.value*
+  name: value
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_value_
+  commentId: Overload:UILib.Components.Picker.value
+  isSpec: "True"
+  fullName: UILib.Components.Picker.value
+  nameWithType: Picker.value
 - uid: UILib.Components.ProgressBar
   name: ProgressBar
   href: api/UILib.Components.ProgressBar.html
@@ -1380,35 +1821,6 @@ references:
   isSpec: "True"
   fullName: UILib.Components.ScrollBar.SetThisTheme
   nameWithType: ScrollBar.SetThisTheme
-- uid: UILib.Components.ScrollBar.SetWidth(System.Single)
-  name: SetWidth(float)
-  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetWidth_System_Single_
-  commentId: M:UILib.Components.ScrollBar.SetWidth(System.Single)
-  name.vb: SetWidth(Single)
-  fullName: UILib.Components.ScrollBar.SetWidth(float)
-  fullName.vb: UILib.Components.ScrollBar.SetWidth(Single)
-  nameWithType: ScrollBar.SetWidth(float)
-  nameWithType.vb: ScrollBar.SetWidth(Single)
-- uid: UILib.Components.ScrollBar.SetWidth*
-  name: SetWidth
-  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_SetWidth_
-  commentId: Overload:UILib.Components.ScrollBar.SetWidth
-  isSpec: "True"
-  fullName: UILib.Components.ScrollBar.SetWidth
-  nameWithType: ScrollBar.SetWidth
-- uid: UILib.Components.ScrollBar.barWidth
-  name: barWidth
-  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_barWidth
-  commentId: P:UILib.Components.ScrollBar.barWidth
-  fullName: UILib.Components.ScrollBar.barWidth
-  nameWithType: ScrollBar.barWidth
-- uid: UILib.Components.ScrollBar.barWidth*
-  name: barWidth
-  href: api/UILib.Components.ScrollBar.html#UILib_Components_ScrollBar_barWidth_
-  commentId: Overload:UILib.Components.ScrollBar.barWidth
-  isSpec: "True"
-  fullName: UILib.Components.ScrollBar.barWidth
-  nameWithType: ScrollBar.barWidth
 - uid: UILib.Components.ScrollType
   name: ScrollType
   href: api/UILib.Components.ScrollType.html
@@ -1439,15 +1851,15 @@ references:
   commentId: T:UILib.Components.ScrollView
   fullName: UILib.Components.ScrollView
   nameWithType: ScrollView
-- uid: UILib.Components.ScrollView.#ctor(UILib.Components.ScrollType,System.Single)
-  name: ScrollView(ScrollType, float)
-  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView__ctor_UILib_Components_ScrollType_System_Single_
-  commentId: M:UILib.Components.ScrollView.#ctor(UILib.Components.ScrollType,System.Single)
-  name.vb: New(ScrollType, Single)
-  fullName: UILib.Components.ScrollView.ScrollView(UILib.Components.ScrollType, float)
-  fullName.vb: UILib.Components.ScrollView.New(UILib.Components.ScrollType, Single)
-  nameWithType: ScrollView.ScrollView(ScrollType, float)
-  nameWithType.vb: ScrollView.New(ScrollType, Single)
+- uid: UILib.Components.ScrollView.#ctor(UILib.Components.ScrollType)
+  name: ScrollView(ScrollType)
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView__ctor_UILib_Components_ScrollType_
+  commentId: M:UILib.Components.ScrollView.#ctor(UILib.Components.ScrollType)
+  name.vb: New(ScrollType)
+  fullName: UILib.Components.ScrollView.ScrollView(UILib.Components.ScrollType)
+  fullName.vb: UILib.Components.ScrollView.New(UILib.Components.ScrollType)
+  nameWithType: ScrollView.ScrollView(ScrollType)
+  nameWithType.vb: ScrollView.New(ScrollType)
 - uid: UILib.Components.ScrollView.#ctor*
   name: ScrollView
   href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView__ctor_
@@ -1565,6 +1977,32 @@ references:
   isSpec: "True"
   fullName: UILib.Components.ScrollView.scrollBarV
   nameWithType: ScrollView.scrollBarV
+- uid: UILib.Components.ScrollView.scrollContent
+  name: scrollContent
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_scrollContent
+  commentId: P:UILib.Components.ScrollView.scrollContent
+  fullName: UILib.Components.ScrollView.scrollContent
+  nameWithType: ScrollView.scrollContent
+- uid: UILib.Components.ScrollView.scrollContent*
+  name: scrollContent
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_scrollContent_
+  commentId: Overload:UILib.Components.ScrollView.scrollContent
+  isSpec: "True"
+  fullName: UILib.Components.ScrollView.scrollContent
+  nameWithType: ScrollView.scrollContent
+- uid: UILib.Components.ScrollView.viewport
+  name: viewport
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_viewport
+  commentId: P:UILib.Components.ScrollView.viewport
+  fullName: UILib.Components.ScrollView.viewport
+  nameWithType: ScrollView.viewport
+- uid: UILib.Components.ScrollView.viewport*
+  name: viewport
+  href: api/UILib.Components.ScrollView.html#UILib_Components_ScrollView_viewport_
+  commentId: Overload:UILib.Components.ScrollView.viewport
+  isSpec: "True"
+  fullName: UILib.Components.ScrollView.viewport
+  nameWithType: ScrollView.viewport
 - uid: UILib.Components.Slider
   name: Slider
   href: api/UILib.Components.Slider.html
@@ -1680,6 +2118,45 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Slider.UseWholeNumbers
   nameWithType: Slider.UseWholeNumbers
+- uid: UILib.Components.Slider.background
+  name: background
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_background
+  commentId: P:UILib.Components.Slider.background
+  fullName: UILib.Components.Slider.background
+  nameWithType: Slider.background
+- uid: UILib.Components.Slider.background*
+  name: background
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_background_
+  commentId: Overload:UILib.Components.Slider.background
+  isSpec: "True"
+  fullName: UILib.Components.Slider.background
+  nameWithType: Slider.background
+- uid: UILib.Components.Slider.fill
+  name: fill
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_fill
+  commentId: P:UILib.Components.Slider.fill
+  fullName: UILib.Components.Slider.fill
+  nameWithType: Slider.fill
+- uid: UILib.Components.Slider.fill*
+  name: fill
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_fill_
+  commentId: Overload:UILib.Components.Slider.fill
+  isSpec: "True"
+  fullName: UILib.Components.Slider.fill
+  nameWithType: Slider.fill
+- uid: UILib.Components.Slider.handle
+  name: handle
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_handle
+  commentId: P:UILib.Components.Slider.handle
+  fullName: UILib.Components.Slider.handle
+  nameWithType: Slider.handle
+- uid: UILib.Components.Slider.handle*
+  name: handle
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_handle_
+  commentId: Overload:UILib.Components.Slider.handle
+  isSpec: "True"
+  fullName: UILib.Components.Slider.handle
+  nameWithType: Slider.handle
 - uid: UILib.Components.Slider.onDeselect
   name: onDeselect
   href: api/UILib.Components.Slider.html#UILib_Components_Slider_onDeselect
@@ -1770,6 +2247,36 @@ references:
   fullName.vb: UILib.Components.TextField.New
   nameWithType: TextField.TextField
   nameWithType.vb: TextField.New
+- uid: UILib.Components.TextField.RetainMode
+  name: TextField.RetainMode
+  href: api/UILib.Components.TextField.RetainMode.html
+  commentId: T:UILib.Components.TextField.RetainMode
+  fullName: UILib.Components.TextField.RetainMode
+  nameWithType: TextField.RetainMode
+- uid: UILib.Components.TextField.RetainMode.CancelClick
+  name: CancelClick
+  href: api/UILib.Components.TextField.RetainMode.html#UILib_Components_TextField_RetainMode_CancelClick
+  commentId: F:UILib.Components.TextField.RetainMode.CancelClick
+  fullName: UILib.Components.TextField.RetainMode.CancelClick
+  nameWithType: TextField.RetainMode.CancelClick
+- uid: UILib.Components.TextField.RetainMode.CancelEscape
+  name: CancelEscape
+  href: api/UILib.Components.TextField.RetainMode.html#UILib_Components_TextField_RetainMode_CancelEscape
+  commentId: F:UILib.Components.TextField.RetainMode.CancelEscape
+  fullName: UILib.Components.TextField.RetainMode.CancelEscape
+  nameWithType: TextField.RetainMode.CancelEscape
+- uid: UILib.Components.TextField.RetainMode.InvalidSubmit
+  name: InvalidSubmit
+  href: api/UILib.Components.TextField.RetainMode.html#UILib_Components_TextField_RetainMode_InvalidSubmit
+  commentId: F:UILib.Components.TextField.RetainMode.InvalidSubmit
+  fullName: UILib.Components.TextField.RetainMode.InvalidSubmit
+  nameWithType: TextField.RetainMode.InvalidSubmit
+- uid: UILib.Components.TextField.RetainMode.None
+  name: None
+  href: api/UILib.Components.TextField.RetainMode.html#UILib_Components_TextField_RetainMode_None
+  commentId: F:UILib.Components.TextField.RetainMode.None
+  fullName: UILib.Components.TextField.RetainMode.None
+  nameWithType: TextField.RetainMode.None
 - uid: UILib.Components.TextField.SetAlignment(UnityEngine.TextAnchor)
   name: SetAlignment(TextAnchor)
   href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetAlignment_UnityEngine_TextAnchor_
@@ -1783,6 +2290,80 @@ references:
   isSpec: "True"
   fullName: UILib.Components.TextField.SetAlignment
   nameWithType: TextField.SetAlignment
+- uid: UILib.Components.TextField.SetPredicate(System.Func{System.String,System.Boolean})
+  name: SetPredicate(Func<string, bool>)
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetPredicate_System_Func_System_String_System_Boolean__
+  commentId: M:UILib.Components.TextField.SetPredicate(System.Func{System.String,System.Boolean})
+  name.vb: SetPredicate(Func(Of String, Boolean))
+  fullName: UILib.Components.TextField.SetPredicate(System.Func<string, bool>)
+  fullName.vb: UILib.Components.TextField.SetPredicate(System.Func(Of String, Boolean))
+  nameWithType: TextField.SetPredicate(Func<string, bool>)
+  nameWithType.vb: TextField.SetPredicate(Func(Of String, Boolean))
+- uid: UILib.Components.TextField.SetPredicate*
+  name: SetPredicate
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetPredicate_
+  commentId: Overload:UILib.Components.TextField.SetPredicate
+  isSpec: "True"
+  fullName: UILib.Components.TextField.SetPredicate
+  nameWithType: TextField.SetPredicate
+- uid: UILib.Components.TextField.SetRetainFocus(System.Boolean)
+  name: SetRetainFocus(bool)
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetRetainFocus_System_Boolean_
+  commentId: M:UILib.Components.TextField.SetRetainFocus(System.Boolean)
+  name.vb: SetRetainFocus(Boolean)
+  fullName: UILib.Components.TextField.SetRetainFocus(bool)
+  fullName.vb: UILib.Components.TextField.SetRetainFocus(Boolean)
+  nameWithType: TextField.SetRetainFocus(bool)
+  nameWithType.vb: TextField.SetRetainFocus(Boolean)
+- uid: UILib.Components.TextField.SetRetainFocus*
+  name: SetRetainFocus
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetRetainFocus_
+  commentId: Overload:UILib.Components.TextField.SetRetainFocus
+  isSpec: "True"
+  fullName: UILib.Components.TextField.SetRetainFocus
+  nameWithType: TextField.SetRetainFocus
+- uid: UILib.Components.TextField.SetRetainMode(UILib.Components.TextField.RetainMode)
+  name: SetRetainMode(RetainMode)
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetRetainMode_UILib_Components_TextField_RetainMode_
+  commentId: M:UILib.Components.TextField.SetRetainMode(UILib.Components.TextField.RetainMode)
+  fullName: UILib.Components.TextField.SetRetainMode(UILib.Components.TextField.RetainMode)
+  nameWithType: TextField.SetRetainMode(TextField.RetainMode)
+- uid: UILib.Components.TextField.SetRetainMode*
+  name: SetRetainMode
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetRetainMode_
+  commentId: Overload:UILib.Components.TextField.SetRetainMode
+  isSpec: "True"
+  fullName: UILib.Components.TextField.SetRetainMode
+  nameWithType: TextField.SetRetainMode
+- uid: UILib.Components.TextField.SetSubmitMode(UILib.Components.TextField.SubmitMode)
+  name: SetSubmitMode(SubmitMode)
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetSubmitMode_UILib_Components_TextField_SubmitMode_
+  commentId: M:UILib.Components.TextField.SetSubmitMode(UILib.Components.TextField.SubmitMode)
+  fullName: UILib.Components.TextField.SetSubmitMode(UILib.Components.TextField.SubmitMode)
+  nameWithType: TextField.SetSubmitMode(TextField.SubmitMode)
+- uid: UILib.Components.TextField.SetSubmitMode*
+  name: SetSubmitMode
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetSubmitMode_
+  commentId: Overload:UILib.Components.TextField.SetSubmitMode
+  isSpec: "True"
+  fullName: UILib.Components.TextField.SetSubmitMode
+  nameWithType: TextField.SetSubmitMode
+- uid: UILib.Components.TextField.SetText(System.String)
+  name: SetText(string)
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetText_System_String_
+  commentId: M:UILib.Components.TextField.SetText(System.String)
+  name.vb: SetText(String)
+  fullName: UILib.Components.TextField.SetText(string)
+  fullName.vb: UILib.Components.TextField.SetText(String)
+  nameWithType: TextField.SetText(string)
+  nameWithType.vb: TextField.SetText(String)
+- uid: UILib.Components.TextField.SetText*
+  name: SetText
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetText_
+  commentId: Overload:UILib.Components.TextField.SetText
+  isSpec: "True"
+  fullName: UILib.Components.TextField.SetText
+  nameWithType: TextField.SetText
 - uid: UILib.Components.TextField.SetThisTheme(UILib.Theme)
   name: SetThisTheme(Theme)
   href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetThisTheme_UILib_Theme_
@@ -1812,84 +2393,134 @@ references:
   isSpec: "True"
   fullName: UILib.Components.TextField.SetValue
   nameWithType: TextField.SetValue
-- uid: UILib.Components.TextField.inputField
-  name: inputField
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_inputField
-  commentId: P:UILib.Components.TextField.inputField
-  fullName: UILib.Components.TextField.inputField
-  nameWithType: TextField.inputField
-- uid: UILib.Components.TextField.inputField*
-  name: inputField
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_inputField_
-  commentId: Overload:UILib.Components.TextField.inputField
+- uid: UILib.Components.TextField.SubmitMode
+  name: TextField.SubmitMode
+  href: api/UILib.Components.TextField.SubmitMode.html
+  commentId: T:UILib.Components.TextField.SubmitMode
+  fullName: UILib.Components.TextField.SubmitMode
+  nameWithType: TextField.SubmitMode
+- uid: UILib.Components.TextField.SubmitMode.Click
+  name: Click
+  href: api/UILib.Components.TextField.SubmitMode.html#UILib_Components_TextField_SubmitMode_Click
+  commentId: F:UILib.Components.TextField.SubmitMode.Click
+  fullName: UILib.Components.TextField.SubmitMode.Click
+  nameWithType: TextField.SubmitMode.Click
+- uid: UILib.Components.TextField.SubmitMode.Escape
+  name: Escape
+  href: api/UILib.Components.TextField.SubmitMode.html#UILib_Components_TextField_SubmitMode_Escape
+  commentId: F:UILib.Components.TextField.SubmitMode.Escape
+  fullName: UILib.Components.TextField.SubmitMode.Escape
+  nameWithType: TextField.SubmitMode.Escape
+- uid: UILib.Components.TextField.SubmitMode.None
+  name: None
+  href: api/UILib.Components.TextField.SubmitMode.html#UILib_Components_TextField_SubmitMode_None
+  commentId: F:UILib.Components.TextField.SubmitMode.None
+  fullName: UILib.Components.TextField.SubmitMode.None
+  nameWithType: TextField.SubmitMode.None
+- uid: UILib.Components.TextField.onCancel
+  name: onCancel
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onCancel
+  commentId: P:UILib.Components.TextField.onCancel
+  fullName: UILib.Components.TextField.onCancel
+  nameWithType: TextField.onCancel
+- uid: UILib.Components.TextField.onCancel*
+  name: onCancel
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onCancel_
+  commentId: Overload:UILib.Components.TextField.onCancel
   isSpec: "True"
-  fullName: UILib.Components.TextField.inputField
-  nameWithType: TextField.inputField
-- uid: UILib.Components.TextField.onDeselect
-  name: onDeselect
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onDeselect
-  commentId: P:UILib.Components.TextField.onDeselect
-  fullName: UILib.Components.TextField.onDeselect
-  nameWithType: TextField.onDeselect
-- uid: UILib.Components.TextField.onDeselect*
-  name: onDeselect
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onDeselect_
-  commentId: Overload:UILib.Components.TextField.onDeselect
+  fullName: UILib.Components.TextField.onCancel
+  nameWithType: TextField.onCancel
+- uid: UILib.Components.TextField.onInputChanged
+  name: onInputChanged
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onInputChanged
+  commentId: P:UILib.Components.TextField.onInputChanged
+  fullName: UILib.Components.TextField.onInputChanged
+  nameWithType: TextField.onInputChanged
+- uid: UILib.Components.TextField.onInputChanged*
+  name: onInputChanged
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onInputChanged_
+  commentId: Overload:UILib.Components.TextField.onInputChanged
   isSpec: "True"
-  fullName: UILib.Components.TextField.onDeselect
-  nameWithType: TextField.onDeselect
-- uid: UILib.Components.TextField.onEndEdit
-  name: onEndEdit
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onEndEdit
-  commentId: P:UILib.Components.TextField.onEndEdit
-  fullName: UILib.Components.TextField.onEndEdit
-  nameWithType: TextField.onEndEdit
-- uid: UILib.Components.TextField.onEndEdit*
-  name: onEndEdit
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onEndEdit_
-  commentId: Overload:UILib.Components.TextField.onEndEdit
+  fullName: UILib.Components.TextField.onInputChanged
+  nameWithType: TextField.onInputChanged
+- uid: UILib.Components.TextField.onInvalidSubmit
+  name: onInvalidSubmit
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onInvalidSubmit
+  commentId: P:UILib.Components.TextField.onInvalidSubmit
+  fullName: UILib.Components.TextField.onInvalidSubmit
+  nameWithType: TextField.onInvalidSubmit
+- uid: UILib.Components.TextField.onInvalidSubmit*
+  name: onInvalidSubmit
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onInvalidSubmit_
+  commentId: Overload:UILib.Components.TextField.onInvalidSubmit
   isSpec: "True"
-  fullName: UILib.Components.TextField.onEndEdit
-  nameWithType: TextField.onEndEdit
-- uid: UILib.Components.TextField.onSelect
-  name: onSelect
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onSelect
-  commentId: P:UILib.Components.TextField.onSelect
-  fullName: UILib.Components.TextField.onSelect
-  nameWithType: TextField.onSelect
-- uid: UILib.Components.TextField.onSelect*
-  name: onSelect
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onSelect_
-  commentId: Overload:UILib.Components.TextField.onSelect
+  fullName: UILib.Components.TextField.onInvalidSubmit
+  nameWithType: TextField.onInvalidSubmit
+- uid: UILib.Components.TextField.onValidSubmit
+  name: onValidSubmit
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onValidSubmit
+  commentId: P:UILib.Components.TextField.onValidSubmit
+  fullName: UILib.Components.TextField.onValidSubmit
+  nameWithType: TextField.onValidSubmit
+- uid: UILib.Components.TextField.onValidSubmit*
+  name: onValidSubmit
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onValidSubmit_
+  commentId: Overload:UILib.Components.TextField.onValidSubmit
   isSpec: "True"
-  fullName: UILib.Components.TextField.onSelect
-  nameWithType: TextField.onSelect
-- uid: UILib.Components.TextField.onSubmit
-  name: onSubmit
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onSubmit
-  commentId: P:UILib.Components.TextField.onSubmit
-  fullName: UILib.Components.TextField.onSubmit
-  nameWithType: TextField.onSubmit
-- uid: UILib.Components.TextField.onSubmit*
-  name: onSubmit
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onSubmit_
-  commentId: Overload:UILib.Components.TextField.onSubmit
+  fullName: UILib.Components.TextField.onValidSubmit
+  nameWithType: TextField.onValidSubmit
+- uid: UILib.Components.TextField.retainFocus
+  name: retainFocus
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_retainFocus
+  commentId: P:UILib.Components.TextField.retainFocus
+  fullName: UILib.Components.TextField.retainFocus
+  nameWithType: TextField.retainFocus
+- uid: UILib.Components.TextField.retainFocus*
+  name: retainFocus
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_retainFocus_
+  commentId: Overload:UILib.Components.TextField.retainFocus
   isSpec: "True"
-  fullName: UILib.Components.TextField.onSubmit
-  nameWithType: TextField.onSubmit
-- uid: UILib.Components.TextField.onValueChanged
-  name: onValueChanged
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onValueChanged
-  commentId: P:UILib.Components.TextField.onValueChanged
-  fullName: UILib.Components.TextField.onValueChanged
-  nameWithType: TextField.onValueChanged
-- uid: UILib.Components.TextField.onValueChanged*
-  name: onValueChanged
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_onValueChanged_
-  commentId: Overload:UILib.Components.TextField.onValueChanged
+  fullName: UILib.Components.TextField.retainFocus
+  nameWithType: TextField.retainFocus
+- uid: UILib.Components.TextField.retainMode
+  name: retainMode
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_retainMode
+  commentId: P:UILib.Components.TextField.retainMode
+  fullName: UILib.Components.TextField.retainMode
+  nameWithType: TextField.retainMode
+- uid: UILib.Components.TextField.retainMode*
+  name: retainMode
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_retainMode_
+  commentId: Overload:UILib.Components.TextField.retainMode
   isSpec: "True"
-  fullName: UILib.Components.TextField.onValueChanged
-  nameWithType: TextField.onValueChanged
+  fullName: UILib.Components.TextField.retainMode
+  nameWithType: TextField.retainMode
+- uid: UILib.Components.TextField.submitMode
+  name: submitMode
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_submitMode
+  commentId: P:UILib.Components.TextField.submitMode
+  fullName: UILib.Components.TextField.submitMode
+  nameWithType: TextField.submitMode
+- uid: UILib.Components.TextField.submitMode*
+  name: submitMode
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_submitMode_
+  commentId: Overload:UILib.Components.TextField.submitMode
+  isSpec: "True"
+  fullName: UILib.Components.TextField.submitMode
+  nameWithType: TextField.submitMode
+- uid: UILib.Components.TextField.userInput
+  name: userInput
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_userInput
+  commentId: P:UILib.Components.TextField.userInput
+  fullName: UILib.Components.TextField.userInput
+  nameWithType: TextField.userInput
+- uid: UILib.Components.TextField.userInput*
+  name: userInput
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_userInput_
+  commentId: Overload:UILib.Components.TextField.userInput
+  isSpec: "True"
+  fullName: UILib.Components.TextField.userInput
+  nameWithType: TextField.userInput
 - uid: UILib.Components.TextField.value
   name: value
   href: api/UILib.Components.TextField.html#UILib_Components_TextField_value
@@ -2361,6 +2992,22 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.SetAutoPause
   nameWithType: Overlay.SetAutoPause
+- uid: UILib.Overlay.SetSortable(System.Boolean)
+  name: SetSortable(bool)
+  href: api/UILib.Overlay.html#UILib_Overlay_SetSortable_System_Boolean_
+  commentId: M:UILib.Overlay.SetSortable(System.Boolean)
+  name.vb: SetSortable(Boolean)
+  fullName: UILib.Overlay.SetSortable(bool)
+  fullName.vb: UILib.Overlay.SetSortable(Boolean)
+  nameWithType: Overlay.SetSortable(bool)
+  nameWithType.vb: Overlay.SetSortable(Boolean)
+- uid: UILib.Overlay.SetSortable*
+  name: SetSortable
+  href: api/UILib.Overlay.html#UILib_Overlay_SetSortable_
+  commentId: Overload:UILib.Overlay.SetSortable
+  isSpec: "True"
+  fullName: UILib.Overlay.SetSortable
+  nameWithType: Overlay.SetSortable
 - uid: UILib.Overlay.SetThisTheme(UILib.Theme)
   name: SetThisTheme(Theme)
   href: api/UILib.Overlay.html#UILib_Overlay_SetThisTheme_UILib_Theme_
@@ -2452,6 +3099,19 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.onLostFocus
   nameWithType: Overlay.onLostFocus
+- uid: UILib.Overlay.sortable
+  name: sortable
+  href: api/UILib.Overlay.html#UILib_Overlay_sortable
+  commentId: P:UILib.Overlay.sortable
+  fullName: UILib.Overlay.sortable
+  nameWithType: Overlay.sortable
+- uid: UILib.Overlay.sortable*
+  name: sortable
+  href: api/UILib.Overlay.html#UILib_Overlay_sortable_
+  commentId: Overload:UILib.Overlay.sortable
+  isSpec: "True"
+  fullName: UILib.Overlay.sortable
+  nameWithType: Overlay.sortable
 - uid: UILib.Patches
   name: UILib.Patches
   href: api/UILib.Patches.html
@@ -2502,19 +3162,181 @@ references:
   commentId: T:UILib.Patches.PauseHandler
   fullName: UILib.Patches.PauseHandler
   nameWithType: PauseHandler
-- uid: UILib.Patches.PauseHandler.shouldPause
-  name: shouldPause
-  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_shouldPause
-  commentId: P:UILib.Patches.PauseHandler.shouldPause
-  fullName: UILib.Patches.PauseHandler.shouldPause
-  nameWithType: PauseHandler.shouldPause
-- uid: UILib.Patches.PauseHandler.shouldPause*
-  name: shouldPause
-  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_shouldPause_
-  commentId: Overload:UILib.Patches.PauseHandler.shouldPause
+- uid: UILib.Patches.PauseHandler.isPaused
+  name: isPaused
+  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_isPaused
+  commentId: P:UILib.Patches.PauseHandler.isPaused
+  fullName: UILib.Patches.PauseHandler.isPaused
+  nameWithType: PauseHandler.isPaused
+- uid: UILib.Patches.PauseHandler.isPaused*
+  name: isPaused
+  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_isPaused_
+  commentId: Overload:UILib.Patches.PauseHandler.isPaused
   isSpec: "True"
-  fullName: UILib.Patches.PauseHandler.shouldPause
-  nameWithType: PauseHandler.shouldPause
+  fullName: UILib.Patches.PauseHandler.isPaused
+  nameWithType: PauseHandler.isPaused
+- uid: UILib.Patches.PauseHandler.onPause
+  name: onPause
+  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_onPause
+  commentId: P:UILib.Patches.PauseHandler.onPause
+  fullName: UILib.Patches.PauseHandler.onPause
+  nameWithType: PauseHandler.onPause
+- uid: UILib.Patches.PauseHandler.onPause*
+  name: onPause
+  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_onPause_
+  commentId: Overload:UILib.Patches.PauseHandler.onPause
+  isSpec: "True"
+  fullName: UILib.Patches.PauseHandler.onPause
+  nameWithType: PauseHandler.onPause
+- uid: UILib.Patches.PauseHandler.onUnpause
+  name: onUnpause
+  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_onUnpause
+  commentId: P:UILib.Patches.PauseHandler.onUnpause
+  fullName: UILib.Patches.PauseHandler.onUnpause
+  nameWithType: PauseHandler.onUnpause
+- uid: UILib.Patches.PauseHandler.onUnpause*
+  name: onUnpause
+  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_onUnpause_
+  commentId: Overload:UILib.Patches.PauseHandler.onUnpause
+  isSpec: "True"
+  fullName: UILib.Patches.PauseHandler.onUnpause
+  nameWithType: PauseHandler.onUnpause
+- uid: UILib.Patches.SceneLoads
+  name: SceneLoads
+  href: api/UILib.Patches.SceneLoads.html
+  commentId: T:UILib.Patches.SceneLoads
+  fullName: UILib.Patches.SceneLoads
+  nameWithType: SceneLoads
+- uid: UILib.Patches.SceneLoads.onAnyLoad
+  name: onAnyLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onAnyLoad
+  commentId: P:UILib.Patches.SceneLoads.onAnyLoad
+  fullName: UILib.Patches.SceneLoads.onAnyLoad
+  nameWithType: SceneLoads.onAnyLoad
+- uid: UILib.Patches.SceneLoads.onAnyLoad*
+  name: onAnyLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onAnyLoad_
+  commentId: Overload:UILib.Patches.SceneLoads.onAnyLoad
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onAnyLoad
+  nameWithType: SceneLoads.onAnyLoad
+- uid: UILib.Patches.SceneLoads.onAnyUnload
+  name: onAnyUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onAnyUnload
+  commentId: P:UILib.Patches.SceneLoads.onAnyUnload
+  fullName: UILib.Patches.SceneLoads.onAnyUnload
+  nameWithType: SceneLoads.onAnyUnload
+- uid: UILib.Patches.SceneLoads.onAnyUnload*
+  name: onAnyUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onAnyUnload_
+  commentId: Overload:UILib.Patches.SceneLoads.onAnyUnload
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onAnyUnload
+  nameWithType: SceneLoads.onAnyUnload
+- uid: UILib.Patches.SceneLoads.onBuiltinLoad
+  name: onBuiltinLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onBuiltinLoad
+  commentId: P:UILib.Patches.SceneLoads.onBuiltinLoad
+  fullName: UILib.Patches.SceneLoads.onBuiltinLoad
+  nameWithType: SceneLoads.onBuiltinLoad
+- uid: UILib.Patches.SceneLoads.onBuiltinLoad*
+  name: onBuiltinLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onBuiltinLoad_
+  commentId: Overload:UILib.Patches.SceneLoads.onBuiltinLoad
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onBuiltinLoad
+  nameWithType: SceneLoads.onBuiltinLoad
+- uid: UILib.Patches.SceneLoads.onBuiltinUnload
+  name: onBuiltinUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onBuiltinUnload
+  commentId: P:UILib.Patches.SceneLoads.onBuiltinUnload
+  fullName: UILib.Patches.SceneLoads.onBuiltinUnload
+  nameWithType: SceneLoads.onBuiltinUnload
+- uid: UILib.Patches.SceneLoads.onBuiltinUnload*
+  name: onBuiltinUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onBuiltinUnload_
+  commentId: Overload:UILib.Patches.SceneLoads.onBuiltinUnload
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onBuiltinUnload
+  nameWithType: SceneLoads.onBuiltinUnload
+- uid: UILib.Patches.SceneLoads.onCustomLoad
+  name: onCustomLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onCustomLoad
+  commentId: P:UILib.Patches.SceneLoads.onCustomLoad
+  fullName: UILib.Patches.SceneLoads.onCustomLoad
+  nameWithType: SceneLoads.onCustomLoad
+- uid: UILib.Patches.SceneLoads.onCustomLoad*
+  name: onCustomLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onCustomLoad_
+  commentId: Overload:UILib.Patches.SceneLoads.onCustomLoad
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onCustomLoad
+  nameWithType: SceneLoads.onCustomLoad
+- uid: UILib.Patches.SceneLoads.onCustomUnload
+  name: onCustomUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onCustomUnload
+  commentId: P:UILib.Patches.SceneLoads.onCustomUnload
+  fullName: UILib.Patches.SceneLoads.onCustomUnload
+  nameWithType: SceneLoads.onCustomUnload
+- uid: UILib.Patches.SceneLoads.onCustomUnload*
+  name: onCustomUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onCustomUnload_
+  commentId: Overload:UILib.Patches.SceneLoads.onCustomUnload
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onCustomUnload
+  nameWithType: SceneLoads.onCustomUnload
+- uid: UILib.Patches.SceneLoads.onLoad
+  name: onLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onLoad
+  commentId: P:UILib.Patches.SceneLoads.onLoad
+  fullName: UILib.Patches.SceneLoads.onLoad
+  nameWithType: SceneLoads.onLoad
+- uid: UILib.Patches.SceneLoads.onLoad*
+  name: onLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onLoad_
+  commentId: Overload:UILib.Patches.SceneLoads.onLoad
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onLoad
+  nameWithType: SceneLoads.onLoad
+- uid: UILib.Patches.SceneLoads.onQuickPlaytestLoad
+  name: onQuickPlaytestLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onQuickPlaytestLoad
+  commentId: P:UILib.Patches.SceneLoads.onQuickPlaytestLoad
+  fullName: UILib.Patches.SceneLoads.onQuickPlaytestLoad
+  nameWithType: SceneLoads.onQuickPlaytestLoad
+- uid: UILib.Patches.SceneLoads.onQuickPlaytestLoad*
+  name: onQuickPlaytestLoad
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onQuickPlaytestLoad_
+  commentId: Overload:UILib.Patches.SceneLoads.onQuickPlaytestLoad
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onQuickPlaytestLoad
+  nameWithType: SceneLoads.onQuickPlaytestLoad
+- uid: UILib.Patches.SceneLoads.onQuickPlaytestUnload
+  name: onQuickPlaytestUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onQuickPlaytestUnload
+  commentId: P:UILib.Patches.SceneLoads.onQuickPlaytestUnload
+  fullName: UILib.Patches.SceneLoads.onQuickPlaytestUnload
+  nameWithType: SceneLoads.onQuickPlaytestUnload
+- uid: UILib.Patches.SceneLoads.onQuickPlaytestUnload*
+  name: onQuickPlaytestUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onQuickPlaytestUnload_
+  commentId: Overload:UILib.Patches.SceneLoads.onQuickPlaytestUnload
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onQuickPlaytestUnload
+  nameWithType: SceneLoads.onQuickPlaytestUnload
+- uid: UILib.Patches.SceneLoads.onUnload
+  name: onUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onUnload
+  commentId: P:UILib.Patches.SceneLoads.onUnload
+  fullName: UILib.Patches.SceneLoads.onUnload
+  nameWithType: SceneLoads.onUnload
+- uid: UILib.Patches.SceneLoads.onUnload*
+  name: onUnload
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onUnload_
+  commentId: Overload:UILib.Patches.SceneLoads.onUnload
+  isSpec: "True"
+  fullName: UILib.Patches.SceneLoads.onUnload
+  nameWithType: SceneLoads.onUnload
 - uid: UILib.ResizeButton
   name: ResizeButton
   href: api/UILib.ResizeButton.html
@@ -2605,6 +3427,19 @@ references:
   isSpec: "True"
   fullName: UILib.Resources.gameFont
   nameWithType: Resources.gameFont
+- uid: UILib.Resources.hsvOpacity
+  name: hsvOpacity
+  href: api/UILib.Resources.html#UILib_Resources_hsvOpacity
+  commentId: P:UILib.Resources.hsvOpacity
+  fullName: UILib.Resources.hsvOpacity
+  nameWithType: Resources.hsvOpacity
+- uid: UILib.Resources.hsvOpacity*
+  name: hsvOpacity
+  href: api/UILib.Resources.html#UILib_Resources_hsvOpacity_
+  commentId: Overload:UILib.Resources.hsvOpacity
+  isSpec: "True"
+  fullName: UILib.Resources.hsvOpacity
+  nameWithType: Resources.hsvOpacity
 - uid: UILib.Resources.hsvRect
   name: hsvRect
   href: api/UILib.Resources.html#UILib_Resources_hsvRect
@@ -2618,6 +3453,19 @@ references:
   isSpec: "True"
   fullName: UILib.Resources.hsvRect
   nameWithType: Resources.hsvRect
+- uid: UILib.Resources.hsvSpectrum
+  name: hsvSpectrum
+  href: api/UILib.Resources.html#UILib_Resources_hsvSpectrum
+  commentId: P:UILib.Resources.hsvSpectrum
+  fullName: UILib.Resources.hsvSpectrum
+  nameWithType: Resources.hsvSpectrum
+- uid: UILib.Resources.hsvSpectrum*
+  name: hsvSpectrum
+  href: api/UILib.Resources.html#UILib_Resources_hsvSpectrum_
+  commentId: Overload:UILib.Resources.hsvSpectrum
+  isSpec: "True"
+  fullName: UILib.Resources.hsvSpectrum
+  nameWithType: Resources.hsvSpectrum
 - uid: UILib.Resources.notification
   name: notification
   href: api/UILib.Resources.html#UILib_Resources_notification
@@ -2695,6 +3543,12 @@ references:
   commentId: F:UILib.Theme.accent
   fullName: UILib.Theme.accent
   nameWithType: Theme.accent
+- uid: UILib.Theme.accentAlt
+  name: accentAlt
+  href: api/UILib.Theme.html#UILib_Theme_accentAlt
+  commentId: F:UILib.Theme.accentAlt
+  fullName: UILib.Theme.accentAlt
+  nameWithType: Theme.accentAlt
 - uid: UILib.Theme.background
   name: background
   href: api/UILib.Theme.html#UILib_Theme_background

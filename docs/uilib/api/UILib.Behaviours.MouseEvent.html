@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PauseHandler | poy-ui-lib </title>
+      <title>Class MouseEvent | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PauseHandler | poy-ui-lib ">
+      <meta name="title" content="Class MouseEvent | poy-ui-lib ">
       
-      <meta name="description" content="A class which helps deal with pausing/resuming in Peaks of Yore. This also takes away focus from the game allowing users to interact with UI when they otherwise wouldn&#39;t be able to. This tries to handle different cases where the game is paused, along with pausing which has been caused by UIs in UILib. So it could, in most cases, be something you can rely on to determine whether the user is in a UI. If it doesn&#39;t handle something, please let me know.">
+      <meta name="description" content="An event type which passes a Vector2 position to listeners when the mouse is clicked/dragged. This will be the current position of the mouse.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,37 +84,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Patches.PauseHandler">
+        <article data-uid="UILib.Behaviours.MouseEvent">
 
 
 
-  <h1 id="UILib_Patches_PauseHandler" data-uid="UILib.Patches.PauseHandler" class="text-break">
-Class PauseHandler  
+  <h1 id="UILib_Behaviours_MouseEvent" data-uid="UILib.Behaviours.MouseEvent" class="text-break">
+Class MouseEvent  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Patches.html">Patches</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Behaviours.html">Behaviours</a></dd></dl>
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A class which helps deal with
-pausing/resuming in Peaks of Yore.</p>
-<p>This also takes away focus from the game
-allowing users to interact with UI when they otherwise
-wouldn't be able to.</p>
-<p>This tries to handle different cases
-where the game is paused, along with pausing
-which has been caused by UIs in UILib. So
-it could, in most cases, be something
-you can rely on to determine whether the
-user is in a UI.</p>
-<p>If it doesn't handle something, please let me
-know.</p>
+  <div class="markdown summary"><p>An event type which passes a <code>Vector2</code> position
+to listeners when the mouse is clicked/dragged.
+This will be the current position of the mouse.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class PauseHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class MouseEvent : UnityEvent&lt;Vector2&gt;, ISerializationCallbackReceiver</code></pre>
   </div>
 
 
@@ -124,17 +114,106 @@ know.</p>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PauseHandler</span></div>
+      <div><span class="xref">UnityEventBase</span></div>
+      <div><span class="xref">UnityEvent</span>&lt;<span class="xref">Vector2</span>&gt;</div>
+      <div><span class="xref">MouseEvent</span></div>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><span class="xref">ISerializationCallbackReceiver</span></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <span class="xref">UnityEvent&lt;Vector2&gt;.m_InvokeArray</span>
+    </div>
+    <div>
+      <span class="xref">UnityEvent&lt;Vector2&gt;.AddListener(UnityAction&lt;Vector2&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEvent&lt;Vector2&gt;.RemoveListener(UnityAction&lt;Vector2&gt;)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">UnityEvent&lt;Vector2&gt;.FindMethod_Impl(string, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">UnityEvent&lt;Vector2&gt;.GetDelegate(object, MethodInfo)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEvent&lt;Vector2&gt;.GetDelegate(UnityAction&lt;Vector2&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEvent&lt;Vector2&gt;.Invoke(Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.m_Calls</span>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.m_PersistentCalls</span>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.m_CallsDirty</span>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.ISerializationCallbackReceiver.OnBeforeSerialize()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.ISerializationCallbackReceiver.OnAfterDeserialize()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.FindMethod(PersistentCall)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">UnityEventBase.FindMethod(string, object, PersistentListenerMode, Type)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.GetPersistentEventCount()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">UnityEventBase.GetPersistentTarget(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">UnityEventBase.GetPersistentMethodName(int)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.DirtyPersistentCalls()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.RebuildPersistentCallsIfNeeded()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">UnityEventBase.SetPersistentListenerState(int, UnityEventCallState)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">UnityEventBase.AddListener(object, MethodInfo)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.AddCall(BaseInvokableCall)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">UnityEventBase.RemoveListener(object, MethodInfo)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.RemoveAllListeners()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.PrepareInvoke()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">UnityEventBase.Invoke(object[])</a>
+    </div>
+    <div>
+      <span class="xref">UnityEventBase.ToString()</span>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">UnityEventBase.GetValidMethodInfo(object, string, Type[])</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -155,107 +234,6 @@ know.</p>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
   </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="UILib_Patches_PauseHandler_isPaused_" data-uid="UILib.Patches.PauseHandler.isPaused*"></a>
-
-  <h3 id="UILib_Patches_PauseHandler_isPaused" data-uid="UILib.Patches.PauseHandler.isPaused">
-  isPaused
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Indicates whether the game is currently paused
-by the <code>PauseHandler</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool isPaused { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Patches_PauseHandler_onPause_" data-uid="UILib.Patches.PauseHandler.onPause*"></a>
-
-  <h3 id="UILib_Patches_PauseHandler_onPause" data-uid="UILib.Patches.PauseHandler.onPause">
-  onPause
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes listeners when the game is paused.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEvent onPause { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Patches_PauseHandler_onUnpause_" data-uid="UILib.Patches.PauseHandler.onUnpause*"></a>
-
-  <h3 id="UILib_Patches_PauseHandler_onUnpause" data-uid="UILib.Patches.PauseHandler.onUnpause">
-  onUnpause
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes listeners when the game is unpaused.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEvent onUnpause { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
-    <dd></dd>
-  </dl>
-
-
 
 
 

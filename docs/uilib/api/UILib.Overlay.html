@@ -451,6 +451,42 @@ can receive local shortcuts.</p>
 
 
 
+  <a id="UILib_Overlay_sortable_" data-uid="UILib.Overlay.sortable*"></a>
+
+  <h3 id="UILib_Overlay_sortable" data-uid="UILib.Overlay.sortable">
+  sortable
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether this overlay can be brought to the front
+above all other overlays. Or whether it will
+only move down the sorting orders.</p>
+<p>By default all overlays are sortable and
+so can be brought to the front.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool sortable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -505,6 +541,9 @@ all keys configured in the shortcut are pressed.</p>
 
   <div class="markdown level1 summary"><p>Brings this overlay to the front
 so that it displays above all others.</p>
+<p>If <a class="xref" href="UILib.Overlay.html#UILib_Overlay_sortable">sortable</a> is <code>false</code>
+this method will only cause the overlay
+to become focused. It won't move to the front.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -746,6 +785,42 @@ be allocated.</li>
   <dl class="parameters">
     <dt><code>autoPause</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd><p>Whether to pause the game automatically</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Overlay_SetSortable_" data-uid="UILib.Overlay.SetSortable*"></a>
+
+  <h3 id="UILib_Overlay_SetSortable_System_Boolean_" data-uid="UILib.Overlay.SetSortable(System.Boolean)">
+  SetSortable(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Toggles the ability for this overlay to move to the front
+above all other overlays.</p>
+<p>If this is set to <code>false</code>, the overlay's sorting
+order can only decrease (i.e. move further to the back).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSortable(bool sortable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sortable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to allow moving to the front</p>
 </dd>
   </dl>
 

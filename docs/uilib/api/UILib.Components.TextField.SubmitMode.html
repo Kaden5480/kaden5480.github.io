@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace UILib.Patches | poy-ui-lib </title>
+      <title>Enum TextField.SubmitMode | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace UILib.Patches | poy-ui-lib ">
+      <meta name="title" content="Enum TextField.SubmitMode | poy-ui-lib ">
       
-      
+      <meta name="description" content="An enum of modes which determine which interactions will count as a submit. Pressing Return will always count as a submit">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,62 +84,56 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Patches">
+        <article data-uid="UILib.Components.TextField.SubmitMode">
 
-  <h1 id="UILib_Patches" data-uid="UILib.Patches" class="text-break">Namespace UILib.Patches</h1>
-  <div class="markdown level0 summary"></div>
-  <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
 
-    <h3 id="classes">
-Classes
-</h3>
-    <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Patches.PauseHandle.html">PauseHandle</a></dt>
-      <dd><p>A pause handle.</p>
-<p>You shouldn't usually need to construct your own <code>PauseHandles</code>
-as <a class="xref" href="UILib.Overlay.html">Overlays</a> already create them
-internally.</p>
-<p>Whenever a <code>PauseHandle</code> is constructed it automatically
-pauses the game.</p>
-<p>Closing a <code>PauseHandle</code> will let the game unpause,
-but only once all <code>PauseHandles</code> have been closed.
-There could even be many <code>PauseHandles</code> across many mods,
-but as long as at least one exists
-(and hasn't closed yet), the game will be paused.</p>
+
+
+  <h1 id="UILib_Components_TextField_SubmitMode" data-uid="UILib.Components.TextField.SubmitMode" class="text-break">
+Enum TextField.SubmitMode  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Components.html">Components</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>An enum of modes which determine which interactions
+will count as a submit.</p>
+<p>Pressing <code>Return</code> will always count as a submit</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Flags]
+public enum TextField.SubmitMode</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="UILib_Components_TextField_SubmitMode_Click"><code>Click = 2</code></dt>
+  
+  <dd><p>Clicking something other than this field counts as a submit.</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Patches.PauseHandler.html">PauseHandler</a></dt>
-      <dd><p>A class which helps deal with
-pausing/resuming in Peaks of Yore.</p>
-<p>This also takes away focus from the game
-allowing users to interact with UI when they otherwise
-wouldn't be able to.</p>
-<p>This tries to handle different cases
-where the game is paused, along with pausing
-which has been caused by UIs in UILib. So
-it could, in most cases, be something
-you can rely on to determine whether the
-user is in a UI.</p>
-<p>If it doesn't handle something, please let me
-know.</p>
+    <dt id="UILib_Components_TextField_SubmitMode_Escape"><code>Escape = 1</code></dt>
+  
+  <dd><p>Pressing escape will count as a submit.</p>
 </dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Patches.SceneLoads.html">SceneLoads</a></dt>
-      <dd><p>A class which helps with knowing when a scene has loaded/unloaded.</p>
-<p>In Peaks of Yore the ways the built-in scenes load is different
-to custom levels made in the editor.</p>
-<p>Not all objects are loaded in the custom levels on the typical
-Unity scene load, as they're added in dynamically afterwards.</p>
-<p>There's also a difference between full playtest/playing normally
-and being in the editor switching between the orbit camera and quick playtest.
-Switching to and from the orbit camera keeps loading/unloading some objects.</p>
-<p>This class invokes listeners when the scenes are loaded and unloaded,
-simplifying the process.</p>
+    <dt id="UILib_Components_TextField_SubmitMode_None"><code>None = 0</code></dt>
+  
+  <dd><p>Nothing extra counts as a submit.</p>
 </dd>
-    </dl>
+  </dl>
+
 
 
 </article>

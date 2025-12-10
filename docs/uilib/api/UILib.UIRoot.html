@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class UIRoot | poy-ui-lib ">
       
-      <meta name="description" content="The root of UILib. This initializes audio, notifications, the input overlay, and handles window management. You should use  to know when you can start using UILib. onInit invokes listeners once UILib has finished setting everything up internally.">
+      <meta name="description" content="The root of UILib. This initializes audio, notifications, the color picker, the input overlay, and handles window management. You should use  to know when you can start using UILib. onInit invokes listeners once UILib has finished setting everything up internally.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -98,8 +98,8 @@ Class UIRoot
   </div>
 
   <div class="markdown summary"><p>The root of UILib.
-This initializes audio, notifications, the input overlay, and
-handles window management.</p>
+This initializes audio, notifications, the color picker,
+the input overlay, and handles window management.</p>
 <p>You should use <a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_onInit">onInit</a> to know when
 you can start using UILib. <code>onInit</code> invokes listeners
 once UILib has finished setting everything up internally.</p>
@@ -167,6 +167,8 @@ once UILib has finished setting everything up internally.</p>
 
   <div class="markdown level1 summary"><p>Invokes listeners once UILib has been initialized.
 This indicates when you can start building UIs.</p>
+<p>The best place to add a listener to <code>onInit</code> is
+usually in the <code>Awake</code> of your mod.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

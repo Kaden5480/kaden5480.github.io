@@ -366,7 +366,7 @@ using a variety of color representations.</p>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Color</span></dt>
-    <dd><p>The `Color</p>
+    <dd><p>The <code>Color</code></p>
 </dd>
   </dl>
 
@@ -406,7 +406,7 @@ using a variety of color representations.</p>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Color</span></dt>
-    <dd><p>The `Color</p>
+    <dd><p>The <code>Color</code></p>
 </dd>
   </dl>
 
@@ -422,29 +422,29 @@ using a variety of color representations.</p>
 
   <a id="UILib_Colors_RGB_" data-uid="UILib.Colors.RGB*"></a>
 
-  <h3 id="UILib_Colors_RGB_System_Int32_System_Int32_System_Int32_" data-uid="UILib.Colors.RGB(System.Int32,System.Int32,System.Int32)">
-  RGB(int, int, int)
+  <h3 id="UILib_Colors_RGB_System_Single_System_Single_System_Single_" data-uid="UILib.Colors.RGB(System.Single,System.Single,System.Single)">
+  RGB(float, float, float)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Creates a <code>Color</code> from red, green, blue, and alpha
+  <div class="markdown level1 summary"><p>Creates a <code>Color</code> from red, green, and blue
 components.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color RGB(int r, int g, int b)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color RGB(float r, float g, float b)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The red value (0-255)</p>
 </dd>
-    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The green value (0-255)</p>
 </dd>
-    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The blue value (0-255)</p>
 </dd>
   </dl>
@@ -468,8 +468,8 @@ components.</p>
 
   <a id="UILib_Colors_RGBA_" data-uid="UILib.Colors.RGBA*"></a>
 
-  <h3 id="UILib_Colors_RGBA_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="UILib.Colors.RGBA(System.Int32,System.Int32,System.Int32,System.Int32)">
-  RGBA(int, int, int, int)
+  <h3 id="UILib_Colors_RGBA_System_Single_System_Single_System_Single_System_Single_" data-uid="UILib.Colors.RGBA(System.Single,System.Single,System.Single,System.Single)">
+  RGBA(float, float, float, float)
   
   </h3>
 
@@ -479,21 +479,21 @@ components.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Color RGBA(int r, int g, int b, int a)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Color RGBA(float r, float g, float b, float a)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The red value (0-255)</p>
 </dd>
-    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The green value (0-255)</p>
 </dd>
-    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The blue value (0-255)</p>
 </dd>
-    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The alpha value (0-100)</p>
 </dd>
   </dl>
@@ -502,6 +502,201 @@ components.</p>
   <dl class="parameters">
     <dt><span class="xref">Color</span></dt>
     <dd><p>The <code>Color</code></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Colors_RGBAToHex_" data-uid="UILib.Colors.RGBAToHex*"></a>
+
+  <h3 id="UILib_Colors_RGBAToHex_System_Int32_System_Int32_System_Int32_System_Int32_" data-uid="UILib.Colors.RGBAToHex(System.Int32,System.Int32,System.Int32,System.Int32)">
+  RGBAToHex(int, int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts RGB values to a hex value in the form 0xRRGGBBAA.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int RGBAToHex(int r, int g, int b, int a)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The red component (0-255)</p>
+</dd>
+    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The green component (0-255)</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The blue component (0-255)</p>
+</dd>
+    <dt><code>a</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The alpha component (0-100)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The hex value</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Colors_RGBToHSL_" data-uid="UILib.Colors.RGBToHSL*"></a>
+
+  <h3 id="UILib_Colors_RGBToHSL_System_Single_System_Single_System_Single_" data-uid="UILib.Colors.RGBToHSL(System.Single,System.Single,System.Single)">
+  RGBToHSL(float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts RGB to HSL.</p>
+<p>The returned HSL will be:
+H: [0, 360]
+S: [0, 100]
+L: [0, 100]</p>
+<p>See:
+<a href="https://en.wikipedia.org/wiki/HSL_and_HSV#Color_conversion_formulae">https://en.wikipedia.org/wiki/HSL_and_HSV#Color_conversion_formulae</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 RGBToHSL(float r, float g, float b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The red component (0-255)</p>
+</dd>
+    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The green component (0-255)</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The blue component (0-255)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd><p>The HSL values</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Colors_RGBToHSV_" data-uid="UILib.Colors.RGBToHSV*"></a>
+
+  <h3 id="UILib_Colors_RGBToHSV_System_Single_System_Single_System_Single_" data-uid="UILib.Colors.RGBToHSV(System.Single,System.Single,System.Single)">
+  RGBToHSV(float, float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts RGB to HSV.</p>
+<p>The returned HSV will be:
+H: [0, 360]
+S: [0, 100]
+V: [0, 100]</p>
+<p>See:
+<a href="https://en.wikipedia.org/wiki/HSL_and_HSV#Color_conversion_formulae">https://en.wikipedia.org/wiki/HSL_and_HSV#Color_conversion_formulae</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 RGBToHSV(float r, float g, float b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The red component (0-255)</p>
+</dd>
+    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The green component (0-255)</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The blue component (0-255)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector3</span></dt>
+    <dd><p>The HSV values</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Colors_RGBToHex_" data-uid="UILib.Colors.RGBToHex*"></a>
+
+  <h3 id="UILib_Colors_RGBToHex_System_Int32_System_Int32_System_Int32_" data-uid="UILib.Colors.RGBToHex(System.Int32,System.Int32,System.Int32)">
+  RGBToHex(int, int, int)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Converts RGB values to a hex value in the form 0xRRGGBB.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int RGBToHex(int r, int g, int b)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>r</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The red component (0-255)</p>
+</dd>
+    <dt><code>g</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The green component (0-255)</p>
+</dd>
+    <dt><code>b</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The blue component (0-255)</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The hex value</p>
 </dd>
   </dl>
 

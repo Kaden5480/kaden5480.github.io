@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Picker | poy-ui-lib ">
       
-      <meta name="description" content="A 2D picker component. Kind of like a , but allows you to handle x and y values.">
+      <meta name="description" content="A 2D picker component. Kind of like a , but allows you to handle x and y values. By default: (0, 0) is the bottom left (1, 1) is the top right">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -100,6 +100,9 @@ Class Picker
   <div class="markdown summary"><p>A 2D picker component.</p>
 <p>Kind of like a <a class="xref" href="UILib.Components.Slider.html">Slider</a>, but allows you
 to handle <code>x</code> and <code>y</code> values.</p>
+<p>By default:
+(0, 0) is the bottom left
+(1, 1) is the top right</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -234,9 +237,6 @@ to handle <code>x</code> and <code>y</code> values.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnBeginDrag_UnityEngine_Vector2_">UIObject.OnBeginDrag(Vector2)</a>
     </div>
     <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnDrag_UnityEngine_Vector2_">UIObject.OnDrag(Vector2)</a>
-    </div>
-    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnEndDrag_UnityEngine_Vector2_">UIObject.OnEndDrag(Vector2)</a>
     </div>
     <div>
@@ -313,6 +313,452 @@ to handle <code>x</code> and <code>y</code> values.</p>
     <pre><code class="lang-csharp hljs">public Picker()</code></pre>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="UILib_Components_Picker_background_" data-uid="UILib.Components.Picker.background*"></a>
+
+  <h3 id="UILib_Components_Picker_background" data-uid="UILib.Components.Picker.background">
+  background
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The background of this picker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image background { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Image.html">Image</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_handle_" data-uid="UILib.Components.Picker.handle*"></a>
+
+  <h3 id="UILib_Components_Picker_handle" data-uid="UILib.Components.Picker.handle">
+  handle
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The picker's handle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image handle { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Image.html">Image</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_maxX_" data-uid="UILib.Components.Picker.maxX*"></a>
+
+  <h3 id="UILib_Components_Picker_maxX" data-uid="UILib.Components.Picker.maxX">
+  maxX
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The maximum x value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float maxX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_maxY_" data-uid="UILib.Components.Picker.maxY*"></a>
+
+  <h3 id="UILib_Components_Picker_maxY" data-uid="UILib.Components.Picker.maxY">
+  maxY
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The maximum y value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float maxY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_minX_" data-uid="UILib.Components.Picker.minX*"></a>
+
+  <h3 id="UILib_Components_Picker_minX" data-uid="UILib.Components.Picker.minX">
+  minX
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The minimum x value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float minX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_minY_" data-uid="UILib.Components.Picker.minY*"></a>
+
+  <h3 id="UILib_Components_Picker_minY" data-uid="UILib.Components.Picker.minY">
+  minY
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The minimum y value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float minY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_onValueChanged_" data-uid="UILib.Components.Picker.onValueChanged*"></a>
+
+  <h3 id="UILib_Components_Picker_onValueChanged" data-uid="UILib.Components.Picker.onValueChanged">
+  onValueChanged
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners with the current value
+when the position of the handle is changed
+by the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValueEvent&lt;Vector2&gt; onValueChanged { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Behaviours.ValueEvent-1.html">ValueEvent</a>&lt;<span class="xref">Vector2</span>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_value_" data-uid="UILib.Components.Picker.value*"></a>
+
+  <h3 id="UILib_Components_Picker_value" data-uid="UILib.Components.Picker.value">
+  value
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The current value stored in the picker.</p>
+<p>The position of the handle is first normalized
+and then the minimum and maximum x and y values are used
+to calculate the current value of the handle.</p>
+<p>This value will always be between (<code>minX</code>, <code>minY</code>) and (<code>maxX</code>, <code>maxY</code>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 value { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Vector2</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="UILib_Components_Picker_OnDrag_" data-uid="UILib.Components.Picker.OnDrag*"></a>
+
+  <h3 id="UILib_Components_Picker_OnDrag_UnityEngine_Vector2_" data-uid="UILib.Components.Picker.OnDrag(UnityEngine.Vector2)">
+  OnDrag(Vector2)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Handles this picker being dragged.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDrag(Vector2 position)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>position</code> <span class="xref">Vector2</span></dt>
+    <dd><p>The position dragged to</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_SetMaxValues_" data-uid="UILib.Components.Picker.SetMaxValues*"></a>
+
+  <h3 id="UILib_Components_Picker_SetMaxValues_System_Single_System_Single_" data-uid="UILib.Components.Picker.SetMaxValues(System.Single,System.Single)">
+  SetMaxValues(float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the maximum values of this picker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMaxValues(float maxX, float maxY)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The maximum x value</p>
+</dd>
+    <dt><code>maxY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The maximum y value</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_SetMinValues_" data-uid="UILib.Components.Picker.SetMinValues*"></a>
+
+  <h3 id="UILib_Components_Picker_SetMinValues_System_Single_System_Single_" data-uid="UILib.Components.Picker.SetMinValues(System.Single,System.Single)">
+  SetMinValues(float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the minimum values of this picker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetMinValues(float minX, float minY)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>minX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The minimum x value</p>
+</dd>
+    <dt><code>minY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The minimum y value</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_SetThisTheme_" data-uid="UILib.Components.Picker.SetThisTheme*"></a>
+
+  <h3 id="UILib_Components_Picker_SetThisTheme_UILib_Theme_" data-uid="UILib.Components.Picker.SetThisTheme(UILib.Theme)">
+  SetThisTheme(Theme)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allows setting the theme of this picker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void SetThisTheme(Theme theme)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>theme</code> <a class="xref" href="UILib.Theme.html">Theme</a></dt>
+    <dd><p>The theme to apply</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Picker_SetValue_" data-uid="UILib.Components.Picker.SetValue*"></a>
+
+  <h3 id="UILib_Components_Picker_SetValue_System_Single_System_Single_" data-uid="UILib.Components.Picker.SetValue(System.Single,System.Single)">
+  SetValue(float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the current value of this picker.</p>
+<p>These values must be within your configured min and max
+values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValue(float x, float y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The x value to set the picker to</p>
+</dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The y value to set the picker to</p>
+</dd>
+  </dl>
 
 
 

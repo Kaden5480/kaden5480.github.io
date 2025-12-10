@@ -299,7 +299,7 @@ Most of the time you'd want to use <a class="xref" href="UILib.UIComponent.html"
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The ContentSizeFitter for this UIObject's content, if it has one.
+  <div class="markdown level1 summary"><p>The <code>ContentSizeFitter</code> for this UIObject's content, if it has one.
 It's important to note that this is added to the
 configured <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">content</a>.</p>
 </div>
@@ -333,7 +333,7 @@ configured <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_U
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The underlying GameObject this UIObject attaches
+  <div class="markdown level1 summary"><p>The underlying <code>GameObject</code> this UIObject attaches
 components to.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -430,7 +430,7 @@ components to.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The LayoutElement for this UIObject, if it has one.</p>
+  <div class="markdown level1 summary"><p>The <code>LayoutElement</code> for this UIObject, if it has one.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -462,7 +462,7 @@ components to.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The LayoutGroup for this UIObject's content, if it has one.
+  <div class="markdown level1 summary"><p>The <code>LayoutGroup</code> for this UIObject's content, if it has one.
 It's important to note that this is added to the
 configured <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">content</a>,
 not necessarily on the <a class="xref" href="UILib.UIObject.html#UILib_UIObject_gameObject">gameObject</a>.</p>
@@ -498,7 +498,7 @@ not necessarily on the <a class="xref" href="UILib.UIObject.html#UILib_UIObject_
   </h3>
 
   <div class="markdown level1 summary"><p>The current layout set on this UIObject's content.
-It's important to note that this is added to the
+It's important to note that this is set on the
 configured <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">content</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -537,7 +537,7 @@ dragging on this UIObject.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual DragEvent onBeginDrag { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual MouseEvent onBeginDrag { get; }</code></pre>
   </div>
 
 
@@ -546,7 +546,7 @@ dragging on this UIObject.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Behaviours.DragEvent.html">DragEvent</a></dt>
+    <dt><a class="xref" href="UILib.Behaviours.MouseEvent.html">MouseEvent</a></dt>
     <dd></dd>
   </dl>
 
@@ -634,7 +634,7 @@ dragging on this UIObject.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual DragEvent onDrag { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual MouseEvent onDrag { get; }</code></pre>
   </div>
 
 
@@ -643,7 +643,7 @@ dragging on this UIObject.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Behaviours.DragEvent.html">DragEvent</a></dt>
+    <dt><a class="xref" href="UILib.Behaviours.MouseEvent.html">MouseEvent</a></dt>
     <dd></dd>
   </dl>
 
@@ -667,7 +667,7 @@ stopped dragging on this UIObject.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual DragEvent onEndDrag { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual MouseEvent onEndDrag { get; }</code></pre>
   </div>
 
 
@@ -676,7 +676,7 @@ stopped dragging on this UIObject.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Behaviours.DragEvent.html">DragEvent</a></dt>
+    <dt><a class="xref" href="UILib.Behaviours.MouseEvent.html">MouseEvent</a></dt>
     <dd></dd>
   </dl>
 
@@ -790,7 +790,7 @@ stopped dragging on this UIObject.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>The RectTransform attached to <a class="xref" href="UILib.UIObject.html#UILib_UIObject_gameObject">gameObject</a>.</p>
+  <div class="markdown level1 summary"><p>The <code>RectTransform</code> attached to <a class="xref" href="UILib.UIObject.html#UILib_UIObject_gameObject">gameObject</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -904,7 +904,7 @@ stopped dragging on this UIObject.</p>
     <dd><p>The child to add</p>
 </dd>
     <dt><code>setTheme</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the child should inherit the content's theme</p>
+    <dd><p>Whether the child should inherit the content's theme immediately</p>
 </dd>
   </dl>
 
@@ -928,8 +928,6 @@ stopped dragging on this UIObject.</p>
 
   <div class="markdown level1 summary"><p>Adds a component to the
 <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">content</a>.</p>
-<p>Keep in mind, the child will inherit the <a class="xref" href="UILib.Theme.html">Theme</a>
-of the <code>content</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -943,7 +941,7 @@ of the <code>content</code>.</p>
     <dd><p>The child to add</p>
 </dd>
     <dt><code>setTheme</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the child should inherit the content's theme</p>
+    <dd><p>Whether the child should inherit the content's theme immediately</p>
 </dd>
   </dl>
 
@@ -967,8 +965,6 @@ of the <code>content</code>.</p>
 
   <div class="markdown level1 summary"><p>Adds a component directly to this UIObject,
 ignoring the configured <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">content</a>.</p>
-<p>Keep in mind, the child will inherit the <a class="xref" href="UILib.Theme.html">Theme</a>
-of this UIObject.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -982,7 +978,7 @@ of this UIObject.</p>
     <dd><p>The child to add</p>
 </dd>
     <dt><code>setTheme</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Whether the child should inherit this object's theme</p>
+    <dd><p>Whether the child should inherit this object's theme immediately</p>
 </dd>
   </dl>
 
@@ -1004,14 +1000,14 @@ of this UIObject.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Adds a LayoutElement to this UIObject
+  <div class="markdown level1 summary"><p>Adds a <code>LayoutElement</code> to this UIObject
 to allow automatically managing how
 it's layed out in its parent container.</p>
 <p>In general, you won't need to call this
 since whenever you add a UIObject to another, it
-will automatically get a LayoutElement if the
+will automatically get a <code>LayoutElement</code> if the
 parent being added to has a layout configured already.</p>
-<p>LayoutElements only do anything if the parent container has
+<p><code>LayoutElements</code> only do anything if the parent container has
 a layout set on it (vertical or horizontal).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1342,17 +1338,17 @@ content objects as in some cases the children should be
 added to a different UIObject.</p>
 <p>A good example of this would be
 <a class="xref" href="UILib.Components.ScrollView.html">ScrollViews</a>,
-which are composed of a variety of GameObjects
+which are composed of a variety of <code>GameObjects</code>
 like so:</p>
 <pre><code class="lang-csharp">- ScrollView
   - Viewport
     - Content
   - ScrollBar
   - ScrollBar</code></pre>
-<p>In general adding to the ScrollView directly doesn't make much
-sense, you usually want to add to the Content GameObject instead.
-So, ScrollViews configure their content to be the &quot;Content&quot;,
-rather than &quot;ScrollView&quot;.</p>
+<p>In general adding to the <a class="xref" href="UILib.Components.ScrollView.html">ScrollView</a> directly doesn't make much
+sense, you usually want to add to the &quot;Content&quot; <code>GameObject</code> instead.
+So, <a class="xref" href="UILib.Components.ScrollView.html">ScrollViews</a> configure their content
+to be the &quot;Content&quot;, rather than &quot;ScrollView&quot;.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
