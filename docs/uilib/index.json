@@ -1,9 +1,4 @@
 {
-  "api.html": {
-    "href": "api.html",
-    "title": "",
-    "summary": ""
-  },
   "api/UILib.Audio.html": {
     "href": "api/UILib.Audio.html",
     "title": "Class Audio | poy-ui-lib",
