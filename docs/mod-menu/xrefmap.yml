@@ -1,0 +1,727 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ModMenu
+  name: ModMenu
+  href: api/ModMenu.html
+  commentId: N:ModMenu
+  fullName: ModMenu
+  nameWithType: ModMenu
+- uid: ModMenu.BuildEvent
+  name: BuildEvent
+  href: api/ModMenu.BuildEvent.html
+  commentId: T:ModMenu.BuildEvent
+  fullName: ModMenu.BuildEvent
+  nameWithType: BuildEvent
+- uid: ModMenu.Config
+  name: ModMenu.Config
+  href: api/ModMenu.Config.html
+  commentId: N:ModMenu.Config
+  fullName: ModMenu.Config
+  nameWithType: ModMenu.Config
+- uid: ModMenu.Config.CategoryAttribute
+  name: CategoryAttribute
+  href: api/ModMenu.Config.CategoryAttribute.html
+  commentId: T:ModMenu.Config.CategoryAttribute
+  fullName: ModMenu.Config.CategoryAttribute
+  nameWithType: CategoryAttribute
+- uid: ModMenu.Config.CategoryAttribute.#ctor(System.String)
+  name: CategoryAttribute(string)
+  href: api/ModMenu.Config.CategoryAttribute.html#ModMenu_Config_CategoryAttribute__ctor_System_String_
+  commentId: M:ModMenu.Config.CategoryAttribute.#ctor(System.String)
+  name.vb: New(String)
+  fullName: ModMenu.Config.CategoryAttribute.CategoryAttribute(string)
+  fullName.vb: ModMenu.Config.CategoryAttribute.New(String)
+  nameWithType: CategoryAttribute.CategoryAttribute(string)
+  nameWithType.vb: CategoryAttribute.New(String)
+- uid: ModMenu.Config.CategoryAttribute.#ctor*
+  name: CategoryAttribute
+  href: api/ModMenu.Config.CategoryAttribute.html#ModMenu_Config_CategoryAttribute__ctor_
+  commentId: Overload:ModMenu.Config.CategoryAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ModMenu.Config.CategoryAttribute.CategoryAttribute
+  fullName.vb: ModMenu.Config.CategoryAttribute.New
+  nameWithType: CategoryAttribute.CategoryAttribute
+  nameWithType.vb: CategoryAttribute.New
+- uid: ModMenu.Config.ExcludeAttribute
+  name: ExcludeAttribute
+  href: api/ModMenu.Config.ExcludeAttribute.html
+  commentId: T:ModMenu.Config.ExcludeAttribute
+  fullName: ModMenu.Config.ExcludeAttribute
+  nameWithType: ExcludeAttribute
+- uid: ModMenu.Config.ExcludeAttribute.#ctor
+  name: ExcludeAttribute()
+  href: api/ModMenu.Config.ExcludeAttribute.html#ModMenu_Config_ExcludeAttribute__ctor
+  commentId: M:ModMenu.Config.ExcludeAttribute.#ctor
+  name.vb: New()
+  fullName: ModMenu.Config.ExcludeAttribute.ExcludeAttribute()
+  fullName.vb: ModMenu.Config.ExcludeAttribute.New()
+  nameWithType: ExcludeAttribute.ExcludeAttribute()
+  nameWithType.vb: ExcludeAttribute.New()
+- uid: ModMenu.Config.ExcludeAttribute.#ctor*
+  name: ExcludeAttribute
+  href: api/ModMenu.Config.ExcludeAttribute.html#ModMenu_Config_ExcludeAttribute__ctor_
+  commentId: Overload:ModMenu.Config.ExcludeAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ModMenu.Config.ExcludeAttribute.ExcludeAttribute
+  fullName.vb: ModMenu.Config.ExcludeAttribute.New
+  nameWithType: ExcludeAttribute.ExcludeAttribute
+  nameWithType.vb: ExcludeAttribute.New
+- uid: ModMenu.Config.FieldAttribute
+  name: FieldAttribute
+  href: api/ModMenu.Config.FieldAttribute.html
+  commentId: T:ModMenu.Config.FieldAttribute
+  fullName: ModMenu.Config.FieldAttribute
+  nameWithType: FieldAttribute
+- uid: ModMenu.Config.FieldAttribute.#ctor
+  name: FieldAttribute()
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute__ctor
+  commentId: M:ModMenu.Config.FieldAttribute.#ctor
+  name.vb: New()
+  fullName: ModMenu.Config.FieldAttribute.FieldAttribute()
+  fullName.vb: ModMenu.Config.FieldAttribute.New()
+  nameWithType: FieldAttribute.FieldAttribute()
+  nameWithType.vb: FieldAttribute.New()
+- uid: ModMenu.Config.FieldAttribute.#ctor(ModMenu.Config.FieldType,System.String)
+  name: FieldAttribute(FieldType, string)
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute__ctor_ModMenu_Config_FieldType_System_String_
+  commentId: M:ModMenu.Config.FieldAttribute.#ctor(ModMenu.Config.FieldType,System.String)
+  name.vb: New(FieldType, String)
+  fullName: ModMenu.Config.FieldAttribute.FieldAttribute(ModMenu.Config.FieldType, string)
+  fullName.vb: ModMenu.Config.FieldAttribute.New(ModMenu.Config.FieldType, String)
+  nameWithType: FieldAttribute.FieldAttribute(FieldType, string)
+  nameWithType.vb: FieldAttribute.New(FieldType, String)
+- uid: ModMenu.Config.FieldAttribute.#ctor(System.String,ModMenu.Config.FieldType)
+  name: FieldAttribute(string, FieldType)
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute__ctor_System_String_ModMenu_Config_FieldType_
+  commentId: M:ModMenu.Config.FieldAttribute.#ctor(System.String,ModMenu.Config.FieldType)
+  name.vb: New(String, FieldType)
+  fullName: ModMenu.Config.FieldAttribute.FieldAttribute(string, ModMenu.Config.FieldType)
+  fullName.vb: ModMenu.Config.FieldAttribute.New(String, ModMenu.Config.FieldType)
+  nameWithType: FieldAttribute.FieldAttribute(string, FieldType)
+  nameWithType.vb: FieldAttribute.New(String, FieldType)
+- uid: ModMenu.Config.FieldAttribute.#ctor(System.String,System.String)
+  name: FieldAttribute(string, string)
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute__ctor_System_String_System_String_
+  commentId: M:ModMenu.Config.FieldAttribute.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: ModMenu.Config.FieldAttribute.FieldAttribute(string, string)
+  fullName.vb: ModMenu.Config.FieldAttribute.New(String, String)
+  nameWithType: FieldAttribute.FieldAttribute(string, string)
+  nameWithType.vb: FieldAttribute.New(String, String)
+- uid: ModMenu.Config.FieldAttribute.#ctor(System.String,System.String,ModMenu.Config.FieldType)
+  name: FieldAttribute(string, string, FieldType)
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute__ctor_System_String_System_String_ModMenu_Config_FieldType_
+  commentId: M:ModMenu.Config.FieldAttribute.#ctor(System.String,System.String,ModMenu.Config.FieldType)
+  name.vb: New(String, String, FieldType)
+  fullName: ModMenu.Config.FieldAttribute.FieldAttribute(string, string, ModMenu.Config.FieldType)
+  fullName.vb: ModMenu.Config.FieldAttribute.New(String, String, ModMenu.Config.FieldType)
+  nameWithType: FieldAttribute.FieldAttribute(string, string, FieldType)
+  nameWithType.vb: FieldAttribute.New(String, String, FieldType)
+- uid: ModMenu.Config.FieldAttribute.#ctor*
+  name: FieldAttribute
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute__ctor_
+  commentId: Overload:ModMenu.Config.FieldAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ModMenu.Config.FieldAttribute.FieldAttribute
+  fullName.vb: ModMenu.Config.FieldAttribute.New
+  nameWithType: FieldAttribute.FieldAttribute
+  nameWithType.vb: FieldAttribute.New
+- uid: ModMenu.Config.FieldAttribute.description
+  name: description
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_description
+  commentId: P:ModMenu.Config.FieldAttribute.description
+  fullName: ModMenu.Config.FieldAttribute.description
+  nameWithType: FieldAttribute.description
+- uid: ModMenu.Config.FieldAttribute.description*
+  name: description
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_description_
+  commentId: Overload:ModMenu.Config.FieldAttribute.description
+  isSpec: "True"
+  fullName: ModMenu.Config.FieldAttribute.description
+  nameWithType: FieldAttribute.description
+- uid: ModMenu.Config.FieldAttribute.fieldType
+  name: fieldType
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_fieldType
+  commentId: P:ModMenu.Config.FieldAttribute.fieldType
+  fullName: ModMenu.Config.FieldAttribute.fieldType
+  nameWithType: FieldAttribute.fieldType
+- uid: ModMenu.Config.FieldAttribute.fieldType*
+  name: fieldType
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_fieldType_
+  commentId: Overload:ModMenu.Config.FieldAttribute.fieldType
+  isSpec: "True"
+  fullName: ModMenu.Config.FieldAttribute.fieldType
+  nameWithType: FieldAttribute.fieldType
+- uid: ModMenu.Config.FieldAttribute.max
+  name: max
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_max
+  commentId: P:ModMenu.Config.FieldAttribute.max
+  fullName: ModMenu.Config.FieldAttribute.max
+  nameWithType: FieldAttribute.max
+- uid: ModMenu.Config.FieldAttribute.max*
+  name: max
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_max_
+  commentId: Overload:ModMenu.Config.FieldAttribute.max
+  isSpec: "True"
+  fullName: ModMenu.Config.FieldAttribute.max
+  nameWithType: FieldAttribute.max
+- uid: ModMenu.Config.FieldAttribute.min
+  name: min
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_min
+  commentId: P:ModMenu.Config.FieldAttribute.min
+  fullName: ModMenu.Config.FieldAttribute.min
+  nameWithType: FieldAttribute.min
+- uid: ModMenu.Config.FieldAttribute.min*
+  name: min
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_min_
+  commentId: Overload:ModMenu.Config.FieldAttribute.min
+  isSpec: "True"
+  fullName: ModMenu.Config.FieldAttribute.min
+  nameWithType: FieldAttribute.min
+- uid: ModMenu.Config.FieldAttribute.name
+  name: name
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_name
+  commentId: P:ModMenu.Config.FieldAttribute.name
+  fullName: ModMenu.Config.FieldAttribute.name
+  nameWithType: FieldAttribute.name
+- uid: ModMenu.Config.FieldAttribute.name*
+  name: name
+  href: api/ModMenu.Config.FieldAttribute.html#ModMenu_Config_FieldAttribute_name_
+  commentId: Overload:ModMenu.Config.FieldAttribute.name
+  isSpec: "True"
+  fullName: ModMenu.Config.FieldAttribute.name
+  nameWithType: FieldAttribute.name
+- uid: ModMenu.Config.FieldType
+  name: FieldType
+  href: api/ModMenu.Config.FieldType.html
+  commentId: T:ModMenu.Config.FieldType
+  fullName: ModMenu.Config.FieldType
+  nameWithType: FieldType
+- uid: ModMenu.Config.FieldType.Color
+  name: Color
+  href: api/ModMenu.Config.FieldType.html#ModMenu_Config_FieldType_Color
+  commentId: F:ModMenu.Config.FieldType.Color
+  fullName: ModMenu.Config.FieldType.Color
+  nameWithType: FieldType.Color
+- uid: ModMenu.Config.FieldType.KeyCode
+  name: KeyCode
+  href: api/ModMenu.Config.FieldType.html#ModMenu_Config_FieldType_KeyCode
+  commentId: F:ModMenu.Config.FieldType.KeyCode
+  fullName: ModMenu.Config.FieldType.KeyCode
+  nameWithType: FieldType.KeyCode
+- uid: ModMenu.Config.FieldType.None
+  name: None
+  href: api/ModMenu.Config.FieldType.html#ModMenu_Config_FieldType_None
+  commentId: F:ModMenu.Config.FieldType.None
+  fullName: ModMenu.Config.FieldType.None
+  nameWithType: FieldType.None
+- uid: ModMenu.Config.FieldType.ReadOnly
+  name: ReadOnly
+  href: api/ModMenu.Config.FieldType.html#ModMenu_Config_FieldType_ReadOnly
+  commentId: F:ModMenu.Config.FieldType.ReadOnly
+  fullName: ModMenu.Config.FieldType.ReadOnly
+  nameWithType: FieldType.ReadOnly
+- uid: ModMenu.Config.FieldType.Slider
+  name: Slider
+  href: api/ModMenu.Config.FieldType.html#ModMenu_Config_FieldType_Slider
+  commentId: F:ModMenu.Config.FieldType.Slider
+  fullName: ModMenu.Config.FieldType.Slider
+  nameWithType: FieldType.Slider
+- uid: ModMenu.Config.FieldType.Text
+  name: Text
+  href: api/ModMenu.Config.FieldType.html#ModMenu_Config_FieldType_Text
+  commentId: F:ModMenu.Config.FieldType.Text
+  fullName: ModMenu.Config.FieldType.Text
+  nameWithType: FieldType.Text
+- uid: ModMenu.Config.FieldType.Toggle
+  name: Toggle
+  href: api/ModMenu.Config.FieldType.html#ModMenu_Config_FieldType_Toggle
+  commentId: F:ModMenu.Config.FieldType.Toggle
+  fullName: ModMenu.Config.FieldType.Toggle
+  nameWithType: FieldType.Toggle
+- uid: ModMenu.Config.IncludeAllAttribute
+  name: IncludeAllAttribute
+  href: api/ModMenu.Config.IncludeAllAttribute.html
+  commentId: T:ModMenu.Config.IncludeAllAttribute
+  fullName: ModMenu.Config.IncludeAllAttribute
+  nameWithType: IncludeAllAttribute
+- uid: ModMenu.Config.IncludeAllAttribute.#ctor
+  name: IncludeAllAttribute()
+  href: api/ModMenu.Config.IncludeAllAttribute.html#ModMenu_Config_IncludeAllAttribute__ctor
+  commentId: M:ModMenu.Config.IncludeAllAttribute.#ctor
+  name.vb: New()
+  fullName: ModMenu.Config.IncludeAllAttribute.IncludeAllAttribute()
+  fullName.vb: ModMenu.Config.IncludeAllAttribute.New()
+  nameWithType: IncludeAllAttribute.IncludeAllAttribute()
+  nameWithType.vb: IncludeAllAttribute.New()
+- uid: ModMenu.Config.IncludeAllAttribute.#ctor*
+  name: IncludeAllAttribute
+  href: api/ModMenu.Config.IncludeAllAttribute.html#ModMenu_Config_IncludeAllAttribute__ctor_
+  commentId: Overload:ModMenu.Config.IncludeAllAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ModMenu.Config.IncludeAllAttribute.IncludeAllAttribute
+  fullName.vb: ModMenu.Config.IncludeAllAttribute.New
+  nameWithType: IncludeAllAttribute.IncludeAllAttribute
+  nameWithType.vb: IncludeAllAttribute.New
+- uid: ModMenu.Config.ListenerAttribute
+  name: ListenerAttribute
+  href: api/ModMenu.Config.ListenerAttribute.html
+  commentId: T:ModMenu.Config.ListenerAttribute
+  fullName: ModMenu.Config.ListenerAttribute
+  nameWithType: ListenerAttribute
+- uid: ModMenu.Config.ListenerAttribute.#ctor(System.Type,System.String)
+  name: ListenerAttribute(Type, string)
+  href: api/ModMenu.Config.ListenerAttribute.html#ModMenu_Config_ListenerAttribute__ctor_System_Type_System_String_
+  commentId: M:ModMenu.Config.ListenerAttribute.#ctor(System.Type,System.String)
+  name.vb: New(Type, String)
+  fullName: ModMenu.Config.ListenerAttribute.ListenerAttribute(System.Type, string)
+  fullName.vb: ModMenu.Config.ListenerAttribute.New(System.Type, String)
+  nameWithType: ListenerAttribute.ListenerAttribute(Type, string)
+  nameWithType.vb: ListenerAttribute.New(Type, String)
+- uid: ModMenu.Config.ListenerAttribute.#ctor(System.Type,System.String,System.Type[])
+  name: ListenerAttribute(Type, string, Type[])
+  href: api/ModMenu.Config.ListenerAttribute.html#ModMenu_Config_ListenerAttribute__ctor_System_Type_System_String_System_Type___
+  commentId: M:ModMenu.Config.ListenerAttribute.#ctor(System.Type,System.String,System.Type[])
+  name.vb: New(Type, String, Type())
+  fullName: ModMenu.Config.ListenerAttribute.ListenerAttribute(System.Type, string, System.Type[])
+  fullName.vb: ModMenu.Config.ListenerAttribute.New(System.Type, String, System.Type())
+  nameWithType: ListenerAttribute.ListenerAttribute(Type, string, Type[])
+  nameWithType.vb: ListenerAttribute.New(Type, String, Type())
+- uid: ModMenu.Config.ListenerAttribute.#ctor*
+  name: ListenerAttribute
+  href: api/ModMenu.Config.ListenerAttribute.html#ModMenu_Config_ListenerAttribute__ctor_
+  commentId: Overload:ModMenu.Config.ListenerAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ModMenu.Config.ListenerAttribute.ListenerAttribute
+  fullName.vb: ModMenu.Config.ListenerAttribute.New
+  nameWithType: ListenerAttribute.ListenerAttribute
+  nameWithType.vb: ListenerAttribute.New
+- uid: ModMenu.Config.PredicateAttribute
+  name: PredicateAttribute
+  href: api/ModMenu.Config.PredicateAttribute.html
+  commentId: T:ModMenu.Config.PredicateAttribute
+  fullName: ModMenu.Config.PredicateAttribute
+  nameWithType: PredicateAttribute
+- uid: ModMenu.Config.PredicateAttribute.#ctor(System.Type,System.String)
+  name: PredicateAttribute(Type, string)
+  href: api/ModMenu.Config.PredicateAttribute.html#ModMenu_Config_PredicateAttribute__ctor_System_Type_System_String_
+  commentId: M:ModMenu.Config.PredicateAttribute.#ctor(System.Type,System.String)
+  name.vb: New(Type, String)
+  fullName: ModMenu.Config.PredicateAttribute.PredicateAttribute(System.Type, string)
+  fullName.vb: ModMenu.Config.PredicateAttribute.New(System.Type, String)
+  nameWithType: PredicateAttribute.PredicateAttribute(Type, string)
+  nameWithType.vb: PredicateAttribute.New(Type, String)
+- uid: ModMenu.Config.PredicateAttribute.#ctor(System.Type,System.String,System.Type[])
+  name: PredicateAttribute(Type, string, Type[])
+  href: api/ModMenu.Config.PredicateAttribute.html#ModMenu_Config_PredicateAttribute__ctor_System_Type_System_String_System_Type___
+  commentId: M:ModMenu.Config.PredicateAttribute.#ctor(System.Type,System.String,System.Type[])
+  name.vb: New(Type, String, Type())
+  fullName: ModMenu.Config.PredicateAttribute.PredicateAttribute(System.Type, string, System.Type[])
+  fullName.vb: ModMenu.Config.PredicateAttribute.New(System.Type, String, System.Type())
+  nameWithType: PredicateAttribute.PredicateAttribute(Type, string, Type[])
+  nameWithType.vb: PredicateAttribute.New(Type, String, Type())
+- uid: ModMenu.Config.PredicateAttribute.#ctor*
+  name: PredicateAttribute
+  href: api/ModMenu.Config.PredicateAttribute.html#ModMenu_Config_PredicateAttribute__ctor_
+  commentId: Overload:ModMenu.Config.PredicateAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ModMenu.Config.PredicateAttribute.PredicateAttribute
+  fullName.vb: ModMenu.Config.PredicateAttribute.New
+  nameWithType: PredicateAttribute.PredicateAttribute
+  nameWithType.vb: PredicateAttribute.New
+- uid: ModMenu.ConfigBuilder
+  name: ConfigBuilder
+  href: api/ModMenu.ConfigBuilder.html
+  commentId: T:ModMenu.ConfigBuilder
+  fullName: ModMenu.ConfigBuilder
+  nameWithType: ConfigBuilder
+- uid: ModMenu.ConfigBuilder.Add(System.String,UILib.UIComponent)
+  name: Add(string, UIComponent)
+  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_Add_System_String_UILib_UIComponent_
+  commentId: M:ModMenu.ConfigBuilder.Add(System.String,UILib.UIComponent)
+  name.vb: Add(String, UIComponent)
+  fullName: ModMenu.ConfigBuilder.Add(string, UILib.UIComponent)
+  fullName.vb: ModMenu.ConfigBuilder.Add(String, UILib.UIComponent)
+  nameWithType: ConfigBuilder.Add(string, UIComponent)
+  nameWithType.vb: ConfigBuilder.Add(String, UIComponent)
+- uid: ModMenu.ConfigBuilder.Add*
+  name: Add
+  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_Add_
+  commentId: Overload:ModMenu.ConfigBuilder.Add
+  isSpec: "True"
+  fullName: ModMenu.ConfigBuilder.Add
+  nameWithType: ConfigBuilder.Add
+- uid: ModMenu.ConfigBuilder.SetFooter(UILib.UIComponent)
+  name: SetFooter(UIComponent)
+  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_SetFooter_UILib_UIComponent_
+  commentId: M:ModMenu.ConfigBuilder.SetFooter(UILib.UIComponent)
+  fullName: ModMenu.ConfigBuilder.SetFooter(UILib.UIComponent)
+  nameWithType: ConfigBuilder.SetFooter(UIComponent)
+- uid: ModMenu.ConfigBuilder.SetFooter*
+  name: SetFooter
+  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_SetFooter_
+  commentId: Overload:ModMenu.ConfigBuilder.SetFooter
+  isSpec: "True"
+  fullName: ModMenu.ConfigBuilder.SetFooter
+  nameWithType: ConfigBuilder.SetFooter
+- uid: ModMenu.ConfigBuilder.SetHeader(UILib.UIComponent)
+  name: SetHeader(UIComponent)
+  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_SetHeader_UILib_UIComponent_
+  commentId: M:ModMenu.ConfigBuilder.SetHeader(UILib.UIComponent)
+  fullName: ModMenu.ConfigBuilder.SetHeader(UILib.UIComponent)
+  nameWithType: ConfigBuilder.SetHeader(UIComponent)
+- uid: ModMenu.ConfigBuilder.SetHeader*
+  name: SetHeader
+  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_SetHeader_
+  commentId: Overload:ModMenu.ConfigBuilder.SetHeader
+  isSpec: "True"
+  fullName: ModMenu.ConfigBuilder.SetHeader
+  nameWithType: ConfigBuilder.SetHeader
+- uid: ModMenu.Events
+  name: ModMenu.Events
+  href: api/ModMenu.Events.html
+  commentId: N:ModMenu.Events
+  fullName: ModMenu.Events
+  nameWithType: ModMenu.Events
+- uid: ModMenu.Events.BuildEvent
+  name: BuildEvent
+  href: api/ModMenu.Events.BuildEvent.html
+  commentId: T:ModMenu.Events.BuildEvent
+  fullName: ModMenu.Events.BuildEvent
+  nameWithType: BuildEvent
+- uid: ModMenu.Events.ValueEvent`1
+  name: ValueEvent<T>
+  href: api/ModMenu.Events.ValueEvent-1.html
+  commentId: T:ModMenu.Events.ValueEvent`1
+  name.vb: ValueEvent(Of T)
+  fullName: ModMenu.Events.ValueEvent<T>
+  fullName.vb: ModMenu.Events.ValueEvent(Of T)
+  nameWithType: ValueEvent<T>
+  nameWithType.vb: ValueEvent(Of T)
+- uid: ModMenu.ModInfo
+  name: ModInfo
+  href: api/ModMenu.ModInfo.html
+  commentId: T:ModMenu.ModInfo
+  fullName: ModMenu.ModInfo
+  nameWithType: ModInfo
+- uid: ModMenu.ModInfo.Add(BepInEx.Configuration.ConfigFile)
+  name: Add(ConfigFile)
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_Add_BepInEx_Configuration_ConfigFile_
+  commentId: M:ModMenu.ModInfo.Add(BepInEx.Configuration.ConfigFile)
+  fullName: ModMenu.ModInfo.Add(BepInEx.Configuration.ConfigFile)
+  nameWithType: ModInfo.Add(ConfigFile)
+- uid: ModMenu.ModInfo.Add(System.Object)
+  name: Add(object)
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_Add_System_Object_
+  commentId: M:ModMenu.ModInfo.Add(System.Object)
+  name.vb: Add(Object)
+  fullName: ModMenu.ModInfo.Add(object)
+  fullName.vb: ModMenu.ModInfo.Add(Object)
+  nameWithType: ModInfo.Add(object)
+  nameWithType.vb: ModInfo.Add(Object)
+- uid: ModMenu.ModInfo.Add(System.Type)
+  name: Add(Type)
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_Add_System_Type_
+  commentId: M:ModMenu.ModInfo.Add(System.Type)
+  fullName: ModMenu.ModInfo.Add(System.Type)
+  nameWithType: ModInfo.Add(Type)
+- uid: ModMenu.ModInfo.Add*
+  name: Add
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_Add_
+  commentId: Overload:ModMenu.ModInfo.Add
+  isSpec: "True"
+  fullName: ModMenu.ModInfo.Add
+  nameWithType: ModInfo.Add
+- uid: ModMenu.ModInfo.description
+  name: description
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_description
+  commentId: F:ModMenu.ModInfo.description
+  fullName: ModMenu.ModInfo.description
+  nameWithType: ModInfo.description
+- uid: ModMenu.ModInfo.license
+  name: license
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_license
+  commentId: F:ModMenu.ModInfo.license
+  fullName: ModMenu.ModInfo.license
+  nameWithType: ModInfo.license
+- uid: ModMenu.ModInfo.name
+  name: name
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_name
+  commentId: P:ModMenu.ModInfo.name
+  fullName: ModMenu.ModInfo.name
+  nameWithType: ModInfo.name
+- uid: ModMenu.ModInfo.name*
+  name: name
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_name_
+  commentId: Overload:ModMenu.ModInfo.name
+  isSpec: "True"
+  fullName: ModMenu.ModInfo.name
+  nameWithType: ModInfo.name
+- uid: ModMenu.ModInfo.onBuild
+  name: onBuild
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_onBuild
+  commentId: P:ModMenu.ModInfo.onBuild
+  fullName: ModMenu.ModInfo.onBuild
+  nameWithType: ModInfo.onBuild
+- uid: ModMenu.ModInfo.onBuild*
+  name: onBuild
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_onBuild_
+  commentId: Overload:ModMenu.ModInfo.onBuild
+  isSpec: "True"
+  fullName: ModMenu.ModInfo.onBuild
+  nameWithType: ModInfo.onBuild
+- uid: ModMenu.ModInfo.theme
+  name: theme
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_theme
+  commentId: F:ModMenu.ModInfo.theme
+  fullName: ModMenu.ModInfo.theme
+  nameWithType: ModInfo.theme
+- uid: ModMenu.ModInfo.thumbnail
+  name: thumbnail
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_thumbnail
+  commentId: F:ModMenu.ModInfo.thumbnail
+  fullName: ModMenu.ModInfo.thumbnail
+  nameWithType: ModInfo.thumbnail
+- uid: ModMenu.ModInfo.thumbnailUrl
+  name: thumbnailUrl
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_thumbnailUrl
+  commentId: F:ModMenu.ModInfo.thumbnailUrl
+  fullName: ModMenu.ModInfo.thumbnailUrl
+  nameWithType: ModInfo.thumbnailUrl
+- uid: ModMenu.ModInfo.version
+  name: version
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_version
+  commentId: P:ModMenu.ModInfo.version
+  fullName: ModMenu.ModInfo.version
+  nameWithType: ModInfo.version
+- uid: ModMenu.ModInfo.version*
+  name: version
+  href: api/ModMenu.ModInfo.html#ModMenu_ModInfo_version_
+  commentId: Overload:ModMenu.ModInfo.version
+  isSpec: "True"
+  fullName: ModMenu.ModInfo.version
+  nameWithType: ModInfo.version
+- uid: ModMenu.ModManager
+  name: ModManager
+  href: api/ModMenu.ModManager.html
+  commentId: T:ModMenu.ModManager
+  fullName: ModMenu.ModManager
+  nameWithType: ModManager
+- uid: ModMenu.ModManager.Register(BepInEx.BaseUnityPlugin)
+  name: Register(BaseUnityPlugin)
+  href: api/ModMenu.ModManager.html#ModMenu_ModManager_Register_BepInEx_BaseUnityPlugin_
+  commentId: M:ModMenu.ModManager.Register(BepInEx.BaseUnityPlugin)
+  fullName: ModMenu.ModManager.Register(BepInEx.BaseUnityPlugin)
+  nameWithType: ModManager.Register(BaseUnityPlugin)
+- uid: ModMenu.ModManager.Register*
+  name: Register
+  href: api/ModMenu.ModManager.html#ModMenu_ModManager_Register_
+  commentId: Overload:ModMenu.ModManager.Register
+  isSpec: "True"
+  fullName: ModMenu.ModManager.Register
+  nameWithType: ModManager.Register
+- uid: ModMenu.ModView
+  name: ModView
+  href: api/ModMenu.ModView.html
+  commentId: T:ModMenu.ModView
+  fullName: ModMenu.ModView
+  nameWithType: ModView
+- uid: ModMenu.ModView.SetFooter(UILib.UIComponent)
+  name: SetFooter(UIComponent)
+  href: api/ModMenu.ModView.html#ModMenu_ModView_SetFooter_UILib_UIComponent_
+  commentId: M:ModMenu.ModView.SetFooter(UILib.UIComponent)
+  fullName: ModMenu.ModView.SetFooter(UILib.UIComponent)
+  nameWithType: ModView.SetFooter(UIComponent)
+- uid: ModMenu.ModView.SetFooter*
+  name: SetFooter
+  href: api/ModMenu.ModView.html#ModMenu_ModView_SetFooter_
+  commentId: Overload:ModMenu.ModView.SetFooter
+  isSpec: "True"
+  fullName: ModMenu.ModView.SetFooter
+  nameWithType: ModView.SetFooter
+- uid: ModMenu.ModView.SetHeader(UILib.UIComponent)
+  name: SetHeader(UIComponent)
+  href: api/ModMenu.ModView.html#ModMenu_ModView_SetHeader_UILib_UIComponent_
+  commentId: M:ModMenu.ModView.SetHeader(UILib.UIComponent)
+  fullName: ModMenu.ModView.SetHeader(UILib.UIComponent)
+  nameWithType: ModView.SetHeader(UIComponent)
+- uid: ModMenu.ModView.SetHeader*
+  name: SetHeader
+  href: api/ModMenu.ModView.html#ModMenu_ModView_SetHeader_
+  commentId: Overload:ModMenu.ModView.SetHeader
+  isSpec: "True"
+  fullName: ModMenu.ModView.SetHeader
+  nameWithType: ModView.SetHeader
+- uid: ModMenu.Plugin
+  name: Plugin
+  href: api/ModMenu.Plugin.html
+  commentId: T:ModMenu.Plugin
+  fullName: ModMenu.Plugin
+  nameWithType: Plugin
+- uid: ModMenu.ValueEvent`1
+  name: ValueEvent<T>
+  href: api/ModMenu.ValueEvent-1.html
+  commentId: T:ModMenu.ValueEvent`1
+  name.vb: ValueEvent(Of T)
+  fullName: ModMenu.ValueEvent<T>
+  fullName.vb: ModMenu.ValueEvent(Of T)
+  nameWithType: ValueEvent<T>
+  nameWithType.vb: ValueEvent(Of T)
+- uid: ModMenu.Views
+  name: ModMenu.Views
+  href: api/ModMenu.Views.html
+  commentId: N:ModMenu.Views
+  fullName: ModMenu.Views
+  nameWithType: ModMenu.Views
+- uid: ModMenu.Views.MetaData
+  name: MetaData
+  href: api/ModMenu.Views.MetaData.html
+  commentId: T:ModMenu.Views.MetaData
+  fullName: ModMenu.Views.MetaData
+  nameWithType: MetaData
+- uid: ModMenu.Views.MetaData.#ctor
+  name: MetaData()
+  href: api/ModMenu.Views.MetaData.html#ModMenu_Views_MetaData__ctor
+  commentId: M:ModMenu.Views.MetaData.#ctor
+  name.vb: New()
+  fullName: ModMenu.Views.MetaData.MetaData()
+  fullName.vb: ModMenu.Views.MetaData.New()
+  nameWithType: MetaData.MetaData()
+  nameWithType.vb: MetaData.New()
+- uid: ModMenu.Views.MetaData.#ctor(System.Collections.Generic.IList{System.String},System.String)
+  name: MetaData(IList<string>, string)
+  href: api/ModMenu.Views.MetaData.html#ModMenu_Views_MetaData__ctor_System_Collections_Generic_IList_System_String__System_String_
+  commentId: M:ModMenu.Views.MetaData.#ctor(System.Collections.Generic.IList{System.String},System.String)
+  name.vb: New(IList(Of String), String)
+  fullName: ModMenu.Views.MetaData.MetaData(System.Collections.Generic.IList<string>, string)
+  fullName.vb: ModMenu.Views.MetaData.New(System.Collections.Generic.IList(Of String), String)
+  nameWithType: MetaData.MetaData(IList<string>, string)
+  nameWithType.vb: MetaData.New(IList(Of String), String)
+- uid: ModMenu.Views.MetaData.#ctor*
+  name: MetaData
+  href: api/ModMenu.Views.MetaData.html#ModMenu_Views_MetaData__ctor_
+  commentId: Overload:ModMenu.Views.MetaData.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ModMenu.Views.MetaData.MetaData
+  fullName.vb: ModMenu.Views.MetaData.New
+  nameWithType: MetaData.MetaData
+  nameWithType.vb: MetaData.New
+- uid: ModMenu.Views.MetaData.Add(System.Collections.Generic.IList{System.String})
+  name: Add(IList<string>)
+  href: api/ModMenu.Views.MetaData.html#ModMenu_Views_MetaData_Add_System_Collections_Generic_IList_System_String__
+  commentId: M:ModMenu.Views.MetaData.Add(System.Collections.Generic.IList{System.String})
+  name.vb: Add(IList(Of String))
+  fullName: ModMenu.Views.MetaData.Add(System.Collections.Generic.IList<string>)
+  fullName.vb: ModMenu.Views.MetaData.Add(System.Collections.Generic.IList(Of String))
+  nameWithType: MetaData.Add(IList<string>)
+  nameWithType.vb: MetaData.Add(IList(Of String))
+- uid: ModMenu.Views.MetaData.Add(System.String)
+  name: Add(string)
+  href: api/ModMenu.Views.MetaData.html#ModMenu_Views_MetaData_Add_System_String_
+  commentId: M:ModMenu.Views.MetaData.Add(System.String)
+  name.vb: Add(String)
+  fullName: ModMenu.Views.MetaData.Add(string)
+  fullName.vb: ModMenu.Views.MetaData.Add(String)
+  nameWithType: MetaData.Add(string)
+  nameWithType.vb: MetaData.Add(String)
+- uid: ModMenu.Views.MetaData.Add*
+  name: Add
+  href: api/ModMenu.Views.MetaData.html#ModMenu_Views_MetaData_Add_
+  commentId: Overload:ModMenu.Views.MetaData.Add
+  isSpec: "True"
+  fullName: ModMenu.Views.MetaData.Add
+  nameWithType: MetaData.Add
+- uid: ModMenu.Views.MetaData.SetDescription(System.String)
+  name: SetDescription(string)
+  href: api/ModMenu.Views.MetaData.html#ModMenu_Views_MetaData_SetDescription_System_String_
+  commentId: M:ModMenu.Views.MetaData.SetDescription(System.String)
+  name.vb: SetDescription(String)
+  fullName: ModMenu.Views.MetaData.SetDescription(string)
+  fullName.vb: ModMenu.Views.MetaData.SetDescription(String)
+  nameWithType: MetaData.SetDescription(string)
+  nameWithType.vb: MetaData.SetDescription(String)
+- uid: ModMenu.Views.MetaData.SetDescription*
+  name: SetDescription
+  href: api/ModMenu.Views.MetaData.html#ModMenu_Views_MetaData_SetDescription_
+  commentId: Overload:ModMenu.Views.MetaData.SetDescription
+  isSpec: "True"
+  fullName: ModMenu.Views.MetaData.SetDescription
+  nameWithType: MetaData.SetDescription
+- uid: ModMenu.Views.View
+  name: View
+  href: api/ModMenu.Views.View.html
+  commentId: T:ModMenu.Views.View
+  fullName: ModMenu.Views.View
+  nameWithType: View
+- uid: ModMenu.Views.View.Add(System.String,System.String,UILib.UIComponent,ModMenu.Views.MetaData)
+  name: Add(string, string, UIComponent, MetaData)
+  href: api/ModMenu.Views.View.html#ModMenu_Views_View_Add_System_String_System_String_UILib_UIComponent_ModMenu_Views_MetaData_
+  commentId: M:ModMenu.Views.View.Add(System.String,System.String,UILib.UIComponent,ModMenu.Views.MetaData)
+  name.vb: Add(String, String, UIComponent, MetaData)
+  fullName: ModMenu.Views.View.Add(string, string, UILib.UIComponent, ModMenu.Views.MetaData)
+  fullName.vb: ModMenu.Views.View.Add(String, String, UILib.UIComponent, ModMenu.Views.MetaData)
+  nameWithType: View.Add(string, string, UIComponent, MetaData)
+  nameWithType.vb: View.Add(String, String, UIComponent, MetaData)
+- uid: ModMenu.Views.View.Add(System.String,UILib.UIComponent,ModMenu.Views.MetaData)
+  name: Add(string, UIComponent, MetaData)
+  href: api/ModMenu.Views.View.html#ModMenu_Views_View_Add_System_String_UILib_UIComponent_ModMenu_Views_MetaData_
+  commentId: M:ModMenu.Views.View.Add(System.String,UILib.UIComponent,ModMenu.Views.MetaData)
+  name.vb: Add(String, UIComponent, MetaData)
+  fullName: ModMenu.Views.View.Add(string, UILib.UIComponent, ModMenu.Views.MetaData)
+  fullName.vb: ModMenu.Views.View.Add(String, UILib.UIComponent, ModMenu.Views.MetaData)
+  nameWithType: View.Add(string, UIComponent, MetaData)
+  nameWithType.vb: View.Add(String, UIComponent, MetaData)
+- uid: ModMenu.Views.View.Add*
+  name: Add
+  href: api/ModMenu.Views.View.html#ModMenu_Views_View_Add_
+  commentId: Overload:ModMenu.Views.View.Add
+  isSpec: "True"
+  fullName: ModMenu.Views.View.Add
+  nameWithType: View.Add
+- uid: ModMenu.Views.View.BuildBase
+  name: BuildBase()
+  href: api/ModMenu.Views.View.html#ModMenu_Views_View_BuildBase
+  commentId: M:ModMenu.Views.View.BuildBase
+  fullName: ModMenu.Views.View.BuildBase()
+  nameWithType: View.BuildBase()
+- uid: ModMenu.Views.View.BuildBase*
+  name: BuildBase
+  href: api/ModMenu.Views.View.html#ModMenu_Views_View_BuildBase_
+  commentId: Overload:ModMenu.Views.View.BuildBase
+  isSpec: "True"
+  fullName: ModMenu.Views.View.BuildBase
+  nameWithType: View.BuildBase
+- uid: ModMenu.Views.View.BuildInfoGroup
+  name: BuildInfoGroup()
+  href: api/ModMenu.Views.View.html#ModMenu_Views_View_BuildInfoGroup
+  commentId: M:ModMenu.Views.View.BuildInfoGroup
+  fullName: ModMenu.Views.View.BuildInfoGroup()
+  nameWithType: View.BuildInfoGroup()
+- uid: ModMenu.Views.View.BuildInfoGroup*
+  name: BuildInfoGroup
+  href: api/ModMenu.Views.View.html#ModMenu_Views_View_BuildInfoGroup_
+  commentId: Overload:ModMenu.Views.View.BuildInfoGroup
+  isSpec: "True"
+  fullName: ModMenu.Views.View.BuildInfoGroup
+  nameWithType: View.BuildInfoGroup
+- uid: ModMenu.Views.View.BuildSections
+  name: BuildSections()
+  href: api/ModMenu.Views.View.html#ModMenu_Views_View_BuildSections
+  commentId: M:ModMenu.Views.View.BuildSections
+  fullName: ModMenu.Views.View.BuildSections()
+  nameWithType: View.BuildSections()
+- uid: ModMenu.Views.View.BuildSections*
+  name: BuildSections
+  href: api/ModMenu.Views.View.html#ModMenu_Views_View_BuildSections_
+  commentId: Overload:ModMenu.Views.View.BuildSections
+  isSpec: "True"
+  fullName: ModMenu.Views.View.BuildSections
+  nameWithType: View.BuildSections

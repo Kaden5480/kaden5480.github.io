@@ -8,6 +8,7 @@ description: Unity modder and Peaks of Yore speedrunner.
 theme: minima
 include:
   - uilib
+  - mod-menu
 
 avatar_link: https://avatars.githubusercontent.com/u/67208843
 unity_link: https://unity.com/

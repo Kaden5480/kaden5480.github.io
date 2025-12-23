@@ -17,6 +17,7 @@ layout: home
     </h3></u>
 
     <a href="{{ site.github_link }}/poy-ui-lib">UILib</a>
+    <a href="{{ site.github_link }}/poy-mod-menu">Mod Menu</a>
     <a href="{{ site.github_link }}/poy-fast-reset">Fast Reset</a>
     <a href="{{ site.github_link }}/poy-fast-coffee">Fast Coffee</a>
     <a href="{{ site.github_link }}/poy-mesh-viewer">Mesh Viewer</a>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Namespace ModMenu.Config | poy-mod-menu </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Namespace ModMenu.Config | poy-mod-menu ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="poy-mod-menu">
+            poy-mod-menu
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ModMenu.Config">
+
+  <h1 id="ModMenu_Config" data-uid="ModMenu.Config" class="text-break">Namespace ModMenu.Config</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+
+    <h3 id="classes">
+Classes
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ModMenu.Config.CategoryAttribute.html">CategoryAttribute</a></dt>
+      <dd><p>An attribute which can be applied to classes and fields
+that indicates the category they should be displayed under.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ModMenu.Config.ExcludeAttribute.html">ExcludeAttribute</a></dt>
+      <dd><p>An attribute which tells Mod Menu to
+exclude a field or property.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ModMenu.Config.FieldAttribute.html">FieldAttribute</a></dt>
+      <dd><p>An attribute which allows you to customise how
+a field will be displayed.</p>
+<p>This also provides extra information which can be
+used for data validation.</p>
+<p><code>FieldAttributes</code> can be applied to either &quot;plain&quot; types
+or BepInEx <code>ConfigEntry</code> types.</p>
+<p>A &quot;plain&quot; type is something like an <code>int</code>, <code>float</code>, <code>double</code>, etc.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ModMenu.Config.IncludeAllAttribute.html">IncludeAllAttribute</a></dt>
+      <dd><p>An attribute which tells Mod Menu to include
+all fields in a class (apart from
+<a class="xref" href="ModMenu.Config.ExcludeAttribute.html">excluded ones</a>).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ModMenu.Config.ListenerAttribute.html">ListenerAttribute</a></dt>
+      <dd><p>An attribute which provides a way of knowing
+when Mod Menu has changed a field's value.</p>
+<p>Listeners <em>must</em> be static methods.</p>
+<p>For listener attributes applied to fields:</p>
+<ul>
+<li>They must take a single value, which must match the type of the field</li>
+<li>If you use a <code>ConfigEntry&lt;T&gt;</code>, Mod Menu will unwrap this type
+and use the inner <code>T</code> instead.</li>
+</ul>
+<p>For listener attributes applied to classes:</p>
+<ul>
+<li>They must take two values, which are a
+<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo">MemberInfo</a> and an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>
+(in this order).</li>
+<li>The first argument is the <code>MemberInfo</code> of the field/property which was updated</li>
+<li>The second argument is the value it was set to</li>
+</ul>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ModMenu.Config.PredicateAttribute.html">PredicateAttribute</a></dt>
+      <dd><p>An attribute which allows you to check a user input
+before Mod Menu updates a field's value.</p>
+<p>Predicates <em>must</em> be static methods.</p>
+<p>When the predicate returns <code>null</code>, the field can be updated.
+If a string is returned, this prevents the field from updating.</p>
+<p>The predicate attribute takes a <code>type</code> and a <code>name</code>
+indicating which type holds the predicate method
+and what the name of the method is.</p>
+<p>You can also provide <code>generics</code> for specific
+overloads of a given method.</p>
+<p>The method itself must take a single argument which
+has the same type as the field this attribute is applied to
+and it must return a <code>string</code> (or <code>null</code>).</p>
+<p>You can also apply multiple predicates, but the first to fail
+will be the one which displays its error.</p>
+<p>NOTE:
+If you use a <code>ConfigEntry&lt;T&gt;</code>, Mod Menu will unwrap this type
+and use the inner <code>T</code> instead.</p>
+</dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="ModMenu.Config.FieldType.html">FieldType</a></dt>
+      <dd><p>The types of fields which Mod Menu can display.</p>
+</dd>
+    </dl>
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

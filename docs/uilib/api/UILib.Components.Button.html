@@ -143,6 +143,9 @@ and handle click events.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_rectTransform">UIObject.rectTransform</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_tooltip">UIObject.tooltip</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_theme">UIObject.theme</a>
     </div>
     <div>
@@ -159,6 +162,12 @@ and handle click events.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_children">UIObject.children</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onEnable">UIObject.onEnable</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onDisable">UIObject.onDisable</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onPointerEnter">UIObject.onPointerEnter</a>
@@ -224,6 +233,9 @@ and handle click events.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Destroy">UIObject.Destroy()</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTooltip_System_String_">UIObject.SetTooltip(string)</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnPointerEnter">UIObject.OnPointerEnter()</a>
     </div>
     <div>
@@ -263,13 +275,22 @@ and handle click events.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentLayout_UILib_Layouts_LayoutType_">UIObject.SetContentLayout(LayoutType)</a>
     </div>
     <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetElementAlignment_UnityEngine_TextAnchor_">UIObject.SetElementAlignment(TextAnchor)</a>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetElementAlignment_UILib_Layouts_AnchorType_">UIObject.SetElementAlignment(AnchorType)</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetElementSpacing_System_Single_">UIObject.SetElementSpacing(float)</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_System_Int32_System_Int32_System_Int32_">UIObject.SetContentPadding(int, int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_System_Int32_">UIObject.SetContentPadding(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_">UIObject.SetContentPadding(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AnchorToText_UILib_Layouts_AnchorType_">UIObject.AnchorToText(AnchorType)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
@@ -310,7 +331,7 @@ and handle click events.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a button.</p>
+  <div class="markdown level1 summary"><p>Initializes a blank button.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -403,6 +424,38 @@ and handle click events.</p>
 </h2>
 
 
+  <a id="UILib_Components_Button_background_" data-uid="UILib.Components.Button.background*"></a>
+
+  <h3 id="UILib_Components_Button_background" data-uid="UILib.Components.Button.background">
+  background
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The button's background.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image background { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Image.html">Image</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="UILib_Components_Button_button_" data-uid="UILib.Components.Button.button*"></a>
 
   <h3 id="UILib_Components_Button_button" data-uid="UILib.Components.Button.button">
@@ -435,6 +488,70 @@ and handle click events.</p>
 
 
 
+  <a id="UILib_Components_Button_image_" data-uid="UILib.Components.Button.image*"></a>
+
+  <h3 id="UILib_Components_Button_image" data-uid="UILib.Components.Button.image">
+  image
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The image attached to this button, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image image { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Image.html">Image</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Button_label_" data-uid="UILib.Components.Button.label*"></a>
+
+  <h3 id="UILib_Components_Button_label" data-uid="UILib.Components.Button.label">
+  label
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The label attached to this button, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Label label { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Label.html">Label</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="UILib_Components_Button_onClick_" data-uid="UILib.Components.Button.onClick*"></a>
 
   <h3 id="UILib_Components_Button_onClick" data-uid="UILib.Components.Button.onClick">
@@ -442,7 +559,7 @@ and handle click events.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners whenever this UIObject is clicked.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners when this button is clicked.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -576,8 +693,7 @@ and handle click events.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Allows setting the theme of this button
-and all children.</p>
+  <div class="markdown level1 summary"><p>Allows setting the theme of this button.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Shortcut | poy-ui-lib </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Shortcut | poy-ui-lib ">
+      
+      <meta name="description" content="A class which represents a shortcut. This holds important information about a shortcut such as the event listener and underlying keybinds. Also has a useful field  which indicates whether a shortcut can run. This takes into consideration a variety of cases including:  UILib&#39;s InputOverlay waiting for an input An input field being selected (to avoid triggering while typing/deselecting) The player is editing keybinds in the InGameMenu">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="poy-ui-lib">
+            poy-ui-lib
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="UILib.Shortcut">
+
+
+
+  <h1 id="UILib_Shortcut" data-uid="UILib.Shortcut" class="text-break">
+Class Shortcut  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>A class which represents a shortcut.
+This holds important information about a shortcut
+such as the event listener and underlying keybinds.</p>
+<p>Also has a useful field <a class="xref" href="UILib.Shortcut.html#UILib_Shortcut_canRun">canRun</a> which indicates whether
+a shortcut can run. This takes into consideration a
+variety of cases including:</p>
+<ul>
+<li>UILib's <code>InputOverlay</code> waiting for an input</li>
+<li>An input field being selected (to avoid triggering while typing/deselecting)</li>
+<li>The player is editing keybinds in the <code>InGameMenu</code></li>
+</ul>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Shortcut</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Shortcut</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="UILib_Shortcut__ctor_" data-uid="UILib.Shortcut.#ctor*"></a>
+
+  <h3 id="UILib_Shortcut__ctor_System_Collections_Generic_IList_BepInEx_Configuration_ConfigEntry_UnityEngine_KeyCode___" data-uid="UILib.Shortcut.#ctor(System.Collections.Generic.IList{BepInEx.Configuration.ConfigEntry{UnityEngine.KeyCode}})">
+  Shortcut(IList&lt;ConfigEntry&lt;KeyCode&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a shortcut using the provided <code>KeyCodes</code>
+wrapped in BepInEx <code>ConfigEntry</code> types.</p>
+<p>All <code>keys</code> must be down for the shortcut to trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Shortcut(IList&lt;ConfigEntry&lt;KeyCode&gt;&gt; keys)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">ConfigEntry</span>&lt;<span class="xref">KeyCode</span>&gt;&gt;</dt>
+    <dd><p>The keys for the shortcut</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Shortcut__ctor_" data-uid="UILib.Shortcut.#ctor*"></a>
+
+  <h3 id="UILib_Shortcut__ctor_System_Collections_Generic_IList_UnityEngine_KeyCode__" data-uid="UILib.Shortcut.#ctor(System.Collections.Generic.IList{UnityEngine.KeyCode})">
+  Shortcut(IList&lt;KeyCode&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a shortcut using the provided <code>KeyCodes</code>.</p>
+<p>All <code>keys</code> must be down for the shortcut to trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Shortcut(IList&lt;KeyCode&gt; keys)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">KeyCode</span>&gt;</dt>
+    <dd><p>The keys for the shortcut</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Shortcut__ctor_" data-uid="UILib.Shortcut.#ctor*"></a>
+
+  <h3 id="UILib_Shortcut__ctor_System_Collections_Generic_IList_UnityEngine_KeyCode__System_Collections_Generic_IList_BepInEx_Configuration_ConfigEntry_UnityEngine_KeyCode___" data-uid="UILib.Shortcut.#ctor(System.Collections.Generic.IList{UnityEngine.KeyCode},System.Collections.Generic.IList{BepInEx.Configuration.ConfigEntry{UnityEngine.KeyCode}})">
+  Shortcut(IList&lt;KeyCode&gt;, IList&lt;ConfigEntry&lt;KeyCode&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a shortcut.</p>
+<p>Both arguments are optional.</p>
+<p>All provided <code>keys</code> and <code>bepInKeys</code> must be down
+for the shortcut to trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Shortcut(IList&lt;KeyCode&gt; keys = null, IList&lt;ConfigEntry&lt;KeyCode&gt;&gt; bepInKeys = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">KeyCode</span>&gt;</dt>
+    <dd><p>The shortcut's plain keys</p>
+</dd>
+    <dt><code>bepInKeys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">ConfigEntry</span>&lt;<span class="xref">KeyCode</span>&gt;&gt;</dt>
+    <dd><p>The shortcut's BepInEx <code>ConfigEntry</code> keys</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="UILib_Shortcut_bepInKeys_" data-uid="UILib.Shortcut.bepInKeys*"></a>
+
+  <h3 id="UILib_Shortcut_bepInKeys" data-uid="UILib.Shortcut.bepInKeys">
+  bepInKeys
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Like <a class="xref" href="UILib.Shortcut.html#UILib_Shortcut_keys">keys</a> but holds the BepInEx
+<code>ConfigEntry</code> keys.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;ConfigEntry&lt;KeyCode&gt;, bool&gt; bepInKeys { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<span class="xref">ConfigEntry</span>&lt;<span class="xref">KeyCode</span>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Shortcut_canRun_" data-uid="UILib.Shortcut.canRun*"></a>
+
+  <h3 id="UILib_Shortcut_canRun" data-uid="UILib.Shortcut.canRun">
+  canRun
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>A static property which indicates whether a shortcut can run.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool canRun { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Shortcut_enabled_" data-uid="UILib.Shortcut.enabled*"></a>
+
+  <h3 id="UILib_Shortcut_enabled" data-uid="UILib.Shortcut.enabled">
+  enabled
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether this shortcut is currently enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool enabled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Shortcut_keys_" data-uid="UILib.Shortcut.keys*"></a>
+
+  <h3 id="UILib_Shortcut_keys" data-uid="UILib.Shortcut.keys">
+  keys
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Which <code>KeyCodes</code> need to be entered
+at the same time for this shortcut
+to trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;KeyCode, bool&gt; keys { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<span class="xref">KeyCode</span>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Shortcut_onHold_" data-uid="UILib.Shortcut.onHold*"></a>
+
+  <h3 id="UILib_Shortcut_onHold" data-uid="UILib.Shortcut.onHold">
+  onHold
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The event which triggers for the entire duration
+the shortcut is held.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onHold { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Shortcut_onTrigger_" data-uid="UILib.Shortcut.onTrigger*"></a>
+
+  <h3 id="UILib_Shortcut_onTrigger" data-uid="UILib.Shortcut.onTrigger">
+  onTrigger
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The event which is triggered when
+this shortcut is entered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onTrigger { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="UILib_Shortcut_Disable_" data-uid="UILib.Shortcut.Disable*"></a>
+
+  <h3 id="UILib_Shortcut_Disable" data-uid="UILib.Shortcut.Disable">
+  Disable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Disables this shortcut. This prevents it
+from being triggered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Shortcut_Enable_" data-uid="UILib.Shortcut.Enable*"></a>
+
+  <h3 id="UILib_Shortcut_Enable" data-uid="UILib.Shortcut.Enable">
+  Enable()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enables this shortcut. This allows it
+to be triggered.</p>
+<p>By default shortcuts are enabled anyway,
+so you'd only need to use this if you
+have already disabled it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Enable()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Shortcut_SetShortcut_" data-uid="UILib.Shortcut.SetShortcut*"></a>
+
+  <h3 id="UILib_Shortcut_SetShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__System_Collections_Generic_IList_BepInEx_Configuration_ConfigEntry_UnityEngine_KeyCode___" data-uid="UILib.Shortcut.SetShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode},System.Collections.Generic.IList{BepInEx.Configuration.ConfigEntry{UnityEngine.KeyCode}})">
+  SetShortcut(IList&lt;KeyCode&gt;, IList&lt;ConfigEntry&lt;KeyCode&gt;&gt;)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets a different shortcut to use instead.</p>
+<p>Both arguments are optional.</p>
+<p>All provided <code>keys</code> and <code>bepInKeys</code> must be down
+for the shortcut to trigger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetShortcut(IList&lt;KeyCode&gt; keys = null, IList&lt;ConfigEntry&lt;KeyCode&gt;&gt; bepInKeys = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">KeyCode</span>&gt;</dt>
+    <dd><p>The new shortcut</p>
+</dd>
+    <dt><code>bepInKeys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">ConfigEntry</span>&lt;<span class="xref">KeyCode</span>&gt;&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

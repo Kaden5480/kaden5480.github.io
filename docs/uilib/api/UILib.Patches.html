@@ -95,6 +95,21 @@
 Classes
 </h3>
     <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Patches.InputHandler.html">InputHandler</a></dt>
+      <dd><p>A class which helps deal with locking extra vanilla inputs.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Patches.InputLock.html">InputLock</a></dt>
+      <dd><p>An input lock.</p>
+<p>You shouldn't usually need to construct your own <code>InputLocks</code>,
+as <a class="xref" href="UILib.Overlay.html">Overlays</a> have their own way
+of <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetInputLock_System_Boolean_">automatically managing them</a>.</p>
+<p>Whenever an <code>InputLock</code> is constructed, it automatically
+prevents the use of some extra vanilla keybinds (such as the <code>InGameMenu</code>).</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="UILib.Patches.PauseHandle.html">PauseHandle</a></dt>
       <dd><p>A pause handle.</p>
 <p>You shouldn't usually need to construct your own <code>PauseHandles</code>

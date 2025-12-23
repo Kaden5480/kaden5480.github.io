@@ -155,6 +155,46 @@ Class Theme
 
 
 
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="UILib_Theme__ctor_" data-uid="UILib.Theme.#ctor*"></a>
+
+  <h3 id="UILib_Theme__ctor_System_String_" data-uid="UILib.Theme.#ctor(System.String)">
+  Theme(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Constructs an instance of the fallback theme
+with a custom name.</p>
+<p>Use this if you want to create a new theme
+to register with UILib.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Theme(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name to use</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <h2 class="section" id="fields">Fields
 </h2>
 
@@ -392,6 +432,39 @@ of going through every place you specified a font size.</p>
 
 
 
+  <h3 id="UILib_Theme_fontScalerAlt" data-uid="UILib.Theme.fontScalerAlt">
+  fontScalerAlt
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Like <a class="xref" href="UILib.Theme.html#UILib_Theme_fontScaler">fontScaler</a> but specific to
+<a class="xref" href="UILib.Components.TextField.html">TextFields</a>
+due to the reasons explained in <a class="xref" href="UILib.Theme.html#UILib_Theme_fontAlt">fontAlt</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float fontScalerAlt</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <h3 id="UILib_Theme_foreground" data-uid="UILib.Theme.foreground">
   foreground
   
@@ -495,7 +568,7 @@ the close button on <a class="xref" href="UILib.Window.html">Windows</a>.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>How long it should take for the
-<a class="xref" href="UILib.InputOverlay.html">InputOverlay</a> to fade in/out.
+<span class="xref">UILib.InputOverlay</span> to fade in/out.
 This applies whenever the overlay is shown/hidden.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -528,7 +601,7 @@ This applies whenever the overlay is shown/hidden.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>The default/maximum opacity to apply to
-the <a class="xref" href="UILib.InputOverlay.html">InputOverlay</a>.
+the <span class="xref">UILib.InputOverlay</span>.
 This will only affect the background of the
 overlay, not all content on it.
 Must be between 0-1 inclusive.</p>
@@ -537,6 +610,68 @@ Must be between 0-1 inclusive.</p>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float inputOverlayOpacity</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="UILib_Theme_navigationSound" data-uid="UILib.Theme.navigationSound">
+  navigationSound
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The sound to play in place of the game's built-in click sound.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioClip navigationSound</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">AudioClip</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="UILib_Theme_navigationSoundVolume" data-uid="UILib.Theme.navigationSoundVolume">
+  navigationSoundVolume
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The volume to play the navigation sound with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float navigationSoundVolume</code></pre>
   </div>
 
 
@@ -1173,6 +1308,42 @@ Must be between 0-1 inclusive.</p>
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="UILib_Theme_name_" data-uid="UILib.Theme.name*"></a>
+
+  <h3 id="UILib_Theme_name" data-uid="UILib.Theme.name">
+  name
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The name of this theme.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -1237,6 +1408,149 @@ converting to a <a class="xref" href="UILib.Theme.html">Theme</a> type.</p>
     <dd><p>The copy</p>
 </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Theme_GetTheme_" data-uid="UILib.Theme.GetTheme*"></a>
+
+  <h3 id="UILib_Theme_GetTheme" data-uid="UILib.Theme.GetTheme">
+  GetTheme()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a copy of the current theme.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Theme GetTheme()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Theme.html">Theme</a></dt>
+    <dd><p>A copy of the current theme</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Theme_GetTheme_" data-uid="UILib.Theme.GetTheme*"></a>
+
+  <h3 id="UILib_Theme_GetTheme_System_String_" data-uid="UILib.Theme.GetTheme(System.String)">
+  GetTheme(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="UILib.Theme.html#UILib_Theme_Register_UILib_Theme_">registered</a> theme.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Theme GetTheme(string name)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Theme.html">Theme</a></dt>
+    <dd><p>The theme if found, null otherwise</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Theme_GetThemes_" data-uid="UILib.Theme.GetThemes*"></a>
+
+  <h3 id="UILib_Theme_GetThemes" data-uid="UILib.Theme.GetThemes">
+  GetThemes()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Gets all registered themes.</p>
+<p>Note:
+These themes are not copies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, Theme&gt; GetThemes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="UILib.Theme.html">Theme</a>&gt;</dt>
+    <dd><p>The registered themes</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Theme_Register_" data-uid="UILib.Theme.Register*"></a>
+
+  <h3 id="UILib_Theme_Register_UILib_Theme_" data-uid="UILib.Theme.Register(UILib.Theme)">
+  Register(Theme)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Registers a new theme.</p>
+<p>If you wish to register a new theme, its name must be unique.</p>
+<p>You should also register themes in <code>Awake</code>. UILib doesn't need to
+be <a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_onInit">initialized</a> for you to
+add themes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Register(Theme theme)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>theme</code> <a class="xref" href="UILib.Theme.html">Theme</a></dt>
+    <dd><p>The theme to add</p>
+</dd>
+  </dl>
+
 
 
 

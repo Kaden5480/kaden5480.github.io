@@ -106,25 +106,6 @@ using a variety of color representations.</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="UILib.InputOverlay.html">InputOverlay</a></dt>
-      <dd><p>An overlay which pops up to allow the user
-to enter a key.</p>
-<p>If you're not taking advantage of UILib's
-<a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__">global</a> and
-<a class="xref" href="UILib.Overlay.html#UILib_Overlay_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__">local</a> shortcut system,
-then you should really check if <a class="xref" href="UILib.InputOverlay.html#UILib_InputOverlay_waitingForInput">waitingForInput</a>
-is set before doing any other input handling in your mod.
-This prevents some weirdness where your mod
-may trigger something while the input overlay
-is waiting for an input.</p>
-<p>Unfortunately, just checking <code>waitingForInput</code> may
-not be enough. There are some other instances
-where inputs shouldn't be read, but could be.
-So it is highly suggested to just stick with
-UILib's shortcut system.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
       <dt><a class="xref" href="UILib.Overlay.html">Overlay</a></dt>
       <dd><p>A primitive UIObject which stays in a
 fixed position on the screen.</p>
@@ -140,6 +121,21 @@ of <a class="xref" href="UILib.Window.html">Windows</a> to allow resizing them.<
       <dt><a class="xref" href="UILib.Resources.html">Resources</a></dt>
       <dd><p>A class holding resources used by UILib.
 These resources are loaded from an <code>AssetBundle</code>.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Shortcut.html">Shortcut</a></dt>
+      <dd><p>A class which represents a shortcut.
+This holds important information about a shortcut
+such as the event listener and underlying keybinds.</p>
+<p>Also has a useful field <a class="xref" href="UILib.Shortcut.html#UILib_Shortcut_canRun">canRun</a> which indicates whether
+a shortcut can run. This takes into consideration a
+variety of cases including:</p>
+<ul>
+<li>UILib's <code>InputOverlay</code> waiting for an input</li>
+<li>An input field being selected (to avoid triggering while typing/deselecting)</li>
+<li>The player is editing keybinds in the <code>InGameMenu</code></li>
+</ul>
 </dd>
     </dl>
     <dl class="jumplist">

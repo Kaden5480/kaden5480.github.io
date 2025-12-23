@@ -193,6 +193,41 @@ usually in the <code>Awake</code> of your mod.</p>
 
 
 
+  <a id="UILib_UIRoot_onPreInit_" data-uid="UILib.UIRoot.onPreInit*"></a>
+
+  <h3 id="UILib_UIRoot_onPreInit" data-uid="UILib.UIRoot.onPreInit">
+  onPreInit
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners just before UILib starts
+initializing itself.</p>
+<p>If you need to do anything really specific, this
+listener is here for those cases.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityEvent onPreInit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="UILib_UIRoot_onWMInit_" data-uid="UILib.UIRoot.onWMInit*"></a>
 
   <h3 id="UILib_UIRoot_onWMInit" data-uid="UILib.UIRoot.onWMInit">
@@ -235,36 +270,29 @@ orders.</p>
 
   <a id="UILib_UIRoot_AddShortcut_" data-uid="UILib.UIRoot.AddShortcut*"></a>
 
-  <h3 id="UILib_UIRoot_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__" data-uid="UILib.UIRoot.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})">
-  AddShortcut(IList&lt;KeyCode&gt;)
+  <h3 id="UILib_UIRoot_AddShortcut_UILib_Shortcut_" data-uid="UILib.UIRoot.AddShortcut(UILib.Shortcut)">
+  AddShortcut(Shortcut)
   
   </h3>
 
   <div class="markdown level1 summary"><p>Adds a global shortcut. Global shortcuts can be triggered
-at any time, but only when the <a class="xref" href="UILib.InputOverlay.html">InputOverlay</a>
-isn't waiting for an input.</p>
+at any time (provided shortcuts can actually <a class="xref" href="UILib.Shortcut.html#UILib_Shortcut_canRun">run</a>.</p>
 <p>This is the recommended way of handling global shortcuts
 when working with UILib.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Shortcut AddShortcut(IList&lt;KeyCode&gt; keys)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void AddShortcut(Shortcut shortcut)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>keys</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">KeyCode</span>&gt;</dt>
-    <dd><p>The keys which must be pressed for this shortcut to trigger</p>
+    <dt><code>shortcut</code> <a class="xref" href="UILib.Shortcut.html">Shortcut</a></dt>
+    <dd><p>The shortcut to add</p>
 </dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="UILib.Behaviours.Shortcut.html">Shortcut</a></dt>
-    <dd><p>The <a class="xref" href="UILib.Behaviours.Shortcut.html">Shortcut</a> which was created</p>
-</dd>
-  </dl>
 
 
 

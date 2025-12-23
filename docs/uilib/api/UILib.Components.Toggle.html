@@ -135,6 +135,9 @@ but can be toggled on or off.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_rectTransform">UIObject.rectTransform</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_tooltip">UIObject.tooltip</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_theme">UIObject.theme</a>
     </div>
     <div>
@@ -151,6 +154,12 @@ but can be toggled on or off.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_children">UIObject.children</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onEnable">UIObject.onEnable</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onDisable">UIObject.onDisable</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onPointerEnter">UIObject.onPointerEnter</a>
@@ -219,6 +228,9 @@ but can be toggled on or off.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Destroy">UIObject.Destroy()</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTooltip_System_String_">UIObject.SetTooltip(string)</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnPointerEnter">UIObject.OnPointerEnter()</a>
     </div>
     <div>
@@ -258,13 +270,22 @@ but can be toggled on or off.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentLayout_UILib_Layouts_LayoutType_">UIObject.SetContentLayout(LayoutType)</a>
     </div>
     <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetElementAlignment_UnityEngine_TextAnchor_">UIObject.SetElementAlignment(TextAnchor)</a>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetElementAlignment_UILib_Layouts_AnchorType_">UIObject.SetElementAlignment(AnchorType)</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetElementSpacing_System_Single_">UIObject.SetElementSpacing(float)</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_System_Int32_System_Int32_System_Int32_">UIObject.SetContentPadding(int, int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_System_Int32_">UIObject.SetContentPadding(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_">UIObject.SetContentPadding(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AnchorToText_UILib_Layouts_AnchorType_">UIObject.AnchorToText(AnchorType)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
@@ -333,6 +354,102 @@ but can be toggled on or off.</p>
 
   <h2 class="section" id="properties">Properties
 </h2>
+
+
+  <a id="UILib_Components_Toggle_background_" data-uid="UILib.Components.Toggle.background*"></a>
+
+  <h3 id="UILib_Components_Toggle_background" data-uid="UILib.Components.Toggle.background">
+  background
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The background of the toggle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image background { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Image.html">Image</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Toggle_offImage_" data-uid="UILib.Components.Toggle.offImage*"></a>
+
+  <h3 id="UILib_Components_Toggle_offImage" data-uid="UILib.Components.Toggle.offImage">
+  offImage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The image which displays when the toggle is off.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image offImage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Image.html">Image</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Toggle_onImage_" data-uid="UILib.Components.Toggle.onImage*"></a>
+
+  <h3 id="UILib_Components_Toggle_onImage" data-uid="UILib.Components.Toggle.onImage">
+  onImage
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The image which displays when the toggle is on.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image onImage { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Image.html">Image</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="UILib_Components_Toggle_onValueChanged_" data-uid="UILib.Components.Toggle.onValueChanged*"></a>
@@ -434,6 +551,70 @@ in the toggle whenever it's updated.</p>
 
   <h2 class="section" id="methods">Methods
 </h2>
+
+
+  <a id="UILib_Components_Toggle_SetOffImage_" data-uid="UILib.Components.Toggle.SetOffImage*"></a>
+
+  <h3 id="UILib_Components_Toggle_SetOffImage_UILib_Components_Image_" data-uid="UILib.Components.Toggle.SetOffImage(UILib.Components.Image)">
+  SetOffImage(Image)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the image to display in the &quot;off&quot; state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOffImage(Image offImage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>offImage</code> <a class="xref" href="UILib.Components.Image.html">Image</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_Toggle_SetOnImage_" data-uid="UILib.Components.Toggle.SetOnImage*"></a>
+
+  <h3 id="UILib_Components_Toggle_SetOnImage_UILib_Components_Image_" data-uid="UILib.Components.Toggle.SetOnImage(UILib.Components.Image)">
+  SetOnImage(Image)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the image to display in the &quot;on&quot; state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOnImage(Image onImage)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>onImage</code> <a class="xref" href="UILib.Components.Image.html">Image</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
 
 
   <a id="UILib_Components_Toggle_SetThisTheme_" data-uid="UILib.Components.Toggle.SetThisTheme*"></a>

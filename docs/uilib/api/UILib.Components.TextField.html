@@ -134,6 +134,9 @@ a user can edit.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_rectTransform">UIObject.rectTransform</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_tooltip">UIObject.tooltip</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_theme">UIObject.theme</a>
     </div>
     <div>
@@ -150,6 +153,12 @@ a user can edit.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_children">UIObject.children</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onEnable">UIObject.onEnable</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onDisable">UIObject.onDisable</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_onPointerEnter">UIObject.onPointerEnter</a>
@@ -218,6 +227,9 @@ a user can edit.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Destroy">UIObject.Destroy()</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTooltip_System_String_">UIObject.SetTooltip(string)</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnPointerEnter">UIObject.OnPointerEnter()</a>
     </div>
     <div>
@@ -257,13 +269,22 @@ a user can edit.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentLayout_UILib_Layouts_LayoutType_">UIObject.SetContentLayout(LayoutType)</a>
     </div>
     <div>
-      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetElementAlignment_UnityEngine_TextAnchor_">UIObject.SetElementAlignment(TextAnchor)</a>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetElementAlignment_UILib_Layouts_AnchorType_">UIObject.SetElementAlignment(AnchorType)</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetElementSpacing_System_Single_">UIObject.SetElementSpacing(float)</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_System_Int32_System_Int32_System_Int32_">UIObject.SetContentPadding(int, int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_System_Int32_">UIObject.SetContentPadding(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_">UIObject.SetContentPadding(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AnchorToText_UILib_Layouts_AnchorType_">UIObject.AnchorToText(AnchorType)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
@@ -335,6 +356,105 @@ a user can edit.</p>
 
   <h2 class="section" id="properties">Properties
 </h2>
+
+
+  <a id="UILib_Components_TextField_background_" data-uid="UILib.Components.TextField.background*"></a>
+
+  <h3 id="UILib_Components_TextField_background" data-uid="UILib.Components.TextField.background">
+  background
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The background of this text field.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image background { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Image</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_clearMode_" data-uid="UILib.Components.TextField.clearMode*"></a>
+
+  <h3 id="UILib_Components_TextField_clearMode" data-uid="UILib.Components.TextField.clearMode">
+  clearMode
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>In which cases will this text field wipe its input and value.</p>
+<p>Note:
+Clear modes will override equivalent retain modes.</p>
+<p>Default: None</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextField.ClearMode clearMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.TextField.html">TextField</a>.<a class="xref" href="UILib.Components.TextField.ClearMode.html">ClearMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_input_" data-uid="UILib.Components.TextField.input*"></a>
+
+  <h3 id="UILib_Components_TextField_input" data-uid="UILib.Components.TextField.input">
+  input
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The label containing the user input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Label input { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Label.html">Label</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <a id="UILib_Components_TextField_onCancel_" data-uid="UILib.Components.TextField.onCancel*"></a>
@@ -463,6 +583,38 @@ the user's input was valid.</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="UILib.Behaviours.ValueEvent-1.html">ValueEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_placeholder_" data-uid="UILib.Components.TextField.placeholder*"></a>
+
+  <h3 id="UILib_Components_TextField_placeholder" data-uid="UILib.Components.TextField.placeholder">
+  placeholder
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The placeholder label.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Label placeholder { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Components.Label.html">Label</a></dt>
     <dd></dd>
   </dl>
 
@@ -647,8 +799,8 @@ This only updates whenever the user submits a valid input.</p>
 
   <a id="UILib_Components_TextField_SetAlignment_" data-uid="UILib.Components.TextField.SetAlignment*"></a>
 
-  <h3 id="UILib_Components_TextField_SetAlignment_UnityEngine_TextAnchor_" data-uid="UILib.Components.TextField.SetAlignment(UnityEngine.TextAnchor)">
-  SetAlignment(TextAnchor)
+  <h3 id="UILib_Components_TextField_SetAlignment_UILib_Layouts_AnchorType_" data-uid="UILib.Components.TextField.SetAlignment(UILib.Layouts.AnchorType)">
+  SetAlignment(AnchorType)
   
   </h3>
 
@@ -657,13 +809,49 @@ This only updates whenever the user submits a valid input.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAlignment(TextAnchor alignment)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetAlignment(AnchorType alignment)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>alignment</code> <span class="xref">TextAnchor</span></dt>
+    <dt><code>alignment</code> <a class="xref" href="UILib.Layouts.AnchorType.html">AnchorType</a></dt>
     <dd><p>The alignment to use</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_TextField_SetClearMode_" data-uid="UILib.Components.TextField.SetClearMode*"></a>
+
+  <h3 id="UILib_Components_TextField_SetClearMode_UILib_Components_TextField_ClearMode_" data-uid="UILib.Components.TextField.SetClearMode(UILib.Components.TextField.ClearMode)">
+  SetClearMode(ClearMode)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets when this text field should clear the user input
+and its value.</p>
+<p>Note:
+Clear modes will override equivalent retain modes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetClearMode(TextField.ClearMode clearMode)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>clearMode</code> <a class="xref" href="UILib.Components.TextField.html">TextField</a>.<a class="xref" href="UILib.Components.TextField.ClearMode.html">ClearMode</a></dt>
+    <dd><p>When to clear</p>
 </dd>
   </dl>
 

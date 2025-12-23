@@ -42,6 +42,19 @@ references:
   isSpec: "True"
   fullName: UILib.Audio.PlayError
   nameWithType: Audio.PlayError
+- uid: UILib.Audio.PlayNavigation(UILib.Theme)
+  name: PlayNavigation(Theme)
+  href: api/UILib.Audio.html#UILib_Audio_PlayNavigation_UILib_Theme_
+  commentId: M:UILib.Audio.PlayNavigation(UILib.Theme)
+  fullName: UILib.Audio.PlayNavigation(UILib.Theme)
+  nameWithType: Audio.PlayNavigation(Theme)
+- uid: UILib.Audio.PlayNavigation*
+  name: PlayNavigation
+  href: api/UILib.Audio.html#UILib_Audio_PlayNavigation_
+  commentId: Overload:UILib.Audio.PlayNavigation
+  isSpec: "True"
+  fullName: UILib.Audio.PlayNavigation
+  nameWithType: Audio.PlayNavigation
 - uid: UILib.Audio.PlayNormal
   name: PlayNormal()
   href: api/UILib.Audio.html#UILib_Audio_PlayNormal
@@ -61,12 +74,6 @@ references:
   commentId: N:UILib.Behaviours
   fullName: UILib.Behaviours
   nameWithType: UILib.Behaviours
-- uid: UILib.Behaviours.DragEvent
-  name: DragEvent
-  href: api/UILib.Behaviours.DragEvent.html
-  commentId: T:UILib.Behaviours.DragEvent
-  fullName: UILib.Behaviours.DragEvent
-  nameWithType: DragEvent
 - uid: UILib.Behaviours.Fade
   name: Fade
   href: api/UILib.Behaviours.Fade.html
@@ -260,93 +267,6 @@ references:
   commentId: T:UILib.Behaviours.MouseEvent
   fullName: UILib.Behaviours.MouseEvent
   nameWithType: MouseEvent
-- uid: UILib.Behaviours.Shortcut
-  name: Shortcut
-  href: api/UILib.Behaviours.Shortcut.html
-  commentId: T:UILib.Behaviours.Shortcut
-  fullName: UILib.Behaviours.Shortcut
-  nameWithType: Shortcut
-- uid: UILib.Behaviours.Shortcut.Disable
-  name: Disable()
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_Disable
-  commentId: M:UILib.Behaviours.Shortcut.Disable
-  fullName: UILib.Behaviours.Shortcut.Disable()
-  nameWithType: Shortcut.Disable()
-- uid: UILib.Behaviours.Shortcut.Disable*
-  name: Disable
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_Disable_
-  commentId: Overload:UILib.Behaviours.Shortcut.Disable
-  isSpec: "True"
-  fullName: UILib.Behaviours.Shortcut.Disable
-  nameWithType: Shortcut.Disable
-- uid: UILib.Behaviours.Shortcut.Enable
-  name: Enable()
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_Enable
-  commentId: M:UILib.Behaviours.Shortcut.Enable
-  fullName: UILib.Behaviours.Shortcut.Enable()
-  nameWithType: Shortcut.Enable()
-- uid: UILib.Behaviours.Shortcut.Enable*
-  name: Enable
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_Enable_
-  commentId: Overload:UILib.Behaviours.Shortcut.Enable
-  isSpec: "True"
-  fullName: UILib.Behaviours.Shortcut.Enable
-  nameWithType: Shortcut.Enable
-- uid: UILib.Behaviours.Shortcut.SetShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
-  name: SetShortcut(IList<KeyCode>)
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_SetShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__
-  commentId: M:UILib.Behaviours.Shortcut.SetShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
-  name.vb: SetShortcut(IList(Of KeyCode))
-  fullName: UILib.Behaviours.Shortcut.SetShortcut(System.Collections.Generic.IList<UnityEngine.KeyCode>)
-  fullName.vb: UILib.Behaviours.Shortcut.SetShortcut(System.Collections.Generic.IList(Of UnityEngine.KeyCode))
-  nameWithType: Shortcut.SetShortcut(IList<KeyCode>)
-  nameWithType.vb: Shortcut.SetShortcut(IList(Of KeyCode))
-- uid: UILib.Behaviours.Shortcut.SetShortcut*
-  name: SetShortcut
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_SetShortcut_
-  commentId: Overload:UILib.Behaviours.Shortcut.SetShortcut
-  isSpec: "True"
-  fullName: UILib.Behaviours.Shortcut.SetShortcut
-  nameWithType: Shortcut.SetShortcut
-- uid: UILib.Behaviours.Shortcut.enabled
-  name: enabled
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_enabled
-  commentId: P:UILib.Behaviours.Shortcut.enabled
-  fullName: UILib.Behaviours.Shortcut.enabled
-  nameWithType: Shortcut.enabled
-- uid: UILib.Behaviours.Shortcut.enabled*
-  name: enabled
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_enabled_
-  commentId: Overload:UILib.Behaviours.Shortcut.enabled
-  isSpec: "True"
-  fullName: UILib.Behaviours.Shortcut.enabled
-  nameWithType: Shortcut.enabled
-- uid: UILib.Behaviours.Shortcut.keys
-  name: keys
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_keys
-  commentId: P:UILib.Behaviours.Shortcut.keys
-  fullName: UILib.Behaviours.Shortcut.keys
-  nameWithType: Shortcut.keys
-- uid: UILib.Behaviours.Shortcut.keys*
-  name: keys
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_keys_
-  commentId: Overload:UILib.Behaviours.Shortcut.keys
-  isSpec: "True"
-  fullName: UILib.Behaviours.Shortcut.keys
-  nameWithType: Shortcut.keys
-- uid: UILib.Behaviours.Shortcut.onTrigger
-  name: onTrigger
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_onTrigger
-  commentId: P:UILib.Behaviours.Shortcut.onTrigger
-  fullName: UILib.Behaviours.Shortcut.onTrigger
-  nameWithType: Shortcut.onTrigger
-- uid: UILib.Behaviours.Shortcut.onTrigger*
-  name: onTrigger
-  href: api/UILib.Behaviours.Shortcut.html#UILib_Behaviours_Shortcut_onTrigger_
-  commentId: Overload:UILib.Behaviours.Shortcut.onTrigger
-  isSpec: "True"
-  fullName: UILib.Behaviours.Shortcut.onTrigger
-  nameWithType: Shortcut.onTrigger
 - uid: UILib.Behaviours.Timer
   name: Timer
   href: api/UILib.Behaviours.Timer.html
@@ -527,6 +447,15 @@ references:
   fullName.vb: UILib.Behaviours.ValueEvent(Of T)
   nameWithType: ValueEvent<T>
   nameWithType.vb: ValueEvent(Of T)
+- uid: UILib.Behaviours.ValueEvent`2
+  name: ValueEvent<T1, T2>
+  href: api/UILib.Behaviours.ValueEvent-2.html
+  commentId: T:UILib.Behaviours.ValueEvent`2
+  name.vb: ValueEvent(Of T1, T2)
+  fullName: UILib.Behaviours.ValueEvent<T1, T2>
+  fullName.vb: UILib.Behaviours.ValueEvent(Of T1, T2)
+  nameWithType: ValueEvent<T1, T2>
+  nameWithType.vb: ValueEvent(Of T1, T2)
 - uid: UILib.Colors
   name: Colors
   href: api/UILib.Colors.html
@@ -737,6 +666,34 @@ references:
   commentId: T:UILib.Components.Area
   fullName: UILib.Components.Area
   nameWithType: Area
+- uid: UILib.Components.Area.#ctor
+  name: Area()
+  href: api/UILib.Components.Area.html#UILib_Components_Area__ctor
+  commentId: M:UILib.Components.Area.#ctor
+  name.vb: New()
+  fullName: UILib.Components.Area.Area()
+  fullName.vb: UILib.Components.Area.New()
+  nameWithType: Area.Area()
+  nameWithType.vb: Area.New()
+- uid: UILib.Components.Area.#ctor(System.Single,System.Single,UILib.Layouts.FillType)
+  name: Area(float, float, FillType)
+  href: api/UILib.Components.Area.html#UILib_Components_Area__ctor_System_Single_System_Single_UILib_Layouts_FillType_
+  commentId: M:UILib.Components.Area.#ctor(System.Single,System.Single,UILib.Layouts.FillType)
+  name.vb: New(Single, Single, FillType)
+  fullName: UILib.Components.Area.Area(float, float, UILib.Layouts.FillType)
+  fullName.vb: UILib.Components.Area.New(Single, Single, UILib.Layouts.FillType)
+  nameWithType: Area.Area(float, float, FillType)
+  nameWithType.vb: Area.New(Single, Single, FillType)
+- uid: UILib.Components.Area.#ctor*
+  name: Area
+  href: api/UILib.Components.Area.html#UILib_Components_Area__ctor_
+  commentId: Overload:UILib.Components.Area.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UILib.Components.Area.Area
+  fullName.vb: UILib.Components.Area.New
+  nameWithType: Area.Area
+  nameWithType.vb: Area.New
 - uid: UILib.Components.Area.SetThisTheme(UILib.Theme)
   name: SetThisTheme(Theme)
   href: api/UILib.Components.Area.html#UILib_Components_Area_SetThisTheme_UILib_Theme_
@@ -848,6 +805,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Button.SetThisTheme
   nameWithType: Button.SetThisTheme
+- uid: UILib.Components.Button.background
+  name: background
+  href: api/UILib.Components.Button.html#UILib_Components_Button_background
+  commentId: P:UILib.Components.Button.background
+  fullName: UILib.Components.Button.background
+  nameWithType: Button.background
+- uid: UILib.Components.Button.background*
+  name: background
+  href: api/UILib.Components.Button.html#UILib_Components_Button_background_
+  commentId: Overload:UILib.Components.Button.background
+  isSpec: "True"
+  fullName: UILib.Components.Button.background
+  nameWithType: Button.background
 - uid: UILib.Components.Button.button
   name: button
   href: api/UILib.Components.Button.html#UILib_Components_Button_button
@@ -861,6 +831,32 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Button.button
   nameWithType: Button.button
+- uid: UILib.Components.Button.image
+  name: image
+  href: api/UILib.Components.Button.html#UILib_Components_Button_image
+  commentId: P:UILib.Components.Button.image
+  fullName: UILib.Components.Button.image
+  nameWithType: Button.image
+- uid: UILib.Components.Button.image*
+  name: image
+  href: api/UILib.Components.Button.html#UILib_Components_Button_image_
+  commentId: Overload:UILib.Components.Button.image
+  isSpec: "True"
+  fullName: UILib.Components.Button.image
+  nameWithType: Button.image
+- uid: UILib.Components.Button.label
+  name: label
+  href: api/UILib.Components.Button.html#UILib_Components_Button_label
+  commentId: P:UILib.Components.Button.label
+  fullName: UILib.Components.Button.label
+  nameWithType: Button.label
+- uid: UILib.Components.Button.label*
+  name: label
+  href: api/UILib.Components.Button.html#UILib_Components_Button_label_
+  commentId: Overload:UILib.Components.Button.label
+  isSpec: "True"
+  fullName: UILib.Components.Button.label
+  nameWithType: Button.label
 - uid: UILib.Components.Button.onClick
   name: onClick
   href: api/UILib.Components.Button.html#UILib_Components_Button_onClick
@@ -1368,12 +1364,12 @@ references:
   fullName.vb: UILib.Components.Label.New
   nameWithType: Label.Label
   nameWithType.vb: Label.New
-- uid: UILib.Components.Label.SetAlignment(UnityEngine.TextAnchor)
-  name: SetAlignment(TextAnchor)
-  href: api/UILib.Components.Label.html#UILib_Components_Label_SetAlignment_UnityEngine_TextAnchor_
-  commentId: M:UILib.Components.Label.SetAlignment(UnityEngine.TextAnchor)
-  fullName: UILib.Components.Label.SetAlignment(UnityEngine.TextAnchor)
-  nameWithType: Label.SetAlignment(TextAnchor)
+- uid: UILib.Components.Label.SetAlignment(UILib.Layouts.AnchorType)
+  name: SetAlignment(AnchorType)
+  href: api/UILib.Components.Label.html#UILib_Components_Label_SetAlignment_UILib_Layouts_AnchorType_
+  commentId: M:UILib.Components.Label.SetAlignment(UILib.Layouts.AnchorType)
+  fullName: UILib.Components.Label.SetAlignment(UILib.Layouts.AnchorType)
+  nameWithType: Label.SetAlignment(AnchorType)
 - uid: UILib.Components.Label.SetAlignment*
   name: SetAlignment
   href: api/UILib.Components.Label.html#UILib_Components_Label_SetAlignment_
@@ -1693,6 +1689,32 @@ references:
   isSpec: "True"
   fullName: UILib.Components.ProgressBar.SetThisTheme
   nameWithType: ProgressBar.SetThisTheme
+- uid: UILib.Components.ProgressBar.background
+  name: background
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_background
+  commentId: P:UILib.Components.ProgressBar.background
+  fullName: UILib.Components.ProgressBar.background
+  nameWithType: ProgressBar.background
+- uid: UILib.Components.ProgressBar.background*
+  name: background
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_background_
+  commentId: Overload:UILib.Components.ProgressBar.background
+  isSpec: "True"
+  fullName: UILib.Components.ProgressBar.background
+  nameWithType: ProgressBar.background
+- uid: UILib.Components.ProgressBar.fill
+  name: fill
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_fill
+  commentId: P:UILib.Components.ProgressBar.fill
+  fullName: UILib.Components.ProgressBar.fill
+  nameWithType: ProgressBar.fill
+- uid: UILib.Components.ProgressBar.fill*
+  name: fill
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_fill_
+  commentId: Overload:UILib.Components.ProgressBar.fill
+  isSpec: "True"
+  fullName: UILib.Components.ProgressBar.fill
+  nameWithType: ProgressBar.fill
 - uid: UILib.Components.ProgressBar.progress
   name: progress
   href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_progress
@@ -1763,6 +1785,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.QueueArea.SetLimit
   nameWithType: QueueArea.SetLimit
+- uid: UILib.Components.QueueArea.limit
+  name: limit
+  href: api/UILib.Components.QueueArea.html#UILib_Components_QueueArea_limit
+  commentId: P:UILib.Components.QueueArea.limit
+  fullName: UILib.Components.QueueArea.limit
+  nameWithType: QueueArea.limit
+- uid: UILib.Components.QueueArea.limit*
+  name: limit
+  href: api/UILib.Components.QueueArea.html#UILib_Components_QueueArea_limit_
+  commentId: Overload:UILib.Components.QueueArea.limit
+  isSpec: "True"
+  fullName: UILib.Components.QueueArea.limit
+  nameWithType: QueueArea.limit
 - uid: UILib.Components.ScrollBar
   name: ScrollBar
   href: api/UILib.Components.ScrollBar.html
@@ -2247,24 +2282,66 @@ references:
   fullName.vb: UILib.Components.TextField.New
   nameWithType: TextField.TextField
   nameWithType.vb: TextField.New
+- uid: UILib.Components.TextField.ClearMode
+  name: TextField.ClearMode
+  href: api/UILib.Components.TextField.ClearMode.html
+  commentId: T:UILib.Components.TextField.ClearMode
+  fullName: UILib.Components.TextField.ClearMode
+  nameWithType: TextField.ClearMode
+- uid: UILib.Components.TextField.ClearMode.Always
+  name: Always
+  href: api/UILib.Components.TextField.ClearMode.html#UILib_Components_TextField_ClearMode_Always
+  commentId: F:UILib.Components.TextField.ClearMode.Always
+  fullName: UILib.Components.TextField.ClearMode.Always
+  nameWithType: TextField.ClearMode.Always
+- uid: UILib.Components.TextField.ClearMode.Click
+  name: Click
+  href: api/UILib.Components.TextField.ClearMode.html#UILib_Components_TextField_ClearMode_Click
+  commentId: F:UILib.Components.TextField.ClearMode.Click
+  fullName: UILib.Components.TextField.ClearMode.Click
+  nameWithType: TextField.ClearMode.Click
+- uid: UILib.Components.TextField.ClearMode.Escape
+  name: Escape
+  href: api/UILib.Components.TextField.ClearMode.html#UILib_Components_TextField_ClearMode_Escape
+  commentId: F:UILib.Components.TextField.ClearMode.Escape
+  fullName: UILib.Components.TextField.ClearMode.Escape
+  nameWithType: TextField.ClearMode.Escape
+- uid: UILib.Components.TextField.ClearMode.InvalidSubmit
+  name: InvalidSubmit
+  href: api/UILib.Components.TextField.ClearMode.html#UILib_Components_TextField_ClearMode_InvalidSubmit
+  commentId: F:UILib.Components.TextField.ClearMode.InvalidSubmit
+  fullName: UILib.Components.TextField.ClearMode.InvalidSubmit
+  nameWithType: TextField.ClearMode.InvalidSubmit
+- uid: UILib.Components.TextField.ClearMode.None
+  name: None
+  href: api/UILib.Components.TextField.ClearMode.html#UILib_Components_TextField_ClearMode_None
+  commentId: F:UILib.Components.TextField.ClearMode.None
+  fullName: UILib.Components.TextField.ClearMode.None
+  nameWithType: TextField.ClearMode.None
+- uid: UILib.Components.TextField.ClearMode.ValidSubmit
+  name: ValidSubmit
+  href: api/UILib.Components.TextField.ClearMode.html#UILib_Components_TextField_ClearMode_ValidSubmit
+  commentId: F:UILib.Components.TextField.ClearMode.ValidSubmit
+  fullName: UILib.Components.TextField.ClearMode.ValidSubmit
+  nameWithType: TextField.ClearMode.ValidSubmit
 - uid: UILib.Components.TextField.RetainMode
   name: TextField.RetainMode
   href: api/UILib.Components.TextField.RetainMode.html
   commentId: T:UILib.Components.TextField.RetainMode
   fullName: UILib.Components.TextField.RetainMode
   nameWithType: TextField.RetainMode
-- uid: UILib.Components.TextField.RetainMode.CancelClick
-  name: CancelClick
-  href: api/UILib.Components.TextField.RetainMode.html#UILib_Components_TextField_RetainMode_CancelClick
-  commentId: F:UILib.Components.TextField.RetainMode.CancelClick
-  fullName: UILib.Components.TextField.RetainMode.CancelClick
-  nameWithType: TextField.RetainMode.CancelClick
-- uid: UILib.Components.TextField.RetainMode.CancelEscape
-  name: CancelEscape
-  href: api/UILib.Components.TextField.RetainMode.html#UILib_Components_TextField_RetainMode_CancelEscape
-  commentId: F:UILib.Components.TextField.RetainMode.CancelEscape
-  fullName: UILib.Components.TextField.RetainMode.CancelEscape
-  nameWithType: TextField.RetainMode.CancelEscape
+- uid: UILib.Components.TextField.RetainMode.Click
+  name: Click
+  href: api/UILib.Components.TextField.RetainMode.html#UILib_Components_TextField_RetainMode_Click
+  commentId: F:UILib.Components.TextField.RetainMode.Click
+  fullName: UILib.Components.TextField.RetainMode.Click
+  nameWithType: TextField.RetainMode.Click
+- uid: UILib.Components.TextField.RetainMode.Escape
+  name: Escape
+  href: api/UILib.Components.TextField.RetainMode.html#UILib_Components_TextField_RetainMode_Escape
+  commentId: F:UILib.Components.TextField.RetainMode.Escape
+  fullName: UILib.Components.TextField.RetainMode.Escape
+  nameWithType: TextField.RetainMode.Escape
 - uid: UILib.Components.TextField.RetainMode.InvalidSubmit
   name: InvalidSubmit
   href: api/UILib.Components.TextField.RetainMode.html#UILib_Components_TextField_RetainMode_InvalidSubmit
@@ -2277,12 +2354,12 @@ references:
   commentId: F:UILib.Components.TextField.RetainMode.None
   fullName: UILib.Components.TextField.RetainMode.None
   nameWithType: TextField.RetainMode.None
-- uid: UILib.Components.TextField.SetAlignment(UnityEngine.TextAnchor)
-  name: SetAlignment(TextAnchor)
-  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetAlignment_UnityEngine_TextAnchor_
-  commentId: M:UILib.Components.TextField.SetAlignment(UnityEngine.TextAnchor)
-  fullName: UILib.Components.TextField.SetAlignment(UnityEngine.TextAnchor)
-  nameWithType: TextField.SetAlignment(TextAnchor)
+- uid: UILib.Components.TextField.SetAlignment(UILib.Layouts.AnchorType)
+  name: SetAlignment(AnchorType)
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetAlignment_UILib_Layouts_AnchorType_
+  commentId: M:UILib.Components.TextField.SetAlignment(UILib.Layouts.AnchorType)
+  fullName: UILib.Components.TextField.SetAlignment(UILib.Layouts.AnchorType)
+  nameWithType: TextField.SetAlignment(AnchorType)
 - uid: UILib.Components.TextField.SetAlignment*
   name: SetAlignment
   href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetAlignment_
@@ -2290,6 +2367,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.TextField.SetAlignment
   nameWithType: TextField.SetAlignment
+- uid: UILib.Components.TextField.SetClearMode(UILib.Components.TextField.ClearMode)
+  name: SetClearMode(ClearMode)
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetClearMode_UILib_Components_TextField_ClearMode_
+  commentId: M:UILib.Components.TextField.SetClearMode(UILib.Components.TextField.ClearMode)
+  fullName: UILib.Components.TextField.SetClearMode(UILib.Components.TextField.ClearMode)
+  nameWithType: TextField.SetClearMode(TextField.ClearMode)
+- uid: UILib.Components.TextField.SetClearMode*
+  name: SetClearMode
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetClearMode_
+  commentId: Overload:UILib.Components.TextField.SetClearMode
+  isSpec: "True"
+  fullName: UILib.Components.TextField.SetClearMode
+  nameWithType: TextField.SetClearMode
 - uid: UILib.Components.TextField.SetPredicate(System.Func{System.String,System.Boolean})
   name: SetPredicate(Func<string, bool>)
   href: api/UILib.Components.TextField.html#UILib_Components_TextField_SetPredicate_System_Func_System_String_System_Boolean__
@@ -2417,6 +2507,45 @@ references:
   commentId: F:UILib.Components.TextField.SubmitMode.None
   fullName: UILib.Components.TextField.SubmitMode.None
   nameWithType: TextField.SubmitMode.None
+- uid: UILib.Components.TextField.background
+  name: background
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_background
+  commentId: P:UILib.Components.TextField.background
+  fullName: UILib.Components.TextField.background
+  nameWithType: TextField.background
+- uid: UILib.Components.TextField.background*
+  name: background
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_background_
+  commentId: Overload:UILib.Components.TextField.background
+  isSpec: "True"
+  fullName: UILib.Components.TextField.background
+  nameWithType: TextField.background
+- uid: UILib.Components.TextField.clearMode
+  name: clearMode
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_clearMode
+  commentId: P:UILib.Components.TextField.clearMode
+  fullName: UILib.Components.TextField.clearMode
+  nameWithType: TextField.clearMode
+- uid: UILib.Components.TextField.clearMode*
+  name: clearMode
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_clearMode_
+  commentId: Overload:UILib.Components.TextField.clearMode
+  isSpec: "True"
+  fullName: UILib.Components.TextField.clearMode
+  nameWithType: TextField.clearMode
+- uid: UILib.Components.TextField.input
+  name: input
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_input
+  commentId: P:UILib.Components.TextField.input
+  fullName: UILib.Components.TextField.input
+  nameWithType: TextField.input
+- uid: UILib.Components.TextField.input*
+  name: input
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_input_
+  commentId: Overload:UILib.Components.TextField.input
+  isSpec: "True"
+  fullName: UILib.Components.TextField.input
+  nameWithType: TextField.input
 - uid: UILib.Components.TextField.onCancel
   name: onCancel
   href: api/UILib.Components.TextField.html#UILib_Components_TextField_onCancel
@@ -2469,6 +2598,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.TextField.onValidSubmit
   nameWithType: TextField.onValidSubmit
+- uid: UILib.Components.TextField.placeholder
+  name: placeholder
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_placeholder
+  commentId: P:UILib.Components.TextField.placeholder
+  fullName: UILib.Components.TextField.placeholder
+  nameWithType: TextField.placeholder
+- uid: UILib.Components.TextField.placeholder*
+  name: placeholder
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField_placeholder_
+  commentId: Overload:UILib.Components.TextField.placeholder
+  isSpec: "True"
+  fullName: UILib.Components.TextField.placeholder
+  nameWithType: TextField.placeholder
 - uid: UILib.Components.TextField.retainFocus
   name: retainFocus
   href: api/UILib.Components.TextField.html#UILib_Components_TextField_retainFocus
@@ -2559,6 +2701,32 @@ references:
   fullName.vb: UILib.Components.Toggle.New
   nameWithType: Toggle.Toggle
   nameWithType.vb: Toggle.New
+- uid: UILib.Components.Toggle.SetOffImage(UILib.Components.Image)
+  name: SetOffImage(Image)
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetOffImage_UILib_Components_Image_
+  commentId: M:UILib.Components.Toggle.SetOffImage(UILib.Components.Image)
+  fullName: UILib.Components.Toggle.SetOffImage(UILib.Components.Image)
+  nameWithType: Toggle.SetOffImage(Image)
+- uid: UILib.Components.Toggle.SetOffImage*
+  name: SetOffImage
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetOffImage_
+  commentId: Overload:UILib.Components.Toggle.SetOffImage
+  isSpec: "True"
+  fullName: UILib.Components.Toggle.SetOffImage
+  nameWithType: Toggle.SetOffImage
+- uid: UILib.Components.Toggle.SetOnImage(UILib.Components.Image)
+  name: SetOnImage(Image)
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetOnImage_UILib_Components_Image_
+  commentId: M:UILib.Components.Toggle.SetOnImage(UILib.Components.Image)
+  fullName: UILib.Components.Toggle.SetOnImage(UILib.Components.Image)
+  nameWithType: Toggle.SetOnImage(Image)
+- uid: UILib.Components.Toggle.SetOnImage*
+  name: SetOnImage
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetOnImage_
+  commentId: Overload:UILib.Components.Toggle.SetOnImage
+  isSpec: "True"
+  fullName: UILib.Components.Toggle.SetOnImage
+  nameWithType: Toggle.SetOnImage
 - uid: UILib.Components.Toggle.SetThisTheme(UILib.Theme)
   name: SetThisTheme(Theme)
   href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetThisTheme_UILib_Theme_
@@ -2588,6 +2756,45 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Toggle.SetValue
   nameWithType: Toggle.SetValue
+- uid: UILib.Components.Toggle.background
+  name: background
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_background
+  commentId: P:UILib.Components.Toggle.background
+  fullName: UILib.Components.Toggle.background
+  nameWithType: Toggle.background
+- uid: UILib.Components.Toggle.background*
+  name: background
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_background_
+  commentId: Overload:UILib.Components.Toggle.background
+  isSpec: "True"
+  fullName: UILib.Components.Toggle.background
+  nameWithType: Toggle.background
+- uid: UILib.Components.Toggle.offImage
+  name: offImage
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_offImage
+  commentId: P:UILib.Components.Toggle.offImage
+  fullName: UILib.Components.Toggle.offImage
+  nameWithType: Toggle.offImage
+- uid: UILib.Components.Toggle.offImage*
+  name: offImage
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_offImage_
+  commentId: Overload:UILib.Components.Toggle.offImage
+  isSpec: "True"
+  fullName: UILib.Components.Toggle.offImage
+  nameWithType: Toggle.offImage
+- uid: UILib.Components.Toggle.onImage
+  name: onImage
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_onImage
+  commentId: P:UILib.Components.Toggle.onImage
+  fullName: UILib.Components.Toggle.onImage
+  nameWithType: Toggle.onImage
+- uid: UILib.Components.Toggle.onImage*
+  name: onImage
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_onImage_
+  commentId: Overload:UILib.Components.Toggle.onImage
+  isSpec: "True"
+  fullName: UILib.Components.Toggle.onImage
+  nameWithType: Toggle.onImage
 - uid: UILib.Components.Toggle.onValueChanged
   name: onValueChanged
   href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_onValueChanged
@@ -2627,38 +2834,6 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Toggle.value
   nameWithType: Toggle.value
-- uid: UILib.InputOverlay
-  name: InputOverlay
-  href: api/UILib.InputOverlay.html
-  commentId: T:UILib.InputOverlay
-  fullName: UILib.InputOverlay
-  nameWithType: InputOverlay
-- uid: UILib.InputOverlay.SetThisTheme(UILib.Theme)
-  name: SetThisTheme(Theme)
-  href: api/UILib.InputOverlay.html#UILib_InputOverlay_SetThisTheme_UILib_Theme_
-  commentId: M:UILib.InputOverlay.SetThisTheme(UILib.Theme)
-  fullName: UILib.InputOverlay.SetThisTheme(UILib.Theme)
-  nameWithType: InputOverlay.SetThisTheme(Theme)
-- uid: UILib.InputOverlay.SetThisTheme*
-  name: SetThisTheme
-  href: api/UILib.InputOverlay.html#UILib_InputOverlay_SetThisTheme_
-  commentId: Overload:UILib.InputOverlay.SetThisTheme
-  isSpec: "True"
-  fullName: UILib.InputOverlay.SetThisTheme
-  nameWithType: InputOverlay.SetThisTheme
-- uid: UILib.InputOverlay.waitingForInput
-  name: waitingForInput
-  href: api/UILib.InputOverlay.html#UILib_InputOverlay_waitingForInput
-  commentId: P:UILib.InputOverlay.waitingForInput
-  fullName: UILib.InputOverlay.waitingForInput
-  nameWithType: InputOverlay.waitingForInput
-- uid: UILib.InputOverlay.waitingForInput*
-  name: waitingForInput
-  href: api/UILib.InputOverlay.html#UILib_InputOverlay_waitingForInput_
-  commentId: Overload:UILib.InputOverlay.waitingForInput
-  isSpec: "True"
-  fullName: UILib.InputOverlay.waitingForInput
-  nameWithType: InputOverlay.waitingForInput
 - uid: UILib.Layouts
   name: UILib.Layouts
   href: api/UILib.Layouts.html
@@ -2856,15 +3031,12 @@ references:
   fullName.vb: UILib.Overlay.New
   nameWithType: Overlay.Overlay
   nameWithType.vb: Overlay.New
-- uid: UILib.Overlay.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
-  name: AddShortcut(IList<KeyCode>)
-  href: api/UILib.Overlay.html#UILib_Overlay_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__
-  commentId: M:UILib.Overlay.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
-  name.vb: AddShortcut(IList(Of KeyCode))
-  fullName: UILib.Overlay.AddShortcut(System.Collections.Generic.IList<UnityEngine.KeyCode>)
-  fullName.vb: UILib.Overlay.AddShortcut(System.Collections.Generic.IList(Of UnityEngine.KeyCode))
-  nameWithType: Overlay.AddShortcut(IList<KeyCode>)
-  nameWithType.vb: Overlay.AddShortcut(IList(Of KeyCode))
+- uid: UILib.Overlay.AddShortcut(UILib.Shortcut)
+  name: AddShortcut(Shortcut)
+  href: api/UILib.Overlay.html#UILib_Overlay_AddShortcut_UILib_Shortcut_
+  commentId: M:UILib.Overlay.AddShortcut(UILib.Shortcut)
+  fullName: UILib.Overlay.AddShortcut(UILib.Shortcut)
+  nameWithType: Overlay.AddShortcut(Shortcut)
 - uid: UILib.Overlay.AddShortcut*
   name: AddShortcut
   href: api/UILib.Overlay.html#UILib_Overlay_AddShortcut_
@@ -2992,6 +3164,22 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.SetAutoPause
   nameWithType: Overlay.SetAutoPause
+- uid: UILib.Overlay.SetInputLock(System.Boolean)
+  name: SetInputLock(bool)
+  href: api/UILib.Overlay.html#UILib_Overlay_SetInputLock_System_Boolean_
+  commentId: M:UILib.Overlay.SetInputLock(System.Boolean)
+  name.vb: SetInputLock(Boolean)
+  fullName: UILib.Overlay.SetInputLock(bool)
+  fullName.vb: UILib.Overlay.SetInputLock(Boolean)
+  nameWithType: Overlay.SetInputLock(bool)
+  nameWithType.vb: Overlay.SetInputLock(Boolean)
+- uid: UILib.Overlay.SetInputLock*
+  name: SetInputLock
+  href: api/UILib.Overlay.html#UILib_Overlay_SetInputLock_
+  commentId: Overload:UILib.Overlay.SetInputLock
+  isSpec: "True"
+  fullName: UILib.Overlay.SetInputLock
+  nameWithType: Overlay.SetInputLock
 - uid: UILib.Overlay.SetSortable(System.Boolean)
   name: SetSortable(bool)
   href: api/UILib.Overlay.html#UILib_Overlay_SetSortable_System_Boolean_
@@ -3047,6 +3235,19 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.ToggleVisibility
   nameWithType: Overlay.ToggleVisibility
+- uid: UILib.Overlay.autoPause
+  name: autoPause
+  href: api/UILib.Overlay.html#UILib_Overlay_autoPause
+  commentId: P:UILib.Overlay.autoPause
+  fullName: UILib.Overlay.autoPause
+  nameWithType: Overlay.autoPause
+- uid: UILib.Overlay.autoPause*
+  name: autoPause
+  href: api/UILib.Overlay.html#UILib_Overlay_autoPause_
+  commentId: Overload:UILib.Overlay.autoPause
+  isSpec: "True"
+  fullName: UILib.Overlay.autoPause
+  nameWithType: Overlay.autoPause
 - uid: UILib.Overlay.enabled
   name: enabled
   href: api/UILib.Overlay.html#UILib_Overlay_enabled
@@ -3073,6 +3274,19 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.isFocused
   nameWithType: Overlay.isFocused
+- uid: UILib.Overlay.lockInput
+  name: lockInput
+  href: api/UILib.Overlay.html#UILib_Overlay_lockInput
+  commentId: P:UILib.Overlay.lockInput
+  fullName: UILib.Overlay.lockInput
+  nameWithType: Overlay.lockInput
+- uid: UILib.Overlay.lockInput*
+  name: lockInput
+  href: api/UILib.Overlay.html#UILib_Overlay_lockInput_
+  commentId: Overload:UILib.Overlay.lockInput
+  isSpec: "True"
+  fullName: UILib.Overlay.lockInput
+  nameWithType: Overlay.lockInput
 - uid: UILib.Overlay.onFocus
   name: onFocus
   href: api/UILib.Overlay.html#UILib_Overlay_onFocus
@@ -3118,6 +3332,89 @@ references:
   commentId: N:UILib.Patches
   fullName: UILib.Patches
   nameWithType: UILib.Patches
+- uid: UILib.Patches.InputHandler
+  name: InputHandler
+  href: api/UILib.Patches.InputHandler.html
+  commentId: T:UILib.Patches.InputHandler
+  fullName: UILib.Patches.InputHandler
+  nameWithType: InputHandler
+- uid: UILib.Patches.InputHandler.isLocked
+  name: isLocked
+  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_isLocked
+  commentId: P:UILib.Patches.InputHandler.isLocked
+  fullName: UILib.Patches.InputHandler.isLocked
+  nameWithType: InputHandler.isLocked
+- uid: UILib.Patches.InputHandler.isLocked*
+  name: isLocked
+  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_isLocked_
+  commentId: Overload:UILib.Patches.InputHandler.isLocked
+  isSpec: "True"
+  fullName: UILib.Patches.InputHandler.isLocked
+  nameWithType: InputHandler.isLocked
+- uid: UILib.Patches.InputHandler.onLock
+  name: onLock
+  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_onLock
+  commentId: P:UILib.Patches.InputHandler.onLock
+  fullName: UILib.Patches.InputHandler.onLock
+  nameWithType: InputHandler.onLock
+- uid: UILib.Patches.InputHandler.onLock*
+  name: onLock
+  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_onLock_
+  commentId: Overload:UILib.Patches.InputHandler.onLock
+  isSpec: "True"
+  fullName: UILib.Patches.InputHandler.onLock
+  nameWithType: InputHandler.onLock
+- uid: UILib.Patches.InputHandler.onUnlock
+  name: onUnlock
+  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_onUnlock
+  commentId: P:UILib.Patches.InputHandler.onUnlock
+  fullName: UILib.Patches.InputHandler.onUnlock
+  nameWithType: InputHandler.onUnlock
+- uid: UILib.Patches.InputHandler.onUnlock*
+  name: onUnlock
+  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_onUnlock_
+  commentId: Overload:UILib.Patches.InputHandler.onUnlock
+  isSpec: "True"
+  fullName: UILib.Patches.InputHandler.onUnlock
+  nameWithType: InputHandler.onUnlock
+- uid: UILib.Patches.InputLock
+  name: InputLock
+  href: api/UILib.Patches.InputLock.html
+  commentId: T:UILib.Patches.InputLock
+  fullName: UILib.Patches.InputLock
+  nameWithType: InputLock
+- uid: UILib.Patches.InputLock.#ctor
+  name: InputLock()
+  href: api/UILib.Patches.InputLock.html#UILib_Patches_InputLock__ctor
+  commentId: M:UILib.Patches.InputLock.#ctor
+  name.vb: New()
+  fullName: UILib.Patches.InputLock.InputLock()
+  fullName.vb: UILib.Patches.InputLock.New()
+  nameWithType: InputLock.InputLock()
+  nameWithType.vb: InputLock.New()
+- uid: UILib.Patches.InputLock.#ctor*
+  name: InputLock
+  href: api/UILib.Patches.InputLock.html#UILib_Patches_InputLock__ctor_
+  commentId: Overload:UILib.Patches.InputLock.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UILib.Patches.InputLock.InputLock
+  fullName.vb: UILib.Patches.InputLock.New
+  nameWithType: InputLock.InputLock
+  nameWithType.vb: InputLock.New
+- uid: UILib.Patches.InputLock.Close
+  name: Close()
+  href: api/UILib.Patches.InputLock.html#UILib_Patches_InputLock_Close
+  commentId: M:UILib.Patches.InputLock.Close
+  fullName: UILib.Patches.InputLock.Close()
+  nameWithType: InputLock.Close()
+- uid: UILib.Patches.InputLock.Close*
+  name: Close
+  href: api/UILib.Patches.InputLock.html#UILib_Patches_InputLock_Close_
+  commentId: Overload:UILib.Patches.InputLock.Close
+  isSpec: "True"
+  fullName: UILib.Patches.InputLock.Close
+  nameWithType: InputLock.Close
 - uid: UILib.Patches.PauseHandle
   name: PauseHandle
   href: api/UILib.Patches.PauseHandle.html
@@ -3505,12 +3802,194 @@ references:
   isSpec: "True"
   fullName: UILib.Resources.triangle
   nameWithType: Resources.triangle
+- uid: UILib.Shortcut
+  name: Shortcut
+  href: api/UILib.Shortcut.html
+  commentId: T:UILib.Shortcut
+  fullName: UILib.Shortcut
+  nameWithType: Shortcut
+- uid: UILib.Shortcut.#ctor(System.Collections.Generic.IList{BepInEx.Configuration.ConfigEntry{UnityEngine.KeyCode}})
+  name: Shortcut(IList<ConfigEntry<KeyCode>>)
+  href: api/UILib.Shortcut.html#UILib_Shortcut__ctor_System_Collections_Generic_IList_BepInEx_Configuration_ConfigEntry_UnityEngine_KeyCode___
+  commentId: M:UILib.Shortcut.#ctor(System.Collections.Generic.IList{BepInEx.Configuration.ConfigEntry{UnityEngine.KeyCode}})
+  name.vb: New(IList(Of ConfigEntry(Of KeyCode)))
+  fullName: UILib.Shortcut.Shortcut(System.Collections.Generic.IList<BepInEx.Configuration.ConfigEntry<UnityEngine.KeyCode>>)
+  fullName.vb: UILib.Shortcut.New(System.Collections.Generic.IList(Of BepInEx.Configuration.ConfigEntry(Of UnityEngine.KeyCode)))
+  nameWithType: Shortcut.Shortcut(IList<ConfigEntry<KeyCode>>)
+  nameWithType.vb: Shortcut.New(IList(Of ConfigEntry(Of KeyCode)))
+- uid: UILib.Shortcut.#ctor(System.Collections.Generic.IList{UnityEngine.KeyCode})
+  name: Shortcut(IList<KeyCode>)
+  href: api/UILib.Shortcut.html#UILib_Shortcut__ctor_System_Collections_Generic_IList_UnityEngine_KeyCode__
+  commentId: M:UILib.Shortcut.#ctor(System.Collections.Generic.IList{UnityEngine.KeyCode})
+  name.vb: New(IList(Of KeyCode))
+  fullName: UILib.Shortcut.Shortcut(System.Collections.Generic.IList<UnityEngine.KeyCode>)
+  fullName.vb: UILib.Shortcut.New(System.Collections.Generic.IList(Of UnityEngine.KeyCode))
+  nameWithType: Shortcut.Shortcut(IList<KeyCode>)
+  nameWithType.vb: Shortcut.New(IList(Of KeyCode))
+- uid: UILib.Shortcut.#ctor(System.Collections.Generic.IList{UnityEngine.KeyCode},System.Collections.Generic.IList{BepInEx.Configuration.ConfigEntry{UnityEngine.KeyCode}})
+  name: Shortcut(IList<KeyCode>, IList<ConfigEntry<KeyCode>>)
+  href: api/UILib.Shortcut.html#UILib_Shortcut__ctor_System_Collections_Generic_IList_UnityEngine_KeyCode__System_Collections_Generic_IList_BepInEx_Configuration_ConfigEntry_UnityEngine_KeyCode___
+  commentId: M:UILib.Shortcut.#ctor(System.Collections.Generic.IList{UnityEngine.KeyCode},System.Collections.Generic.IList{BepInEx.Configuration.ConfigEntry{UnityEngine.KeyCode}})
+  name.vb: New(IList(Of KeyCode), IList(Of ConfigEntry(Of KeyCode)))
+  fullName: UILib.Shortcut.Shortcut(System.Collections.Generic.IList<UnityEngine.KeyCode>, System.Collections.Generic.IList<BepInEx.Configuration.ConfigEntry<UnityEngine.KeyCode>>)
+  fullName.vb: UILib.Shortcut.New(System.Collections.Generic.IList(Of UnityEngine.KeyCode), System.Collections.Generic.IList(Of BepInEx.Configuration.ConfigEntry(Of UnityEngine.KeyCode)))
+  nameWithType: Shortcut.Shortcut(IList<KeyCode>, IList<ConfigEntry<KeyCode>>)
+  nameWithType.vb: Shortcut.New(IList(Of KeyCode), IList(Of ConfigEntry(Of KeyCode)))
+- uid: UILib.Shortcut.#ctor*
+  name: Shortcut
+  href: api/UILib.Shortcut.html#UILib_Shortcut__ctor_
+  commentId: Overload:UILib.Shortcut.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UILib.Shortcut.Shortcut
+  fullName.vb: UILib.Shortcut.New
+  nameWithType: Shortcut.Shortcut
+  nameWithType.vb: Shortcut.New
+- uid: UILib.Shortcut.Disable
+  name: Disable()
+  href: api/UILib.Shortcut.html#UILib_Shortcut_Disable
+  commentId: M:UILib.Shortcut.Disable
+  fullName: UILib.Shortcut.Disable()
+  nameWithType: Shortcut.Disable()
+- uid: UILib.Shortcut.Disable*
+  name: Disable
+  href: api/UILib.Shortcut.html#UILib_Shortcut_Disable_
+  commentId: Overload:UILib.Shortcut.Disable
+  isSpec: "True"
+  fullName: UILib.Shortcut.Disable
+  nameWithType: Shortcut.Disable
+- uid: UILib.Shortcut.Enable
+  name: Enable()
+  href: api/UILib.Shortcut.html#UILib_Shortcut_Enable
+  commentId: M:UILib.Shortcut.Enable
+  fullName: UILib.Shortcut.Enable()
+  nameWithType: Shortcut.Enable()
+- uid: UILib.Shortcut.Enable*
+  name: Enable
+  href: api/UILib.Shortcut.html#UILib_Shortcut_Enable_
+  commentId: Overload:UILib.Shortcut.Enable
+  isSpec: "True"
+  fullName: UILib.Shortcut.Enable
+  nameWithType: Shortcut.Enable
+- uid: UILib.Shortcut.SetShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode},System.Collections.Generic.IList{BepInEx.Configuration.ConfigEntry{UnityEngine.KeyCode}})
+  name: SetShortcut(IList<KeyCode>, IList<ConfigEntry<KeyCode>>)
+  href: api/UILib.Shortcut.html#UILib_Shortcut_SetShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__System_Collections_Generic_IList_BepInEx_Configuration_ConfigEntry_UnityEngine_KeyCode___
+  commentId: M:UILib.Shortcut.SetShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode},System.Collections.Generic.IList{BepInEx.Configuration.ConfigEntry{UnityEngine.KeyCode}})
+  name.vb: SetShortcut(IList(Of KeyCode), IList(Of ConfigEntry(Of KeyCode)))
+  fullName: UILib.Shortcut.SetShortcut(System.Collections.Generic.IList<UnityEngine.KeyCode>, System.Collections.Generic.IList<BepInEx.Configuration.ConfigEntry<UnityEngine.KeyCode>>)
+  fullName.vb: UILib.Shortcut.SetShortcut(System.Collections.Generic.IList(Of UnityEngine.KeyCode), System.Collections.Generic.IList(Of BepInEx.Configuration.ConfigEntry(Of UnityEngine.KeyCode)))
+  nameWithType: Shortcut.SetShortcut(IList<KeyCode>, IList<ConfigEntry<KeyCode>>)
+  nameWithType.vb: Shortcut.SetShortcut(IList(Of KeyCode), IList(Of ConfigEntry(Of KeyCode)))
+- uid: UILib.Shortcut.SetShortcut*
+  name: SetShortcut
+  href: api/UILib.Shortcut.html#UILib_Shortcut_SetShortcut_
+  commentId: Overload:UILib.Shortcut.SetShortcut
+  isSpec: "True"
+  fullName: UILib.Shortcut.SetShortcut
+  nameWithType: Shortcut.SetShortcut
+- uid: UILib.Shortcut.bepInKeys
+  name: bepInKeys
+  href: api/UILib.Shortcut.html#UILib_Shortcut_bepInKeys
+  commentId: P:UILib.Shortcut.bepInKeys
+  fullName: UILib.Shortcut.bepInKeys
+  nameWithType: Shortcut.bepInKeys
+- uid: UILib.Shortcut.bepInKeys*
+  name: bepInKeys
+  href: api/UILib.Shortcut.html#UILib_Shortcut_bepInKeys_
+  commentId: Overload:UILib.Shortcut.bepInKeys
+  isSpec: "True"
+  fullName: UILib.Shortcut.bepInKeys
+  nameWithType: Shortcut.bepInKeys
+- uid: UILib.Shortcut.canRun
+  name: canRun
+  href: api/UILib.Shortcut.html#UILib_Shortcut_canRun
+  commentId: P:UILib.Shortcut.canRun
+  fullName: UILib.Shortcut.canRun
+  nameWithType: Shortcut.canRun
+- uid: UILib.Shortcut.canRun*
+  name: canRun
+  href: api/UILib.Shortcut.html#UILib_Shortcut_canRun_
+  commentId: Overload:UILib.Shortcut.canRun
+  isSpec: "True"
+  fullName: UILib.Shortcut.canRun
+  nameWithType: Shortcut.canRun
+- uid: UILib.Shortcut.enabled
+  name: enabled
+  href: api/UILib.Shortcut.html#UILib_Shortcut_enabled
+  commentId: P:UILib.Shortcut.enabled
+  fullName: UILib.Shortcut.enabled
+  nameWithType: Shortcut.enabled
+- uid: UILib.Shortcut.enabled*
+  name: enabled
+  href: api/UILib.Shortcut.html#UILib_Shortcut_enabled_
+  commentId: Overload:UILib.Shortcut.enabled
+  isSpec: "True"
+  fullName: UILib.Shortcut.enabled
+  nameWithType: Shortcut.enabled
+- uid: UILib.Shortcut.keys
+  name: keys
+  href: api/UILib.Shortcut.html#UILib_Shortcut_keys
+  commentId: P:UILib.Shortcut.keys
+  fullName: UILib.Shortcut.keys
+  nameWithType: Shortcut.keys
+- uid: UILib.Shortcut.keys*
+  name: keys
+  href: api/UILib.Shortcut.html#UILib_Shortcut_keys_
+  commentId: Overload:UILib.Shortcut.keys
+  isSpec: "True"
+  fullName: UILib.Shortcut.keys
+  nameWithType: Shortcut.keys
+- uid: UILib.Shortcut.onHold
+  name: onHold
+  href: api/UILib.Shortcut.html#UILib_Shortcut_onHold
+  commentId: P:UILib.Shortcut.onHold
+  fullName: UILib.Shortcut.onHold
+  nameWithType: Shortcut.onHold
+- uid: UILib.Shortcut.onHold*
+  name: onHold
+  href: api/UILib.Shortcut.html#UILib_Shortcut_onHold_
+  commentId: Overload:UILib.Shortcut.onHold
+  isSpec: "True"
+  fullName: UILib.Shortcut.onHold
+  nameWithType: Shortcut.onHold
+- uid: UILib.Shortcut.onTrigger
+  name: onTrigger
+  href: api/UILib.Shortcut.html#UILib_Shortcut_onTrigger
+  commentId: P:UILib.Shortcut.onTrigger
+  fullName: UILib.Shortcut.onTrigger
+  nameWithType: Shortcut.onTrigger
+- uid: UILib.Shortcut.onTrigger*
+  name: onTrigger
+  href: api/UILib.Shortcut.html#UILib_Shortcut_onTrigger_
+  commentId: Overload:UILib.Shortcut.onTrigger
+  isSpec: "True"
+  fullName: UILib.Shortcut.onTrigger
+  nameWithType: Shortcut.onTrigger
 - uid: UILib.Theme
   name: Theme
   href: api/UILib.Theme.html
   commentId: T:UILib.Theme
   fullName: UILib.Theme
   nameWithType: Theme
+- uid: UILib.Theme.#ctor(System.String)
+  name: Theme(string)
+  href: api/UILib.Theme.html#UILib_Theme__ctor_System_String_
+  commentId: M:UILib.Theme.#ctor(System.String)
+  name.vb: New(String)
+  fullName: UILib.Theme.Theme(string)
+  fullName.vb: UILib.Theme.New(String)
+  nameWithType: Theme.Theme(string)
+  nameWithType.vb: Theme.New(String)
+- uid: UILib.Theme.#ctor*
+  name: Theme
+  href: api/UILib.Theme.html#UILib_Theme__ctor_
+  commentId: Overload:UILib.Theme.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: UILib.Theme.Theme
+  fullName.vb: UILib.Theme.New
+  nameWithType: Theme.Theme
+  nameWithType.vb: Theme.New
 - uid: UILib.Theme.Clone
   name: Clone()
   href: api/UILib.Theme.html#UILib_Theme_Clone
@@ -3537,6 +4016,54 @@ references:
   isSpec: "True"
   fullName: UILib.Theme.Copy
   nameWithType: Theme.Copy
+- uid: UILib.Theme.GetTheme
+  name: GetTheme()
+  href: api/UILib.Theme.html#UILib_Theme_GetTheme
+  commentId: M:UILib.Theme.GetTheme
+  fullName: UILib.Theme.GetTheme()
+  nameWithType: Theme.GetTheme()
+- uid: UILib.Theme.GetTheme(System.String)
+  name: GetTheme(string)
+  href: api/UILib.Theme.html#UILib_Theme_GetTheme_System_String_
+  commentId: M:UILib.Theme.GetTheme(System.String)
+  name.vb: GetTheme(String)
+  fullName: UILib.Theme.GetTheme(string)
+  fullName.vb: UILib.Theme.GetTheme(String)
+  nameWithType: Theme.GetTheme(string)
+  nameWithType.vb: Theme.GetTheme(String)
+- uid: UILib.Theme.GetTheme*
+  name: GetTheme
+  href: api/UILib.Theme.html#UILib_Theme_GetTheme_
+  commentId: Overload:UILib.Theme.GetTheme
+  isSpec: "True"
+  fullName: UILib.Theme.GetTheme
+  nameWithType: Theme.GetTheme
+- uid: UILib.Theme.GetThemes
+  name: GetThemes()
+  href: api/UILib.Theme.html#UILib_Theme_GetThemes
+  commentId: M:UILib.Theme.GetThemes
+  fullName: UILib.Theme.GetThemes()
+  nameWithType: Theme.GetThemes()
+- uid: UILib.Theme.GetThemes*
+  name: GetThemes
+  href: api/UILib.Theme.html#UILib_Theme_GetThemes_
+  commentId: Overload:UILib.Theme.GetThemes
+  isSpec: "True"
+  fullName: UILib.Theme.GetThemes
+  nameWithType: Theme.GetThemes
+- uid: UILib.Theme.Register(UILib.Theme)
+  name: Register(Theme)
+  href: api/UILib.Theme.html#UILib_Theme_Register_UILib_Theme_
+  commentId: M:UILib.Theme.Register(UILib.Theme)
+  fullName: UILib.Theme.Register(UILib.Theme)
+  nameWithType: Theme.Register(Theme)
+- uid: UILib.Theme.Register*
+  name: Register
+  href: api/UILib.Theme.html#UILib_Theme_Register_
+  commentId: Overload:UILib.Theme.Register
+  isSpec: "True"
+  fullName: UILib.Theme.Register
+  nameWithType: Theme.Register
 - uid: UILib.Theme.accent
   name: accent
   href: api/UILib.Theme.html#UILib_Theme_accent
@@ -3579,6 +4106,12 @@ references:
   commentId: F:UILib.Theme.fontScaler
   fullName: UILib.Theme.fontScaler
   nameWithType: Theme.fontScaler
+- uid: UILib.Theme.fontScalerAlt
+  name: fontScalerAlt
+  href: api/UILib.Theme.html#UILib_Theme_fontScalerAlt
+  commentId: F:UILib.Theme.fontScalerAlt
+  fullName: UILib.Theme.fontScalerAlt
+  nameWithType: Theme.fontScalerAlt
 - uid: UILib.Theme.foreground
   name: foreground
   href: api/UILib.Theme.html#UILib_Theme_foreground
@@ -3609,6 +4142,31 @@ references:
   commentId: F:UILib.Theme.inputOverlayOpacity
   fullName: UILib.Theme.inputOverlayOpacity
   nameWithType: Theme.inputOverlayOpacity
+- uid: UILib.Theme.name
+  name: name
+  href: api/UILib.Theme.html#UILib_Theme_name
+  commentId: P:UILib.Theme.name
+  fullName: UILib.Theme.name
+  nameWithType: Theme.name
+- uid: UILib.Theme.name*
+  name: name
+  href: api/UILib.Theme.html#UILib_Theme_name_
+  commentId: Overload:UILib.Theme.name
+  isSpec: "True"
+  fullName: UILib.Theme.name
+  nameWithType: Theme.name
+- uid: UILib.Theme.navigationSound
+  name: navigationSound
+  href: api/UILib.Theme.html#UILib_Theme_navigationSound
+  commentId: F:UILib.Theme.navigationSound
+  fullName: UILib.Theme.navigationSound
+  nameWithType: Theme.navigationSound
+- uid: UILib.Theme.navigationSoundVolume
+  name: navigationSoundVolume
+  href: api/UILib.Theme.html#UILib_Theme_navigationSoundVolume
+  commentId: F:UILib.Theme.navigationSoundVolume
+  fullName: UILib.Theme.navigationSoundVolume
+  nameWithType: Theme.navigationSoundVolume
 - uid: UILib.Theme.notification
   name: notification
   href: api/UILib.Theme.html#UILib_Theme_notification
@@ -3915,6 +4473,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.AddLayoutElement
   nameWithType: UIObject.AddLayoutElement
+- uid: UILib.UIObject.AnchorToText(UILib.Layouts.AnchorType)
+  name: AnchorToText(AnchorType)
+  href: api/UILib.UIObject.html#UILib_UIObject_AnchorToText_UILib_Layouts_AnchorType_
+  commentId: M:UILib.UIObject.AnchorToText(UILib.Layouts.AnchorType)
+  fullName: UILib.UIObject.AnchorToText(UILib.Layouts.AnchorType)
+  nameWithType: UIObject.AnchorToText(AnchorType)
+- uid: UILib.UIObject.AnchorToText*
+  name: AnchorToText
+  href: api/UILib.UIObject.html#UILib_UIObject_AnchorToText_
+  commentId: Overload:UILib.UIObject.AnchorToText
+  isSpec: "True"
+  fullName: UILib.UIObject.AnchorToText
+  nameWithType: UIObject.AnchorToText
 - uid: UILib.UIObject.Destroy
   name: Destroy()
   href: api/UILib.UIObject.html#UILib_UIObject_Destroy
@@ -4071,6 +4642,24 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.SetContentLayout
   nameWithType: UIObject.SetContentLayout
+- uid: UILib.UIObject.SetContentPadding(System.Int32)
+  name: SetContentPadding(int)
+  href: api/UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_
+  commentId: M:UILib.UIObject.SetContentPadding(System.Int32)
+  name.vb: SetContentPadding(Integer)
+  fullName: UILib.UIObject.SetContentPadding(int)
+  fullName.vb: UILib.UIObject.SetContentPadding(Integer)
+  nameWithType: UIObject.SetContentPadding(int)
+  nameWithType.vb: UIObject.SetContentPadding(Integer)
+- uid: UILib.UIObject.SetContentPadding(System.Int32,System.Int32)
+  name: SetContentPadding(int, int)
+  href: api/UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_System_Int32_
+  commentId: M:UILib.UIObject.SetContentPadding(System.Int32,System.Int32)
+  name.vb: SetContentPadding(Integer, Integer)
+  fullName: UILib.UIObject.SetContentPadding(int, int)
+  fullName.vb: UILib.UIObject.SetContentPadding(Integer, Integer)
+  nameWithType: UIObject.SetContentPadding(int, int)
+  nameWithType.vb: UIObject.SetContentPadding(Integer, Integer)
 - uid: UILib.UIObject.SetContentPadding(System.Int32,System.Int32,System.Int32,System.Int32)
   name: SetContentPadding(int, int, int, int)
   href: api/UILib.UIObject.html#UILib_UIObject_SetContentPadding_System_Int32_System_Int32_System_Int32_System_Int32_
@@ -4087,12 +4676,12 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.SetContentPadding
   nameWithType: UIObject.SetContentPadding
-- uid: UILib.UIObject.SetElementAlignment(UnityEngine.TextAnchor)
-  name: SetElementAlignment(TextAnchor)
-  href: api/UILib.UIObject.html#UILib_UIObject_SetElementAlignment_UnityEngine_TextAnchor_
-  commentId: M:UILib.UIObject.SetElementAlignment(UnityEngine.TextAnchor)
-  fullName: UILib.UIObject.SetElementAlignment(UnityEngine.TextAnchor)
-  nameWithType: UIObject.SetElementAlignment(TextAnchor)
+- uid: UILib.UIObject.SetElementAlignment(UILib.Layouts.AnchorType)
+  name: SetElementAlignment(AnchorType)
+  href: api/UILib.UIObject.html#UILib_UIObject_SetElementAlignment_UILib_Layouts_AnchorType_
+  commentId: M:UILib.UIObject.SetElementAlignment(UILib.Layouts.AnchorType)
+  fullName: UILib.UIObject.SetElementAlignment(UILib.Layouts.AnchorType)
+  nameWithType: UIObject.SetElementAlignment(AnchorType)
 - uid: UILib.UIObject.SetElementAlignment*
   name: SetElementAlignment
   href: api/UILib.UIObject.html#UILib_UIObject_SetElementAlignment_
@@ -4187,6 +4776,22 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.SetThisTheme
   nameWithType: UIObject.SetThisTheme
+- uid: UILib.UIObject.SetTooltip(System.String)
+  name: SetTooltip(string)
+  href: api/UILib.UIObject.html#UILib_UIObject_SetTooltip_System_String_
+  commentId: M:UILib.UIObject.SetTooltip(System.String)
+  name.vb: SetTooltip(String)
+  fullName: UILib.UIObject.SetTooltip(string)
+  fullName.vb: UILib.UIObject.SetTooltip(String)
+  nameWithType: UIObject.SetTooltip(string)
+  nameWithType.vb: UIObject.SetTooltip(String)
+- uid: UILib.UIObject.SetTooltip*
+  name: SetTooltip
+  href: api/UILib.UIObject.html#UILib_UIObject_SetTooltip_
+  commentId: Overload:UILib.UIObject.SetTooltip
+  isSpec: "True"
+  fullName: UILib.UIObject.SetTooltip
+  nameWithType: UIObject.SetTooltip
 - uid: UILib.UIObject.Show
   name: Show()
   href: api/UILib.UIObject.html#UILib_UIObject_Show
@@ -4369,6 +4974,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.onClick
   nameWithType: UIObject.onClick
+- uid: UILib.UIObject.onDisable
+  name: onDisable
+  href: api/UILib.UIObject.html#UILib_UIObject_onDisable
+  commentId: P:UILib.UIObject.onDisable
+  fullName: UILib.UIObject.onDisable
+  nameWithType: UIObject.onDisable
+- uid: UILib.UIObject.onDisable*
+  name: onDisable
+  href: api/UILib.UIObject.html#UILib_UIObject_onDisable_
+  commentId: Overload:UILib.UIObject.onDisable
+  isSpec: "True"
+  fullName: UILib.UIObject.onDisable
+  nameWithType: UIObject.onDisable
 - uid: UILib.UIObject.onDoubleClick
   name: onDoubleClick
   href: api/UILib.UIObject.html#UILib_UIObject_onDoubleClick
@@ -4395,6 +5013,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.onDrag
   nameWithType: UIObject.onDrag
+- uid: UILib.UIObject.onEnable
+  name: onEnable
+  href: api/UILib.UIObject.html#UILib_UIObject_onEnable
+  commentId: P:UILib.UIObject.onEnable
+  fullName: UILib.UIObject.onEnable
+  nameWithType: UIObject.onEnable
+- uid: UILib.UIObject.onEnable*
+  name: onEnable
+  href: api/UILib.UIObject.html#UILib_UIObject_onEnable_
+  commentId: Overload:UILib.UIObject.onEnable
+  isSpec: "True"
+  fullName: UILib.UIObject.onEnable
+  nameWithType: UIObject.onEnable
 - uid: UILib.UIObject.onEndDrag
   name: onEndDrag
   href: api/UILib.UIObject.html#UILib_UIObject_onEndDrag
@@ -4473,6 +5104,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.theme
   nameWithType: UIObject.theme
+- uid: UILib.UIObject.tooltip
+  name: tooltip
+  href: api/UILib.UIObject.html#UILib_UIObject_tooltip
+  commentId: P:UILib.UIObject.tooltip
+  fullName: UILib.UIObject.tooltip
+  nameWithType: UIObject.tooltip
+- uid: UILib.UIObject.tooltip*
+  name: tooltip
+  href: api/UILib.UIObject.html#UILib_UIObject_tooltip_
+  commentId: Overload:UILib.UIObject.tooltip
+  isSpec: "True"
+  fullName: UILib.UIObject.tooltip
+  nameWithType: UIObject.tooltip
 - uid: UILib.UIObject.width
   name: width
   href: api/UILib.UIObject.html#UILib_UIObject_width
@@ -4492,15 +5136,12 @@ references:
   commentId: T:UILib.UIRoot
   fullName: UILib.UIRoot
   nameWithType: UIRoot
-- uid: UILib.UIRoot.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
-  name: AddShortcut(IList<KeyCode>)
-  href: api/UILib.UIRoot.html#UILib_UIRoot_AddShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__
-  commentId: M:UILib.UIRoot.AddShortcut(System.Collections.Generic.IList{UnityEngine.KeyCode})
-  name.vb: AddShortcut(IList(Of KeyCode))
-  fullName: UILib.UIRoot.AddShortcut(System.Collections.Generic.IList<UnityEngine.KeyCode>)
-  fullName.vb: UILib.UIRoot.AddShortcut(System.Collections.Generic.IList(Of UnityEngine.KeyCode))
-  nameWithType: UIRoot.AddShortcut(IList<KeyCode>)
-  nameWithType.vb: UIRoot.AddShortcut(IList(Of KeyCode))
+- uid: UILib.UIRoot.AddShortcut(UILib.Shortcut)
+  name: AddShortcut(Shortcut)
+  href: api/UILib.UIRoot.html#UILib_UIRoot_AddShortcut_UILib_Shortcut_
+  commentId: M:UILib.UIRoot.AddShortcut(UILib.Shortcut)
+  fullName: UILib.UIRoot.AddShortcut(UILib.Shortcut)
+  nameWithType: UIRoot.AddShortcut(Shortcut)
 - uid: UILib.UIRoot.AddShortcut*
   name: AddShortcut
   href: api/UILib.UIRoot.html#UILib_UIRoot_AddShortcut_
@@ -4521,6 +5162,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIRoot.onInit
   nameWithType: UIRoot.onInit
+- uid: UILib.UIRoot.onPreInit
+  name: onPreInit
+  href: api/UILib.UIRoot.html#UILib_UIRoot_onPreInit
+  commentId: P:UILib.UIRoot.onPreInit
+  fullName: UILib.UIRoot.onPreInit
+  nameWithType: UIRoot.onPreInit
+- uid: UILib.UIRoot.onPreInit*
+  name: onPreInit
+  href: api/UILib.UIRoot.html#UILib_UIRoot_onPreInit_
+  commentId: Overload:UILib.UIRoot.onPreInit
+  isSpec: "True"
+  fullName: UILib.UIRoot.onPreInit
+  nameWithType: UIRoot.onPreInit
 - uid: UILib.UIRoot.onWMInit
   name: onWMInit
   href: api/UILib.UIRoot.html#UILib_UIRoot_onWMInit
