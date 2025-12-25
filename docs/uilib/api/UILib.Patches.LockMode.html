@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PauseHandle | poy-ui-lib </title>
+      <title>Enum LockMode | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PauseHandle | poy-ui-lib ">
+      <meta name="title" content="Enum LockMode | poy-ui-lib ">
       
-      <meta name="description" content="A pause handle. You shouldn&#39;t usually need to construct your own PauseHandles as  already create them internally. Whenever a PauseHandle is constructed it automatically pauses the game. Closing a PauseHandle will let the game unpause, but only once all PauseHandles have been closed. There could even be many PauseHandles across many mods, but as long as at least one exists (and hasn&#39;t closed yet), the game will be paused.">
+      <meta name="description" content="The types of lock modes which are supported.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Patches.PauseHandle">
+        <article data-uid="UILib.Patches.LockMode">
 
 
 
-  <h1 id="UILib_Patches_PauseHandle" data-uid="UILib.Patches.PauseHandle" class="text-break">
-Class PauseHandle  
+
+  <h1 id="UILib_Patches_LockMode" data-uid="UILib.Patches.LockMode" class="text-break">
+Enum LockMode  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,131 +98,50 @@ Class PauseHandle
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A pause handle.</p>
-<p>You shouldn't usually need to construct your own <code>PauseHandles</code>
-as <a class="xref" href="UILib.Overlay.html">Overlays</a> already create them
-internally.</p>
-<p>Whenever a <code>PauseHandle</code> is constructed it automatically
-pauses the game.</p>
-<p>Closing a <code>PauseHandle</code> will let the game unpause,
-but only once all <code>PauseHandles</code> have been closed.
-There could even be many <code>PauseHandles</code> across many mods,
-but as long as at least one exists
-(and hasn't closed yet), the game will be paused.</p>
+  <div class="markdown summary"><p>The types of lock modes which are supported.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PauseHandle</code></pre>
+    <pre><code class="lang-csharp hljs">[Flags]
+public enum LockMode</code></pre>
   </div>
 
 
 
 
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PauseHandle</span></div>
-    </dd>
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="UILib_Patches_LockMode_Default"><code>Default = Pause | FreeCursor</code></dt>
+  
+  <dd><p>The default lock mode.</p>
+</dd>
+    <dt id="UILib_Patches_LockMode_FreeCursor"><code>FreeCursor = 2</code></dt>
+  
+  <dd><p>Brings the cursor out of its normal locked state,
+allowing the user to move it around freely (instead of
+being fixed to the center of the screen).</p>
+</dd>
+    <dt id="UILib_Patches_LockMode_Navigation"><code>Navigation = 4</code></dt>
+  
+  <dd><p>Locks navigation inputs, such as toggling
+the <code>InGameMenu</code>.</p>
+</dd>
+    <dt id="UILib_Patches_LockMode_None"><code>None = 0</code></dt>
+  
+  <dd><p>Don't lock anything.</p>
+</dd>
+    <dt id="UILib_Patches_LockMode_Pause"><code>Pause = 1</code></dt>
+  
+  <dd><p>Pauses the game.</p>
+</dd>
   </dl>
-
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-  </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="UILib_Patches_PauseHandle__ctor_" data-uid="UILib.Patches.PauseHandle.#ctor*"></a>
-
-  <h3 id="UILib_Patches_PauseHandle__ctor" data-uid="UILib.Patches.PauseHandle.#ctor">
-  PauseHandle()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Initializes a pause handle, telling the <a class="xref" href="UILib.Patches.PauseHandler.html">PauseHandler</a>
-that the game should pause.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PauseHandle()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="UILib_Patches_PauseHandle_Close_" data-uid="UILib.Patches.PauseHandle.Close*"></a>
-
-  <h3 id="UILib_Patches_PauseHandle_Close" data-uid="UILib.Patches.PauseHandle.Close">
-  Close()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Closes this pause handle,
-telling the <a class="xref" href="UILib.Patches.PauseHandler.html">PauseHandler</a> that the game
-no longer needs to be paused.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 

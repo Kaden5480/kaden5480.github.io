@@ -29,12 +29,12 @@ references:
   isSpec: "True"
   fullName: UILib.Audio.Play
   nameWithType: Audio.Play
-- uid: UILib.Audio.PlayError
-  name: PlayError()
-  href: api/UILib.Audio.html#UILib_Audio_PlayError
-  commentId: M:UILib.Audio.PlayError
-  fullName: UILib.Audio.PlayError()
-  nameWithType: Audio.PlayError()
+- uid: UILib.Audio.PlayError(UILib.Theme)
+  name: PlayError(Theme)
+  href: api/UILib.Audio.html#UILib_Audio_PlayError_UILib_Theme_
+  commentId: M:UILib.Audio.PlayError(UILib.Theme)
+  fullName: UILib.Audio.PlayError(UILib.Theme)
+  nameWithType: Audio.PlayError(Theme)
 - uid: UILib.Audio.PlayError*
   name: PlayError
   href: api/UILib.Audio.html#UILib_Audio_PlayError_
@@ -55,12 +55,12 @@ references:
   isSpec: "True"
   fullName: UILib.Audio.PlayNavigation
   nameWithType: Audio.PlayNavigation
-- uid: UILib.Audio.PlayNormal
-  name: PlayNormal()
-  href: api/UILib.Audio.html#UILib_Audio_PlayNormal
-  commentId: M:UILib.Audio.PlayNormal
-  fullName: UILib.Audio.PlayNormal()
-  nameWithType: Audio.PlayNormal()
+- uid: UILib.Audio.PlayNormal(UILib.Theme)
+  name: PlayNormal(Theme)
+  href: api/UILib.Audio.html#UILib_Audio_PlayNormal_UILib_Theme_
+  commentId: M:UILib.Audio.PlayNormal(UILib.Theme)
+  fullName: UILib.Audio.PlayNormal(UILib.Theme)
+  nameWithType: Audio.PlayNormal(Theme)
 - uid: UILib.Audio.PlayNormal*
   name: PlayNormal
   href: api/UILib.Audio.html#UILib_Audio_PlayNormal_
@@ -456,6 +456,64 @@ references:
   fullName.vb: UILib.Behaviours.ValueEvent(Of T1, T2)
   nameWithType: ValueEvent<T1, T2>
   nameWithType.vb: ValueEvent(Of T1, T2)
+- uid: UILib.Canvas
+  name: Canvas
+  href: api/UILib.Canvas.html
+  commentId: T:UILib.Canvas
+  fullName: UILib.Canvas
+  nameWithType: Canvas
+- uid: UILib.Canvas.SetThisTheme(UILib.Theme)
+  name: SetThisTheme(Theme)
+  href: api/UILib.Canvas.html#UILib_Canvas_SetThisTheme_UILib_Theme_
+  commentId: M:UILib.Canvas.SetThisTheme(UILib.Theme)
+  fullName: UILib.Canvas.SetThisTheme(UILib.Theme)
+  nameWithType: Canvas.SetThisTheme(Theme)
+- uid: UILib.Canvas.SetThisTheme*
+  name: SetThisTheme
+  href: api/UILib.Canvas.html#UILib_Canvas_SetThisTheme_
+  commentId: Overload:UILib.Canvas.SetThisTheme
+  isSpec: "True"
+  fullName: UILib.Canvas.SetThisTheme
+  nameWithType: Canvas.SetThisTheme
+- uid: UILib.Canvas.canvas
+  name: canvas
+  href: api/UILib.Canvas.html#UILib_Canvas_canvas
+  commentId: P:UILib.Canvas.canvas
+  fullName: UILib.Canvas.canvas
+  nameWithType: Canvas.canvas
+- uid: UILib.Canvas.canvas*
+  name: canvas
+  href: api/UILib.Canvas.html#UILib_Canvas_canvas_
+  commentId: Overload:UILib.Canvas.canvas
+  isSpec: "True"
+  fullName: UILib.Canvas.canvas
+  nameWithType: Canvas.canvas
+- uid: UILib.Canvas.raycaster
+  name: raycaster
+  href: api/UILib.Canvas.html#UILib_Canvas_raycaster
+  commentId: P:UILib.Canvas.raycaster
+  fullName: UILib.Canvas.raycaster
+  nameWithType: Canvas.raycaster
+- uid: UILib.Canvas.raycaster*
+  name: raycaster
+  href: api/UILib.Canvas.html#UILib_Canvas_raycaster_
+  commentId: Overload:UILib.Canvas.raycaster
+  isSpec: "True"
+  fullName: UILib.Canvas.raycaster
+  nameWithType: Canvas.raycaster
+- uid: UILib.Canvas.scaler
+  name: scaler
+  href: api/UILib.Canvas.html#UILib_Canvas_scaler
+  commentId: P:UILib.Canvas.scaler
+  fullName: UILib.Canvas.scaler
+  nameWithType: Canvas.scaler
+- uid: UILib.Canvas.scaler*
+  name: scaler
+  href: api/UILib.Canvas.html#UILib_Canvas_scaler_
+  commentId: Overload:UILib.Canvas.scaler
+  isSpec: "True"
+  fullName: UILib.Canvas.scaler
+  nameWithType: Canvas.scaler
 - uid: UILib.Colors
   name: Colors
   href: api/UILib.Colors.html
@@ -1609,6 +1667,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Picker.minY
   nameWithType: Picker.minY
+- uid: UILib.Components.Picker.onSubmit
+  name: onSubmit
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_onSubmit
+  commentId: P:UILib.Components.Picker.onSubmit
+  fullName: UILib.Components.Picker.onSubmit
+  nameWithType: Picker.onSubmit
+- uid: UILib.Components.Picker.onSubmit*
+  name: onSubmit
+  href: api/UILib.Components.Picker.html#UILib_Components_Picker_onSubmit_
+  commentId: Overload:UILib.Components.Picker.onSubmit
+  isSpec: "True"
+  fullName: UILib.Components.Picker.onSubmit
+  nameWithType: Picker.onSubmit
 - uid: UILib.Components.Picker.onValueChanged
   name: onValueChanged
   href: api/UILib.Components.Picker.html#UILib_Components_Picker_onValueChanged
@@ -2218,6 +2289,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Slider.onSelect
   nameWithType: Slider.onSelect
+- uid: UILib.Components.Slider.onSubmit
+  name: onSubmit
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_onSubmit
+  commentId: P:UILib.Components.Slider.onSubmit
+  fullName: UILib.Components.Slider.onSubmit
+  nameWithType: Slider.onSubmit
+- uid: UILib.Components.Slider.onSubmit*
+  name: onSubmit
+  href: api/UILib.Components.Slider.html#UILib_Components_Slider_onSubmit_
+  commentId: Overload:UILib.Components.Slider.onSubmit
+  isSpec: "True"
+  fullName: UILib.Components.Slider.onSubmit
+  nameWithType: Slider.onSubmit
 - uid: UILib.Components.Slider.onValueChanged
   name: onValueChanged
   href: api/UILib.Components.Slider.html#UILib_Components_Slider_onValueChanged
@@ -3148,54 +3232,32 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.OnPointerExit
   nameWithType: Overlay.OnPointerExit
-- uid: UILib.Overlay.SetAutoPause(System.Boolean)
-  name: SetAutoPause(bool)
-  href: api/UILib.Overlay.html#UILib_Overlay_SetAutoPause_System_Boolean_
-  commentId: M:UILib.Overlay.SetAutoPause(System.Boolean)
-  name.vb: SetAutoPause(Boolean)
-  fullName: UILib.Overlay.SetAutoPause(bool)
-  fullName.vb: UILib.Overlay.SetAutoPause(Boolean)
-  nameWithType: Overlay.SetAutoPause(bool)
-  nameWithType.vb: Overlay.SetAutoPause(Boolean)
-- uid: UILib.Overlay.SetAutoPause*
-  name: SetAutoPause
-  href: api/UILib.Overlay.html#UILib_Overlay_SetAutoPause_
-  commentId: Overload:UILib.Overlay.SetAutoPause
+- uid: UILib.Overlay.SetLockMode(UILib.Patches.LockMode)
+  name: SetLockMode(LockMode)
+  href: api/UILib.Overlay.html#UILib_Overlay_SetLockMode_UILib_Patches_LockMode_
+  commentId: M:UILib.Overlay.SetLockMode(UILib.Patches.LockMode)
+  fullName: UILib.Overlay.SetLockMode(UILib.Patches.LockMode)
+  nameWithType: Overlay.SetLockMode(LockMode)
+- uid: UILib.Overlay.SetLockMode*
+  name: SetLockMode
+  href: api/UILib.Overlay.html#UILib_Overlay_SetLockMode_
+  commentId: Overload:UILib.Overlay.SetLockMode
   isSpec: "True"
-  fullName: UILib.Overlay.SetAutoPause
-  nameWithType: Overlay.SetAutoPause
-- uid: UILib.Overlay.SetInputLock(System.Boolean)
-  name: SetInputLock(bool)
-  href: api/UILib.Overlay.html#UILib_Overlay_SetInputLock_System_Boolean_
-  commentId: M:UILib.Overlay.SetInputLock(System.Boolean)
-  name.vb: SetInputLock(Boolean)
-  fullName: UILib.Overlay.SetInputLock(bool)
-  fullName.vb: UILib.Overlay.SetInputLock(Boolean)
-  nameWithType: Overlay.SetInputLock(bool)
-  nameWithType.vb: Overlay.SetInputLock(Boolean)
-- uid: UILib.Overlay.SetInputLock*
-  name: SetInputLock
-  href: api/UILib.Overlay.html#UILib_Overlay_SetInputLock_
-  commentId: Overload:UILib.Overlay.SetInputLock
+  fullName: UILib.Overlay.SetLockMode
+  nameWithType: Overlay.SetLockMode
+- uid: UILib.Overlay.SetSortingMode(UILib.Overlay.SortingMode)
+  name: SetSortingMode(SortingMode)
+  href: api/UILib.Overlay.html#UILib_Overlay_SetSortingMode_UILib_Overlay_SortingMode_
+  commentId: M:UILib.Overlay.SetSortingMode(UILib.Overlay.SortingMode)
+  fullName: UILib.Overlay.SetSortingMode(UILib.Overlay.SortingMode)
+  nameWithType: Overlay.SetSortingMode(Overlay.SortingMode)
+- uid: UILib.Overlay.SetSortingMode*
+  name: SetSortingMode
+  href: api/UILib.Overlay.html#UILib_Overlay_SetSortingMode_
+  commentId: Overload:UILib.Overlay.SetSortingMode
   isSpec: "True"
-  fullName: UILib.Overlay.SetInputLock
-  nameWithType: Overlay.SetInputLock
-- uid: UILib.Overlay.SetSortable(System.Boolean)
-  name: SetSortable(bool)
-  href: api/UILib.Overlay.html#UILib_Overlay_SetSortable_System_Boolean_
-  commentId: M:UILib.Overlay.SetSortable(System.Boolean)
-  name.vb: SetSortable(Boolean)
-  fullName: UILib.Overlay.SetSortable(bool)
-  fullName.vb: UILib.Overlay.SetSortable(Boolean)
-  nameWithType: Overlay.SetSortable(bool)
-  nameWithType.vb: Overlay.SetSortable(Boolean)
-- uid: UILib.Overlay.SetSortable*
-  name: SetSortable
-  href: api/UILib.Overlay.html#UILib_Overlay_SetSortable_
-  commentId: Overload:UILib.Overlay.SetSortable
-  isSpec: "True"
-  fullName: UILib.Overlay.SetSortable
-  nameWithType: Overlay.SetSortable
+  fullName: UILib.Overlay.SetSortingMode
+  nameWithType: Overlay.SetSortingMode
 - uid: UILib.Overlay.SetThisTheme(UILib.Theme)
   name: SetThisTheme(Theme)
   href: api/UILib.Overlay.html#UILib_Overlay_SetThisTheme_UILib_Theme_
@@ -3222,6 +3284,30 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.Show
   nameWithType: Overlay.Show
+- uid: UILib.Overlay.SortingMode
+  name: Overlay.SortingMode
+  href: api/UILib.Overlay.SortingMode.html
+  commentId: T:UILib.Overlay.SortingMode
+  fullName: UILib.Overlay.SortingMode
+  nameWithType: Overlay.SortingMode
+- uid: UILib.Overlay.SortingMode.Default
+  name: Default
+  href: api/UILib.Overlay.SortingMode.html#UILib_Overlay_SortingMode_Default
+  commentId: F:UILib.Overlay.SortingMode.Default
+  fullName: UILib.Overlay.SortingMode.Default
+  nameWithType: Overlay.SortingMode.Default
+- uid: UILib.Overlay.SortingMode.Recede
+  name: Recede
+  href: api/UILib.Overlay.SortingMode.html#UILib_Overlay_SortingMode_Recede
+  commentId: F:UILib.Overlay.SortingMode.Recede
+  fullName: UILib.Overlay.SortingMode.Recede
+  nameWithType: Overlay.SortingMode.Recede
+- uid: UILib.Overlay.SortingMode.Static
+  name: Static
+  href: api/UILib.Overlay.SortingMode.html#UILib_Overlay_SortingMode_Static
+  commentId: F:UILib.Overlay.SortingMode.Static
+  fullName: UILib.Overlay.SortingMode.Static
+  nameWithType: Overlay.SortingMode.Static
 - uid: UILib.Overlay.ToggleVisibility
   name: ToggleVisibility()
   href: api/UILib.Overlay.html#UILib_Overlay_ToggleVisibility
@@ -3235,19 +3321,19 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.ToggleVisibility
   nameWithType: Overlay.ToggleVisibility
-- uid: UILib.Overlay.autoPause
-  name: autoPause
-  href: api/UILib.Overlay.html#UILib_Overlay_autoPause
-  commentId: P:UILib.Overlay.autoPause
-  fullName: UILib.Overlay.autoPause
-  nameWithType: Overlay.autoPause
-- uid: UILib.Overlay.autoPause*
-  name: autoPause
-  href: api/UILib.Overlay.html#UILib_Overlay_autoPause_
-  commentId: Overload:UILib.Overlay.autoPause
+- uid: UILib.Overlay.canvas
+  name: canvas
+  href: api/UILib.Overlay.html#UILib_Overlay_canvas
+  commentId: P:UILib.Overlay.canvas
+  fullName: UILib.Overlay.canvas
+  nameWithType: Overlay.canvas
+- uid: UILib.Overlay.canvas*
+  name: canvas
+  href: api/UILib.Overlay.html#UILib_Overlay_canvas_
+  commentId: Overload:UILib.Overlay.canvas
   isSpec: "True"
-  fullName: UILib.Overlay.autoPause
-  nameWithType: Overlay.autoPause
+  fullName: UILib.Overlay.canvas
+  nameWithType: Overlay.canvas
 - uid: UILib.Overlay.enabled
   name: enabled
   href: api/UILib.Overlay.html#UILib_Overlay_enabled
@@ -3274,19 +3360,19 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.isFocused
   nameWithType: Overlay.isFocused
-- uid: UILib.Overlay.lockInput
-  name: lockInput
-  href: api/UILib.Overlay.html#UILib_Overlay_lockInput
-  commentId: P:UILib.Overlay.lockInput
-  fullName: UILib.Overlay.lockInput
-  nameWithType: Overlay.lockInput
-- uid: UILib.Overlay.lockInput*
-  name: lockInput
-  href: api/UILib.Overlay.html#UILib_Overlay_lockInput_
-  commentId: Overload:UILib.Overlay.lockInput
+- uid: UILib.Overlay.lockMode
+  name: lockMode
+  href: api/UILib.Overlay.html#UILib_Overlay_lockMode
+  commentId: P:UILib.Overlay.lockMode
+  fullName: UILib.Overlay.lockMode
+  nameWithType: Overlay.lockMode
+- uid: UILib.Overlay.lockMode*
+  name: lockMode
+  href: api/UILib.Overlay.html#UILib_Overlay_lockMode_
+  commentId: Overload:UILib.Overlay.lockMode
   isSpec: "True"
-  fullName: UILib.Overlay.lockInput
-  nameWithType: Overlay.lockInput
+  fullName: UILib.Overlay.lockMode
+  nameWithType: Overlay.lockMode
 - uid: UILib.Overlay.onFocus
   name: onFocus
   href: api/UILib.Overlay.html#UILib_Overlay_onFocus
@@ -3313,327 +3399,342 @@ references:
   isSpec: "True"
   fullName: UILib.Overlay.onLostFocus
   nameWithType: Overlay.onLostFocus
-- uid: UILib.Overlay.sortable
-  name: sortable
-  href: api/UILib.Overlay.html#UILib_Overlay_sortable
-  commentId: P:UILib.Overlay.sortable
-  fullName: UILib.Overlay.sortable
-  nameWithType: Overlay.sortable
-- uid: UILib.Overlay.sortable*
-  name: sortable
-  href: api/UILib.Overlay.html#UILib_Overlay_sortable_
-  commentId: Overload:UILib.Overlay.sortable
+- uid: UILib.Overlay.sortingMode
+  name: sortingMode
+  href: api/UILib.Overlay.html#UILib_Overlay_sortingMode
+  commentId: P:UILib.Overlay.sortingMode
+  fullName: UILib.Overlay.sortingMode
+  nameWithType: Overlay.sortingMode
+- uid: UILib.Overlay.sortingMode*
+  name: sortingMode
+  href: api/UILib.Overlay.html#UILib_Overlay_sortingMode_
+  commentId: Overload:UILib.Overlay.sortingMode
   isSpec: "True"
-  fullName: UILib.Overlay.sortable
-  nameWithType: Overlay.sortable
+  fullName: UILib.Overlay.sortingMode
+  nameWithType: Overlay.sortingMode
 - uid: UILib.Patches
   name: UILib.Patches
   href: api/UILib.Patches.html
   commentId: N:UILib.Patches
   fullName: UILib.Patches
   nameWithType: UILib.Patches
-- uid: UILib.Patches.InputHandler
-  name: InputHandler
-  href: api/UILib.Patches.InputHandler.html
-  commentId: T:UILib.Patches.InputHandler
-  fullName: UILib.Patches.InputHandler
-  nameWithType: InputHandler
-- uid: UILib.Patches.InputHandler.isLocked
-  name: isLocked
-  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_isLocked
-  commentId: P:UILib.Patches.InputHandler.isLocked
-  fullName: UILib.Patches.InputHandler.isLocked
-  nameWithType: InputHandler.isLocked
-- uid: UILib.Patches.InputHandler.isLocked*
-  name: isLocked
-  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_isLocked_
-  commentId: Overload:UILib.Patches.InputHandler.isLocked
-  isSpec: "True"
-  fullName: UILib.Patches.InputHandler.isLocked
-  nameWithType: InputHandler.isLocked
-- uid: UILib.Patches.InputHandler.onLock
-  name: onLock
-  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_onLock
-  commentId: P:UILib.Patches.InputHandler.onLock
-  fullName: UILib.Patches.InputHandler.onLock
-  nameWithType: InputHandler.onLock
-- uid: UILib.Patches.InputHandler.onLock*
-  name: onLock
-  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_onLock_
-  commentId: Overload:UILib.Patches.InputHandler.onLock
-  isSpec: "True"
-  fullName: UILib.Patches.InputHandler.onLock
-  nameWithType: InputHandler.onLock
-- uid: UILib.Patches.InputHandler.onUnlock
-  name: onUnlock
-  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_onUnlock
-  commentId: P:UILib.Patches.InputHandler.onUnlock
-  fullName: UILib.Patches.InputHandler.onUnlock
-  nameWithType: InputHandler.onUnlock
-- uid: UILib.Patches.InputHandler.onUnlock*
-  name: onUnlock
-  href: api/UILib.Patches.InputHandler.html#UILib_Patches_InputHandler_onUnlock_
-  commentId: Overload:UILib.Patches.InputHandler.onUnlock
-  isSpec: "True"
-  fullName: UILib.Patches.InputHandler.onUnlock
-  nameWithType: InputHandler.onUnlock
-- uid: UILib.Patches.InputLock
-  name: InputLock
-  href: api/UILib.Patches.InputLock.html
-  commentId: T:UILib.Patches.InputLock
-  fullName: UILib.Patches.InputLock
-  nameWithType: InputLock
-- uid: UILib.Patches.InputLock.#ctor
-  name: InputLock()
-  href: api/UILib.Patches.InputLock.html#UILib_Patches_InputLock__ctor
-  commentId: M:UILib.Patches.InputLock.#ctor
-  name.vb: New()
-  fullName: UILib.Patches.InputLock.InputLock()
-  fullName.vb: UILib.Patches.InputLock.New()
-  nameWithType: InputLock.InputLock()
-  nameWithType.vb: InputLock.New()
-- uid: UILib.Patches.InputLock.#ctor*
-  name: InputLock
-  href: api/UILib.Patches.InputLock.html#UILib_Patches_InputLock__ctor_
-  commentId: Overload:UILib.Patches.InputLock.#ctor
+- uid: UILib.Patches.Lock
+  name: Lock
+  href: api/UILib.Patches.Lock.html
+  commentId: T:UILib.Patches.Lock
+  fullName: UILib.Patches.Lock
+  nameWithType: Lock
+- uid: UILib.Patches.Lock.#ctor(UILib.Patches.LockMode)
+  name: Lock(LockMode)
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock__ctor_UILib_Patches_LockMode_
+  commentId: M:UILib.Patches.Lock.#ctor(UILib.Patches.LockMode)
+  name.vb: New(LockMode)
+  fullName: UILib.Patches.Lock.Lock(UILib.Patches.LockMode)
+  fullName.vb: UILib.Patches.Lock.New(UILib.Patches.LockMode)
+  nameWithType: Lock.Lock(LockMode)
+  nameWithType.vb: Lock.New(LockMode)
+- uid: UILib.Patches.Lock.#ctor*
+  name: Lock
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock__ctor_
+  commentId: Overload:UILib.Patches.Lock.#ctor
   isSpec: "True"
   name.vb: New
-  fullName: UILib.Patches.InputLock.InputLock
-  fullName.vb: UILib.Patches.InputLock.New
-  nameWithType: InputLock.InputLock
-  nameWithType.vb: InputLock.New
-- uid: UILib.Patches.InputLock.Close
+  fullName: UILib.Patches.Lock.Lock
+  fullName.vb: UILib.Patches.Lock.New
+  nameWithType: Lock.Lock
+  nameWithType.vb: Lock.New
+- uid: UILib.Patches.Lock.AddMode(UILib.Patches.LockMode)
+  name: AddMode(LockMode)
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_AddMode_UILib_Patches_LockMode_
+  commentId: M:UILib.Patches.Lock.AddMode(UILib.Patches.LockMode)
+  fullName: UILib.Patches.Lock.AddMode(UILib.Patches.LockMode)
+  nameWithType: Lock.AddMode(LockMode)
+- uid: UILib.Patches.Lock.AddMode*
+  name: AddMode
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_AddMode_
+  commentId: Overload:UILib.Patches.Lock.AddMode
+  isSpec: "True"
+  fullName: UILib.Patches.Lock.AddMode
+  nameWithType: Lock.AddMode
+- uid: UILib.Patches.Lock.Close
   name: Close()
-  href: api/UILib.Patches.InputLock.html#UILib_Patches_InputLock_Close
-  commentId: M:UILib.Patches.InputLock.Close
-  fullName: UILib.Patches.InputLock.Close()
-  nameWithType: InputLock.Close()
-- uid: UILib.Patches.InputLock.Close*
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_Close
+  commentId: M:UILib.Patches.Lock.Close
+  fullName: UILib.Patches.Lock.Close()
+  nameWithType: Lock.Close()
+- uid: UILib.Patches.Lock.Close*
   name: Close
-  href: api/UILib.Patches.InputLock.html#UILib_Patches_InputLock_Close_
-  commentId: Overload:UILib.Patches.InputLock.Close
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_Close_
+  commentId: Overload:UILib.Patches.Lock.Close
   isSpec: "True"
-  fullName: UILib.Patches.InputLock.Close
-  nameWithType: InputLock.Close
-- uid: UILib.Patches.PauseHandle
-  name: PauseHandle
-  href: api/UILib.Patches.PauseHandle.html
-  commentId: T:UILib.Patches.PauseHandle
-  fullName: UILib.Patches.PauseHandle
-  nameWithType: PauseHandle
-- uid: UILib.Patches.PauseHandle.#ctor
-  name: PauseHandle()
-  href: api/UILib.Patches.PauseHandle.html#UILib_Patches_PauseHandle__ctor
-  commentId: M:UILib.Patches.PauseHandle.#ctor
-  name.vb: New()
-  fullName: UILib.Patches.PauseHandle.PauseHandle()
-  fullName.vb: UILib.Patches.PauseHandle.New()
-  nameWithType: PauseHandle.PauseHandle()
-  nameWithType.vb: PauseHandle.New()
-- uid: UILib.Patches.PauseHandle.#ctor*
-  name: PauseHandle
-  href: api/UILib.Patches.PauseHandle.html#UILib_Patches_PauseHandle__ctor_
-  commentId: Overload:UILib.Patches.PauseHandle.#ctor
+  fullName: UILib.Patches.Lock.Close
+  nameWithType: Lock.Close
+- uid: UILib.Patches.Lock.RemoveMode(UILib.Patches.LockMode)
+  name: RemoveMode(LockMode)
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_RemoveMode_UILib_Patches_LockMode_
+  commentId: M:UILib.Patches.Lock.RemoveMode(UILib.Patches.LockMode)
+  fullName: UILib.Patches.Lock.RemoveMode(UILib.Patches.LockMode)
+  nameWithType: Lock.RemoveMode(LockMode)
+- uid: UILib.Patches.Lock.RemoveMode*
+  name: RemoveMode
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_RemoveMode_
+  commentId: Overload:UILib.Patches.Lock.RemoveMode
   isSpec: "True"
-  name.vb: New
-  fullName: UILib.Patches.PauseHandle.PauseHandle
-  fullName.vb: UILib.Patches.PauseHandle.New
-  nameWithType: PauseHandle.PauseHandle
-  nameWithType.vb: PauseHandle.New
-- uid: UILib.Patches.PauseHandle.Close
-  name: Close()
-  href: api/UILib.Patches.PauseHandle.html#UILib_Patches_PauseHandle_Close
-  commentId: M:UILib.Patches.PauseHandle.Close
-  fullName: UILib.Patches.PauseHandle.Close()
-  nameWithType: PauseHandle.Close()
-- uid: UILib.Patches.PauseHandle.Close*
-  name: Close
-  href: api/UILib.Patches.PauseHandle.html#UILib_Patches_PauseHandle_Close_
-  commentId: Overload:UILib.Patches.PauseHandle.Close
+  fullName: UILib.Patches.Lock.RemoveMode
+  nameWithType: Lock.RemoveMode
+- uid: UILib.Patches.Lock.SetMode(UILib.Patches.LockMode)
+  name: SetMode(LockMode)
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_SetMode_UILib_Patches_LockMode_
+  commentId: M:UILib.Patches.Lock.SetMode(UILib.Patches.LockMode)
+  fullName: UILib.Patches.Lock.SetMode(UILib.Patches.LockMode)
+  nameWithType: Lock.SetMode(LockMode)
+- uid: UILib.Patches.Lock.SetMode*
+  name: SetMode
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_SetMode_
+  commentId: Overload:UILib.Patches.Lock.SetMode
   isSpec: "True"
-  fullName: UILib.Patches.PauseHandle.Close
-  nameWithType: PauseHandle.Close
-- uid: UILib.Patches.PauseHandler
-  name: PauseHandler
-  href: api/UILib.Patches.PauseHandler.html
-  commentId: T:UILib.Patches.PauseHandler
-  fullName: UILib.Patches.PauseHandler
-  nameWithType: PauseHandler
-- uid: UILib.Patches.PauseHandler.isPaused
+  fullName: UILib.Patches.Lock.SetMode
+  nameWithType: Lock.SetMode
+- uid: UILib.Patches.Lock.mode
+  name: mode
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_mode
+  commentId: P:UILib.Patches.Lock.mode
+  fullName: UILib.Patches.Lock.mode
+  nameWithType: Lock.mode
+- uid: UILib.Patches.Lock.mode*
+  name: mode
+  href: api/UILib.Patches.Lock.html#UILib_Patches_Lock_mode_
+  commentId: Overload:UILib.Patches.Lock.mode
+  isSpec: "True"
+  fullName: UILib.Patches.Lock.mode
+  nameWithType: Lock.mode
+- uid: UILib.Patches.LockHandler
+  name: LockHandler
+  href: api/UILib.Patches.LockHandler.html
+  commentId: T:UILib.Patches.LockHandler
+  fullName: UILib.Patches.LockHandler
+  nameWithType: LockHandler
+- uid: UILib.Patches.LockHandler.isCursorFree
+  name: isCursorFree
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_isCursorFree
+  commentId: P:UILib.Patches.LockHandler.isCursorFree
+  fullName: UILib.Patches.LockHandler.isCursorFree
+  nameWithType: LockHandler.isCursorFree
+- uid: UILib.Patches.LockHandler.isCursorFree*
+  name: isCursorFree
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_isCursorFree_
+  commentId: Overload:UILib.Patches.LockHandler.isCursorFree
+  isSpec: "True"
+  fullName: UILib.Patches.LockHandler.isCursorFree
+  nameWithType: LockHandler.isCursorFree
+- uid: UILib.Patches.LockHandler.isNavigationLocked
+  name: isNavigationLocked
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_isNavigationLocked
+  commentId: P:UILib.Patches.LockHandler.isNavigationLocked
+  fullName: UILib.Patches.LockHandler.isNavigationLocked
+  nameWithType: LockHandler.isNavigationLocked
+- uid: UILib.Patches.LockHandler.isNavigationLocked*
+  name: isNavigationLocked
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_isNavigationLocked_
+  commentId: Overload:UILib.Patches.LockHandler.isNavigationLocked
+  isSpec: "True"
+  fullName: UILib.Patches.LockHandler.isNavigationLocked
+  nameWithType: LockHandler.isNavigationLocked
+- uid: UILib.Patches.LockHandler.isPaused
   name: isPaused
-  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_isPaused
-  commentId: P:UILib.Patches.PauseHandler.isPaused
-  fullName: UILib.Patches.PauseHandler.isPaused
-  nameWithType: PauseHandler.isPaused
-- uid: UILib.Patches.PauseHandler.isPaused*
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_isPaused
+  commentId: P:UILib.Patches.LockHandler.isPaused
+  fullName: UILib.Patches.LockHandler.isPaused
+  nameWithType: LockHandler.isPaused
+- uid: UILib.Patches.LockHandler.isPaused*
   name: isPaused
-  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_isPaused_
-  commentId: Overload:UILib.Patches.PauseHandler.isPaused
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_isPaused_
+  commentId: Overload:UILib.Patches.LockHandler.isPaused
   isSpec: "True"
-  fullName: UILib.Patches.PauseHandler.isPaused
-  nameWithType: PauseHandler.isPaused
-- uid: UILib.Patches.PauseHandler.onPause
+  fullName: UILib.Patches.LockHandler.isPaused
+  nameWithType: LockHandler.isPaused
+- uid: UILib.Patches.LockHandler.onCursorFree
+  name: onCursorFree
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onCursorFree
+  commentId: P:UILib.Patches.LockHandler.onCursorFree
+  fullName: UILib.Patches.LockHandler.onCursorFree
+  nameWithType: LockHandler.onCursorFree
+- uid: UILib.Patches.LockHandler.onCursorFree*
+  name: onCursorFree
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onCursorFree_
+  commentId: Overload:UILib.Patches.LockHandler.onCursorFree
+  isSpec: "True"
+  fullName: UILib.Patches.LockHandler.onCursorFree
+  nameWithType: LockHandler.onCursorFree
+- uid: UILib.Patches.LockHandler.onCursorLock
+  name: onCursorLock
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onCursorLock
+  commentId: P:UILib.Patches.LockHandler.onCursorLock
+  fullName: UILib.Patches.LockHandler.onCursorLock
+  nameWithType: LockHandler.onCursorLock
+- uid: UILib.Patches.LockHandler.onCursorLock*
+  name: onCursorLock
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onCursorLock_
+  commentId: Overload:UILib.Patches.LockHandler.onCursorLock
+  isSpec: "True"
+  fullName: UILib.Patches.LockHandler.onCursorLock
+  nameWithType: LockHandler.onCursorLock
+- uid: UILib.Patches.LockHandler.onNavigationLock
+  name: onNavigationLock
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onNavigationLock
+  commentId: P:UILib.Patches.LockHandler.onNavigationLock
+  fullName: UILib.Patches.LockHandler.onNavigationLock
+  nameWithType: LockHandler.onNavigationLock
+- uid: UILib.Patches.LockHandler.onNavigationLock*
+  name: onNavigationLock
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onNavigationLock_
+  commentId: Overload:UILib.Patches.LockHandler.onNavigationLock
+  isSpec: "True"
+  fullName: UILib.Patches.LockHandler.onNavigationLock
+  nameWithType: LockHandler.onNavigationLock
+- uid: UILib.Patches.LockHandler.onNavigationUnlock
+  name: onNavigationUnlock
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onNavigationUnlock
+  commentId: P:UILib.Patches.LockHandler.onNavigationUnlock
+  fullName: UILib.Patches.LockHandler.onNavigationUnlock
+  nameWithType: LockHandler.onNavigationUnlock
+- uid: UILib.Patches.LockHandler.onNavigationUnlock*
+  name: onNavigationUnlock
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onNavigationUnlock_
+  commentId: Overload:UILib.Patches.LockHandler.onNavigationUnlock
+  isSpec: "True"
+  fullName: UILib.Patches.LockHandler.onNavigationUnlock
+  nameWithType: LockHandler.onNavigationUnlock
+- uid: UILib.Patches.LockHandler.onPause
   name: onPause
-  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_onPause
-  commentId: P:UILib.Patches.PauseHandler.onPause
-  fullName: UILib.Patches.PauseHandler.onPause
-  nameWithType: PauseHandler.onPause
-- uid: UILib.Patches.PauseHandler.onPause*
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onPause
+  commentId: P:UILib.Patches.LockHandler.onPause
+  fullName: UILib.Patches.LockHandler.onPause
+  nameWithType: LockHandler.onPause
+- uid: UILib.Patches.LockHandler.onPause*
   name: onPause
-  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_onPause_
-  commentId: Overload:UILib.Patches.PauseHandler.onPause
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onPause_
+  commentId: Overload:UILib.Patches.LockHandler.onPause
   isSpec: "True"
-  fullName: UILib.Patches.PauseHandler.onPause
-  nameWithType: PauseHandler.onPause
-- uid: UILib.Patches.PauseHandler.onUnpause
+  fullName: UILib.Patches.LockHandler.onPause
+  nameWithType: LockHandler.onPause
+- uid: UILib.Patches.LockHandler.onUnpause
   name: onUnpause
-  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_onUnpause
-  commentId: P:UILib.Patches.PauseHandler.onUnpause
-  fullName: UILib.Patches.PauseHandler.onUnpause
-  nameWithType: PauseHandler.onUnpause
-- uid: UILib.Patches.PauseHandler.onUnpause*
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onUnpause
+  commentId: P:UILib.Patches.LockHandler.onUnpause
+  fullName: UILib.Patches.LockHandler.onUnpause
+  nameWithType: LockHandler.onUnpause
+- uid: UILib.Patches.LockHandler.onUnpause*
   name: onUnpause
-  href: api/UILib.Patches.PauseHandler.html#UILib_Patches_PauseHandler_onUnpause_
-  commentId: Overload:UILib.Patches.PauseHandler.onUnpause
+  href: api/UILib.Patches.LockHandler.html#UILib_Patches_LockHandler_onUnpause_
+  commentId: Overload:UILib.Patches.LockHandler.onUnpause
   isSpec: "True"
-  fullName: UILib.Patches.PauseHandler.onUnpause
-  nameWithType: PauseHandler.onUnpause
+  fullName: UILib.Patches.LockHandler.onUnpause
+  nameWithType: LockHandler.onUnpause
+- uid: UILib.Patches.LockMode
+  name: LockMode
+  href: api/UILib.Patches.LockMode.html
+  commentId: T:UILib.Patches.LockMode
+  fullName: UILib.Patches.LockMode
+  nameWithType: LockMode
+- uid: UILib.Patches.LockMode.Default
+  name: Default
+  href: api/UILib.Patches.LockMode.html#UILib_Patches_LockMode_Default
+  commentId: F:UILib.Patches.LockMode.Default
+  fullName: UILib.Patches.LockMode.Default
+  nameWithType: LockMode.Default
+- uid: UILib.Patches.LockMode.FreeCursor
+  name: FreeCursor
+  href: api/UILib.Patches.LockMode.html#UILib_Patches_LockMode_FreeCursor
+  commentId: F:UILib.Patches.LockMode.FreeCursor
+  fullName: UILib.Patches.LockMode.FreeCursor
+  nameWithType: LockMode.FreeCursor
+- uid: UILib.Patches.LockMode.Navigation
+  name: Navigation
+  href: api/UILib.Patches.LockMode.html#UILib_Patches_LockMode_Navigation
+  commentId: F:UILib.Patches.LockMode.Navigation
+  fullName: UILib.Patches.LockMode.Navigation
+  nameWithType: LockMode.Navigation
+- uid: UILib.Patches.LockMode.None
+  name: None
+  href: api/UILib.Patches.LockMode.html#UILib_Patches_LockMode_None
+  commentId: F:UILib.Patches.LockMode.None
+  fullName: UILib.Patches.LockMode.None
+  nameWithType: LockMode.None
+- uid: UILib.Patches.LockMode.Pause
+  name: Pause
+  href: api/UILib.Patches.LockMode.html#UILib_Patches_LockMode_Pause
+  commentId: F:UILib.Patches.LockMode.Pause
+  fullName: UILib.Patches.LockMode.Pause
+  nameWithType: LockMode.Pause
 - uid: UILib.Patches.SceneLoads
   name: SceneLoads
   href: api/UILib.Patches.SceneLoads.html
   commentId: T:UILib.Patches.SceneLoads
   fullName: UILib.Patches.SceneLoads
   nameWithType: SceneLoads
-- uid: UILib.Patches.SceneLoads.onAnyLoad
-  name: onAnyLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onAnyLoad
-  commentId: P:UILib.Patches.SceneLoads.onAnyLoad
-  fullName: UILib.Patches.SceneLoads.onAnyLoad
-  nameWithType: SceneLoads.onAnyLoad
-- uid: UILib.Patches.SceneLoads.onAnyLoad*
-  name: onAnyLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onAnyLoad_
-  commentId: Overload:UILib.Patches.SceneLoads.onAnyLoad
+- uid: UILib.Patches.SceneLoads.AddLoadListener(System.Action{UnityEngine.SceneManagement.Scene},UILib.Patches.SceneType)
+  name: AddLoadListener(Action<Scene>, SceneType)
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_AddLoadListener_System_Action_UnityEngine_SceneManagement_Scene__UILib_Patches_SceneType_
+  commentId: M:UILib.Patches.SceneLoads.AddLoadListener(System.Action{UnityEngine.SceneManagement.Scene},UILib.Patches.SceneType)
+  name.vb: AddLoadListener(Action(Of Scene), SceneType)
+  fullName: UILib.Patches.SceneLoads.AddLoadListener(System.Action<UnityEngine.SceneManagement.Scene>, UILib.Patches.SceneType)
+  fullName.vb: UILib.Patches.SceneLoads.AddLoadListener(System.Action(Of UnityEngine.SceneManagement.Scene), UILib.Patches.SceneType)
+  nameWithType: SceneLoads.AddLoadListener(Action<Scene>, SceneType)
+  nameWithType.vb: SceneLoads.AddLoadListener(Action(Of Scene), SceneType)
+- uid: UILib.Patches.SceneLoads.AddLoadListener*
+  name: AddLoadListener
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_AddLoadListener_
+  commentId: Overload:UILib.Patches.SceneLoads.AddLoadListener
   isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onAnyLoad
-  nameWithType: SceneLoads.onAnyLoad
-- uid: UILib.Patches.SceneLoads.onAnyUnload
-  name: onAnyUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onAnyUnload
-  commentId: P:UILib.Patches.SceneLoads.onAnyUnload
-  fullName: UILib.Patches.SceneLoads.onAnyUnload
-  nameWithType: SceneLoads.onAnyUnload
-- uid: UILib.Patches.SceneLoads.onAnyUnload*
-  name: onAnyUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onAnyUnload_
-  commentId: Overload:UILib.Patches.SceneLoads.onAnyUnload
+  fullName: UILib.Patches.SceneLoads.AddLoadListener
+  nameWithType: SceneLoads.AddLoadListener
+- uid: UILib.Patches.SceneLoads.AddUnloadListener(System.Action{UnityEngine.SceneManagement.Scene},UILib.Patches.SceneType)
+  name: AddUnloadListener(Action<Scene>, SceneType)
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_AddUnloadListener_System_Action_UnityEngine_SceneManagement_Scene__UILib_Patches_SceneType_
+  commentId: M:UILib.Patches.SceneLoads.AddUnloadListener(System.Action{UnityEngine.SceneManagement.Scene},UILib.Patches.SceneType)
+  name.vb: AddUnloadListener(Action(Of Scene), SceneType)
+  fullName: UILib.Patches.SceneLoads.AddUnloadListener(System.Action<UnityEngine.SceneManagement.Scene>, UILib.Patches.SceneType)
+  fullName.vb: UILib.Patches.SceneLoads.AddUnloadListener(System.Action(Of UnityEngine.SceneManagement.Scene), UILib.Patches.SceneType)
+  nameWithType: SceneLoads.AddUnloadListener(Action<Scene>, SceneType)
+  nameWithType.vb: SceneLoads.AddUnloadListener(Action(Of Scene), SceneType)
+- uid: UILib.Patches.SceneLoads.AddUnloadListener*
+  name: AddUnloadListener
+  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_AddUnloadListener_
+  commentId: Overload:UILib.Patches.SceneLoads.AddUnloadListener
   isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onAnyUnload
-  nameWithType: SceneLoads.onAnyUnload
-- uid: UILib.Patches.SceneLoads.onBuiltinLoad
-  name: onBuiltinLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onBuiltinLoad
-  commentId: P:UILib.Patches.SceneLoads.onBuiltinLoad
-  fullName: UILib.Patches.SceneLoads.onBuiltinLoad
-  nameWithType: SceneLoads.onBuiltinLoad
-- uid: UILib.Patches.SceneLoads.onBuiltinLoad*
-  name: onBuiltinLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onBuiltinLoad_
-  commentId: Overload:UILib.Patches.SceneLoads.onBuiltinLoad
-  isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onBuiltinLoad
-  nameWithType: SceneLoads.onBuiltinLoad
-- uid: UILib.Patches.SceneLoads.onBuiltinUnload
-  name: onBuiltinUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onBuiltinUnload
-  commentId: P:UILib.Patches.SceneLoads.onBuiltinUnload
-  fullName: UILib.Patches.SceneLoads.onBuiltinUnload
-  nameWithType: SceneLoads.onBuiltinUnload
-- uid: UILib.Patches.SceneLoads.onBuiltinUnload*
-  name: onBuiltinUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onBuiltinUnload_
-  commentId: Overload:UILib.Patches.SceneLoads.onBuiltinUnload
-  isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onBuiltinUnload
-  nameWithType: SceneLoads.onBuiltinUnload
-- uid: UILib.Patches.SceneLoads.onCustomLoad
-  name: onCustomLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onCustomLoad
-  commentId: P:UILib.Patches.SceneLoads.onCustomLoad
-  fullName: UILib.Patches.SceneLoads.onCustomLoad
-  nameWithType: SceneLoads.onCustomLoad
-- uid: UILib.Patches.SceneLoads.onCustomLoad*
-  name: onCustomLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onCustomLoad_
-  commentId: Overload:UILib.Patches.SceneLoads.onCustomLoad
-  isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onCustomLoad
-  nameWithType: SceneLoads.onCustomLoad
-- uid: UILib.Patches.SceneLoads.onCustomUnload
-  name: onCustomUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onCustomUnload
-  commentId: P:UILib.Patches.SceneLoads.onCustomUnload
-  fullName: UILib.Patches.SceneLoads.onCustomUnload
-  nameWithType: SceneLoads.onCustomUnload
-- uid: UILib.Patches.SceneLoads.onCustomUnload*
-  name: onCustomUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onCustomUnload_
-  commentId: Overload:UILib.Patches.SceneLoads.onCustomUnload
-  isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onCustomUnload
-  nameWithType: SceneLoads.onCustomUnload
-- uid: UILib.Patches.SceneLoads.onLoad
-  name: onLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onLoad
-  commentId: P:UILib.Patches.SceneLoads.onLoad
-  fullName: UILib.Patches.SceneLoads.onLoad
-  nameWithType: SceneLoads.onLoad
-- uid: UILib.Patches.SceneLoads.onLoad*
-  name: onLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onLoad_
-  commentId: Overload:UILib.Patches.SceneLoads.onLoad
-  isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onLoad
-  nameWithType: SceneLoads.onLoad
-- uid: UILib.Patches.SceneLoads.onQuickPlaytestLoad
-  name: onQuickPlaytestLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onQuickPlaytestLoad
-  commentId: P:UILib.Patches.SceneLoads.onQuickPlaytestLoad
-  fullName: UILib.Patches.SceneLoads.onQuickPlaytestLoad
-  nameWithType: SceneLoads.onQuickPlaytestLoad
-- uid: UILib.Patches.SceneLoads.onQuickPlaytestLoad*
-  name: onQuickPlaytestLoad
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onQuickPlaytestLoad_
-  commentId: Overload:UILib.Patches.SceneLoads.onQuickPlaytestLoad
-  isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onQuickPlaytestLoad
-  nameWithType: SceneLoads.onQuickPlaytestLoad
-- uid: UILib.Patches.SceneLoads.onQuickPlaytestUnload
-  name: onQuickPlaytestUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onQuickPlaytestUnload
-  commentId: P:UILib.Patches.SceneLoads.onQuickPlaytestUnload
-  fullName: UILib.Patches.SceneLoads.onQuickPlaytestUnload
-  nameWithType: SceneLoads.onQuickPlaytestUnload
-- uid: UILib.Patches.SceneLoads.onQuickPlaytestUnload*
-  name: onQuickPlaytestUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onQuickPlaytestUnload_
-  commentId: Overload:UILib.Patches.SceneLoads.onQuickPlaytestUnload
-  isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onQuickPlaytestUnload
-  nameWithType: SceneLoads.onQuickPlaytestUnload
-- uid: UILib.Patches.SceneLoads.onUnload
-  name: onUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onUnload
-  commentId: P:UILib.Patches.SceneLoads.onUnload
-  fullName: UILib.Patches.SceneLoads.onUnload
-  nameWithType: SceneLoads.onUnload
-- uid: UILib.Patches.SceneLoads.onUnload*
-  name: onUnload
-  href: api/UILib.Patches.SceneLoads.html#UILib_Patches_SceneLoads_onUnload_
-  commentId: Overload:UILib.Patches.SceneLoads.onUnload
-  isSpec: "True"
-  fullName: UILib.Patches.SceneLoads.onUnload
-  nameWithType: SceneLoads.onUnload
+  fullName: UILib.Patches.SceneLoads.AddUnloadListener
+  nameWithType: SceneLoads.AddUnloadListener
+- uid: UILib.Patches.SceneType
+  name: SceneType
+  href: api/UILib.Patches.SceneType.html
+  commentId: T:UILib.Patches.SceneType
+  fullName: UILib.Patches.SceneType
+  nameWithType: SceneType
+- uid: UILib.Patches.SceneType.BuiltIn
+  name: BuiltIn
+  href: api/UILib.Patches.SceneType.html#UILib_Patches_SceneType_BuiltIn
+  commentId: F:UILib.Patches.SceneType.BuiltIn
+  fullName: UILib.Patches.SceneType.BuiltIn
+  nameWithType: SceneType.BuiltIn
+- uid: UILib.Patches.SceneType.Custom
+  name: Custom
+  href: api/UILib.Patches.SceneType.html#UILib_Patches_SceneType_Custom
+  commentId: F:UILib.Patches.SceneType.Custom
+  fullName: UILib.Patches.SceneType.Custom
+  nameWithType: SceneType.Custom
+- uid: UILib.Patches.SceneType.Default
+  name: Default
+  href: api/UILib.Patches.SceneType.html#UILib_Patches_SceneType_Default
+  commentId: F:UILib.Patches.SceneType.Default
+  fullName: UILib.Patches.SceneType.Default
+  nameWithType: SceneType.Default
+- uid: UILib.Patches.SceneType.QuickPlaytest
+  name: QuickPlaytest
+  href: api/UILib.Patches.SceneType.html#UILib_Patches_SceneType_QuickPlaytest
+  commentId: F:UILib.Patches.SceneType.QuickPlaytest
+  fullName: UILib.Patches.SceneType.QuickPlaytest
+  nameWithType: SceneType.QuickPlaytest
 - uid: UILib.ResizeButton
   name: ResizeButton
   href: api/UILib.ResizeButton.html
@@ -3685,6 +3786,22 @@ references:
   commentId: T:UILib.Resources
   fullName: UILib.Resources
   nameWithType: Resources
+- uid: UILib.Resources.LoadBundle(System.Reflection.Assembly,System.String)
+  name: LoadBundle(Assembly, string)
+  href: api/UILib.Resources.html#UILib_Resources_LoadBundle_System_Reflection_Assembly_System_String_
+  commentId: M:UILib.Resources.LoadBundle(System.Reflection.Assembly,System.String)
+  name.vb: LoadBundle(Assembly, String)
+  fullName: UILib.Resources.LoadBundle(System.Reflection.Assembly, string)
+  fullName.vb: UILib.Resources.LoadBundle(System.Reflection.Assembly, String)
+  nameWithType: Resources.LoadBundle(Assembly, string)
+  nameWithType.vb: Resources.LoadBundle(Assembly, String)
+- uid: UILib.Resources.LoadBundle*
+  name: LoadBundle
+  href: api/UILib.Resources.html#UILib_Resources_LoadBundle_
+  commentId: Overload:UILib.Resources.LoadBundle
+  isSpec: "True"
+  fullName: UILib.Resources.LoadBundle
+  nameWithType: Resources.LoadBundle
 - uid: UILib.Resources.checkMark
   name: checkMark
   href: api/UILib.Resources.html#UILib_Resources_checkMark
@@ -4009,6 +4126,15 @@ references:
   commentId: M:UILib.Theme.Copy
   fullName: UILib.Theme.Copy()
   nameWithType: Theme.Copy()
+- uid: UILib.Theme.Copy(System.String)
+  name: Copy(string)
+  href: api/UILib.Theme.html#UILib_Theme_Copy_System_String_
+  commentId: M:UILib.Theme.Copy(System.String)
+  name.vb: Copy(String)
+  fullName: UILib.Theme.Copy(string)
+  fullName.vb: UILib.Theme.Copy(String)
+  nameWithType: Theme.Copy(string)
+  nameWithType.vb: Theme.Copy(String)
 - uid: UILib.Theme.Copy*
   name: Copy
   href: api/UILib.Theme.html#UILib_Theme_Copy_
@@ -4577,6 +4703,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.OnEndDrag
   nameWithType: UIObject.OnEndDrag
+- uid: UILib.UIObject.OnPointerDown
+  name: OnPointerDown()
+  href: api/UILib.UIObject.html#UILib_UIObject_OnPointerDown
+  commentId: M:UILib.UIObject.OnPointerDown
+  fullName: UILib.UIObject.OnPointerDown()
+  nameWithType: UIObject.OnPointerDown()
+- uid: UILib.UIObject.OnPointerDown*
+  name: OnPointerDown
+  href: api/UILib.UIObject.html#UILib_UIObject_OnPointerDown_
+  commentId: Overload:UILib.UIObject.OnPointerDown
+  isSpec: "True"
+  fullName: UILib.UIObject.OnPointerDown
+  nameWithType: UIObject.OnPointerDown
 - uid: UILib.UIObject.OnPointerEnter
   name: OnPointerEnter()
   href: api/UILib.UIObject.html#UILib_UIObject_OnPointerEnter
@@ -4603,6 +4742,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.OnPointerExit
   nameWithType: UIObject.OnPointerExit
+- uid: UILib.UIObject.OnPointerUp
+  name: OnPointerUp()
+  href: api/UILib.UIObject.html#UILib_UIObject_OnPointerUp
+  commentId: M:UILib.UIObject.OnPointerUp
+  fullName: UILib.UIObject.OnPointerUp()
+  nameWithType: UIObject.OnPointerUp()
+- uid: UILib.UIObject.OnPointerUp*
+  name: OnPointerUp
+  href: api/UILib.UIObject.html#UILib_UIObject_OnPointerUp_
+  commentId: Overload:UILib.UIObject.OnPointerUp
+  isSpec: "True"
+  fullName: UILib.UIObject.OnPointerUp
+  nameWithType: UIObject.OnPointerUp
 - uid: UILib.UIObject.SetAnchor(UILib.Layouts.AnchorType)
   name: SetAnchor(AnchorType)
   href: api/UILib.UIObject.html#UILib_UIObject_SetAnchor_UILib_Layouts_AnchorType_
@@ -4718,6 +4870,22 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.SetFill
   nameWithType: UIObject.SetFill
+- uid: UILib.UIObject.SetInheritTheme(System.Boolean)
+  name: SetInheritTheme(bool)
+  href: api/UILib.UIObject.html#UILib_UIObject_SetInheritTheme_System_Boolean_
+  commentId: M:UILib.UIObject.SetInheritTheme(System.Boolean)
+  name.vb: SetInheritTheme(Boolean)
+  fullName: UILib.UIObject.SetInheritTheme(bool)
+  fullName.vb: UILib.UIObject.SetInheritTheme(Boolean)
+  nameWithType: UIObject.SetInheritTheme(bool)
+  nameWithType.vb: UIObject.SetInheritTheme(Boolean)
+- uid: UILib.UIObject.SetInheritTheme*
+  name: SetInheritTheme
+  href: api/UILib.UIObject.html#UILib_UIObject_SetInheritTheme_
+  commentId: Overload:UILib.UIObject.SetInheritTheme
+  isSpec: "True"
+  fullName: UILib.UIObject.SetInheritTheme
+  nameWithType: UIObject.SetInheritTheme
 - uid: UILib.UIObject.SetOffset(System.Single,System.Single)
   name: SetOffset(float, float)
   href: api/UILib.UIObject.html#UILib_UIObject_SetOffset_System_Single_System_Single_
@@ -4896,6 +5064,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.height
   nameWithType: UIObject.height
+- uid: UILib.UIObject.inheritTheme
+  name: inheritTheme
+  href: api/UILib.UIObject.html#UILib_UIObject_inheritTheme
+  commentId: P:UILib.UIObject.inheritTheme
+  fullName: UILib.UIObject.inheritTheme
+  nameWithType: UIObject.inheritTheme
+- uid: UILib.UIObject.inheritTheme*
+  name: inheritTheme
+  href: api/UILib.UIObject.html#UILib_UIObject_inheritTheme_
+  commentId: Overload:UILib.UIObject.inheritTheme
+  isSpec: "True"
+  fullName: UILib.UIObject.inheritTheme
+  nameWithType: UIObject.inheritTheme
 - uid: UILib.UIObject.isVisible
   name: isVisible
   href: api/UILib.UIObject.html#UILib_UIObject_isVisible
@@ -5039,6 +5220,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.onEndDrag
   nameWithType: UIObject.onEndDrag
+- uid: UILib.UIObject.onPointerDown
+  name: onPointerDown
+  href: api/UILib.UIObject.html#UILib_UIObject_onPointerDown
+  commentId: P:UILib.UIObject.onPointerDown
+  fullName: UILib.UIObject.onPointerDown
+  nameWithType: UIObject.onPointerDown
+- uid: UILib.UIObject.onPointerDown*
+  name: onPointerDown
+  href: api/UILib.UIObject.html#UILib_UIObject_onPointerDown_
+  commentId: Overload:UILib.UIObject.onPointerDown
+  isSpec: "True"
+  fullName: UILib.UIObject.onPointerDown
+  nameWithType: UIObject.onPointerDown
 - uid: UILib.UIObject.onPointerEnter
   name: onPointerEnter
   href: api/UILib.UIObject.html#UILib_UIObject_onPointerEnter
@@ -5065,6 +5259,19 @@ references:
   isSpec: "True"
   fullName: UILib.UIObject.onPointerExit
   nameWithType: UIObject.onPointerExit
+- uid: UILib.UIObject.onPointerUp
+  name: onPointerUp
+  href: api/UILib.UIObject.html#UILib_UIObject_onPointerUp
+  commentId: P:UILib.UIObject.onPointerUp
+  fullName: UILib.UIObject.onPointerUp
+  nameWithType: UIObject.onPointerUp
+- uid: UILib.UIObject.onPointerUp*
+  name: onPointerUp
+  href: api/UILib.UIObject.html#UILib_UIObject_onPointerUp_
+  commentId: Overload:UILib.UIObject.onPointerUp
+  isSpec: "True"
+  fullName: UILib.UIObject.onPointerUp
+  nameWithType: UIObject.onPointerUp
 - uid: UILib.UIObject.parent
   name: parent
   href: api/UILib.UIObject.html#UILib_UIObject_parent

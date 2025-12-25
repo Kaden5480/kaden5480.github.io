@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class InputLock | poy-ui-lib </title>
+      <title>Enum Overlay.SortingMode | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class InputLock | poy-ui-lib ">
+      <meta name="title" content="Enum Overlay.SortingMode | poy-ui-lib ">
       
-      <meta name="description" content="An input lock. You shouldn&#39;t usually need to construct your own InputLocks, as  have their own way of . Whenever an InputLock is constructed, it automatically prevents the use of some extra vanilla keybinds (such as the InGameMenu).">
+      <meta name="description" content="The sorting modes which can be applied to .">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,138 +84,60 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Patches.InputLock">
+        <article data-uid="UILib.Overlay.SortingMode">
 
 
 
-  <h1 id="UILib_Patches_InputLock" data-uid="UILib.Patches.InputLock" class="text-break">
-Class InputLock  
+
+  <h1 id="UILib_Overlay_SortingMode" data-uid="UILib.Overlay.SortingMode" class="text-break">
+Enum Overlay.SortingMode  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Patches.html">Patches</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a></dd></dl>
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>An input lock.</p>
-<p>You shouldn't usually need to construct your own <code>InputLocks</code>,
-as <a class="xref" href="UILib.Overlay.html">Overlays</a> have their own way
-of <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetInputLock_System_Boolean_">automatically managing them</a>.</p>
-<p>Whenever an <code>InputLock</code> is constructed, it automatically
-prevents the use of some extra vanilla keybinds (such as the <code>InGameMenu</code>).</p>
+  <div class="markdown summary"><p>The sorting modes which can be applied to <a class="xref" href="UILib.Overlay.html">
+    Overlays</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InputLock</code></pre>
+    <pre><code class="lang-csharp hljs">public enum Overlay.SortingMode</code></pre>
   </div>
 
 
 
 
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">InputLock</span></div>
-    </dd>
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="UILib_Overlay_SortingMode_Default"><code>Default = 0</code></dt>
+  
+  <dd><p>The default sorting mode. Overlays can be fully controlled
+by <a class="xref" href="UILib.UIRoot.html">UIRoot</a>. They can freely be placed above/below each other
+as the user focuses/unfocuses them.</p>
+</dd>
+    <dt id="UILib_Overlay_SortingMode_Recede"><code>Recede = 1</code></dt>
+  
+  <dd><p>In this mode, the overlay can only move down the sorting order,
+it can't be brought above another overlay when the user focuses it.</p>
+<p>It will still get brought to the front initially when opened through
+<a class="xref" href="UILib.Overlay.html#UILib_Overlay_Show">Show()</a>, this only disables increasing the sorting order
+from user interactions.</p>
+</dd>
+    <dt id="UILib_Overlay_SortingMode_Static"><code>Static = 2</code></dt>
+  
+  <dd><p>Tells <a class="xref" href="UILib.UIRoot.html">UIRoot</a> to completely ignore sorting this overlay,
+letting you set whatever sorting order you want on its <a class="xref" href="UILib.Canvas.html">Canvas</a>.</p>
+</dd>
   </dl>
-
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-  </dd></dl>
-
-
-
-
-
-
-  <h2 class="section" id="constructors">Constructors
-</h2>
-
-
-  <a id="UILib_Patches_InputLock__ctor_" data-uid="UILib.Patches.InputLock.#ctor*"></a>
-
-  <h3 id="UILib_Patches_InputLock__ctor" data-uid="UILib.Patches.InputLock.#ctor">
-  InputLock()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Initializes an input lock, telling the <a class="xref" href="UILib.Patches.InputHandler.html">InputHandler</a>
-that the input should be locked.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InputLock()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <h2 class="section" id="methods">Methods
-</h2>
-
-
-  <a id="UILib_Patches_InputLock_Close_" data-uid="UILib.Patches.InputLock.Close*"></a>
-
-  <h3 id="UILib_Patches_InputLock_Close" data-uid="UILib.Patches.InputLock.Close">
-  Close()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Closes this input lock, telling the <a class="xref" href="UILib.Patches.InputHandler.html">InputHandler</a>
-the input no longer needs locking.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Close()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 

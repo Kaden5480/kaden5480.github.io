@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ScrollBar | poy-ui-lib </title>
+      <title>Class Canvas | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ScrollBar | poy-ui-lib ">
+      <meta name="title" content="Class Canvas | poy-ui-lib ">
       
-      <meta name="description" content="A scroll bar.">
+      <meta name="description" content="A Canvas which each  gets attached to. Every overlay has its own canvas to handle sorting them on top of each other.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,25 +84,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Components.ScrollBar">
+        <article data-uid="UILib.Canvas">
 
 
 
-  <h1 id="UILib_Components_ScrollBar" data-uid="UILib.Components.ScrollBar" class="text-break">
-Class ScrollBar  
+  <h1 id="UILib_Canvas" data-uid="UILib.Canvas" class="text-break">
+Class Canvas  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Components.html">Components</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a></dd></dl>
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A scroll bar.</p>
+  <div class="markdown summary"><p>A Canvas which each <a class="xref" href="UILib.Overlay.html">Overlay</a> gets attached to.</p>
+<p>Every overlay has its own canvas to handle
+sorting them on top of each other.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ScrollBar : UIObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class Canvas : UIObject</code></pre>
   </div>
 
 
@@ -113,7 +115,7 @@ Class ScrollBar
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><a class="xref" href="UILib.UIObject.html">UIObject</a></div>
-      <div><span class="xref">ScrollBar</span></div>
+      <div><span class="xref">Canvas</span></div>
     </dd>
   </dl>
 
@@ -255,6 +257,15 @@ Class ScrollBar
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnDoubleClick">UIObject.OnDoubleClick()</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnBeginDrag_UnityEngine_Vector2_">UIObject.OnBeginDrag(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnDrag_UnityEngine_Vector2_">UIObject.OnDrag(Vector2)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_OnEndDrag_UnityEngine_Vector2_">UIObject.OnEndDrag(Vector2)</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AddLayoutElement">UIObject.AddLayoutElement()</a>
     </div>
     <div>
@@ -318,117 +329,119 @@ Class ScrollBar
 
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="UILib_Canvas_canvas_" data-uid="UILib.Canvas.canvas*"></a>
+
+  <h3 id="UILib_Canvas_canvas" data-uid="UILib.Canvas.canvas">
+  canvas
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The underlying Unity <code>Canvas</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Canvas canvas { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Canvas</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Canvas_raycaster_" data-uid="UILib.Canvas.raycaster*"></a>
+
+  <h3 id="UILib_Canvas_raycaster" data-uid="UILib.Canvas.raycaster">
+  raycaster
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>GraphicRaycaster</code> attached to this canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GraphicRaycaster raycaster { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">GraphicRaycaster</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Canvas_scaler_" data-uid="UILib.Canvas.scaler*"></a>
+
+  <h3 id="UILib_Canvas_scaler" data-uid="UILib.Canvas.scaler">
+  scaler
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>CanvasScaler</code> attached to this canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CanvasScaler scaler { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CanvasScaler</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
 
-  <a id="UILib_Components_ScrollBar_OnBeginDrag_" data-uid="UILib.Components.ScrollBar.OnBeginDrag*"></a>
+  <a id="UILib_Canvas_SetThisTheme_" data-uid="UILib.Canvas.SetThisTheme*"></a>
 
-  <h3 id="UILib_Components_ScrollBar_OnBeginDrag_UnityEngine_Vector2_" data-uid="UILib.Components.ScrollBar.OnBeginDrag(UnityEngine.Vector2)">
-  OnBeginDrag(Vector2)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>This override ignores drags.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnBeginDrag(Vector2 position)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>position</code> <span class="xref">Vector2</span></dt>
-    <dd><p>The position the drag started at</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Components_ScrollBar_OnDrag_" data-uid="UILib.Components.ScrollBar.OnDrag*"></a>
-
-  <h3 id="UILib_Components_ScrollBar_OnDrag_UnityEngine_Vector2_" data-uid="UILib.Components.ScrollBar.OnDrag(UnityEngine.Vector2)">
-  OnDrag(Vector2)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>This override ignores drags.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnDrag(Vector2 position)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>position</code> <span class="xref">Vector2</span></dt>
-    <dd><p>The position dragged to</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Components_ScrollBar_OnEndDrag_" data-uid="UILib.Components.ScrollBar.OnEndDrag*"></a>
-
-  <h3 id="UILib_Components_ScrollBar_OnEndDrag_UnityEngine_Vector2_" data-uid="UILib.Components.ScrollBar.OnEndDrag(UnityEngine.Vector2)">
-  OnEndDrag(Vector2)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>This override ignores drags.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnEndDrag(Vector2 position)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>position</code> <span class="xref">Vector2</span></dt>
-    <dd><p>The position dragged to</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Components_ScrollBar_SetThisTheme_" data-uid="UILib.Components.ScrollBar.SetThisTheme*"></a>
-
-  <h3 id="UILib_Components_ScrollBar_SetThisTheme_UILib_Theme_" data-uid="UILib.Components.ScrollBar.SetThisTheme(UILib.Theme)">
+  <h3 id="UILib_Canvas_SetThisTheme_UILib_Theme_" data-uid="UILib.Canvas.SetThisTheme(UILib.Theme)">
   SetThisTheme(Theme)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Allows setting the theme of this scroll bar.</p>
+  <div class="markdown level1 summary"><p>Allows setting the theme of this canvas.
+Does nothing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

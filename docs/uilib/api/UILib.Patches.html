@@ -95,50 +95,16 @@
 Classes
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Patches.InputHandler.html">InputHandler</a></dt>
-      <dd><p>A class which helps deal with locking extra vanilla inputs.</p>
+      <dt><a class="xref" href="UILib.Patches.Lock.html">Lock</a></dt>
+      <dd><p>A class used for controlling certain aspects of the game.
+Such as pausing, freeing the cursor, and preventing certain
+navigation interactions.</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Patches.InputLock.html">InputLock</a></dt>
-      <dd><p>An input lock.</p>
-<p>You shouldn't usually need to construct your own <code>InputLocks</code>,
-as <a class="xref" href="UILib.Overlay.html">Overlays</a> have their own way
-of <a class="xref" href="UILib.Overlay.html#UILib_Overlay_SetInputLock_System_Boolean_">automatically managing them</a>.</p>
-<p>Whenever an <code>InputLock</code> is constructed, it automatically
-prevents the use of some extra vanilla keybinds (such as the <code>InGameMenu</code>).</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Patches.PauseHandle.html">PauseHandle</a></dt>
-      <dd><p>A pause handle.</p>
-<p>You shouldn't usually need to construct your own <code>PauseHandles</code>
-as <a class="xref" href="UILib.Overlay.html">Overlays</a> already create them
-internally.</p>
-<p>Whenever a <code>PauseHandle</code> is constructed it automatically
-pauses the game.</p>
-<p>Closing a <code>PauseHandle</code> will let the game unpause,
-but only once all <code>PauseHandles</code> have been closed.
-There could even be many <code>PauseHandles</code> across many mods,
-but as long as at least one exists
-(and hasn't closed yet), the game will be paused.</p>
-</dd>
-    </dl>
-    <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Patches.PauseHandler.html">PauseHandler</a></dt>
-      <dd><p>A class which helps deal with
-pausing/resuming in Peaks of Yore.</p>
-<p>This also takes away focus from the game
-allowing users to interact with UI when they otherwise
-wouldn't be able to.</p>
-<p>This tries to handle different cases
-where the game is paused, along with pausing
-which has been caused by UIs in UILib. So
-it could, in most cases, be something
-you can rely on to determine whether the
-user is in a UI.</p>
-<p>If it doesn't handle something, please let me
-know.</p>
+      <dt><a class="xref" href="UILib.Patches.LockHandler.html">LockHandler</a></dt>
+      <dd><p>Processes the currently active <a class="xref" href="UILib.Patches.Lock.html">Locks</a> to
+determine what should be locked/unlocked.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -153,6 +119,20 @@ and being in the editor switching between the orbit camera and quick playtest.
 Switching to and from the orbit camera keeps loading/unloading some objects.</p>
 <p>This class invokes listeners when the scenes are loaded and unloaded,
 simplifying the process.</p>
+</dd>
+    </dl>
+    <h3 id="enums">
+Enums
+</h3>
+    <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Patches.LockMode.html">LockMode</a></dt>
+      <dd><p>The types of lock modes which are supported.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Patches.SceneType.html">SceneType</a></dt>
+      <dd><p>The types of scene loads/unloads which you can
+add listeners to <a class="xref" href="UILib.Patches.SceneLoads.html">SceneLoads</a> for.</p>
 </dd>
     </dl>
 

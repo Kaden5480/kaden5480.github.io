@@ -7,12 +7,6 @@ references:
   commentId: N:ModMenu
   fullName: ModMenu
   nameWithType: ModMenu
-- uid: ModMenu.BuildEvent
-  name: BuildEvent
-  href: api/ModMenu.BuildEvent.html
-  commentId: T:ModMenu.BuildEvent
-  fullName: ModMenu.BuildEvent
-  nameWithType: BuildEvent
 - uid: ModMenu.Config
   name: ModMenu.Config
   href: api/ModMenu.Config.html
@@ -336,54 +330,6 @@ references:
   fullName.vb: ModMenu.Config.PredicateAttribute.New
   nameWithType: PredicateAttribute.PredicateAttribute
   nameWithType.vb: PredicateAttribute.New
-- uid: ModMenu.ConfigBuilder
-  name: ConfigBuilder
-  href: api/ModMenu.ConfigBuilder.html
-  commentId: T:ModMenu.ConfigBuilder
-  fullName: ModMenu.ConfigBuilder
-  nameWithType: ConfigBuilder
-- uid: ModMenu.ConfigBuilder.Add(System.String,UILib.UIComponent)
-  name: Add(string, UIComponent)
-  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_Add_System_String_UILib_UIComponent_
-  commentId: M:ModMenu.ConfigBuilder.Add(System.String,UILib.UIComponent)
-  name.vb: Add(String, UIComponent)
-  fullName: ModMenu.ConfigBuilder.Add(string, UILib.UIComponent)
-  fullName.vb: ModMenu.ConfigBuilder.Add(String, UILib.UIComponent)
-  nameWithType: ConfigBuilder.Add(string, UIComponent)
-  nameWithType.vb: ConfigBuilder.Add(String, UIComponent)
-- uid: ModMenu.ConfigBuilder.Add*
-  name: Add
-  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_Add_
-  commentId: Overload:ModMenu.ConfigBuilder.Add
-  isSpec: "True"
-  fullName: ModMenu.ConfigBuilder.Add
-  nameWithType: ConfigBuilder.Add
-- uid: ModMenu.ConfigBuilder.SetFooter(UILib.UIComponent)
-  name: SetFooter(UIComponent)
-  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_SetFooter_UILib_UIComponent_
-  commentId: M:ModMenu.ConfigBuilder.SetFooter(UILib.UIComponent)
-  fullName: ModMenu.ConfigBuilder.SetFooter(UILib.UIComponent)
-  nameWithType: ConfigBuilder.SetFooter(UIComponent)
-- uid: ModMenu.ConfigBuilder.SetFooter*
-  name: SetFooter
-  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_SetFooter_
-  commentId: Overload:ModMenu.ConfigBuilder.SetFooter
-  isSpec: "True"
-  fullName: ModMenu.ConfigBuilder.SetFooter
-  nameWithType: ConfigBuilder.SetFooter
-- uid: ModMenu.ConfigBuilder.SetHeader(UILib.UIComponent)
-  name: SetHeader(UIComponent)
-  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_SetHeader_UILib_UIComponent_
-  commentId: M:ModMenu.ConfigBuilder.SetHeader(UILib.UIComponent)
-  fullName: ModMenu.ConfigBuilder.SetHeader(UILib.UIComponent)
-  nameWithType: ConfigBuilder.SetHeader(UIComponent)
-- uid: ModMenu.ConfigBuilder.SetHeader*
-  name: SetHeader
-  href: api/ModMenu.ConfigBuilder.html#ModMenu_ConfigBuilder_SetHeader_
-  commentId: Overload:ModMenu.ConfigBuilder.SetHeader
-  isSpec: "True"
-  fullName: ModMenu.ConfigBuilder.SetHeader
-  nameWithType: ConfigBuilder.SetHeader
 - uid: ModMenu.Events
   name: ModMenu.Events
   href: api/ModMenu.Events.html
@@ -559,21 +505,6 @@ references:
   isSpec: "True"
   fullName: ModMenu.ModView.SetHeader
   nameWithType: ModView.SetHeader
-- uid: ModMenu.Plugin
-  name: Plugin
-  href: api/ModMenu.Plugin.html
-  commentId: T:ModMenu.Plugin
-  fullName: ModMenu.Plugin
-  nameWithType: Plugin
-- uid: ModMenu.ValueEvent`1
-  name: ValueEvent<T>
-  href: api/ModMenu.ValueEvent-1.html
-  commentId: T:ModMenu.ValueEvent`1
-  name.vb: ValueEvent(Of T)
-  fullName: ModMenu.ValueEvent<T>
-  fullName.vb: ModMenu.ValueEvent(Of T)
-  nameWithType: ValueEvent<T>
-  nameWithType.vb: ValueEvent(Of T)
 - uid: ModMenu.Views
   name: ModMenu.Views
   href: api/ModMenu.Views.html

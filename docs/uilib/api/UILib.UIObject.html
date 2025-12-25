@@ -124,6 +124,7 @@ Most of the time you'd want to use <a class="xref" href="UILib.UIComponent.html"
   <dl class="typelist derived">
     <dt>Derived</dt>
     <dd>
+      <div><a class="xref" href="UILib.Canvas.html">Canvas</a></div>
       <div><a class="xref" href="UILib.Components.ScrollBar.html">ScrollBar</a></div>
       <div><a class="xref" href="UILib.Overlay.html">Overlay</a></div>
       <div><a class="xref" href="UILib.UIComponent.html">UIComponent</a></div>
@@ -381,6 +382,39 @@ components to.</p>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_inheritTheme_" data-uid="UILib.UIObject.inheritTheme*"></a>
+
+  <h3 id="UILib_UIObject_inheritTheme" data-uid="UILib.UIObject.inheritTheme">
+  inheritTheme
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether automatic theme inheritance is allowed
+for this UIObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool inheritTheme { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
   </dl>
 
@@ -751,6 +785,38 @@ stopped dragging on this UIObject.</p>
 
 
 
+  <a id="UILib_UIObject_onPointerDown_" data-uid="UILib.UIObject.onPointerDown*"></a>
+
+  <h3 id="UILib_UIObject_onPointerDown" data-uid="UILib.UIObject.onPointerDown">
+  onPointerDown
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners when the pointer is held down on this UIObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual UnityEvent onPointerDown { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="UILib_UIObject_onPointerEnter_" data-uid="UILib.UIObject.onPointerEnter*"></a>
 
   <h3 id="UILib_UIObject_onPointerEnter" data-uid="UILib.UIObject.onPointerEnter">
@@ -796,6 +862,39 @@ stopped dragging on this UIObject.</p>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public virtual UnityEvent onPointerExit { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_onPointerUp_" data-uid="UILib.UIObject.onPointerUp*"></a>
+
+  <h3 id="UILib_UIObject_onPointerUp" data-uid="UILib.UIObject.onPointerUp">
+  onPointerUp
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners when the pointer is no longer being
+held down on this UIObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual UnityEvent onPointerUp { get; }</code></pre>
   </div>
 
 
@@ -1370,6 +1469,33 @@ a layout set on it (vertical or horizontal).</p>
 
 
 
+  <a id="UILib_UIObject_OnPointerDown_" data-uid="UILib.UIObject.OnPointerDown*"></a>
+
+  <h3 id="UILib_UIObject_OnPointerDown" data-uid="UILib.UIObject.OnPointerDown">
+  OnPointerDown()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Handles the pointer being held down on this UIObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPointerDown()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="UILib_UIObject_OnPointerEnter_" data-uid="UILib.UIObject.OnPointerEnter*"></a>
 
   <h3 id="UILib_UIObject_OnPointerEnter" data-uid="UILib.UIObject.OnPointerEnter">
@@ -1410,6 +1536,33 @@ a layout set on it (vertical or horizontal).</p>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnPointerExit()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_OnPointerUp_" data-uid="UILib.UIObject.OnPointerUp*"></a>
+
+  <h3 id="UILib_UIObject_OnPointerUp" data-uid="UILib.UIObject.OnPointerUp">
+  OnPointerUp()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Handles the pointer no longer being held down on this UIObject.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnPointerUp()</code></pre>
   </div>
 
 
@@ -1756,6 +1909,45 @@ parent container.</p>
   <dl class="parameters">
     <dt><code>fillType</code> <a class="xref" href="UILib.Layouts.FillType.html">FillType</a></dt>
     <dd><p>The type of fill to use</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_SetInheritTheme_" data-uid="UILib.UIObject.SetInheritTheme*"></a>
+
+  <h3 id="UILib_UIObject_SetInheritTheme_System_Boolean_" data-uid="UILib.UIObject.SetInheritTheme(System.Boolean)">
+  SetInheritTheme(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Determines whether this UIObject can automatically inherit
+its parent's theme on a <code>SetTheme</code>.</p>
+<p>If this is <code>true</code>, this UIObject can inherit the theme from its
+parent on a <code>SetTheme</code> call</p>
+<p>If this is <code>false</code>, this UIObject won't be able to automatically inherit
+the theme from the parent. Calls to <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">SetTheme(Theme)</a>
+on this object will still work though.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetInheritTheme(bool inheritTheme)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>inheritTheme</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether theme inheriting is allowed</p>
 </dd>
   </dl>
 

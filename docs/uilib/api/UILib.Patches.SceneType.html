@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class InputHandler | poy-ui-lib </title>
+      <title>Enum SceneType | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class InputHandler | poy-ui-lib ">
+      <meta name="title" content="Enum SceneType | poy-ui-lib ">
       
-      <meta name="description" content="A class which helps deal with locking extra vanilla inputs.">
+      <meta name="description" content="The types of scene loads/unloads which you can add listeners to  for.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,13 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Patches.InputHandler">
+        <article data-uid="UILib.Patches.SceneType">
 
 
 
-  <h1 id="UILib_Patches_InputHandler" data-uid="UILib.Patches.InputHandler" class="text-break">
-Class InputHandler  
+
+  <h1 id="UILib_Patches_SceneType" data-uid="UILib.Patches.SceneType" class="text-break">
+Enum SceneType  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,156 +98,46 @@ Class InputHandler
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A class which helps deal with locking extra vanilla inputs.</p>
+  <div class="markdown summary"><p>The types of scene loads/unloads which you can
+add listeners to <a class="xref" href="UILib.Patches.SceneLoads.html">SceneLoads</a> for.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class InputHandler</code></pre>
+    <pre><code class="lang-csharp hljs">[Flags]
+public enum SceneType</code></pre>
   </div>
 
 
 
 
-  <dl class="typelist inheritance">
-    <dt>Inheritance</dt>
-    <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">InputHandler</span></div>
-    </dd>
-  </dl>
-
-
-
-  <dl class="typelist inheritedMembers">
-    <dt>Inherited Members</dt>
-    <dd>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
-    </div>
-  </dd></dl>
 
 
 
 
 
-
-  <h2 class="section" id="properties">Properties
+  <h2 id="fields">Fields
 </h2>
-
-
-  <a id="UILib_Patches_InputHandler_isLocked_" data-uid="UILib.Patches.InputHandler.isLocked*"></a>
-
-  <h3 id="UILib_Patches_InputHandler_isLocked" data-uid="UILib.Patches.InputHandler.isLocked">
-  isLocked
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Indicates whether the <code>InputHandler</code> is currently locking extra vanilla inputs.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool isLocked { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Patches_InputHandler_onLock_" data-uid="UILib.Patches.InputHandler.onLock*"></a>
-
-  <h3 id="UILib_Patches_InputHandler_onLock" data-uid="UILib.Patches.InputHandler.onLock">
-  onLock
+    <dt id="UILib_Patches_SceneType_BuiltIn"><code>BuiltIn = 1</code></dt>
   
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes listeners when the input is locked.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEvent onLock { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Patches_InputHandler_onUnlock_" data-uid="UILib.Patches.InputHandler.onUnlock*"></a>
-
-  <h3 id="UILib_Patches_InputHandler_onUnlock" data-uid="UILib.Patches.InputHandler.onUnlock">
-  onUnlock
+  <dd><p>Any built-in scene.</p>
+</dd>
+    <dt id="UILib_Patches_SceneType_Custom"><code>Custom = 2</code></dt>
   
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes listeners when the input is unlocked.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityEvent onUnlock { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
-    <dd></dd>
+  <dd><p>Any custom made scene (but only normal playtest
+or playing it normally through the book).</p>
+</dd>
+    <dt id="UILib_Patches_SceneType_Default"><code>Default = BuiltIn | Custom</code></dt>
+  
+  <dd><p>A reasonable default to use.</p>
+<p>Listens to built-in and custom levels in normal play.</p>
+</dd>
+    <dt id="UILib_Patches_SceneType_QuickPlaytest"><code>QuickPlaytest = 8</code></dt>
+  
+  <dd><p>Quick playtest in the editor.</p>
+</dd>
   </dl>
-
-
-
-
-
-
 
 
 

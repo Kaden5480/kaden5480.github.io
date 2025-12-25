@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PauseHandler | poy-ui-lib </title>
+      <title>Class LockHandler | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PauseHandler | poy-ui-lib ">
+      <meta name="title" content="Class LockHandler | poy-ui-lib ">
       
-      <meta name="description" content="A class which helps deal with pausing/resuming in Peaks of Yore. This also takes away focus from the game allowing users to interact with UI when they otherwise wouldn&#39;t be able to. This tries to handle different cases where the game is paused, along with pausing which has been caused by UIs in UILib. So it could, in most cases, be something you can rely on to determine whether the user is in a UI. If it doesn&#39;t handle something, please let me know.">
+      <meta name="description" content="Processes the currently active  to determine what should be locked/unlocked.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Patches.PauseHandler">
+        <article data-uid="UILib.Patches.LockHandler">
 
 
 
-  <h1 id="UILib_Patches_PauseHandler" data-uid="UILib.Patches.PauseHandler" class="text-break">
-Class PauseHandler  
+  <h1 id="UILib_Patches_LockHandler" data-uid="UILib.Patches.LockHandler" class="text-break">
+Class LockHandler  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,24 +97,13 @@ Class PauseHandler
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A class which helps deal with
-pausing/resuming in Peaks of Yore.</p>
-<p>This also takes away focus from the game
-allowing users to interact with UI when they otherwise
-wouldn't be able to.</p>
-<p>This tries to handle different cases
-where the game is paused, along with pausing
-which has been caused by UIs in UILib. So
-it could, in most cases, be something
-you can rely on to determine whether the
-user is in a UI.</p>
-<p>If it doesn't handle something, please let me
-know.</p>
+  <div class="markdown summary"><p>Processes the currently active <a class="xref" href="UILib.Patches.Lock.html">Locks</a> to
+determine what should be locked/unlocked.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class PauseHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public static class LockHandler</code></pre>
   </div>
 
 
@@ -124,7 +113,7 @@ know.</p>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">PauseHandler</span></div>
+      <div><span class="xref">LockHandler</span></div>
     </dd>
   </dl>
 
@@ -165,15 +154,80 @@ know.</p>
 </h2>
 
 
-  <a id="UILib_Patches_PauseHandler_isPaused_" data-uid="UILib.Patches.PauseHandler.isPaused*"></a>
+  <a id="UILib_Patches_LockHandler_isCursorFree_" data-uid="UILib.Patches.LockHandler.isCursorFree*"></a>
 
-  <h3 id="UILib_Patches_PauseHandler_isPaused" data-uid="UILib.Patches.PauseHandler.isPaused">
+  <h3 id="UILib_Patches_LockHandler_isCursorFree" data-uid="UILib.Patches.LockHandler.isCursorFree">
+  isCursorFree
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether the lock handler is currently freeing
+the cursor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isCursorFree { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Patches_LockHandler_isNavigationLocked_" data-uid="UILib.Patches.LockHandler.isNavigationLocked*"></a>
+
+  <h3 id="UILib_Patches_LockHandler_isNavigationLocked" data-uid="UILib.Patches.LockHandler.isNavigationLocked">
+  isNavigationLocked
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether the lock handler is currently locking
+navigation inputs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool isNavigationLocked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Patches_LockHandler_isPaused_" data-uid="UILib.Patches.LockHandler.isPaused*"></a>
+
+  <h3 id="UILib_Patches_LockHandler_isPaused" data-uid="UILib.Patches.LockHandler.isPaused">
   isPaused
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Indicates whether the game is currently paused
-by the <code>PauseHandler</code>.</p>
+  <div class="markdown level1 summary"><p>Whether the lock handler is currently pausing the game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -198,14 +252,144 @@ by the <code>PauseHandler</code>.</p>
 
 
 
-  <a id="UILib_Patches_PauseHandler_onPause_" data-uid="UILib.Patches.PauseHandler.onPause*"></a>
+  <a id="UILib_Patches_LockHandler_onCursorFree_" data-uid="UILib.Patches.LockHandler.onCursorFree*"></a>
 
-  <h3 id="UILib_Patches_PauseHandler_onPause" data-uid="UILib.Patches.PauseHandler.onPause">
+  <h3 id="UILib_Patches_LockHandler_onCursorFree" data-uid="UILib.Patches.LockHandler.onCursorFree">
+  onCursorFree
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners when the lock handler frees the cursor,
+allowing the user to move it around.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityEvent onCursorFree { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Patches_LockHandler_onCursorLock_" data-uid="UILib.Patches.LockHandler.onCursorLock*"></a>
+
+  <h3 id="UILib_Patches_LockHandler_onCursorLock" data-uid="UILib.Patches.LockHandler.onCursorLock">
+  onCursorLock
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners when the lock handler is no longer
+freeing the cursor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityEvent onCursorLock { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Patches_LockHandler_onNavigationLock_" data-uid="UILib.Patches.LockHandler.onNavigationLock*"></a>
+
+  <h3 id="UILib_Patches_LockHandler_onNavigationLock" data-uid="UILib.Patches.LockHandler.onNavigationLock">
+  onNavigationLock
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners when the lock handler is locking navigation inputs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityEvent onNavigationLock { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Patches_LockHandler_onNavigationUnlock_" data-uid="UILib.Patches.LockHandler.onNavigationUnlock*"></a>
+
+  <h3 id="UILib_Patches_LockHandler_onNavigationUnlock" data-uid="UILib.Patches.LockHandler.onNavigationUnlock">
+  onNavigationUnlock
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners when the lock handler is no longer locking navigation inputs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityEvent onNavigationUnlock { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Patches_LockHandler_onPause_" data-uid="UILib.Patches.LockHandler.onPause*"></a>
+
+  <h3 id="UILib_Patches_LockHandler_onPause" data-uid="UILib.Patches.LockHandler.onPause">
   onPause
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners when the game is paused.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners when the lock handler pauses the game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -230,14 +414,14 @@ by the <code>PauseHandler</code>.</p>
 
 
 
-  <a id="UILib_Patches_PauseHandler_onUnpause_" data-uid="UILib.Patches.PauseHandler.onUnpause*"></a>
+  <a id="UILib_Patches_LockHandler_onUnpause_" data-uid="UILib.Patches.LockHandler.onUnpause*"></a>
 
-  <h3 id="UILib_Patches_PauseHandler_onUnpause" data-uid="UILib.Patches.PauseHandler.onUnpause">
+  <h3 id="UILib_Patches_LockHandler_onUnpause" data-uid="UILib.Patches.LockHandler.onUnpause">
   onUnpause
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners when the game is unpaused.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners when the lock handler unpauses the game.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
