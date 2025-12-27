@@ -494,6 +494,11 @@ the top of all <a class="xref" href="UILib.Window.html">Windows</a>.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>Allows setting the theme of this title bar.</p>
+<p>This handles setting the theme specifically for this component,
+not its children. It's protected to allow overriding if you
+were to create a subclass.</p>
+<p>In most cases, you'd probably want to use
+<a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">SetTheme(Theme)</a> instead.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

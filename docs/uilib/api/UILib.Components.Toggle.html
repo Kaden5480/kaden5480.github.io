@@ -503,6 +503,38 @@ in the toggle whenever it's updated.</p>
 
 
 
+  <a id="UILib_Components_Toggle_playSound_" data-uid="UILib.Components.Toggle.playSound*"></a>
+
+  <h3 id="UILib_Components_Toggle_playSound" data-uid="UILib.Components.Toggle.playSound">
+  playSound
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether this toggle will play the navigation sound when clicked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool playSound { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="UILib_Components_Toggle_toggle_" data-uid="UILib.Components.Toggle.toggle*"></a>
 
   <h3 id="UILib_Components_Toggle_toggle" data-uid="UILib.Components.Toggle.toggle">
@@ -635,6 +667,39 @@ in the toggle whenever it's updated.</p>
 
 
 
+  <a id="UILib_Components_Toggle_SetPlaySound_" data-uid="UILib.Components.Toggle.SetPlaySound*"></a>
+
+  <h3 id="UILib_Components_Toggle_SetPlaySound_System_Boolean_" data-uid="UILib.Components.Toggle.SetPlaySound(System.Boolean)">
+  SetPlaySound(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets whether this toggle should play the navigation sound.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPlaySound(bool playSound)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>playSound</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether this toggle should play a sound</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="UILib_Components_Toggle_SetThisTheme_" data-uid="UILib.Components.Toggle.SetThisTheme*"></a>
 
   <h3 id="UILib_Components_Toggle_SetThisTheme_UILib_Theme_" data-uid="UILib.Components.Toggle.SetThisTheme(UILib.Theme)">
@@ -643,6 +708,11 @@ in the toggle whenever it's updated.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>Allows setting the theme of this toggle.</p>
+<p>This handles setting the theme specifically for this component,
+not its children. It's protected to allow overriding if you
+were to create a subclass.</p>
+<p>In most cases, you'd probably want to use
+<a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">SetTheme(Theme)</a> instead.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

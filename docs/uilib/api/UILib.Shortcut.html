@@ -173,6 +173,9 @@ variety of cases including:</p>
   <div class="markdown level1 summary"><p>Initializes a shortcut using the provided <code>KeyCodes</code>
 wrapped in BepInEx <code>ConfigEntry</code> types.</p>
 <p>All <code>keys</code> must be down for the shortcut to trigger.</p>
+<p>As the provided <code>ConfigEntry</code> types are references, any updates
+to their <code>Value</code> are automatically/naturally picked up by this shortcut.</p>
+<p>There is no reason to call <a class="xref" href="UILib.Shortcut.html#UILib_Shortcut_SetShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__System_Collections_Generic_IList_BepInEx_Configuration_ConfigEntry_UnityEngine_KeyCode___">SetShortcut(IList&lt;KeyCode&gt;, IList&lt;ConfigEntry&lt;KeyCode&gt;&gt;)</a> again in this case.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -243,6 +246,9 @@ wrapped in BepInEx <code>ConfigEntry</code> types.</p>
 <p>Both arguments are optional.</p>
 <p>All provided <code>keys</code> and <code>bepInKeys</code> must be down
 for the shortcut to trigger.</p>
+<p>As the provided <code>ConfigEntry</code> types are references, any updates
+to their <code>Value</code> are automatically/naturally picked up by this shortcut.</p>
+<p>There is no reason to call <a class="xref" href="UILib.Shortcut.html#UILib_Shortcut_SetShortcut_System_Collections_Generic_IList_UnityEngine_KeyCode__System_Collections_Generic_IList_BepInEx_Configuration_ConfigEntry_UnityEngine_KeyCode___">SetShortcut(IList&lt;KeyCode&gt;, IList&lt;ConfigEntry&lt;KeyCode&gt;&gt;)</a> again in this case.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -316,6 +322,12 @@ for the shortcut to trigger.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>A static property which indicates whether a shortcut can run.</p>
+<p>Shortcuts <strong>can't</strong> run in these cases:</p>
+<ul>
+<li>UILib's <code>InputOverlay</code> waiting for an input</li>
+<li>An input field being selected (to avoid triggering while typing/deselecting)</li>
+<li>The player is editing keybinds in the <code>InGameMenu</code></li>
+</ul>
 </div>
   <div class="markdown level1 conceptual"></div>
 

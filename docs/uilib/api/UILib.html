@@ -97,6 +97,13 @@ Classes
     <dl class="jumplist">
       <dt><a class="xref" href="UILib.Audio.html">Audio</a></dt>
       <dd><p>A class for interacting with UILib's audio.</p>
+<p>Note:
+If you intend to play multiple arbitrary sounds at once,
+you should not use this class.</p>
+<p>It's intended for most simple use cases, and has
+an <code>AudioSource</code> per <code>Play*</code> method, but it can't
+handle playing multiple sounds at once through the same
+<code>Play*</code> method.</p>
 </dd>
     </dl>
     <dl class="jumplist">
@@ -167,7 +174,8 @@ on the UI inherit from.</p>
       <dd><p>The base class which most objects
 inherit from.</p>
 <p>You'd rarely want to use this class directly though.
-Most of the time you'd want to use <a class="xref" href="UILib.UIComponent.html">UIComponent</a>.</p>
+Most of the time you'd want to use <a class="xref" href="UILib.UIComponent.html">UIComponent</a>
+or something like an <a class="xref" href="UILib.Overlay.html">Overlay</a> or <a class="xref" href="UILib.Window.html">Window</a>.</p>
 <p>Provides most of the necessary functionality.</p>
 </dd>
     </dl>

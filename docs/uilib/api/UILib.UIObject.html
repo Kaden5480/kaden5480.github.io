@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class UIObject | poy-ui-lib ">
       
-      <meta name="description" content="The base class which most objects inherit from. You&#39;d rarely want to use this class directly though. Most of the time you&#39;d want to use . Provides most of the necessary functionality.">
+      <meta name="description" content="The base class which most objects inherit from. You&#39;d rarely want to use this class directly though. Most of the time you&#39;d want to use  or something like an  or . Provides most of the necessary functionality.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -100,7 +100,8 @@ Class UIObject
   <div class="markdown summary"><p>The base class which most objects
 inherit from.</p>
 <p>You'd rarely want to use this class directly though.
-Most of the time you'd want to use <a class="xref" href="UILib.UIComponent.html">UIComponent</a>.</p>
+Most of the time you'd want to use <a class="xref" href="UILib.UIComponent.html">UIComponent</a>
+or something like an <a class="xref" href="UILib.Overlay.html">Overlay</a> or <a class="xref" href="UILib.Window.html">Window</a>.</p>
 <p>Provides most of the necessary functionality.</p>
 </div>
   <div class="markdown conceptual"></div>
@@ -372,7 +373,7 @@ components to.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float height { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float height { get; }</code></pre>
   </div>
 
 
@@ -1054,7 +1055,7 @@ held down on this UIObject.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected float width { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float width { get; }</code></pre>
   </div>
 
 
@@ -1269,7 +1270,7 @@ a layout set on it (vertical or horizontal).</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Destroy this UIObject and all children.</p>
+  <div class="markdown level1 summary"><p>Destroys this UIObject and all children.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1636,7 +1637,7 @@ like so:</p>
 <p>In general adding to the <a class="xref" href="UILib.Components.ScrollView.html">ScrollView</a> directly doesn't make much
 sense, you usually want to add to the &quot;Content&quot; <code>GameObject</code> instead.
 So, <a class="xref" href="UILib.Components.ScrollView.html">ScrollViews</a> configure their content
-to be the &quot;Content&quot;, rather than &quot;ScrollView&quot;.</p>
+to be &quot;Content&quot;, rather than &quot;ScrollView&quot;.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2091,6 +2092,10 @@ the default theme being applied instead.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>Allows setting the theme of just this UIObject.</p>
+<p>This handles setting the theme specifically for this UIObject,
+not its children.</p>
+<p>In most cases, you'd probably want to use
+<a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">SetTheme(Theme)</a> instead.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 

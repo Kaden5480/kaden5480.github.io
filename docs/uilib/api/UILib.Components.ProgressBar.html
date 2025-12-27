@@ -338,8 +338,8 @@ Provides a simple visual representation of progress.</p>
 
   <a id="UILib_Components_ProgressBar__ctor_" data-uid="UILib.Components.ProgressBar.#ctor*"></a>
 
-  <h3 id="UILib_Components_ProgressBar__ctor" data-uid="UILib.Components.ProgressBar.#ctor">
-  ProgressBar()
+  <h3 id="UILib_Components_ProgressBar__ctor_System_Boolean_" data-uid="UILib.Components.ProgressBar.#ctor(System.Boolean)">
+  ProgressBar(bool)
   
   </h3>
 
@@ -348,9 +348,15 @@ Provides a simple visual representation of progress.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ProgressBar()</code></pre>
+    <pre><code class="lang-csharp hljs">public ProgressBar(bool vertical = false)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether this progress bar should be vertical</p>
+</dd>
+  </dl>
 
 
 
@@ -463,6 +469,38 @@ Provides a simple visual representation of progress.</p>
 
 
 
+  <a id="UILib_Components_ProgressBar_vertical_" data-uid="UILib.Components.ProgressBar.vertical*"></a>
+
+  <h3 id="UILib_Components_ProgressBar_vertical" data-uid="UILib.Components.ProgressBar.vertical">
+  vertical
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether this progress bar is vertical.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool vertical { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -480,12 +518,12 @@ This must be between 0 and 1.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetProgress(float value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetProgress(float progress)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dt><code>progress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd><p>The value to set the progress to</p>
 </dd>
   </dl>
@@ -509,6 +547,11 @@ This must be between 0 and 1.</p>
   </h3>
 
   <div class="markdown level1 summary"><p>Allows setting the theme of this progress bar.</p>
+<p>This handles setting the theme specifically for this component,
+not its children. It's protected to allow overriding if you
+were to create a subclass.</p>
+<p>In most cases, you'd probably want to use
+<a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetTheme_UILib_Theme_">SetTheme(Theme)</a> instead.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -520,6 +563,42 @@ This must be between 0 and 1.</p>
   <dl class="parameters">
     <dt><code>theme</code> <a class="xref" href="UILib.Theme.html">Theme</a></dt>
     <dd><p>The theme to apply</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Components_ProgressBar_SetVertical_" data-uid="UILib.Components.ProgressBar.SetVertical*"></a>
+
+  <h3 id="UILib_Components_ProgressBar_SetVertical_System_Boolean_" data-uid="UILib.Components.ProgressBar.SetVertical(System.Boolean)">
+  SetVertical(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets whether this progress bar is vertical.</p>
+<p>Passing <code>true</code> means it will become vertical (bottom to top).
+Passing <code>false</code> means it will become horizontal (left to right).</p>
+<p>This will also immediately update the progress bar's visuals.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetVertical(bool vertical)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>vertical</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether this progress bar is vertical</p>
 </dd>
   </dl>
 

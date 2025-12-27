@@ -821,6 +821,22 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Button.SetBackground
   nameWithType: Button.SetBackground
+- uid: UILib.Components.Button.SetPlaySound(System.Boolean)
+  name: SetPlaySound(bool)
+  href: api/UILib.Components.Button.html#UILib_Components_Button_SetPlaySound_System_Boolean_
+  commentId: M:UILib.Components.Button.SetPlaySound(System.Boolean)
+  name.vb: SetPlaySound(Boolean)
+  fullName: UILib.Components.Button.SetPlaySound(bool)
+  fullName.vb: UILib.Components.Button.SetPlaySound(Boolean)
+  nameWithType: Button.SetPlaySound(bool)
+  nameWithType.vb: Button.SetPlaySound(Boolean)
+- uid: UILib.Components.Button.SetPlaySound*
+  name: SetPlaySound
+  href: api/UILib.Components.Button.html#UILib_Components_Button_SetPlaySound_
+  commentId: Overload:UILib.Components.Button.SetPlaySound
+  isSpec: "True"
+  fullName: UILib.Components.Button.SetPlaySound
+  nameWithType: Button.SetPlaySound
 - uid: UILib.Components.Button.SetText(System.String)
   name: SetText(string)
   href: api/UILib.Components.Button.html#UILib_Components_Button_SetText_System_String_
@@ -928,6 +944,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Button.onClick
   nameWithType: Button.onClick
+- uid: UILib.Components.Button.playSound
+  name: playSound
+  href: api/UILib.Components.Button.html#UILib_Components_Button_playSound
+  commentId: P:UILib.Components.Button.playSound
+  fullName: UILib.Components.Button.playSound
+  nameWithType: Button.playSound
+- uid: UILib.Components.Button.playSound*
+  name: playSound
+  href: api/UILib.Components.Button.html#UILib_Components_Button_playSound_
+  commentId: Overload:UILib.Components.Button.playSound
+  isSpec: "True"
+  fullName: UILib.Components.Button.playSound
+  nameWithType: Button.playSound
 - uid: UILib.Components.ColorField
   name: ColorField
   href: api/UILib.Components.ColorField.html
@@ -1712,15 +1741,15 @@ references:
   commentId: T:UILib.Components.ProgressBar
   fullName: UILib.Components.ProgressBar
   nameWithType: ProgressBar
-- uid: UILib.Components.ProgressBar.#ctor
-  name: ProgressBar()
-  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar__ctor
-  commentId: M:UILib.Components.ProgressBar.#ctor
-  name.vb: New()
-  fullName: UILib.Components.ProgressBar.ProgressBar()
-  fullName.vb: UILib.Components.ProgressBar.New()
-  nameWithType: ProgressBar.ProgressBar()
-  nameWithType.vb: ProgressBar.New()
+- uid: UILib.Components.ProgressBar.#ctor(System.Boolean)
+  name: ProgressBar(bool)
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar__ctor_System_Boolean_
+  commentId: M:UILib.Components.ProgressBar.#ctor(System.Boolean)
+  name.vb: New(Boolean)
+  fullName: UILib.Components.ProgressBar.ProgressBar(bool)
+  fullName.vb: UILib.Components.ProgressBar.New(Boolean)
+  nameWithType: ProgressBar.ProgressBar(bool)
+  nameWithType.vb: ProgressBar.New(Boolean)
 - uid: UILib.Components.ProgressBar.#ctor*
   name: ProgressBar
   href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar__ctor_
@@ -1760,6 +1789,22 @@ references:
   isSpec: "True"
   fullName: UILib.Components.ProgressBar.SetThisTheme
   nameWithType: ProgressBar.SetThisTheme
+- uid: UILib.Components.ProgressBar.SetVertical(System.Boolean)
+  name: SetVertical(bool)
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_SetVertical_System_Boolean_
+  commentId: M:UILib.Components.ProgressBar.SetVertical(System.Boolean)
+  name.vb: SetVertical(Boolean)
+  fullName: UILib.Components.ProgressBar.SetVertical(bool)
+  fullName.vb: UILib.Components.ProgressBar.SetVertical(Boolean)
+  nameWithType: ProgressBar.SetVertical(bool)
+  nameWithType.vb: ProgressBar.SetVertical(Boolean)
+- uid: UILib.Components.ProgressBar.SetVertical*
+  name: SetVertical
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_SetVertical_
+  commentId: Overload:UILib.Components.ProgressBar.SetVertical
+  isSpec: "True"
+  fullName: UILib.Components.ProgressBar.SetVertical
+  nameWithType: ProgressBar.SetVertical
 - uid: UILib.Components.ProgressBar.background
   name: background
   href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_background
@@ -1799,6 +1844,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.ProgressBar.progress
   nameWithType: ProgressBar.progress
+- uid: UILib.Components.ProgressBar.vertical
+  name: vertical
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_vertical
+  commentId: P:UILib.Components.ProgressBar.vertical
+  fullName: UILib.Components.ProgressBar.vertical
+  nameWithType: ProgressBar.vertical
+- uid: UILib.Components.ProgressBar.vertical*
+  name: vertical
+  href: api/UILib.Components.ProgressBar.html#UILib_Components_ProgressBar_vertical_
+  commentId: Overload:UILib.Components.ProgressBar.vertical
+  isSpec: "True"
+  fullName: UILib.Components.ProgressBar.vertical
+  nameWithType: ProgressBar.vertical
 - uid: UILib.Components.QueueArea
   name: QueueArea
   href: api/UILib.Components.QueueArea.html
@@ -2811,6 +2869,22 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Toggle.SetOnImage
   nameWithType: Toggle.SetOnImage
+- uid: UILib.Components.Toggle.SetPlaySound(System.Boolean)
+  name: SetPlaySound(bool)
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetPlaySound_System_Boolean_
+  commentId: M:UILib.Components.Toggle.SetPlaySound(System.Boolean)
+  name.vb: SetPlaySound(Boolean)
+  fullName: UILib.Components.Toggle.SetPlaySound(bool)
+  fullName.vb: UILib.Components.Toggle.SetPlaySound(Boolean)
+  nameWithType: Toggle.SetPlaySound(bool)
+  nameWithType.vb: Toggle.SetPlaySound(Boolean)
+- uid: UILib.Components.Toggle.SetPlaySound*
+  name: SetPlaySound
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetPlaySound_
+  commentId: Overload:UILib.Components.Toggle.SetPlaySound
+  isSpec: "True"
+  fullName: UILib.Components.Toggle.SetPlaySound
+  nameWithType: Toggle.SetPlaySound
 - uid: UILib.Components.Toggle.SetThisTheme(UILib.Theme)
   name: SetThisTheme(Theme)
   href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_SetThisTheme_UILib_Theme_
@@ -2892,6 +2966,19 @@ references:
   isSpec: "True"
   fullName: UILib.Components.Toggle.onValueChanged
   nameWithType: Toggle.onValueChanged
+- uid: UILib.Components.Toggle.playSound
+  name: playSound
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_playSound
+  commentId: P:UILib.Components.Toggle.playSound
+  fullName: UILib.Components.Toggle.playSound
+  nameWithType: Toggle.playSound
+- uid: UILib.Components.Toggle.playSound*
+  name: playSound
+  href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_playSound_
+  commentId: Overload:UILib.Components.Toggle.playSound
+  isSpec: "True"
+  fullName: UILib.Components.Toggle.playSound
+  nameWithType: Toggle.playSound
 - uid: UILib.Components.Toggle.toggle
   name: toggle
   href: api/UILib.Components.Toggle.html#UILib_Components_Toggle_toggle
@@ -3729,6 +3816,12 @@ references:
   commentId: F:UILib.Patches.SceneType.Default
   fullName: UILib.Patches.SceneType.Default
   nameWithType: SceneType.Default
+- uid: UILib.Patches.SceneType.Editor
+  name: Editor
+  href: api/UILib.Patches.SceneType.html#UILib_Patches_SceneType_Editor
+  commentId: F:UILib.Patches.SceneType.Editor
+  fullName: UILib.Patches.SceneType.Editor
+  nameWithType: SceneType.Editor
 - uid: UILib.Patches.SceneType.QuickPlaytest
   name: QuickPlaytest
   href: api/UILib.Patches.SceneType.html#UILib_Patches_SceneType_QuickPlaytest
@@ -3841,6 +3934,32 @@ references:
   isSpec: "True"
   fullName: UILib.Resources.gameFont
   nameWithType: Resources.gameFont
+- uid: UILib.Resources.gameFontAlt
+  name: gameFontAlt
+  href: api/UILib.Resources.html#UILib_Resources_gameFontAlt
+  commentId: P:UILib.Resources.gameFontAlt
+  fullName: UILib.Resources.gameFontAlt
+  nameWithType: Resources.gameFontAlt
+- uid: UILib.Resources.gameFontAlt*
+  name: gameFontAlt
+  href: api/UILib.Resources.html#UILib_Resources_gameFontAlt_
+  commentId: Overload:UILib.Resources.gameFontAlt
+  isSpec: "True"
+  fullName: UILib.Resources.gameFontAlt
+  nameWithType: Resources.gameFontAlt
+- uid: UILib.Resources.gameMenuClick
+  name: gameMenuClick
+  href: api/UILib.Resources.html#UILib_Resources_gameMenuClick
+  commentId: P:UILib.Resources.gameMenuClick
+  fullName: UILib.Resources.gameMenuClick
+  nameWithType: Resources.gameMenuClick
+- uid: UILib.Resources.gameMenuClick*
+  name: gameMenuClick
+  href: api/UILib.Resources.html#UILib_Resources_gameMenuClick_
+  commentId: Overload:UILib.Resources.gameMenuClick
+  isSpec: "True"
+  fullName: UILib.Resources.gameMenuClick
+  nameWithType: Resources.gameMenuClick
 - uid: UILib.Resources.hsvOpacity
   name: hsvOpacity
   href: api/UILib.Resources.html#UILib_Resources_hsvOpacity

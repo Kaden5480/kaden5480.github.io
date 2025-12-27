@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Audio | poy-ui-lib ">
       
-      <meta name="description" content="A class for interacting with UILib&#39;s audio.">
+      <meta name="description" content="A class for interacting with UILib&#39;s audio. Note: If you intend to play multiple arbitrary sounds at once, you should not use this class. It&#39;s intended for most simple use cases, and has an AudioSource per Play* method, but it can&#39;t handle playing multiple sounds at once through the same Play* method.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -98,6 +98,13 @@ Class Audio
   </div>
 
   <div class="markdown summary"><p>A class for interacting with UILib's audio.</p>
+<p>Note:
+If you intend to play multiple arbitrary sounds at once,
+you should not use this class.</p>
+<p>It's intended for most simple use cases, and has
+an <code>AudioSource</code> per <code>Play*</code> method, but it can't
+handle playing multiple sounds at once through the same
+<code>Play*</code> method.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -161,6 +168,7 @@ Class Audio
   </h3>
 
   <div class="markdown level1 summary"><p>Plays the specified audio clip.</p>
+<p>This is only usable from <a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_onInit">onInit</a> onwards.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -198,6 +206,7 @@ Class Audio
 
   <div class="markdown level1 summary"><p>Plays the error notification sound from the provided theme.</p>
 <p>Passing <code>null</code> for the theme means the current theme will be used instead.</p>
+<p>This is only usable from <a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_onInit">onInit</a> onwards.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -231,6 +240,7 @@ Class Audio
 
   <div class="markdown level1 summary"><p>Plays the navigation sound from the provided theme.</p>
 <p>Passing <code>null</code> for the theme means the current theme will be used instead.</p>
+<p>This is only usable from <a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_onInit">onInit</a> onwards.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -264,6 +274,7 @@ Class Audio
 
   <div class="markdown level1 summary"><p>Plays the notification sound from the provided theme.</p>
 <p>Passing <code>null</code> for the theme means the current theme will be used instead.</p>
+<p>This is only usable from <a class="xref" href="UILib.UIRoot.html#UILib_UIRoot_onInit">onInit</a> onwards.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
