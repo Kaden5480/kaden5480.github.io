@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace UILib.Behaviours | poy-ui-lib </title>
+      <title>Namespace UILib.Events | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace UILib.Behaviours | poy-ui-lib ">
+      <meta name="title" content="Namespace UILib.Events | poy-ui-lib ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -84,9 +84,9 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Behaviours">
+        <article data-uid="UILib.Events">
 
-  <h1 id="UILib_Behaviours" data-uid="UILib.Behaviours" class="text-break">Namespace UILib.Behaviours</h1>
+  <h1 id="UILib_Events" data-uid="UILib.Events" class="text-break">Namespace UILib.Events</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
@@ -95,14 +95,27 @@
 Classes
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Behaviours.BaseTimer.html">BaseTimer</a></dt>
-      <dd><p>A reversible timer which always goes between 0 and a set <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">duration</a>.</p>
+      <dt><a class="xref" href="UILib.Events.MouseEvent.html">MouseEvent</a></dt>
+      <dd><p>An event type which passes a <code>Vector2</code> position
+to listeners when the mouse is clicked/dragged.
+This will be the current position of the mouse.</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Behaviours.Timer.html">Timer</a></dt>
-      <dd><p>A reversible timer with a configurable duration
-and time scale (speed).</p>
+      <dt><a class="xref" href="UILib.Events.UIEvent.html">UIEvent</a></dt>
+      <dd><p>An event type used for significant aspects of UILib's API.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Events.ValueEvent-1.html">ValueEvent&lt;T&gt;</a></dt>
+      <dd><p>An event type which passes a value
+to its listeners.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Events.ValueEvent-2.html">ValueEvent&lt;T1, T2&gt;</a></dt>
+      <dd><p>An event type which passes two values
+to its listeners.</p>
 </dd>
     </dl>
 

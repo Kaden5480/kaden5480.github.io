@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Timer | poy-ui-lib </title>
+      <title>Class Fade | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Timer | poy-ui-lib ">
+      <meta name="title" content="Class Fade | poy-ui-lib ">
       
-      <meta name="description" content="A reversible timer with a configurable duration and time scale (speed).">
+      <meta name="description" content="A  behaviour which fades between two opacities.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,26 +84,26 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Behaviours.Timer">
+        <article data-uid="UILib.Animations.Fade">
 
 
 
-  <h1 id="UILib_Behaviours_Timer" data-uid="UILib.Behaviours.Timer" class="text-break">
-Class Timer  
+  <h1 id="UILib_Animations_Fade" data-uid="UILib.Animations.Fade" class="text-break">
+Class Fade  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Behaviours.html">Behaviours</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Animations.html">Animations</a></dd></dl>
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A reversible timer with a configurable duration
-and time scale (speed).</p>
+  <div class="markdown summary"><p>A <a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a> behaviour which fades between two
+opacities.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Timer : BaseTimer</code></pre>
+    <pre><code class="lang-csharp hljs">public class Fade : BaseEase</code></pre>
   </div>
 
 
@@ -118,7 +118,8 @@ and time scale (speed).</p>
       <div><span class="xref">Behaviour</span></div>
       <div><span class="xref">MonoBehaviour</span></div>
       <div><a class="xref" href="UILib.Behaviours.BaseTimer.html">BaseTimer</a></div>
-      <div><span class="xref">Timer</span></div>
+      <div><a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a></div>
+      <div><span class="xref">Fade</span></div>
     </dd>
   </dl>
 
@@ -127,6 +128,42 @@ and time scale (speed).</p>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_minValue">BaseEase.minValue</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_maxValue">BaseEase.maxValue</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_value">BaseEase.value</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_easingIn">BaseEase.easingIn</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_easingOut">BaseEase.easingOut</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_easeFunction">BaseEase.easeFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase__SetValues_System_Single_System_Single_">BaseEase._SetValues(float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_SetEaseFunction_System_Func_System_Single_System_Single__">BaseEase.SetEaseFunction(Func&lt;float, float&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_EaseIn_System_Boolean_">BaseEase.EaseIn(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_EaseOut_System_Boolean_">BaseEase.EaseOut(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_OnIter_System_Single_">BaseEase.OnIter(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_OnEnd">BaseEase.OnEnd()</a>
+    </div>
     <div>
       <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_running">BaseTimer.running</a>
     </div>
@@ -582,19 +619,147 @@ and time scale (speed).</p>
 </h2>
 
 
-  <a id="UILib_Behaviours_Timer_onEnd_" data-uid="UILib.Behaviours.Timer.onEnd*"></a>
+  <a id="UILib_Animations_Fade_fadingIn_" data-uid="UILib.Animations.Fade.fadingIn*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_onEnd" data-uid="UILib.Behaviours.Timer.onEnd">
-  onEnd
+  <h3 id="UILib_Animations_Fade_fadingIn" data-uid="UILib.Animations.Fade.fadingIn">
+  fadingIn
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners when the timer finishes running.</p>
+  <div class="markdown level1 summary"><p>Whether this behaviour is currently fading in.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool fadingIn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_fadingOut_" data-uid="UILib.Animations.Fade.fadingOut*"></a>
+
+  <h3 id="UILib_Animations_Fade_fadingOut" data-uid="UILib.Animations.Fade.fadingOut">
+  fadingOut
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether this behaviour is currently fading out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool fadingOut { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_maxOpacity_" data-uid="UILib.Animations.Fade.maxOpacity*"></a>
+
+  <h3 id="UILib_Animations_Fade_maxOpacity" data-uid="UILib.Animations.Fade.maxOpacity">
+  maxOpacity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The maximum opacity (0-1 inclusive).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float maxOpacity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_minOpacity_" data-uid="UILib.Animations.Fade.minOpacity*"></a>
+
+  <h3 id="UILib_Animations_Fade_minOpacity" data-uid="UILib.Animations.Fade.minOpacity">
+  minOpacity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The minimum opacity (0-1 inclusive).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float minOpacity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_onFadeIn_" data-uid="UILib.Animations.Fade.onFadeIn*"></a>
+
+  <h3 id="UILib_Animations_Fade_onFadeIn" data-uid="UILib.Animations.Fade.onFadeIn">
+  onFadeIn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners once fading in finishes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onFadeIn { get; }</code></pre>
   </div>
 
 
@@ -614,20 +779,19 @@ and time scale (speed).</p>
 
 
 
-  <a id="UILib_Behaviours_Timer_onIter_" data-uid="UILib.Behaviours.Timer.onIter*"></a>
+  <a id="UILib_Animations_Fade_onFadeOut_" data-uid="UILib.Animations.Fade.onFadeOut*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_onIter" data-uid="UILib.Behaviours.Timer.onIter">
-  onIter
+  <h3 id="UILib_Animations_Fade_onFadeOut" data-uid="UILib.Animations.Fade.onFadeOut">
+  onFadeOut
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners on each iteration of the timer,
-passing the current value the timer is at.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners once fading out finishes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueEvent&lt;float&gt; onIter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent onFadeOut { get; }</code></pre>
   </div>
 
 
@@ -636,7 +800,39 @@ passing the current value the timer is at.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Events.ValueEvent-1.html">ValueEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_opacity_" data-uid="UILib.Animations.Fade.opacity*"></a>
+
+  <h3 id="UILib_Animations_Fade_opacity" data-uid="UILib.Animations.Fade.opacity">
+  opacity
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The current opacity the canvas groups are set to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float opacity { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
   </dl>
 
@@ -651,52 +847,250 @@ passing the current value the timer is at.</p>
 </h2>
 
 
-  <a id="UILib_Behaviours_Timer_OnEnd_" data-uid="UILib.Behaviours.Timer.OnEnd*"></a>
+  <a id="UILib_Animations_Fade_Add_" data-uid="UILib.Animations.Fade.Add*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_OnEnd" data-uid="UILib.Behaviours.Timer.OnEnd">
-  OnEnd()
+  <h3 id="UILib_Animations_Fade_Add_UnityEngine_CanvasGroup_" data-uid="UILib.Animations.Fade.Add(UnityEngine.CanvasGroup)">
+  Add(CanvasGroup)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Runs when the timer finishes.</p>
+  <div class="markdown level1 summary"><p>Adds a canvas group to be managed by this behaviour.</p>
+<p>Adding the group to this behaviour will also immediately
+update its alpha value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnEnd()</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Behaviours_Timer_OnIter_" data-uid="UILib.Behaviours.Timer.OnIter*"></a>
-
-  <h3 id="UILib_Behaviours_Timer_OnIter_System_Single_" data-uid="UILib.Behaviours.Timer.OnIter(System.Single)">
-  OnIter(float)
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Runs on each iteration of the timer.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnIter(float time)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Add(CanvasGroup group)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>The current value of the timer</p>
+    <dt><code>group</code> <span class="xref">CanvasGroup</span></dt>
+    <dd><p>The canvas group to add</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_FadeIn_" data-uid="UILib.Animations.Fade.FadeIn*"></a>
+
+  <h3 id="UILib_Animations_Fade_FadeIn_System_Boolean_" data-uid="UILib.Animations.Fade.FadeIn(System.Boolean)">
+  FadeIn(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fades the attached canvas groups in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FadeIn(bool force = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force fading in</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_FadeOut_" data-uid="UILib.Animations.Fade.FadeOut*"></a>
+
+  <h3 id="UILib_Animations_Fade_FadeOut_System_Boolean_" data-uid="UILib.Animations.Fade.FadeOut(System.Boolean)">
+  FadeOut(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Fades the attached canvas groups out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FadeOut(bool force = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force fading out</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_OnEaseIn_" data-uid="UILib.Animations.Fade.OnEaseIn*"></a>
+
+  <h3 id="UILib_Animations_Fade_OnEaseIn" data-uid="UILib.Animations.Fade.OnEaseIn">
+  OnEaseIn()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Runs when easing in has finished.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEaseIn()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_OnEaseOut_" data-uid="UILib.Animations.Fade.OnEaseOut*"></a>
+
+  <h3 id="UILib_Animations_Fade_OnEaseOut" data-uid="UILib.Animations.Fade.OnEaseOut">
+  OnEaseOut()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Runs when easing out has finished.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEaseOut()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_SetOpacities_" data-uid="UILib.Animations.Fade.SetOpacities*"></a>
+
+  <h3 id="UILib_Animations_Fade_SetOpacities_System_Single_System_Single_" data-uid="UILib.Animations.Fade.SetOpacities(System.Single,System.Single)">
+  SetOpacities(float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the opacities to fade between.
+These opacities must be between 0-1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOpacities(float minOpacity, float maxOpacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>minOpacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The minimum opacity</p>
+</dd>
+    <dt><code>maxOpacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The maximum opacity</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade_SetOpacity_" data-uid="UILib.Animations.Fade.SetOpacity*"></a>
+
+  <h3 id="UILib_Animations_Fade_SetOpacity_System_Single_" data-uid="UILib.Animations.Fade.SetOpacity(System.Single)">
+  SetOpacity(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updates the opacity of all canvas groups.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetOpacity(float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The new opacity to use</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Fade__SetValue_" data-uid="UILib.Animations.Fade._SetValue*"></a>
+
+  <h3 id="UILib_Animations_Fade__SetValue_System_Single_" data-uid="UILib.Animations.Fade._SetValue(System.Single)">
+  _SetValue(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Internally updates canvas opacity on each iteration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void _SetValue(float opacity)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>opacity</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The opacity to set</p>
 </dd>
   </dl>
 

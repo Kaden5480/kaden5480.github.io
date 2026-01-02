@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Timer | poy-ui-lib </title>
+      <title>Class BaseTimer | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Timer | poy-ui-lib ">
+      <meta name="title" content="Class BaseTimer | poy-ui-lib ">
       
-      <meta name="description" content="A reversible timer with a configurable duration and time scale (speed).">
+      <meta name="description" content="A reversible timer which always goes between 0 and a set .">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Behaviours.Timer">
+        <article data-uid="UILib.Behaviours.BaseTimer">
 
 
 
-  <h1 id="UILib_Behaviours_Timer" data-uid="UILib.Behaviours.Timer" class="text-break">
-Class Timer  
+  <h1 id="UILib_Behaviours_BaseTimer" data-uid="UILib.Behaviours.BaseTimer" class="text-break">
+Class BaseTimer  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,12 @@ Class Timer
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A reversible timer with a configurable duration
-and time scale (speed).</p>
+  <div class="markdown summary"><p>A reversible timer which always goes between 0 and a set <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">duration</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Timer : BaseTimer</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class BaseTimer : MonoBehaviour</code></pre>
   </div>
 
 
@@ -117,67 +116,23 @@ and time scale (speed).</p>
       <div><span class="xref">Component</span></div>
       <div><span class="xref">Behaviour</span></div>
       <div><span class="xref">MonoBehaviour</span></div>
-      <div><a class="xref" href="UILib.Behaviours.BaseTimer.html">BaseTimer</a></div>
-      <div><span class="xref">Timer</span></div>
+      <div><span class="xref">BaseTimer</span></div>
     </dd>
   </dl>
 
 
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a></div>
+      <div><a class="xref" href="UILib.Animations.EaseGroup.html">EaseGroup</a></div>
+      <div><a class="xref" href="UILib.Behaviours.Timer.html">Timer</a></div>
+    </dd>
+  </dl>
 
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_running">BaseTimer.running</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_time">BaseTimer.time</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">BaseTimer.duration</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_timeScale">BaseTimer.timeScale</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_increasing">BaseTimer.increasing</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_ForceRun">BaseTimer.ForceRun()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_StartTimer">BaseTimer.StartTimer()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_RestartTimer">BaseTimer.RestartTimer()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_StopTimer">BaseTimer.StopTimer()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_SetIncreasing_System_Boolean_">BaseTimer.SetIncreasing(bool)</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_Reverse">BaseTimer.Reverse()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_SetDuration_System_Single_">BaseTimer.SetDuration(float)</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_SetTimeScale_System_Single_">BaseTimer.SetTimeScale(float)</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_SetTime_System_Single_">BaseTimer.SetTime(float)</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_SetToStart">BaseTimer.SetToStart()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_SetToEnd">BaseTimer.SetToEnd()</a>
-    </div>
-    <div>
-      <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_OnStart">BaseTimer.OnStart()</a>
-    </div>
     <div>
       <span class="xref">MonoBehaviour.IsInvoking()</span>
     </div>
@@ -582,19 +537,20 @@ and time scale (speed).</p>
 </h2>
 
 
-  <a id="UILib_Behaviours_Timer_onEnd_" data-uid="UILib.Behaviours.Timer.onEnd*"></a>
+  <a id="UILib_Behaviours_BaseTimer_duration_" data-uid="UILib.Behaviours.BaseTimer.duration*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_onEnd" data-uid="UILib.Behaviours.Timer.onEnd">
-  onEnd
+  <h3 id="UILib_Behaviours_BaseTimer_duration" data-uid="UILib.Behaviours.BaseTimer.duration">
+  duration
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners when the timer finishes running.</p>
+  <div class="markdown level1 summary"><p>The total length of time this timer
+will take to run.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float duration { get; }</code></pre>
   </div>
 
 
@@ -603,7 +559,7 @@ and time scale (speed).</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
   </dl>
 
@@ -614,20 +570,22 @@ and time scale (speed).</p>
 
 
 
-  <a id="UILib_Behaviours_Timer_onIter_" data-uid="UILib.Behaviours.Timer.onIter*"></a>
+  <a id="UILib_Behaviours_BaseTimer_increasing_" data-uid="UILib.Behaviours.BaseTimer.increasing*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_onIter" data-uid="UILib.Behaviours.Timer.onIter">
-  onIter
+  <h3 id="UILib_Behaviours_BaseTimer_increasing" data-uid="UILib.Behaviours.BaseTimer.increasing">
+  increasing
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners on each iteration of the timer,
-passing the current value the timer is at.</p>
+  <div class="markdown level1 summary"><p>Whether this timer is increasing or decreasing.</p>
+<p>Increasing means the timer is heading towards
+the <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">duration</a>.
+Decreasing means the timer is heading towards <code>0</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueEvent&lt;float&gt; onIter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">protected bool increasing { get; }</code></pre>
   </div>
 
 
@@ -636,7 +594,107 @@ passing the current value the timer is at.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Events.ValueEvent-1.html">ValueEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_running_" data-uid="UILib.Behaviours.BaseTimer.running*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_running" data-uid="UILib.Behaviours.BaseTimer.running">
+  running
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether the timer is currently running.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool running { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_time_" data-uid="UILib.Behaviours.BaseTimer.time*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_time" data-uid="UILib.Behaviours.BaseTimer.time">
+  time
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The current time this timer is at.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float time { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_timeScale_" data-uid="UILib.Behaviours.BaseTimer.timeScale*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_timeScale" data-uid="UILib.Behaviours.BaseTimer.timeScale">
+  timeScale
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>This timer's current time scale.</p>
+<p>This determines how quickly the timer runs
+by scaling the time delta on each iteration by this value.</p>
+<p>A higher time scale means a faster timer,
+a lower time scale means a slower timer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected float timeScale { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
     <dd></dd>
   </dl>
 
@@ -651,19 +709,22 @@ passing the current value the timer is at.</p>
 </h2>
 
 
-  <a id="UILib_Behaviours_Timer_OnEnd_" data-uid="UILib.Behaviours.Timer.OnEnd*"></a>
+  <a id="UILib_Behaviours_BaseTimer_ForceRun_" data-uid="UILib.Behaviours.BaseTimer.ForceRun*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_OnEnd" data-uid="UILib.Behaviours.Timer.OnEnd">
-  OnEnd()
+  <h3 id="UILib_Behaviours_BaseTimer_ForceRun" data-uid="UILib.Behaviours.BaseTimer.ForceRun">
+  ForceRun()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Runs when the timer finishes.</p>
+  <div class="markdown level1 summary"><p>Forces the timer to reach an end point.</p>
+<p>If the timer is set to be <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_increasing">increasing</a>, the end point will
+be the <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">duration</a>.
+If the timer is set to be decreasing, the end point will be <code>0</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnEnd()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void ForceRun()</code></pre>
   </div>
 
 
@@ -678,9 +739,38 @@ passing the current value the timer is at.</p>
 
 
 
-  <a id="UILib_Behaviours_Timer_OnIter_" data-uid="UILib.Behaviours.Timer.OnIter*"></a>
+  <a id="UILib_Behaviours_BaseTimer_OnEnd_" data-uid="UILib.Behaviours.BaseTimer.OnEnd*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_OnIter_System_Single_" data-uid="UILib.Behaviours.Timer.OnIter(System.Single)">
+  <h3 id="UILib_Behaviours_BaseTimer_OnEnd" data-uid="UILib.Behaviours.BaseTimer.OnEnd">
+  OnEnd()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Runs when the timer reaches an end point.
+This would be <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">duration</a> if the timer is increasing,
+and <code>0</code> if decreasing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_OnIter_" data-uid="UILib.Behaviours.BaseTimer.OnIter*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_OnIter_System_Single_" data-uid="UILib.Behaviours.BaseTimer.OnIter(System.Single)">
   OnIter(float)
   
   </h3>
@@ -690,7 +780,7 @@ passing the current value the timer is at.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnIter(float time)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void OnIter(float time)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -699,6 +789,341 @@ passing the current value the timer is at.</p>
     <dd><p>The current value of the timer</p>
 </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_OnStart_" data-uid="UILib.Behaviours.BaseTimer.OnStart*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_OnStart" data-uid="UILib.Behaviours.BaseTimer.OnStart">
+  OnStart()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Runs just before the timer's coroutine
+starts running.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnStart()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_RestartTimer_" data-uid="UILib.Behaviours.BaseTimer.RestartTimer*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_RestartTimer" data-uid="UILib.Behaviours.BaseTimer.RestartTimer">
+  RestartTimer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Restarts the timer.</p>
+<p>If the timer is set to be <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_increasing">increasing</a>, the timer
+will start from <code>0</code>.
+Otherwise, the timer will start from <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">duration</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void RestartTimer()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_Reverse_" data-uid="UILib.Behaviours.BaseTimer.Reverse*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_Reverse" data-uid="UILib.Behaviours.BaseTimer.Reverse">
+  Reverse()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Tells the timer to go in the reverse of its
+current direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Reverse()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_SetDuration_" data-uid="UILib.Behaviours.BaseTimer.SetDuration*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_SetDuration_System_Single_" data-uid="UILib.Behaviours.BaseTimer.SetDuration(System.Single)">
+  SetDuration(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets how long this timer should take to run.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetDuration(float duration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>duration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The duration to set</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_SetIncreasing_" data-uid="UILib.Behaviours.BaseTimer.SetIncreasing*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_SetIncreasing_System_Boolean_" data-uid="UILib.Behaviours.BaseTimer.SetIncreasing(System.Boolean)">
+  SetIncreasing(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the direction this timer should run in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetIncreasing(bool increasing)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>increasing</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether this timer should be increasing</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_SetTime_" data-uid="UILib.Behaviours.BaseTimer.SetTime*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_SetTime_System_Single_" data-uid="UILib.Behaviours.BaseTimer.SetTime(System.Single)">
+  SetTime(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_time">time</a> to a specific value.</p>
+<p>This must be between <code>0</code> and the configured <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">duration</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetTime(float time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value to set the time to</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_SetTimeScale_" data-uid="UILib.Behaviours.BaseTimer.SetTimeScale*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_SetTimeScale_System_Single_" data-uid="UILib.Behaviours.BaseTimer.SetTimeScale(System.Single)">
+  SetTimeScale(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the timer's <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_timeScale">timeScale</a>.</p>
+<p>This determines how quickly the timer will run.</p>
+<p>This value must be &gt;= <code>0</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetTimeScale(float timeScale)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>timeScale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The time scale to set</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_SetToEnd_" data-uid="UILib.Behaviours.BaseTimer.SetToEnd*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_SetToEnd" data-uid="UILib.Behaviours.BaseTimer.SetToEnd">
+  SetToEnd()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_time">time</a> to the <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">duration</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetToEnd()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_SetToStart_" data-uid="UILib.Behaviours.BaseTimer.SetToStart*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_SetToStart" data-uid="UILib.Behaviours.BaseTimer.SetToStart">
+  SetToStart()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_time">time</a> to <code>0</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetToStart()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_StartTimer_" data-uid="UILib.Behaviours.BaseTimer.StartTimer*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_StartTimer" data-uid="UILib.Behaviours.BaseTimer.StartTimer">
+  StartTimer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Starts the timer.</p>
+<p>The timer will continue running from its current <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_time">time</a>.
+If the timer routine is already running, this method does nothing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void StartTimer()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Behaviours_BaseTimer_StopTimer_" data-uid="UILib.Behaviours.BaseTimer.StopTimer*"></a>
+
+  <h3 id="UILib_Behaviours_BaseTimer_StopTimer" data-uid="UILib.Behaviours.BaseTimer.StopTimer">
+  StopTimer()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stops the timer immediately.</p>
+<p>This stops the coroutine, but keeps the <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_time">time</a>
+at its current value.</p>
+<p>Note:
+This doesn't run <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_OnEnd">OnEnd()</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void StopTimer()</code></pre>
+  </div>
+
 
 
 

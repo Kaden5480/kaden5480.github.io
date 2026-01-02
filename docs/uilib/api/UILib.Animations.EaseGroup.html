@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Timer | poy-ui-lib </title>
+      <title>Class EaseGroup | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Timer | poy-ui-lib ">
+      <meta name="title" content="Class EaseGroup | poy-ui-lib ">
       
-      <meta name="description" content="A reversible timer with a configurable duration and time scale (speed).">
+      <meta name="description" content="A group which manages easing in/out many  behaviours. It only finishes once all of the attached ease behaviours have reached an end point.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,26 +84,28 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Behaviours.Timer">
+        <article data-uid="UILib.Animations.EaseGroup">
 
 
 
-  <h1 id="UILib_Behaviours_Timer" data-uid="UILib.Behaviours.Timer" class="text-break">
-Class Timer  
+  <h1 id="UILib_Animations_EaseGroup" data-uid="UILib.Animations.EaseGroup" class="text-break">
+Class EaseGroup  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Behaviours.html">Behaviours</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Animations.html">Animations</a></dd></dl>
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A reversible timer with a configurable duration
-and time scale (speed).</p>
+  <div class="markdown summary"><p>A group which manages easing in/out many
+<a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a> behaviours.</p>
+<p>It only finishes once all of the attached ease behaviours
+have reached an end point.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Timer : BaseTimer</code></pre>
+    <pre><code class="lang-csharp hljs">public class EaseGroup : BaseTimer</code></pre>
   </div>
 
 
@@ -118,7 +120,7 @@ and time scale (speed).</p>
       <div><span class="xref">Behaviour</span></div>
       <div><span class="xref">MonoBehaviour</span></div>
       <div><a class="xref" href="UILib.Behaviours.BaseTimer.html">BaseTimer</a></div>
-      <div><span class="xref">Timer</span></div>
+      <div><span class="xref">EaseGroup</span></div>
     </dd>
   </dl>
 
@@ -582,19 +584,83 @@ and time scale (speed).</p>
 </h2>
 
 
-  <a id="UILib_Behaviours_Timer_onEnd_" data-uid="UILib.Behaviours.Timer.onEnd*"></a>
+  <a id="UILib_Animations_EaseGroup_easingIn_" data-uid="UILib.Animations.EaseGroup.easingIn*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_onEnd" data-uid="UILib.Behaviours.Timer.onEnd">
-  onEnd
+  <h3 id="UILib_Animations_EaseGroup_easingIn" data-uid="UILib.Animations.EaseGroup.easingIn">
+  easingIn
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners when the timer finishes running.</p>
+  <div class="markdown level1 summary"><p>Whether the group is currently easing in.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onEnd { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool easingIn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_EaseGroup_easingOut_" data-uid="UILib.Animations.EaseGroup.easingOut*"></a>
+
+  <h3 id="UILib_Animations_EaseGroup_easingOut" data-uid="UILib.Animations.EaseGroup.easingOut">
+  easingOut
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Whether the group is currently easing out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool easingOut { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_EaseGroup_onEaseIn_" data-uid="UILib.Animations.EaseGroup.onEaseIn*"></a>
+
+  <h3 id="UILib_Animations_EaseGroup_onEaseIn" data-uid="UILib.Animations.EaseGroup.onEaseIn">
+  onEaseIn
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners when easing in finishes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onEaseIn { get; }</code></pre>
   </div>
 
 
@@ -614,20 +680,19 @@ and time scale (speed).</p>
 
 
 
-  <a id="UILib_Behaviours_Timer_onIter_" data-uid="UILib.Behaviours.Timer.onIter*"></a>
+  <a id="UILib_Animations_EaseGroup_onEaseOut_" data-uid="UILib.Animations.EaseGroup.onEaseOut*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_onIter" data-uid="UILib.Behaviours.Timer.onIter">
-  onIter
+  <h3 id="UILib_Animations_EaseGroup_onEaseOut" data-uid="UILib.Animations.EaseGroup.onEaseOut">
+  onEaseOut
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners on each iteration of the timer,
-passing the current value the timer is at.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners when easing out finishes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueEvent&lt;float&gt; onIter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent onEaseOut { get; }</code></pre>
   </div>
 
 
@@ -636,7 +701,7 @@ passing the current value the timer is at.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Events.ValueEvent-1.html">ValueEvent</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>&gt;</dt>
+    <dt><span class="xref">UnityEvent</span></dt>
     <dd></dd>
   </dl>
 
@@ -651,14 +716,113 @@ passing the current value the timer is at.</p>
 </h2>
 
 
-  <a id="UILib_Behaviours_Timer_OnEnd_" data-uid="UILib.Behaviours.Timer.OnEnd*"></a>
+  <a id="UILib_Animations_EaseGroup_Add_" data-uid="UILib.Animations.EaseGroup.Add*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_OnEnd" data-uid="UILib.Behaviours.Timer.OnEnd">
+  <h3 id="UILib_Animations_EaseGroup_Add_UILib_Animations_BaseEase_" data-uid="UILib.Animations.EaseGroup.Add(UILib.Animations.BaseEase)">
+  Add(BaseEase)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds an ease behaviour to be controlled by this group.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(BaseEase ease)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>ease</code> <a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a></dt>
+    <dd><p>The ease behaviour to add</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_EaseGroup_EaseIn_" data-uid="UILib.Animations.EaseGroup.EaseIn*"></a>
+
+  <h3 id="UILib_Animations_EaseGroup_EaseIn_System_Boolean_" data-uid="UILib.Animations.EaseGroup.EaseIn(System.Boolean)">
+  EaseIn(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Eases in all added ease behaviours.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EaseIn(bool force = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force easing in</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_EaseGroup_EaseOut_" data-uid="UILib.Animations.EaseGroup.EaseOut*"></a>
+
+  <h3 id="UILib_Animations_EaseGroup_EaseOut_System_Boolean_" data-uid="UILib.Animations.EaseGroup.EaseOut(System.Boolean)">
+  EaseOut(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Eases out all added ease behaviours.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void EaseOut(bool force = false)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force easing out</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_EaseGroup_OnEnd_" data-uid="UILib.Animations.EaseGroup.OnEnd*"></a>
+
+  <h3 id="UILib_Animations_EaseGroup_OnEnd" data-uid="UILib.Animations.EaseGroup.OnEnd">
   OnEnd()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Runs when the timer finishes.</p>
+  <div class="markdown level1 summary"><p>Runs when this behaviour finishes easing in/out.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -678,14 +842,14 @@ passing the current value the timer is at.</p>
 
 
 
-  <a id="UILib_Behaviours_Timer_OnIter_" data-uid="UILib.Behaviours.Timer.OnIter*"></a>
+  <a id="UILib_Animations_EaseGroup_OnIter_" data-uid="UILib.Animations.EaseGroup.OnIter*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_OnIter_System_Single_" data-uid="UILib.Behaviours.Timer.OnIter(System.Single)">
+  <h3 id="UILib_Animations_EaseGroup_OnIter_System_Single_" data-uid="UILib.Animations.EaseGroup.OnIter(System.Single)">
   OnIter(float)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Runs on each iteration of the timer.</p>
+  <div class="markdown level1 summary"><p>Runs on each iteration of easing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -696,7 +860,7 @@ passing the current value the timer is at.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>The current value of the timer</p>
+    <dd><p>The current value of the internal timer</p>
 </dd>
   </dl>
 

@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class MouseEvent | poy-ui-lib </title>
+      <title>Class ValueEvent&lt;T&gt; | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class MouseEvent | poy-ui-lib ">
+      <meta name="title" content="Class ValueEvent&lt;T&gt; | poy-ui-lib ">
       
-      <meta name="description" content="An event type which passes a Vector2 position to listeners when the mouse is clicked/dragged. This will be the current position of the mouse.">
+      <meta name="description" content="An event type which passes a value to its listeners.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,39 +84,43 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Behaviours.MouseEvent">
+        <article data-uid="UILib.Events.ValueEvent`1">
 
 
 
-  <h1 id="UILib_Behaviours_MouseEvent" data-uid="UILib.Behaviours.MouseEvent" class="text-break">
-Class MouseEvent  
+  <h1 id="UILib_Events_ValueEvent_1" data-uid="UILib.Events.ValueEvent`1" class="text-break">
+Class ValueEvent&lt;T&gt;  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Behaviours.html">Behaviours</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Events.html">Events</a></dd></dl>
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>An event type which passes a <code>Vector2</code> position
-to listeners when the mouse is clicked/dragged.
-This will be the current position of the mouse.</p>
+  <div class="markdown summary"><p>An event type which passes a value
+to its listeners.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MouseEvent : UnityEvent&lt;Vector2&gt;, ISerializationCallbackReceiver</code></pre>
+    <pre><code class="lang-csharp hljs">public class ValueEvent&lt;T&gt; : UnityEvent&lt;T&gt;, ISerializationCallbackReceiver</code></pre>
   </div>
 
 
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
 
   <dl class="typelist inheritance">
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
       <div><span class="xref">UnityEventBase</span></div>
-      <div><span class="xref">UnityEvent</span>&lt;<span class="xref">Vector2</span>&gt;</div>
-      <div><span class="xref">MouseEvent</span></div>
+      <div><span class="xref">UnityEvent</span>&lt;T&gt;</div>
+      <div><span class="xref">ValueEvent&lt;T&gt;</span></div>
     </dd>
   </dl>
 
@@ -132,25 +136,25 @@ This will be the current position of the mouse.</p>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <span class="xref">UnityEvent&lt;Vector2&gt;.m_InvokeArray</span>
+      <span class="xref">UnityEvent&lt;T&gt;.m_InvokeArray</span>
     </div>
     <div>
-      <span class="xref">UnityEvent&lt;Vector2&gt;.AddListener(UnityAction&lt;Vector2&gt;)</span>
+      <span class="xref">UnityEvent&lt;T&gt;.AddListener(UnityAction&lt;T&gt;)</span>
     </div>
     <div>
-      <span class="xref">UnityEvent&lt;Vector2&gt;.RemoveListener(UnityAction&lt;Vector2&gt;)</span>
+      <span class="xref">UnityEvent&lt;T&gt;.RemoveListener(UnityAction&lt;T&gt;)</span>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">UnityEvent&lt;Vector2&gt;.FindMethod_Impl(string, object)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">UnityEvent&lt;T&gt;.FindMethod_Impl(string, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">UnityEvent&lt;Vector2&gt;.GetDelegate(object, MethodInfo)</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">UnityEvent&lt;T&gt;.GetDelegate(object, MethodInfo)</a>
     </div>
     <div>
-      <span class="xref">UnityEvent&lt;Vector2&gt;.GetDelegate(UnityAction&lt;Vector2&gt;)</span>
+      <span class="xref">UnityEvent&lt;T&gt;.GetDelegate(UnityAction&lt;T&gt;)</span>
     </div>
     <div>
-      <span class="xref">UnityEvent&lt;Vector2&gt;.Invoke(Vector2)</span>
+      <span class="xref">UnityEvent&lt;T&gt;.Invoke(T)</span>
     </div>
     <div>
       <span class="xref">UnityEventBase.m_Calls</span>

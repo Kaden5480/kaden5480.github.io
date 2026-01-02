@@ -262,6 +262,39 @@ or something like an <a class="xref" href="UILib.Overlay.html">Overlay</a> or <a
 
 
 
+  <a id="UILib_UIObject_easeGroup_" data-uid="UILib.UIObject.easeGroup*"></a>
+
+  <h3 id="UILib_UIObject_easeGroup" data-uid="UILib.UIObject.easeGroup">
+  easeGroup
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The ease group which will automatically run when
+this UIObject is showing/hiding.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EaseGroup easeGroup { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="UILib.Animations.EaseGroup.html">EaseGroup</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="UILib_UIObject_fillType_" data-uid="UILib.UIObject.fillType*"></a>
 
   <h3 id="UILib_UIObject_fillType" data-uid="UILib.UIObject.fillType">
@@ -581,7 +614,7 @@ dragging on this UIObject.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Behaviours.MouseEvent.html">MouseEvent</a></dt>
+    <dt><a class="xref" href="UILib.Events.MouseEvent.html">MouseEvent</a></dt>
     <dd></dd>
   </dl>
 
@@ -710,7 +743,7 @@ dragging on this UIObject.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Behaviours.MouseEvent.html">MouseEvent</a></dt>
+    <dt><a class="xref" href="UILib.Events.MouseEvent.html">MouseEvent</a></dt>
     <dd></dd>
   </dl>
 
@@ -775,7 +808,7 @@ stopped dragging on this UIObject.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="UILib.Behaviours.MouseEvent.html">MouseEvent</a></dt>
+    <dt><a class="xref" href="UILib.Events.MouseEvent.html">MouseEvent</a></dt>
     <dd></dd>
   </dl>
 
@@ -1189,6 +1222,46 @@ ignoring the configured <a class="xref" href="UILib.UIObject.html#UILib_UIObject
 
 
 
+  <a id="UILib_UIObject_AddEase_" data-uid="UILib.UIObject.AddEase*"></a>
+
+  <h3 id="UILib_UIObject_AddEase__1" data-uid="UILib.UIObject.AddEase``1">
+  AddEase&lt;T&gt;()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Adds a <a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a> of type <code>T</code> to this UIObject.
+The added ease behaviour will automatically run
+when this UIObject is being shown/hidden.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T AddEase&lt;T&gt;() where T : BaseEase</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The instance of the ease which was added</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
   <a id="UILib_UIObject_AddLayoutElement_" data-uid="UILib.UIObject.AddLayoutElement*"></a>
 
   <h3 id="UILib_UIObject_AddLayoutElement" data-uid="UILib.UIObject.AddLayoutElement">
@@ -1297,14 +1370,50 @@ a layout set on it (vertical or horizontal).</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Hides this UIObject.</p>
+  <div class="markdown level1 summary"><p>Shows this UIObject.
+Equivalent to calling <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Show_System_Boolean_">Show</a>(false).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Hide()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Hide()</code></pre>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_Hide_" data-uid="UILib.UIObject.Hide*"></a>
+
+  <h3 id="UILib_UIObject_Hide_System_Boolean_" data-uid="UILib.UIObject.Hide(System.Boolean)">
+  Hide(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Hides this UIObject.</p>
+<p>If you force hiding this UIObject, the attached ease group (if any)
+will be forced to ease all the way out immediately.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Hide(bool force)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force hiding this UIObject</p>
+</dd>
+  </dl>
 
 
 
@@ -1458,6 +1567,34 @@ a layout set on it (vertical or horizontal).</p>
     <dd><p>The position the drag ended at</p>
 </dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_OnHide_" data-uid="UILib.UIObject.OnHide*"></a>
+
+  <h3 id="UILib_UIObject_OnHide" data-uid="UILib.UIObject.OnHide">
+  OnHide()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Runs when this UIObject finishes hiding itself.
+This will run after the ease group finishes easing out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnHide()</code></pre>
+  </div>
+
 
 
 
@@ -2161,14 +2298,50 @@ not its children.</p>
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Shows this UIObject.</p>
+  <div class="markdown level1 summary"><p>Shows this UIObject.
+Equivalent to calling <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Show_System_Boolean_">Show</a>(false).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void Show()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Show()</code></pre>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_UIObject_Show_" data-uid="UILib.UIObject.Show*"></a>
+
+  <h3 id="UILib_UIObject_Show_System_Boolean_" data-uid="UILib.UIObject.Show(System.Boolean)">
+  Show(bool)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Shows this UIObject.</p>
+<p>If you force showing this UIObject, the attached ease group (if any)
+will be forced to ease all the way in immediately.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Show(bool force)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force showing this UIObject</p>
+</dd>
+  </dl>
 
 
 

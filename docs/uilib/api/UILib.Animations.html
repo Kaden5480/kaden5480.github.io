@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Namespace UILib.Behaviours | poy-ui-lib </title>
+      <title>Namespace UILib.Animations | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Namespace UILib.Behaviours | poy-ui-lib ">
+      <meta name="title" content="Namespace UILib.Animations | poy-ui-lib ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -84,9 +84,9 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Behaviours">
+        <article data-uid="UILib.Animations">
 
-  <h1 id="UILib_Behaviours" data-uid="UILib.Behaviours" class="text-break">Namespace UILib.Behaviours</h1>
+  <h1 id="UILib_Animations" data-uid="UILib.Animations" class="text-break">Namespace UILib.Animations</h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="markdown level0 remarks"></div>
@@ -95,14 +95,39 @@
 Classes
 </h3>
     <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Behaviours.BaseTimer.html">BaseTimer</a></dt>
-      <dd><p>A reversible timer which always goes between 0 and a set <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_duration">duration</a>.</p>
+      <dt><a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a></dt>
+      <dd><p>The base class of all &quot;ease&quot; behaviours.</p>
+<p>Eases between two values, supports reversing,
+and different curves for easing in/out.</p>
 </dd>
     </dl>
     <dl class="jumplist">
-      <dt><a class="xref" href="UILib.Behaviours.Timer.html">Timer</a></dt>
-      <dd><p>A reversible timer with a configurable duration
-and time scale (speed).</p>
+      <dt><a class="xref" href="UILib.Animations.Curves.html">Curves</a></dt>
+      <dd><p>A collection of curves for easing.</p>
+<p>All of these curves expect input values from 0 to 1
+and will return a value between 0 and 1.</p>
+<p>See: <a href="https://easings.net/">https://easings.net/</a></p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Animations.Ease.html">Ease</a></dt>
+      <dd><p>A simple ease behaviour which eases between two
+values, sending <a class="xref" href="UILib.Animations.Ease.html#UILib_Animations_Ease_onEase">onEase</a> events on
+each iteration.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Animations.EaseGroup.html">EaseGroup</a></dt>
+      <dd><p>A group which manages easing in/out many
+<a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a> behaviours.</p>
+<p>It only finishes once all of the attached ease behaviours
+have reached an end point.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
+      <dt><a class="xref" href="UILib.Animations.Fade.html">Fade</a></dt>
+      <dd><p>A <a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a> behaviour which fades between two
+opacities.</p>
 </dd>
     </dl>
 

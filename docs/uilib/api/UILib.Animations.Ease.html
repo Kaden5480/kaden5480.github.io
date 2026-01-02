@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Timer | poy-ui-lib </title>
+      <title>Class Ease | poy-ui-lib </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Timer | poy-ui-lib ">
+      <meta name="title" content="Class Ease | poy-ui-lib ">
       
-      <meta name="description" content="A reversible timer with a configurable duration and time scale (speed).">
+      <meta name="description" content="A simple ease behaviour which eases between two values, sending  events on each iteration.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,26 +84,27 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="UILib.Behaviours.Timer">
+        <article data-uid="UILib.Animations.Ease">
 
 
 
-  <h1 id="UILib_Behaviours_Timer" data-uid="UILib.Behaviours.Timer" class="text-break">
-Class Timer  
+  <h1 id="UILib_Animations_Ease" data-uid="UILib.Animations.Ease" class="text-break">
+Class Ease  
   </h1>
 
   <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Behaviours.html">Behaviours</a></dd></dl>
+    <dl><dt>Namespace</dt><dd><a class="xref" href="UILib.html">UILib</a>.<a class="xref" href="UILib.Animations.html">Animations</a></dd></dl>
   <dl><dt>Assembly</dt><dd>UILib.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A reversible timer with a configurable duration
-and time scale (speed).</p>
+  <div class="markdown summary"><p>A simple ease behaviour which eases between two
+values, sending <a class="xref" href="UILib.Animations.Ease.html#UILib_Animations_Ease_onEase">onEase</a> events on
+each iteration.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Timer : BaseTimer</code></pre>
+    <pre><code class="lang-csharp hljs">public class Ease : BaseEase</code></pre>
   </div>
 
 
@@ -118,7 +119,8 @@ and time scale (speed).</p>
       <div><span class="xref">Behaviour</span></div>
       <div><span class="xref">MonoBehaviour</span></div>
       <div><a class="xref" href="UILib.Behaviours.BaseTimer.html">BaseTimer</a></div>
-      <div><span class="xref">Timer</span></div>
+      <div><a class="xref" href="UILib.Animations.BaseEase.html">BaseEase</a></div>
+      <div><span class="xref">Ease</span></div>
     </dd>
   </dl>
 
@@ -127,6 +129,42 @@ and time scale (speed).</p>
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_minValue">BaseEase.minValue</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_maxValue">BaseEase.maxValue</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_value">BaseEase.value</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_easingIn">BaseEase.easingIn</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_easingOut">BaseEase.easingOut</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_easeFunction">BaseEase.easeFunction</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase__SetValue_System_Single_">BaseEase._SetValue(float)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase__SetValues_System_Single_System_Single_">BaseEase._SetValues(float, float)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_SetEaseFunction_System_Func_System_Single_System_Single__">BaseEase.SetEaseFunction(Func&lt;float, float&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_EaseIn_System_Boolean_">BaseEase.EaseIn(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_EaseOut_System_Boolean_">BaseEase.EaseOut(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_OnEnd">BaseEase.OnEnd()</a>
+    </div>
     <div>
       <a class="xref" href="UILib.Behaviours.BaseTimer.html#UILib_Behaviours_BaseTimer_running">BaseTimer.running</a>
     </div>
@@ -582,52 +620,19 @@ and time scale (speed).</p>
 </h2>
 
 
-  <a id="UILib_Behaviours_Timer_onEnd_" data-uid="UILib.Behaviours.Timer.onEnd*"></a>
+  <a id="UILib_Animations_Ease_onEase_" data-uid="UILib.Animations.Ease.onEase*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_onEnd" data-uid="UILib.Behaviours.Timer.onEnd">
-  onEnd
+  <h3 id="UILib_Animations_Ease_onEase" data-uid="UILib.Animations.Ease.onEase">
+  onEase
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Invokes listeners when the timer finishes running.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners on each iteration of easing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onEnd { get; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <a id="UILib_Behaviours_Timer_onIter_" data-uid="UILib.Behaviours.Timer.onIter*"></a>
-
-  <h3 id="UILib_Behaviours_Timer_onIter" data-uid="UILib.Behaviours.Timer.onIter">
-  onIter
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Invokes listeners on each iteration of the timer,
-passing the current value the timer is at.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ValueEvent&lt;float&gt; onIter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueEvent&lt;float&gt; onEase { get; }</code></pre>
   </div>
 
 
@@ -647,23 +652,87 @@ passing the current value the timer is at.</p>
 
 
 
-  <h2 class="section" id="methods">Methods
-</h2>
+  <a id="UILib_Animations_Ease_onEaseIn_" data-uid="UILib.Animations.Ease.onEaseIn*"></a>
 
-
-  <a id="UILib_Behaviours_Timer_OnEnd_" data-uid="UILib.Behaviours.Timer.OnEnd*"></a>
-
-  <h3 id="UILib_Behaviours_Timer_OnEnd" data-uid="UILib.Behaviours.Timer.OnEnd">
-  OnEnd()
+  <h3 id="UILib_Animations_Ease_onEaseIn" data-uid="UILib.Animations.Ease.onEaseIn">
+  onEaseIn
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Runs when the timer finishes.</p>
+  <div class="markdown level1 summary"><p>Invokes listeners when easing in finishes.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnEnd()</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent onEaseIn { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Ease_onEaseOut_" data-uid="UILib.Animations.Ease.onEaseOut*"></a>
+
+  <h3 id="UILib_Animations_Ease_onEaseOut" data-uid="UILib.Animations.Ease.onEaseOut">
+  onEaseOut
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Invokes listeners when easing out finishes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent onEaseOut { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UnityEvent</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="UILib_Animations_Ease_OnEaseIn_" data-uid="UILib.Animations.Ease.OnEaseIn*"></a>
+
+  <h3 id="UILib_Animations_Ease_OnEaseIn" data-uid="UILib.Animations.Ease.OnEaseIn">
+  OnEaseIn()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Runs when easing in has finished.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEaseIn()</code></pre>
   </div>
 
 
@@ -678,14 +747,41 @@ passing the current value the timer is at.</p>
 
 
 
-  <a id="UILib_Behaviours_Timer_OnIter_" data-uid="UILib.Behaviours.Timer.OnIter*"></a>
+  <a id="UILib_Animations_Ease_OnEaseOut_" data-uid="UILib.Animations.Ease.OnEaseOut*"></a>
 
-  <h3 id="UILib_Behaviours_Timer_OnIter_System_Single_" data-uid="UILib.Behaviours.Timer.OnIter(System.Single)">
+  <h3 id="UILib_Animations_Ease_OnEaseOut" data-uid="UILib.Animations.Ease.OnEaseOut">
+  OnEaseOut()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Runs when easing out has finished.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEaseOut()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Ease_OnIter_" data-uid="UILib.Animations.Ease.OnIter*"></a>
+
+  <h3 id="UILib_Animations_Ease_OnIter_System_Single_" data-uid="UILib.Animations.Ease.OnIter(System.Single)">
   OnIter(float)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Runs on each iteration of the timer.</p>
+  <div class="markdown level1 summary"><p>Runs on each iteration of easing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -696,7 +792,80 @@ passing the current value the timer is at.</p>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
-    <dd><p>The current value of the timer</p>
+    <dd><p>The current value of the internal timer</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Ease_SetValue_" data-uid="UILib.Animations.Ease.SetValue*"></a>
+
+  <h3 id="UILib_Animations_Ease_SetValue_System_Single_" data-uid="UILib.Animations.Ease.SetValue(System.Single)">
+  SetValue(float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the current value.</p>
+<p>This will be clamped between <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_minValue">minValue</a>
+and <a class="xref" href="UILib.Animations.BaseEase.html#UILib_Animations_BaseEase_maxValue">maxValue</a>.</p>
+<p>This is called in <a class="xref" href="UILib.Animations.Ease.html#UILib_Animations_Ease_OnIter_System_Single_">OnIter(float)</a> to update
+the current easing value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValue(float value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The value to set</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Animations_Ease_SetValues_" data-uid="UILib.Animations.Ease.SetValues*"></a>
+
+  <h3 id="UILib_Animations_Ease_SetValues_System_Single_System_Single_" data-uid="UILib.Animations.Ease.SetValues(System.Single,System.Single)">
+  SetValues(float, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the minimum and maximum values to ease between.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValues(float minValue, float maxValue)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>minValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The minimum value to use</p>
+</dd>
+    <dt><code>maxValue</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd><p>The maximum value to use</p>
 </dd>
   </dl>
 

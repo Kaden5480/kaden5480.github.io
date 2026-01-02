@@ -154,6 +154,9 @@ fixed position on the screen.</p>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_isVisible">UIObject.isVisible</a>
     </div>
     <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_easeGroup">UIObject.easeGroup</a>
+    </div>
+    <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_parent">UIObject.parent</a>
     </div>
     <div>
@@ -209,6 +212,18 @@ fixed position on the screen.</p>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_layoutGroup">UIObject.layoutGroup</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_AddEase__1">UIObject.AddEase&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_ToggleVisibility">UIObject.ToggleVisibility()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Show">UIObject.Show()</a>
+    </div>
+    <div>
+      <a class="xref" href="UILib.UIObject.html#UILib_UIObject_Hide">UIObject.Hide()</a>
     </div>
     <div>
       <a class="xref" href="UILib.UIObject.html#UILib_UIObject_SetContent_UILib_UIComponent_">UIObject.SetContent(UIComponent)</a>
@@ -502,7 +517,7 @@ use when it's visible.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onFocus { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UIEvent onFocus { get; }</code></pre>
   </div>
 
 
@@ -511,7 +526,7 @@ use when it's visible.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
+    <dt><a class="xref" href="UILib.Events.UIEvent.html">UIEvent</a></dt>
     <dd></dd>
   </dl>
 
@@ -534,7 +549,7 @@ use when it's visible.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent onLostFocus { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UIEvent onLostFocus { get; }</code></pre>
   </div>
 
 
@@ -543,7 +558,7 @@ use when it's visible.</p>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
+    <dt><a class="xref" href="UILib.Events.UIEvent.html">UIEvent</a></dt>
     <dd></dd>
   </dl>
 
@@ -588,6 +603,60 @@ use when it's visible.</p>
 
   <h2 class="section" id="methods">Methods
 </h2>
+
+
+  <a id="UILib_Overlay_AddCanvasGroup_" data-uid="UILib.Overlay.AddCanvasGroup*"></a>
+
+  <h3 id="UILib_Overlay_AddCanvasGroup" data-uid="UILib.Overlay.AddCanvasGroup">
+  AddCanvasGroup()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a canvas group for customising opacity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddCanvasGroup()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Overlay_AddFade_" data-uid="UILib.Overlay.AddFade*"></a>
+
+  <h3 id="UILib_Overlay_AddFade" data-uid="UILib.Overlay.AddFade">
+  AddFade()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a fade behaviour to fade in/out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AddFade()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <a id="UILib_Overlay_AddShortcut_" data-uid="UILib.Overlay.AddShortcut*"></a>
@@ -742,20 +811,27 @@ It won't move to the front.</p>
 
   <a id="UILib_Overlay_Hide_" data-uid="UILib.Overlay.Hide*"></a>
 
-  <h3 id="UILib_Overlay_Hide" data-uid="UILib.Overlay.Hide">
-  Hide()
+  <h3 id="UILib_Overlay_Hide_System_Boolean_" data-uid="UILib.Overlay.Hide(System.Boolean)">
+  Hide(bool)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Hides this overlay and closes
-the internal <a class="xref" href="UILib.Patches.Lock.html">Lock</a>.</p>
+  <div class="markdown level1 summary"><p>Hides this overlay.</p>
+<p>If you force hiding this overlay, the attached ease group
+will be forced to ease all the way out immediately.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Hide()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Hide(bool force)</code></pre>
   </div>
 
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force hiding this overlay</p>
+</dd>
+  </dl>
 
 
 
@@ -781,6 +857,34 @@ the internal <a class="xref" href="UILib.Patches.Lock.html">Lock</a>.</p>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected override void OnClick()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="UILib_Overlay_OnHide_" data-uid="UILib.Overlay.OnHide*"></a>
+
+  <h3 id="UILib_Overlay_OnHide" data-uid="UILib.Overlay.OnHide">
+  OnHide()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Runs when this overlay finishes hiding itself.
+This will run after the ease group finishes easing out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnHide()</code></pre>
   </div>
 
 
@@ -958,48 +1062,27 @@ were to create a subclass.</p>
 
   <a id="UILib_Overlay_Show_" data-uid="UILib.Overlay.Show*"></a>
 
-  <h3 id="UILib_Overlay_Show" data-uid="UILib.Overlay.Show">
-  Show()
+  <h3 id="UILib_Overlay_Show_System_Boolean_" data-uid="UILib.Overlay.Show(System.Boolean)">
+  Show(bool)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Makes this overlay visible and
-creates a new <a class="xref" href="UILib.Patches.Lock.html">Lock</a>
-with the current <a class="xref" href="UILib.Overlay.html#UILib_Overlay_lockMode">lockMode</a>.</p>
+  <div class="markdown level1 summary"><p>Shows this overlay.</p>
+<p>If you force showing this overlay, the attached ease group
+will be forced to ease all the way in immediately.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Show()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Show(bool force)</code></pre>
   </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  <a id="UILib_Overlay_ToggleVisibility_" data-uid="UILib.Overlay.ToggleVisibility*"></a>
-
-  <h3 id="UILib_Overlay_ToggleVisibility" data-uid="UILib.Overlay.ToggleVisibility">
-  ToggleVisibility()
-  
-  </h3>
-
-  <div class="markdown level1 summary"><p>Toggles the visibility of this overlay.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void ToggleVisibility()</code></pre>
-  </div>
-
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>force</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Whether to force showing this overlay</p>
+</dd>
+  </dl>
 
 
 
