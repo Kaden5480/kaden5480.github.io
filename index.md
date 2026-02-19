@@ -10,26 +10,23 @@ layout: home
     <a href="{{ site.peaks_link }}">Peaks of Yore</a> speedrunner.
   </p>
 
+  <u><h3 style="margin-top: 40px; margin-bottom: 10px">
+    Some of my mods
+  </h3></u>
 
   <div id="mods">
-    <u><h3 style="margin-top: 40px; margin-bottom: 10px">
-      Some of my mods
-    </h3></u>
-
-    <a href="{{ site.github_link }}/poy-ui-lib">UILib</a>
-    <a href="{{ site.github_link }}/poy-mod-menu">Mod Menu</a>
-    <a href="{{ site.github_link }}/poy-fast-reset">Fast Reset</a>
-    <a href="{{ site.github_link }}/poy-fast-coffee">Fast Coffee</a>
-    <a href="{{ site.github_link }}/poy-mesh-viewer">Mesh Viewer</a>
-    <a href="{{ site.github_link }}/poy-velocity-hud">Velocity HUD</a>
+    <div><a href="{{ site.github_link }}/poy-ui-lib">UILib</a></div>
+    <div><a href="{{ site.github_link }}/poy-mod-menu">Mod Menu</a></div>
+    <div><a href="{{ site.github_link }}/poy-fast-reset">Fast Reset</a></div>
+    <div><a href="{{ site.github_link }}/poy-fast-coffee">Fast Coffee</a></div>
+    <div><a href="{{ site.github_link }}/poy-mesh-viewer">Mesh Viewer</a></div>
+    <div><a href="{{ site.github_link }}/poy-velocity-hud">Velocity HUD</a></div>
   </div>
-
 </div>
 
 <style>
-  #mods > a{
-    display: block;
-    margin: 5px 0;
+  #mods > div {
+    margin: 5px auto;
   }
 </style>
 

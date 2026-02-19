@@ -1,8 +1,9 @@
+.bundle
 .env
-_site
-.sass-cache
 .jekyll-cache
 .jekyll-metadata
+.sass-cache
+_site
 vendor
 Gemfile.lock
 default.nix
