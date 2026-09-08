@@ -6,7 +6,7 @@ layout: home
   <img src="{{ site.avatar_link }}" style="width: 40%; border-radius: 50%">
 
   <p style="margin-top: 20px">
-    <a href="{{ site.unity_link }}">Unity</a> modder and
+    Software developer and
     <a href="{{ site.peaks_link }}">Peaks of Yore</a> speedrunner.
   </p>
 
