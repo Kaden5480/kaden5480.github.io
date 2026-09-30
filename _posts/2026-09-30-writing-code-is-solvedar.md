@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Writing Code Might Be "Solved", Programming Isn't"
+title: "Writing Code Might Be \"Solved\", Programming Isn't"
 ---
 
 There have been a number of bold claims about how "smart" AI is
