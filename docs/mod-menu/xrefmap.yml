@@ -262,6 +262,31 @@ references:
   fullName.vb: ModMenu.Config.IncludeAllAttribute.New
   nameWithType: IncludeAllAttribute.IncludeAllAttribute
   nameWithType.vb: IncludeAllAttribute.New
+- uid: ModMenu.Config.InheritFieldsAttribute
+  name: InheritFieldsAttribute
+  href: api/ModMenu.Config.InheritFieldsAttribute.html
+  commentId: T:ModMenu.Config.InheritFieldsAttribute
+  fullName: ModMenu.Config.InheritFieldsAttribute
+  nameWithType: InheritFieldsAttribute
+- uid: ModMenu.Config.InheritFieldsAttribute.#ctor
+  name: InheritFieldsAttribute()
+  href: api/ModMenu.Config.InheritFieldsAttribute.html#ModMenu_Config_InheritFieldsAttribute__ctor
+  commentId: M:ModMenu.Config.InheritFieldsAttribute.#ctor
+  name.vb: New()
+  fullName: ModMenu.Config.InheritFieldsAttribute.InheritFieldsAttribute()
+  fullName.vb: ModMenu.Config.InheritFieldsAttribute.New()
+  nameWithType: InheritFieldsAttribute.InheritFieldsAttribute()
+  nameWithType.vb: InheritFieldsAttribute.New()
+- uid: ModMenu.Config.InheritFieldsAttribute.#ctor*
+  name: InheritFieldsAttribute
+  href: api/ModMenu.Config.InheritFieldsAttribute.html#ModMenu_Config_InheritFieldsAttribute__ctor_
+  commentId: Overload:ModMenu.Config.InheritFieldsAttribute.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: ModMenu.Config.InheritFieldsAttribute.InheritFieldsAttribute
+  fullName.vb: ModMenu.Config.InheritFieldsAttribute.New
+  nameWithType: InheritFieldsAttribute.InheritFieldsAttribute
+  nameWithType.vb: InheritFieldsAttribute.New
 - uid: ModMenu.Config.ListenerAttribute
   name: ListenerAttribute
   href: api/ModMenu.Config.ListenerAttribute.html

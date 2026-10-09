@@ -616,6 +616,15 @@ references:
   isSpec: "True"
   fullName: UILib.Animations.EaseGroup.Add
   nameWithType: EaseGroup.Add
+- uid: UILib.Animations.EaseGroup.Add``1
+  name: Add<T>()
+  href: api/UILib.Animations.EaseGroup.html#UILib_Animations_EaseGroup_Add__1
+  commentId: M:UILib.Animations.EaseGroup.Add``1
+  name.vb: Add(Of T)()
+  fullName: UILib.Animations.EaseGroup.Add<T>()
+  fullName.vb: UILib.Animations.EaseGroup.Add(Of T)()
+  nameWithType: EaseGroup.Add<T>()
+  nameWithType.vb: EaseGroup.Add(Of T)()
 - uid: UILib.Animations.EaseGroup.EaseIn(System.Boolean)
   name: EaseIn(bool)
   href: api/UILib.Animations.EaseGroup.html#UILib_Animations_EaseGroup_EaseIn_System_Boolean_
@@ -1665,6 +1674,15 @@ references:
   fullName.vb: UILib.Components.Button.New()
   nameWithType: Button.Button()
   nameWithType.vb: Button.New()
+- uid: UILib.Components.Button.#ctor(System.Int32)
+  name: Button(int)
+  href: api/UILib.Components.Button.html#UILib_Components_Button__ctor_System_Int32_
+  commentId: M:UILib.Components.Button.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: UILib.Components.Button.Button(int)
+  fullName.vb: UILib.Components.Button.New(Integer)
+  nameWithType: Button.Button(int)
+  nameWithType.vb: Button.New(Integer)
 - uid: UILib.Components.Button.#ctor(System.String,System.Int32)
   name: Button(string, int)
   href: api/UILib.Components.Button.html#UILib_Components_Button__ctor_System_String_System_Int32_
@@ -3299,6 +3317,15 @@ references:
   commentId: T:UILib.Components.TextField
   fullName: UILib.Components.TextField
   nameWithType: TextField
+- uid: UILib.Components.TextField.#ctor(System.Int32)
+  name: TextField(int)
+  href: api/UILib.Components.TextField.html#UILib_Components_TextField__ctor_System_Int32_
+  commentId: M:UILib.Components.TextField.#ctor(System.Int32)
+  name.vb: New(Integer)
+  fullName: UILib.Components.TextField.TextField(int)
+  fullName.vb: UILib.Components.TextField.New(Integer)
+  nameWithType: TextField.TextField(int)
+  nameWithType.vb: TextField.New(Integer)
 - uid: UILib.Components.TextField.#ctor(System.String,System.Int32)
   name: TextField(string, int)
   href: api/UILib.Components.TextField.html#UILib_Components_TextField__ctor_System_String_System_Int32_

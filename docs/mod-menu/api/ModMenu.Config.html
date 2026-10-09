@@ -125,10 +125,19 @@ all fields in a class (apart from
 </dd>
     </dl>
     <dl class="jumplist">
+      <dt><a class="xref" href="ModMenu.Config.InheritFieldsAttribute.html">InheritFieldsAttribute</a></dt>
+      <dd><p>An attribute which can be applied to classes
+which indicates to parse annotations from base
+types as well.</p>
+</dd>
+    </dl>
+    <dl class="jumplist">
       <dt><a class="xref" href="ModMenu.Config.ListenerAttribute.html">ListenerAttribute</a></dt>
       <dd><p>An attribute which provides a way of knowing
 when Mod Menu has changed a field's value.</p>
 <p>Listeners <em>must</em> be static methods.</p>
+<p>Your listeners may take <em>zero arguments</em> if you wish not to
+receive any extra information about a config update, or:</p>
 <p>For listener attributes applied to fields:</p>
 <ul>
 <li>They must take a single value, which must match the type of the field</li>
